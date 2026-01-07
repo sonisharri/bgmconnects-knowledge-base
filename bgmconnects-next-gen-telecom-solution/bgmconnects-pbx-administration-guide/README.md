@@ -28,7 +28,7 @@ No portion of this document may be reproduced or transmitted in any form or by a
 
 ### End User License Agreement (EULA)
 
-By installing, copying, or otherwise using this product, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions of the **BGM Networks End User License Agreement (EULA)** applicable to this product.
+By installing, copying, or otherwise using this product, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions of the **BGMconnects End User License Agreement (EULA)** applicable to this product.
 
 ***
 
