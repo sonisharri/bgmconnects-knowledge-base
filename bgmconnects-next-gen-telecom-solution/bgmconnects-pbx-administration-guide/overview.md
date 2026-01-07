@@ -2,11 +2,11 @@
 
 ### Our product is not built on Asterisk or FreeSwitch.
 
-[PortSIP PBX](https://www.portsip.com/portsip-pbx/) is a software-based VoIP PBX that offers business collaboration solutions. it’s designed for both on-premise and cloud PBX environments, including SBC, audio, video calling, Instant Messaging, presence, rich text chat, Microsoft Teams Direct Routing, WebRTC, sharing screens, sending file, picture, voice, and video messages, and mobile push notifications.&#x20;
+[BGMconnects](https://www.bgmconnects.com/pbx/) is a software-based VoIP PBX that offers business collaboration solutions. it’s designed for both on-premise and cloud PBX environments, including SBC, audio, video calling, Instant Messaging, presence, rich text chat, Microsoft Teams Direct Routing, WebRTC, sharing screens, sending file, picture, voice, and video messages, and mobile push notifications.&#x20;
 
-[PortSIP PBX](https://www.portsip.com/portsip-pbx/) integrates contact center features that help you satisfy the most demanding of customers. Integrated the free SBC to support Microsoft Teams Direct Routing, and free video meeting, at no extra cost, share your screen for presentations & online meeting rooms.&#x20;
+[BGMconnects](https://www.bgmconnects.com/pbx/) integrates contact center features that help you satisfy the most demanding of customers. Integrated the free SBC to support Microsoft Teams Direct Routing, and free video meeting, at no extra cost, share your screen for presentations & online meeting rooms.&#x20;
 
-A purchased SIP PBX license is packaged with the Giveaway of [PortSIP SBC](https://www.portsip.com/portsip-pbx/),  [PortSIP VoIP SDK](https://www.portsip.com/portsip-voip-sdk), and [PortSIP ONE App](https://www.portsip.com/portsip-one)! If you are a large service provider looking for a UCaaS solution that supports 1M+ users, please get in [touch with us](mailto:sales@portsip.com) for the PortSIP UCaaS.
+A purchased SIP PBX license is packaged with the Giveaway of [BGMconnects SBC](https://www.bgmconnects.com/pbx/),  [BGMconnects VoIP SDK](https://www.bgmconnects.com/voip-sdk), and [BGMconnects app](https://www.bgmconnects.com/app)! If you are a large service provider looking for a UCaaS solution that supports 1M+ users, please get in [touch with us](mailto:sales@bgmconnects.com) for the BGMconnects UCaaS.
 
 The solution includes the following features:
 
@@ -93,15 +93,15 @@ The solution includes the following features:
 
 ### Design Architecture
 
-<figure><img src="../../.gitbook/assets/portsip_pbx_arch_2026.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects_pbx_arch_2026.png" alt=""><figcaption></figcaption></figure>
 
 ### Getting Help and Support Resources
 
-[PortSIP Support Center](https://support.portsip.com/)&#x20;
+[BGMconnects Support Center](https://support.bgmconnects.com/)&#x20;
 
-[Submit a request](https://portsip.zendesk.com/hc/en-us/requests/new)
+[Submit a request](https://bgmconnects.zendesk.com/hc/en-us/requests/new)
 
-[Email support](mailto:support@portsip.com)
+[Email support](mailto:support@bgmconnects.com)
 
 
 
