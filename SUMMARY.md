@@ -8,7 +8,6 @@
 * [BGMconnects Administration Guide](bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/README.md)
   * [Overview](bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/overview.md)
   * [Summary of Changes](bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/summary-of-changes.md)
-  * [Prepare the AWS Environment for Deployment](bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/prepare-the-aws-environment-for-deployment.md)
   * [1 BGMconnects PBX Management](bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/1-bgmconnects-pbx-management/README.md)
     * [Administrator Management](bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/1-bgmconnects-pbx-management/administrator-management.md)
   * [2 Tenant Management](bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/2-tenant-management/README.md)
