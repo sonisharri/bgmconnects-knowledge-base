@@ -16,9 +16,9 @@ BGM Networks reserves the right to **modify this document at any time without pr
 
 BGM Networks®, the BGM Networks logo, and all names, marks, and logos associated with BGM Networks products are **trademarks and/or service marks** of BGM Networks These marks are registered and/or protected under common law in the United States and other countries.
 
-<div align="left"><figure><img src="../../.gitbook/assets/logo_V22_0 (3).png" alt="" width="111"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="/.gitbook/assets/bgmconnects_wide.png" alt="" width="111"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../.gitbook/assets/25.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="/.gitbook/assets/bgmconnects-icon1.png" alt=""><figcaption></figcaption></figure></div>
 
 All other trademarks referenced in this document are the property of their respective owners.
 
