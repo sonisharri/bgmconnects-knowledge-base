@@ -2,7 +2,7 @@
 
 ### An All-in-One Platform for Cloud PBX, UCaaS, CPaaS, and CCaaS Providers
 
-[BGMconnects](https://www.bgmconnects.com)is a powerful, all-in-one Unified Communications platform purpose-built for service providers and modern enterprises. It brings together voice, video, messaging, SMS, WhatsApp, video meetings, AI transcription, CRM integration, contact center capabilities, and team collaboration into a single, tightly integrated solution.
+[BGMconnects](https://www.bgmconnects.com) is a powerful, all-in-one Unified Communications platform purpose-built for service providers and modern enterprises. It brings together voice, video, messaging, SMS, WhatsApp, video meetings, AI transcription, CRM integration, contact center capabilities, and team collaboration into a single, tightly integrated solution.
 
 Unlike fragmented communication stacks that rely on multiple vendors and complex integrations, BGMconnects delivers everything out of the box—reducing operational complexity while accelerating time to market.
 
@@ -48,5 +48,5 @@ Here are some of our key products:
 
 * [BGMconnects PBX](https://www.bgmconnects.com/bgmconnects-pbx/)
 * [BGMconnects App](https://www.bgmconnects.com/app)
-* [BGMconnects VoIP SDK](https://www.bgmconnects.com/portsip-voip-sdk/)
+* [BGMconnects VoIP SDK](https://www.bgmconnects.com/bgmconnects-voip-sdk/)
 
