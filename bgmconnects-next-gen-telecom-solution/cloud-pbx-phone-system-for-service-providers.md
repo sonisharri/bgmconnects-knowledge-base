@@ -162,5 +162,5 @@ Here at [BGMconnects](https://www.bgmconnects.com/pbx/), we’ll walk you throug
 
 In the age of the cloud, you cannot keep inching along with a legacy PBX. Your traditional PBX solution costs you more than it saves.
 
-Take advantage of the [BGMconnects Next-Gen Telecom Solution](https://www.bgmconnects.com/pbx/) and the freedom to work from anywhere. [BGMconnects PBX](bgmconnects-next-gen-telecom-solution/the-advantages-of-bgmconnects-vs.-other-pbxs.md) lets you focus on serving your customers, not trying to figure out the system. You can leave the rest to us.
+Take advantage of the [BGMconnects Next-Gen Telecom Solution](https://www.bgmconnects.com/pbx/) and the freedom to work from anywhere. [BGMconnects PBX](/bgmconnects-next-gen-telecom-solution/the-advantages-of-bgmconnects-vs.-other-pbxs.md) lets you focus on serving your customers, not trying to figure out the system. You can leave the rest to us.
 
