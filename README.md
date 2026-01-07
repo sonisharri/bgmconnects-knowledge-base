@@ -1,16 +1,16 @@
-# What is PortSIP?
+# What is BGMconnects?
 
 ### An All-in-One Platform for Cloud PBX, UCaaS, CPaaS, and CCaaS Providers
 
-[PortSIP ](https://www.portsip.com)is a powerful, all-in-one Unified Communications platform purpose-built for service providers and modern enterprises. It brings together voice, video, messaging, SMS, WhatsApp, video meetings, AI transcription, CRM integration, contact center capabilities, and team collaboration into a single, tightly integrated solution.
+[BGMconnects](https://www.bgmconnects.com)is a powerful, all-in-one Unified Communications platform purpose-built for service providers and modern enterprises. It brings together voice, video, messaging, SMS, WhatsApp, video meetings, AI transcription, CRM integration, contact center capabilities, and team collaboration into a single, tightly integrated solution.
 
-Unlike fragmented communication stacks that rely on multiple vendors and complex integrations, PortSIP delivers everything out of the box—reducing operational complexity while accelerating time to market.
+Unlike fragmented communication stacks that rely on multiple vendors and complex integrations, BGMconnects delivers everything out of the box—reducing operational complexity while accelerating time to market.
 
 <figure><img src="https://www.portsip.com/wp-content/uploads/2024/12/portsip-one-all-5.png" alt=""><figcaption></figcaption></figure>
 
 ### Built for Productivity. Designed for Scale.
 
-PortSIP PBX is engineered to help organizations work smarter and serve customers better. Acting as both a **real-time business productivity platform** and a **customer experience engine**, PortSIP ensures that every interaction—internal or external—is seamless, contextual, and actionable.
+BGMconnects is engineered to help organizations work smarter and serve customers better. Acting as both a **real-time business productivity platform** and a **customer experience engine**, BGMconnects ensures that every interaction—internal or external—is seamless, contextual, and actionable.
 
 With **real-time synchronization across all devices**, users can communicate effortlessly from anywhere, on any device, without disruption. Whether on desktop, mobile, or web, conversations, presence, messages, and call history stay perfectly in sync.
 
@@ -18,7 +18,7 @@ With **real-time synchronization across all devices**, users can communicate eff
 
 ### One Platform. Endless Possibilities.
 
-PortSIP is more than a PBX—it is a **complete communications ecosystem**, including:
+BGMconnects is more than a PBX—it is a **complete communications ecosystem**, including:
 
 * **Multi-platform client apps** (Windows, macOS, iOS, Android, WebRTC, and Teams Phone)
 * **SDKs** for building custom voice, video, and messaging applications
@@ -40,13 +40,13 @@ Whether you are:
 * A cloud communications provider launching CPaaS
 * A contact center operator building CCaaS offerings
 
-PortSIP PBX provides a **carrier-grade, multi-tenant architecture** designed for performance, scalability, and reliability. It enables you to launch quickly, operate efficiently, and scale confidently as your customer base grows.
+BGMconnects provides a **carrier-grade, multi-tenant architecture** designed for performance, scalability, and reliability. It enables you to launch quickly, operate efficiently, and scale confidently as your customer base grows.
 
 ***
 
 Here are some of our key products:
 
-* [PortSIP PBX](https://www.portsip.com/portsip-pbx/)
-* [PortSIP ONE App](https://www.portsip.com/portsip-one)
-* [PortSIP VoIP SDK](https://www.portsip.com/portsip-voip-sdk/)
+* [BGMconnects PBX](https://www.bgmconnects.com/bgmconnects-pbx/)
+* [BGMconnects App](https://www.bgmconnects.com/app)
+* [BGMconnects VoIP SDK](https://www.bgmconnects.com/portsip-voip-sdk/)
 
