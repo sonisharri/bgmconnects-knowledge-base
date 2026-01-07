@@ -14,7 +14,7 @@ BGM Networks reserves the right to **modify this document at any time without pr
 
 ### Trademarks
 
-BGM Networks®, the BGM Networks logo, and all names, marks, and logos associated with BGM Networks products are **trademarks and/or service marks** of BGM Networks These marks are registered and/or protected under common law in the United States and other countries.
+BGMconnects®, the BGMconnects logo, and all names, marks, and logos associated with BGMconnects products are **trademarks and/or service marks** of BGM Networks These marks are registered and/or protected under common law in the United States and other countries.
 
 <div align="left"><figure><img src="/.gitbook/assets/bgmconnects_wide.png" alt="" width="111"><figcaption></figcaption></figure></div>
 
