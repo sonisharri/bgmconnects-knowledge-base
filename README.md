@@ -46,7 +46,7 @@ BGMconnects provides a **carrier-grade, multi-tenant architecture** designed for
 
 Here are some of our key products:
 
-* [BGMconnects PBX](https://www.bgmconnects.com/bgmconnects-pbx/)
+* [BGMconnects PBX](https://www.bgmconnects.com/pbx/)
 * [BGMconnects App](https://www.bgmconnects.com/app)
-* [BGMconnects VoIP SDK](https://www.bgmconnects.com/bgmconnects-voip-sdk/)
+* [BGMconnects VoIP SDK](https://www.bgmconnects.com/voip-sdk/)
 

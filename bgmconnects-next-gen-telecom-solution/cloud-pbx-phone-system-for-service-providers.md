@@ -6,7 +6,7 @@ In today’s cloud-first environment, Cloud PBX has become a cornerstone for ser
 
 This all-in-one approach not only streamlines operations but also offers a robust, scalable, and cost-effective solution tailored for UCaaS, CCaaS, and Cloud PBX service providers. It empowers them to compete with industry leaders by offering modern, multi-channel communication experiences for businesses of all sizes.
 
-<figure><img src="../.gitbook/assets/portsip-yealink.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/bgmconnects-yealink.jpg" alt=""><figcaption></figcaption></figure>
 
 ### What is Cloud PBX (Private Branch Exchange)?
 
@@ -18,7 +18,7 @@ Historically, PBX systems were on-premises—large machines that required dedica
 
 The advent of cloud computing has changed all of this. A Cloud PBX is hosted in secure, remote data centers and delivered over the internet. It offers the same call routing and management features as traditional on-premises PBX systems, but without the need for expensive hardware. Additionally, Cloud PBX solutions are typically offered on a subscription basis with flexible pricing plans, making it an affordable and scalable option for businesses of all sizes.
 
-<figure><img src="../.gitbook/assets/cloud-pbx-portsip-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/cloud-pbx-bgmconnects-1.png" alt=""><figcaption></figcaption></figure>
 
 Today, every VoIP Service provider is looking for a good solution to host their Cloud PBX service. However, several crucial elements need to be considered when making this decision:
 
@@ -64,13 +64,13 @@ The VoIP protocol lets employees use an app and immediately have calls forwarded
 
 #### Better customization & Control <a href="#id-3.-better-customization-and-control" id="id-3.-better-customization-and-control"></a>
 
-With a [cloud PBX](https://www.portsip.com/2024/04/17/cloud-pbx-phone-system-for-service-provider/), call settings and routing can be adjusted instantly. Features like **call forwarding**, meeting lines, caller ID, and voicemail to SMS are easily toggled on/off. The days of calling the phone company for changes are over — cloud PBX platforms put businesses in charge.
+With a cloud PBX, call settings and routing can be adjusted instantly. Features like **call forwarding**, meeting lines, caller ID, and voicemail to SMS are easily toggled on/off. The days of calling the phone company for changes are over — cloud PBX platforms put businesses in charge.
 
 #### Enhanced reliability & Redundancy <a href="#id-5.-enhanced-reliability-and-redundancy" id="id-5.-enhanced-reliability-and-redundancy"></a>
 
 Arguably, the most crucial benefit is reliability.
 
-Since [cloud PBX](https://www.portsip.com/2024/05/19/white-label-cloud-pbx-phone-system/) isn’t tied to physical wiring or an on-site box, many infrastructure failure points are avoided. With built-in failover and interconnected data centers, cloud PBX offers redundancy that keeps companies running smoothly.
+Since cloud PBX isn’t tied to physical wiring or an on-site box, many infrastructure failure points are avoided. With built-in failover and interconnected data centers, cloud PBX offers redundancy that keeps companies running smoothly.
 
 For businesses, increased reliability is arguably the most crucial benefit.
 
@@ -94,7 +94,7 @@ Subscribing to a cloud PBX service streamlines maintenance and troubleshooting p
 
 Lastly, cloud PBX offers high scalability. As your business grows, your cloud PBX phone system can expand accordingly. You only need to contact your provider when you need to add more phone lines to your subscription. Extensions can be added or removed via your online dashboard, and every setting can be adjusted to meet the evolving needs of your business.
 
-Experience the limitless advantages and benefits of a cloud PBX system by reaching out to a PortSIP PBX solutions specialist today.
+Experience the limitless advantages and benefits of a cloud PBX system by reaching out to a BGMconnects specialist today.
 
 #### Compare and Contrast
 
@@ -152,15 +152,15 @@ Cloud PBX solutions can scale to support numerous extensions, sites, and users. 
 
 Many Cloud PBX providers offer professional services (and collaborate with channel partners) to facilitate a seamless transition of your enterprise communications to the cloud.
 
-### PortSIP PBX Solution Has Your Back
+### BGMconnects Has Your Back
 
 <figure><img src="https://www.portsip.com/wp-content/uploads/2024/09/t2.png" alt=""><figcaption></figcaption></figure>
 
 When weighing the solution for hosting the Cloud PBX, you have to look at your needs today and tomorrow. There are, of course, a number of factors to consider when choosing a phone system solution. Pricing is the most obvious one, but there’s also security, flexibility, and scalability... You have to ask yourself where you want to be in the next year or two and beyond.
 
-Here at [PortSIP](https://www.portsip.com/portsip-pbx/), we’ll walk you through everything, including free porting of your existing solution. We’ll help you select the right VoIP desk phones that meet your client's budget and everyday business needs. We cover all of these bases, and its fast deployment means it can be set up in minutes, anywhere in the world. Add phone lines, swap numbers, and more—in real time, then you can run your cloud PBX service like some large service providers, for example[,](https://www.nextvia.com/) [Nextiva](https://www.nextvia.com/), [RingCentral](https://www.ringcentral.com/), [Vonage](https://www.vonage.com/), and [Dialpad](https://www.dialpad.com/).
+Here at [BGMconnects](https://www.bgmconnects.com/pbx/), we’ll walk you through everything, including free porting of your existing solution. We’ll help you select the right VoIP desk phones that meet your client's budget and everyday business needs. We cover all of these bases, and its fast deployment means it can be set up in minutes, anywhere in the world. Add phone lines, swap numbers, and more—in real time, then you can run your cloud PBX service like some large service providers, for example[,](https://www.nextvia.com/) [Nextiva](https://www.nextvia.com/), [RingCentral](https://www.ringcentral.com/), [Vonage](https://www.vonage.com/), and [Dialpad](https://www.dialpad.com/).
 
 In the age of the cloud, you cannot keep inching along with a legacy PBX. Your traditional PBX solution costs you more than it saves.
 
-Take advantage of the [PortSIP Solution](https://www.portsip.com/portsip-pbx/) and the freedom to work from anywhere. [PortSIP PBX](https://www.portsip.com/2023/11/23/the-advantages-of-portsip-pbx-vs-other-pbxs/) lets you focus on serving your customers, not trying to figure out the system. You can leave the rest to us.
+Take advantage of the [BGMconnects Next-Gen Telecom Solution](https://www.bgmconnects.com/pbx/) and the freedom to work from anywhere. [BGMconnects PBX](bgmconnects-next-gen-telecom-solution/the-advantages-of-bgmconnects-vs.-other-pbxs.md) lets you focus on serving your customers, not trying to figure out the system. You can leave the rest to us.
 
