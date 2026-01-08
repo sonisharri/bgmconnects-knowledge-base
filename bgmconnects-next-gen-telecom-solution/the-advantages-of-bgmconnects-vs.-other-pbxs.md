@@ -1,8 +1,11 @@
 # The Advantages of BGMconnects vs. Other PBXs
+<!--
+May need to overhaul this section to remove references to service providers
+-->
 
 The communications technology landscape is evolving at an unprecedented pace. Cloud-based unified communication platforms have emerged as the go-to choice for businesses of all sizes, replacing aging traditional phone systems that struggle to support modern needs. Today’s organizations require solutions that are not only efficient and reliable, but also flexible, scalable, and capable of supporting remote and hybrid work models.
 
-As service providers and IT leaders evaluate business communications platforms, one question becomes increasingly important:
+As <!--service providers and -->IT leaders evaluate business communications platforms, one question becomes increasingly important:
 
 **When comparing BGMconnects with other PBX solutions, which platform delivers the most value, performance, and future-ready architecture?**
 
@@ -126,10 +129,10 @@ This performance-first philosophy is applied consistently across the entire plat
 
 You can find more details in these articles:
 
-* [Using Enhanced Call Park on Fanvil IP Phones](/bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/13-call-parking/using-enhanced-call-park-on-fanvil-ip-phones.md)
-* [Using Enhanced Call Park on Yealink IP Phones](/bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/13-call-parking/using-enhanced-call-park-on-yealink-ip-phones.md)
-* [Using Enhanced Call Park on GrandStream IP Phones](/bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/13-call-parking/using-enhanced-call-park-on-grandstream-ip-phones.mds)
-* [Using Enhanced Call Park on Dinstar IP Phones](/bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/13-call-parking/using-enhanced-call-park-on-dinstar-ip-phones.md)
+* [Using Enhanced Call Park on Fanvil IP Phones](/bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/14-call-parking/using-enhanced-call-park-on-fanvil-ip-phones.md)
+* [Using Enhanced Call Park on Yealink IP Phones](/bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/14-call-parking/using-enhanced-call-park-on-yealink-ip-phones.md)
+* [Using Enhanced Call Park on GrandStream IP Phones](/bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/14-call-parking/using-enhanced-call-park-on-grandstream-ip-phones.mds)
+* [Using Enhanced Call Park on Dinstar IP Phones](/bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/14-call-parking/using-enhanced-call-park-on-dinstar-ip-phones.md)
 
 ***
 
@@ -303,7 +306,7 @@ Administrators can click the **search** icon next to any online extension to vie
 
 This detailed visibility allows administrators to quickly identify which devices are connected to each extension, troubleshoot registration issues, and maintain full operational awareness across the tenant environment.
 
-For more information, please refer to the article on [User Management](bgmconnects-pbx-administration-guide/4-user-management/).
+For more information, please refer to the article on [User Management](bgmconnects-pbx-administration-guide/5-user-management/).
 
 ***
 
@@ -368,7 +371,7 @@ To comply with regulatory requirements, the PBX must automatically stop recordin
 
 BGMconnects provides a built-in option to handle this scenario automatically, ensuring that recording is stopped as soon as a call is between two external numbers. This helps service providers and enterprises remain compliant with local privacy regulations without manual intervention.
 
-For configuration details, please refer to the article  [Automatically stop recording if the call between two external numbers](bgmconnects-pbx-administration-guide/19-cdr-and-call-recordings/#automatically-stop-recording-if-the-call-between-two-external-numbers).
+For configuration details, please refer to the article  [Automatically stop recording if the call between two external numbers](bgmconnects-pbx-administration-guide/20-cdr-and-call-recordings/#automatically-stop-recording-if-the-call-between-two-external-numbers).
 
 ***
 
@@ -391,7 +394,7 @@ This flexibility allows service providers to enforce consistent policies, simpli
 
 <figure><img src="../.gitbook/assets/bgmconnects_tenant_trunk.png" alt="" width="375"><figcaption></figcaption></figure>
 
-For more details, please read the article [Trunk Management.](bgmconnects-pbx-administration-guide/6-trunk-management/)
+For more details, please read the article [Trunk Management.](bgmconnects-pbx-administration-guide/7-trunk-management/)
 
 ***
 
@@ -401,7 +404,7 @@ BGMconnects allows tenant administrators to send **CDRs (Call Detail Records)** 
 
 All webhook payloads are delivered in **JSON format**, making them easy to parse and process in any modern development environment.
 
-For configuration details and implementation examples, please refer to the article [Push CDR to Webhook](bgmconnects-pbx-administration-guide/19-cdr-and-call-recordings/#push-cdr-to-webhook).
+For configuration details and implementation examples, please refer to the article [Push CDR to Webhook](bgmconnects-pbx-administration-guide/20-cdr-and-call-recordings/#push-cdr-to-webhook).
 
 ***
 
@@ -412,8 +415,6 @@ BGMconnects provides a **Pub/Sub mechanism** based on **WebSocket technology (BG
 Developers can establish a WebSocket connection using **any programming language** to subscribe to PBX events. When a subscribed event occurs, BGMconnects automatically pushes the event to the subscriber in **JSON format**, allowing immediate processing without polling.
 
 This real-time event model is ideal for integrations such as live dashboards, call monitoring, analytics, CRM synchronization, and custom automation workflows.
-
-For implementation details and examples, please refer to the article [Going Real-Time with BGMconnects PBX Pub/Sub](../development-bgmconnects/going-real-time-with-bgmconnects-pbx-pub-sub.md).
 
 ***
 
@@ -441,12 +442,7 @@ For configuration details, please refer to the article [Office Hours and Holiday
 
 ### Free SBC for WebRTC and Microsoft Teams Direct Routing
 
-BGMconnects includes a **free Session Border Controller (SBC)** to support **WebRTC** and **Microsoft Teams Direct Routing**. The SBC can be deployed as a **cluster** to handle large call volumes and ensure high availability.
-
-Supported deployment guides include:
-
-* [Configuring SBC for WebRTC](bgmconnects-pbx-administration-guide/8-configuring-bgmconnects-sbc/)
-* [Configuring SBC for MS Teams](bgmconnects-pbx-administration-guide/9-configuring-sbc-for-ms-teams/)
+BGMconnects includes a **free Session Border Controller (SBC)** to support **WebRTC** and **Microsoft Teams Direct Routing**.
 
 This integrated SBC eliminates the need for third-party SBC licensing, reducing deployment complexity and overall costs for service providers.
 
@@ -457,17 +453,7 @@ This integrated SBC eliminates the need for third-party SBC licensing, reducing 
 BGMconnects seamlessly integrates business communications into the **Microsoft 365** ecosystem, transforming it into an enterprise-grade communications hub. This integration provides a powerful yet intuitive user experience that is easy for end users to adopt and simple for IT teams to manage.
 
 For more information, please refer to the article [Microsoft 365 Integration](bgmconnects-pbx-administration-guide/integrations/).
-
-***
-
-### Open REST API
-
-BGMconnects provides a **comprehensive REST API**, enabling customers and service providers to easily integrate the platform with third-party systems such as CRM, billing, analytics, and custom applications.
-
-The BGMconnects web portal itself is built on this same REST API, demonstrating the openness, consistency, and extensibility of the platform.
-
-For API documentation, see [BGMconnects REST API](/development-bgmconnects/rest-apis/README.md).&#x20;
-
+<!-- RESERVED:
 ***
 
 ### Free BGMconnects VoIP SDK for CPaaS
@@ -487,6 +473,7 @@ The BGMconnects VoIP SDK is trusted by many well-known enterprises, including T-
 For more details, please refer to [BGMconnects VoIP SDK](https://www.bgmconnects.com/voip-sdk/).
 
 ***
+-->
 
 ### Push Notifications
 
@@ -494,12 +481,9 @@ A Voice over Internet Protocol (VoIP) application allows users to make and recei
 
 BGMconnects addresses this challenge by supporting **mobile push notifications** for both **iOS and Android** applications. With push notifications enabled, the app remains idle until an incoming call or message arrives, dramatically reducing power consumption while ensuring users never miss important communications.
 
-All BGMconnects users benefit from this capability.\
-For more details, please refer to the article [How Do Push Notifications Work with BGMconnects PBX?](../development-bgmconnects/mobile-push-notifications/how-do-push-notifications-work-with-bgmconnects-pbx.md)
-
 ***
 
-### Rebrandable Applications Across All Platforms
+### Cross-Platform Application Support
 
 BGMconnects provides native client applications for the following platforms:
 
@@ -509,8 +493,6 @@ BGMconnects provides native client applications for the following platforms:
 * **MacOS**
 * **MS Teams Phone**
 * **WebRTC (Web Client)**
-
-These applications can be **fully rebranded**. This allows service providers to deliver a consistent, fully branded user experience across all devices, without investing in custom client development.
 
 ***
 
@@ -535,6 +517,4 @@ At BGMconnects, we work closely with service providers to ensure long-term succe
 In the cloud era, continuing to rely on a legacy PBX is no longer sustainable. Traditional PBX systems often cost more to operate than they deliver in value—and limit your ability to scale, innovate, and compete.
 
 With BGMconnects, you gain a future-ready platform that allows you to focus on **growing your business and serving your customers**, while we take care of the technology.
-
-
 

@@ -2,7 +2,7 @@
 
 ### An All-in-One Platform for Cloud PBX, UCaaS, CPaaS, and CCaaS Providers
 
-[BGMconnects](https://www.bgmconnects.com) is a powerful, all-in-one Unified Communications platform purpose-built for service providers and modern enterprises. It brings together voice, video, messaging, SMS, WhatsApp, video meetings, AI transcription, CRM integration, contact center capabilities, and team collaboration into a single, tightly integrated solution.
+[BGMconnects](https://www.bgmconnects.com) is a powerful, all-in-one Unified Communications platform purpose-built for <!--service providers and -->modern enterprises. It brings together voice, video, messaging, SMS, WhatsApp, video meetings, AI transcription, CRM integration, contact center capabilities, and team collaboration into a single, tightly integrated solution.
 
 Unlike fragmented communication stacks that rely on multiple vendors and complex integrations, BGMconnects delivers everything out of the box—reducing operational complexity while accelerating time to market.
 
@@ -20,15 +20,17 @@ With **real-time synchronization across all devices**, users can communicate eff
 
 BGMconnects is more than a PBX—it is a **complete communications ecosystem**, including:
 
-* **Multi-platform client apps** (Windows, macOS, iOS, Android, WebRTC, and Teams Phone)
+* **Multi-platform client apps** (Windows, macOS, iOS, Android, WebRTC, and Teams Phone) 
+<!--
 * **SDKs** for building custom voice, video, and messaging applications
 * **Open APIs, Webhooks, and PUB/SUB** for deep integrations and automation
+-->
 * **AI-powered capabilities**, including call and voicemail transcription
 * **Built-in Contact Center** and **CCaaS features**
 * **Native CRM integrations** to unify communications and customer data
-
-This open and extensible architecture gives service providers full control to differentiate, customize, and innovate without vendor lock-in.
-
+<!--
+This open and extensible architecture gives service providers full control to differentiate, customize, and innovate without vendor lock-in.-->
+<!--
 ***
 
 ### Purpose-Built for Service Providers
@@ -41,12 +43,15 @@ Whether you are:
 * A contact center operator building CCaaS offerings
 
 BGMconnects provides a **carrier-grade, multi-tenant architecture** designed for performance, scalability, and reliability. It enables you to launch quickly, operate efficiently, and scale confidently as your customer base grows.
+-->
 
 ***
 
 Here are some of our key products:
 
 * [BGMconnects PBX](https://www.bgmconnects.com/pbx/)
-* [BGMconnects App](https://www.bgmconnects.com/app)
+* [BGMconnects App](https://www.bgmconnects.com/app) 
+<!--
 * [BGMconnects VoIP SDK](https://www.bgmconnects.com/voip-sdk/)
+-->
 
