@@ -1,8 +1,9 @@
 # Tenant Feature Management
 
 **Tenant Feature Management** allows the PBX Administrator to centrally activate or deactivate specific features for individual tenants. This provides the PBX owner with a flexible and scalable way to manage tenant capabilities, control resource usage, and offer value-added features as paid options to increase revenue.
-
+<!--
 By enabling or disabling features at the tenant level, service providers can easily implement service tiers, add-on features, or usage-based charging models.
+-->
 
 The PBX Administrator can activate or deactivate the following features for each tenant.
 
@@ -29,10 +30,10 @@ In the **General** tab, scroll to the bottom to locate the **AI Transcription** 
 
 ### App Usage
 
-Controls how many users within a tenant can register using the **PortSIP ONE UC App** and **PortSIP ONE Teams Phone App**.
+Controls how many users within a tenant can register using the **BGMconnects UC App** and **BGMconnects Teams Phone App**.
 
 * If **disabled** or the maximum user count is set to **0**, no extensions under the tenant can register using these applications.
-* If a maximum value (for example, **100**) is configured, only that number of extension users are allowed to register using the PortSIP ONE apps.
+* If a maximum value (for example, **100**) is configured, only that number of extension users are allowed to register using the BGMconnects apps.
 
 This feature is commonly used to enforce **per-user licensing limits**.
 
@@ -102,7 +103,9 @@ Controls whether a tenant can manage its **own SIP trunks**.
 * When deactivated, the tenant cannot access trunk configuration or create tenant-level trunks.
 * When activated, the tenant can configure and manage its own trunk settings.
 
+<!--
 This is commonly used when trunks are **centrally managed by the service provider**.
+-->
 
 ***
 

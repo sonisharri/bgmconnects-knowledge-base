@@ -6,11 +6,10 @@
 
 [BGMconnects](https://www.bgmconnects.com/pbx/) integrates contact center features that help you satisfy the most demanding of customers. Integrated the free SBC to support Microsoft Teams Direct Routing, and free video meeting, at no extra cost, share your screen for presentations & online meeting rooms.&#x20;
 
-A purchased SIP PBX license is packaged with the Giveaway of [BGMconnects SBC](https://www.bgmconnects.com/pbx/),  [BGMconnects VoIP SDK](https://www.bgmconnects.com/voip-sdk), and [BGMconnects app](https://www.bgmconnects.com/app)! If you are a large service provider looking for a UCaaS solution that supports 1M+ users, please get in [touch with us](mailto:sales@bgmconnects.com) for the BGMconnects UCaaS.
+A purchased SIP PBX license is packaged with the Giveaway of [BGMconnects SBC](https://www.bgmconnects.com/pbx/)<!--,  [BGMconnects VoIP SDK](https://www.bgmconnects.com/voip-sdk),--> and the [BGMconnects app](https://www.bgmconnects.com/app)! If you are a large service provider looking for a UCaaS solution that supports 1M+ users, please get in [touch with us](mailto:sales@bgmconnects.com) for the BGMconnects UCaaS.
 
 The solution includes the following features:
 
-* Full rebrandability
 * Multi-tenant
 * Extended media servers, queue servers, meeting servers, IM server, Data Flow server, and IVR servers for a cluster
 * Dealers management
@@ -56,7 +55,9 @@ The solution includes the following features:
 * Microsoft Teams direct routing
 * Microsoft 365 integrations
 * Integrated SBC
+<!--
 * Full open REST API
+-->
 * Zero-touch provisioning
 * DECT phones
 * Set up office hours, holidays, and destinations for each IVR DTMF input
@@ -85,7 +86,9 @@ The solution includes the following features:
 * Synchronous status between apps and IP phones
 * Synchronous contacts across apps and IP phones
 * Synchronous CDR across apps
+<!--
 * Free client VoIP SDK
+-->
 
 ### Deployment Architecture
 
