@@ -4,7 +4,7 @@
 
 **Auto-provisioning** simplifies the activation and management of IP phones by allowing devices to be configured automatically through a web-based mechanism, eliminating the need for manual phone configuration.
 
-When a user activates a phone, the service provider or PBX automatically delivers the required configuration settings for device registration, significantly reducing deployment time and operational overhead.
+When a user activates a phone, the<!-- service provider or--> PBX automatically delivers the required configuration settings for device registration, significantly reducing deployment time and operational overhead.
 
 ***
 
@@ -63,11 +63,11 @@ Because IP phones can only read **plain-text configuration files**, these creden
 
 ***
 
-### PortSIP PBX Solution: Enhanced Auto-Provisioning Security
+### BGMconnects Solution: Enhanced Auto-Provisioning Security
 
-To eliminate this risk, **PortSIP PBX** implements a more secure auto-provisioning architecture.
+To eliminate this risk, **BGMconnects** implements a more secure auto-provisioning architecture.
 
-Instead of storing all configuration files in a shared directory, PortSIP PBX:
+Instead of storing all configuration files in a shared directory, BGMconnects:
 
 * Creates a **separate provisioning folder for each user**
 * Uses **long, randomly generated folder names**
@@ -81,9 +81,9 @@ As a result, even if a phone’s MAC address is publicly known, it becomes **pra
 
 ***
 
-### DHCP Option 66 and Auto-Provisioning in PortSIP PBX
+### DHCP Option 66 and Auto-Provisioning in BGMconnects
 
-As described above, PortSIP PBX’s secure provisioning model differs from traditional approaches. However, this introduces a compatibility challenge with **legacy IP phones** that rely **only on DHCP Option 66** for provisioning.
+As described above, BGMconnects' secure provisioning model differs from traditional approaches. However, this introduces a compatibility challenge with **legacy IP phones** that rely **only on DHCP Option 66** for provisioning.
 
 ***
 
@@ -93,17 +93,17 @@ As described above, PortSIP PBX’s secure provisioning model differs from tradi
 * DHCP Option 66 requires a single, unified provisioning URL
 * This implies that all configuration files must be stored in the same directory
 
-This behavior conflicts with PortSIP’s default per-user isolated provisioning folders.
+This behavior conflicts with BGMconnects' default per-user isolated provisioning folders.
 
 ***
 
 ### Optional Compatibility Setting for Legacy Phones
 
-To support legacy phones while maintaining deployment flexibility, PortSIP PBX provides an **optional configuration switch**.
+To support legacy phones while maintaining deployment flexibility, BGMconnects provides an **optional configuration switch**.
 
 #### How to Disable Secure Folder Isolation (Not Recommended)
 
-1. Sign in to the PortSIP PBX Web Portal
+1. Sign in to the BGMconnects Web Portal
 2. Navigate to **Advanced > Settings**
 3. Open the **General** page
 4. In the **Custom Options** field, add the following JSON string:
@@ -122,7 +122,7 @@ To support legacy phones while maintaining deployment flexibility, PortSIP PBX p
   * All configuration files are stored in a **shared directory**
   * DHCP Option 66 provisioning is supported
 * If the option is set to `false` or removed:
-  * PortSIP PBX resumes using **secure, per-user provisioning folders**
+  * BGMconnects resumes using **secure, per-user provisioning folders**
 
 ***
 
@@ -142,9 +142,9 @@ Only enable this option **temporarily** and **only when required** for legacy de
 
 ### Summary
 
-PortSIP PBX offers a **secure-by-design auto-provisioning mechanism** that protects user credentials while maintaining operational flexibility. Although DHCP Option 66 support is available for legacy devices, it should be used **with caution** and only when absolutely necessary.
+BGMconnects offers a **secure-by-design auto-provisioning mechanism** that protects user credentials while maintaining operational flexibility. Although DHCP Option 66 support is available for legacy devices, it should be used **with caution** and only when absolutely necessary.
 
-Balancing **security** and **compatibility** is critical—and PortSIP PBX gives administrators full control to make that decision safely.
+Balancing **security** and **compatibility** is critical—and BGMconnects gives administrators full control to make that decision safely.
 
 
 

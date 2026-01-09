@@ -2,13 +2,13 @@
 
 ### Configuring Desk IP Phones
 
-PortSIP PBX allows you to easily configure and provision desk IP phones.
+BGMconnects allows you to easily configure and provision desk IP phones.
 
-Supported IP phones from [Fanvil](https://www.fanvil.com), [Yealink](https://www.yealink.com), [Grandstream](https://www.grandstream.com), [Snom](https://www.snom.com), [Gigaset](https://www.gigaset.com), and [Dinstar ](https://www.dinstar.com)have been fully tested with PortSIP PBX and support automatic provisioning.
+Supported IP phones from [Fanvil](https://www.fanvil.com), [Yealink](https://www.yealink.com), [Grandstream](https://www.grandstream.com), [Snom](https://www.snom.com), [Gigaset](https://www.gigaset.com), and [Dinstar ](https://www.dinstar.com)have been fully tested with BGMconnects and support automatic provisioning.
 
 ***
 
-PortSIP PBX supports the following IP phone provisioning methods:
+BGMconnects supports the following IP phone provisioning methods:
 
 * [Managing Phones](managing-phones.md)
 * [Auto-Provisioning Security](auto-provisioning-security.md)

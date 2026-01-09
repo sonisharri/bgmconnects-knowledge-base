@@ -1,16 +1,16 @@
 # Bulk Importing Users and Auto Provisioning IP Phones
 
-This guide is designed to assist company administrators in configuring a large number of company employees using the bulk importing feature of PortSIP PBX. This feature allows for the quick and easy addition of users in a spreadsheet format, eliminating the need for time-consuming individual device setting configurations. Furthermore, when importing users in bulk, you can also auto-provision IP Phones to the users simultaneously.
+This guide is designed to assist company administrators in configuring a large number of company employees using the bulk importing feature of BGMconnects. This feature allows for the quick and easy addition of users in a spreadsheet format, eliminating the need for time-consuming individual device setting configurations. Furthermore, when importing users in bulk, you can also auto-provision IP Phones to the users simultaneously.
 
 ## **Best Practices**
 
 1. Create a user with all necessary settings, such as forwarding rules, office hours, IP Phone, and BLF keys.
 2. Export this user to a CSV file to serve as a template.
-3. Delete that user in the PortSIP PBX web portal.
+3. Delete that user in the BGMconnects web portal.
 4. Edit the template CSV file to add new user information. This can be done by copying from the example user and making necessary changes. For instance, you may need to change the username, password, extension number, office hours, and phone information, among other things.
-5. Save your changes and then import the CSV file into the PortSIP PBX web portal.
+5. Save your changes and then import the CSV file into the BGMconnects web portal.
 
-By following these steps, you can efficiently manage and configure multiple users on the PortSIP PBX platform. This process not only saves time but also ensures consistency in user settings across the board. Remember, the key to successful bulk importing and auto-provisioning lies in careful preparation and attention to detail when creating and editing your CSV file.
+By following these steps, you can efficiently manage and configure multiple users on the BGMconnects platform. This process not only saves time but also ensures consistency in user settings across the board. Remember, the key to successful bulk importing and auto-provisioning lies in careful preparation and attention to detail when creating and editing your CSV file.
 
 {% hint style="danger" %}
 The CSV file configuration in a spreadsheet or text editor must be performed in UTF-8 format.
@@ -185,16 +185,16 @@ For example, if the user is offline outside of office hours, the new call that c
 }
 ```
 
-* **custom\_forward\_rules**: These rules serve as exceptions that override the standard forwarding rules. They are defined as a JSON object. If you wish to leave this field empty, set it to `[]`. This allows the user to establish their own exception rules via the PortSIP PBX web portal.
+* **custom\_forward\_rules**: These rules serve as exceptions that override the standard forwarding rules. They are defined as a JSON object. If you wish to leave this field empty, set it to `[]`. This allows the user to establish their own exception rules via the BGMconnects web portal.
 * **blfs**: This field is used to specify the BLF (Busy Lamp Field) keys. It is also a JSON object. To leave it empty, set it to `[]`.
-* **interface**: This field is used to specify the network interface IP Address, which is used to generate the QR code. The client application will connect to the PortSIP PBX using this IP address. It accepts the following values:
-  * WEB\_DOMAIN: The client app will use the PortSIP PBX Web Domain as the outbound proxy server address.
-  * PUBLIC\_IPV4: The client app will use the PortSIP public IP IPv4 address as the outbound proxy server address.
-  * PUBLIC\_IPV6: The client app will use the PortSIP PBX public IPv6 address as the outbound proxy server address.
-  * PRIVATE\_IPV4: The client app will use the PortSIP PBX private IPv4 address as the outbound proxy server address.
-  * PRIVATE\_IPV6: The client app will use the PortSIP PBX private IPv6 address as the outbound proxy server address.
-  * SBC\_DOMAIN: The client app will use the PortSIP SBC web domain as the outbound proxy server address, and then the client app registers to PortSIP PBX via the PortSIP SBC.
-* **preferred\_transport**: This field is used to specify the transport protocol for the PortSIP PBX in the QR code. After scanning the QR code, the client app will prioritize using this specified transport to register with PortSIP PBX. This key accepts `UDP`, `TCP`, and `TLS`.
+* **interface**: This field is used to specify the network interface IP Address, which is used to generate the QR code. The client application will connect to BGMconnects using this IP address. It accepts the following values:
+  * WEB\_DOMAIN: The client app will use the BGMconnects Web Domain as the outbound proxy server address.
+  * PUBLIC\_IPV4: The client app will use the BGMconnects public IP IPv4 address as the outbound proxy server address.
+  * PUBLIC\_IPV6: The client app will use the BGMconnects public IPv6 address as the outbound proxy server address.
+  * PRIVATE\_IPV4: The client app will use the BGMconnects private IPv4 address as the outbound proxy server address.
+  * PRIVATE\_IPV6: The client app will use the BGMconnects private IPv6 address as the outbound proxy server address.
+  * SBC\_DOMAIN: The client app will use the BGMconnects SBC web domain as the outbound proxy server address, and then the client app registers to BGMconnects via the BGMconnects SBC.
+* **preferred\_transport**: This field is used to specify the transport protocol for BGMconnects in the QR code. After scanning the QR code, the client app will prioritize using this specified transport to register with BGMconnects. This key accepts `UDP`, `TCP`, and `TLS`.
 * **custom\_options**: This field is reserved for setting custom options. It is typically left empty.
 * **role**: This field is used to specify the user’s role. It accepts the following values: `StandardUser`, `StandardInternationalUser`, `QueueManager`, `Admin`.
 * **phones**: This field is used to specify auto-provisioning the IP Phone for this user. It’s a JSON object that includes the following keys:
@@ -202,7 +202,7 @@ For example, if the user is offline outside of office hours, the new call that c
   * **filename**: This is the template file of the IP phone.
   * **vendor**: This is the vendor of the IP phone.
   * **interface**: This specifies the PBX IP Address of the network interface for the IP phone, which will be treated as the outbound proxy server in the IP Phone settings. The values are the same as the `interface` explained above.
-  * **preferred\_transport**: This specifies the PortSIP PBX transport protocol for this IP phone. The IP Phone will prioritize using this specified transport to register with PortSIP PBX. It allows **UDP**, **TCP**, or **TLS**.
+  * **preferred\_transport**: This specifies the BGMconnects transport protocol for this IP phone. The IP Phone will prioritize using this specified transport to register with BGMconnects. It allows **UDP**, **TCP**, or **TLS**.
   * **model**: This is the phone model.
   * **password**: This specifies the phone web UI password.
   * **language**: This specifies the display language for the IP phone. It supports the following values: `ENGLISH`, `CHINESE`, `DUTCH`, `FRENCH`, `GERMAN`, `GREEK`, `ITALIAN`, `JAPANESE`, `POLISH`, `RUSSIAN`, `SPANISH`, `SWEDISH`, `UKRAINIAN`, `BULGARIAN`.
@@ -300,10 +300,9 @@ For example, if the user is offline outside of office hours, the new call that c
 
 We provide a sample CSV file for bulk importing and auto-provisioning four users.
 
-* For v22.x: [Sample CSV file](https://www.portsip.com/provision/portsip_bulk_users_v22.csv)
-* For v16.x: [Sample CSV file](https://www.portsip.com/provision/portsip_bulk_users.csv)
+* For v22.x: [Sample CSV file](portsip_bulk_users_v22.csv)
 
-After you download that sample CSV file, you can sign in to the PortSIP PBX web port, in the menu **Call Manager > Users**, click the **Import** button, and select the sample CSV file to import the users, the users will be successfully created with provisioning information.
+After you download that sample CSV file, you can sign in to the BGMconnects web port, in the menu **Call Manager > Users**, click the **Import** button, and select the sample CSV file to import the users, the users will be successfully created with provisioning information.
 
 Please also reference the article [Zero Touch Provisioning Phones](zero-touch-provisioning-phones.md).
 
