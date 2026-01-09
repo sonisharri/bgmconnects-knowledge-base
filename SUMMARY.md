@@ -24,7 +24,7 @@ Remove??? (30+ references to service providers)
   * [2 BGMconnects PBX Management](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/2-bgmconnects-pbx-management/README.md)
     * [Administrator Management](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/2-bgmconnects-pbx-management/administrator-management.md)
     -->
-  * [3 Tenant Management](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/3-tenant-management/README.md)
+  * [1 Tenant Management](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/3-tenant-management/README.md)
     * [Managing Tenants](<bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/3-tenant-management/3-tenant-management (1).md>)
     * [Password and Sign-In Security](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/3-tenant-management/3-tenant-management.md)
     * [Tenant Feature Management](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/3-tenant-management/tenant-feature-management.md)
