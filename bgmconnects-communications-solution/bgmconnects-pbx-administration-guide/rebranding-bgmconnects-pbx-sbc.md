@@ -1,4 +1,4 @@
-# Rebranding PortSIP PBX, SBC
+# Rebranding PortSIP PBX, SBC (RESERVED)
 
 The PortSIP PBX and SBC provide a simple, but powerful rebranding feature that allows you to customize the PortSIP PBX Web Portal according to your preferences. Below is the list of options or elements that you may customize with this add-on:
 

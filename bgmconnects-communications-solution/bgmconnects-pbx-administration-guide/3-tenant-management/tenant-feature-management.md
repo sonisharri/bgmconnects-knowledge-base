@@ -1,6 +1,6 @@
 # Tenant Feature Management
 
-**T**enant Feature Management allows the PBX Administrator to centrally activate or deactivate specific features for individual tenants. This provides the PBX owner with a flexible and scalable way to manage tenant capabilities, control resource usage, and offer value-added features as paid options to increase revenue.
+**Tenant Feature Management** allows the PBX Administrator to centrally activate or deactivate specific features for individual tenants. This provides the PBX owner with a flexible and scalable way to manage tenant capabilities, control resource usage, and offer value-added features as paid options to increase revenue.
 
 By enabling or disabling features at the tenant level, service providers can easily implement service tiers, add-on features, or usage-based charging models.
 

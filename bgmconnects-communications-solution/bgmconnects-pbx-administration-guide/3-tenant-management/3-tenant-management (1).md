@@ -1,6 +1,6 @@
 # Managing Tenants
 
-After completing the **Configuration Wizard**, you can manage **PortSIP PBX** through the **Web Portal**. From here, administrators can configure and manage all core PBX features, including:
+After completing the **Configuration Wizard**, you can manage **BGMconnects** through the **Web Portal**. From here, administrators can configure and manage all core PBX features, including:
 
 * Tenants
 * Users (extensions)
@@ -16,7 +16,7 @@ After completing the **Configuration Wizard**, you can manage **PortSIP PBX** th
 
 To create a new tenant:
 
-1. Sign in to the **PBX Web Portal** as a System Administrator.
+1. Sign in to the **BGMconnects Web Portal** as a System Administrator.
 2. Navigate to **Tenants** from the left-hand menu.
 3. Click **Add**.
 
@@ -114,8 +114,8 @@ This helps maintain predictable storage usage.
 
 The **Apps** tab allows you to control which client applications tenant extensions may use:
 
-* PortSIP ONE App
-* PortSIP Team Phone App
+* BGMconnects App
+* BGMconnects Team Phone App
 *   Limit App Logins
 
     * Disabled: No application usage limits
@@ -175,7 +175,7 @@ To delete a tenant:
 
 A **System Administrator** can manage tenants and their extensions directly.
 
-1. Sign in to the **PBX Web Portal**.
+1. Sign in to the **BGMconnects Web Portal**.
 2. Navigate to **Tenants**.
 3. Select the tenant and click **Manage**.
 
