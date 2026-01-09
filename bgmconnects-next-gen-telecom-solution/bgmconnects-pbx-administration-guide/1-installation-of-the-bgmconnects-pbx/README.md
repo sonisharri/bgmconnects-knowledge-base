@@ -1,4 +1,4 @@
-# 1 Installation of the PortSIP PBX
+# 1 Installation of the PortSIP PBX (RESERVED)
 
 ### PortSIP PBX Free Edition
 

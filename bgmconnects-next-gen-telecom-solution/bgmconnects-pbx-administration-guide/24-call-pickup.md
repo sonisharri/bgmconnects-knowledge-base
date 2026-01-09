@@ -1,4 +1,4 @@
-# 24 Call Pickup
+# Call Pickup
 
 Call pickup allows a user to dial a feature access code (\*97) followed by an extension, to pick up (answer) a call directed to a user with that extension. If the ringing party has already answered the call, or if it has no alerting call, or if the dialed extension is invalid, the pickup fails.
 

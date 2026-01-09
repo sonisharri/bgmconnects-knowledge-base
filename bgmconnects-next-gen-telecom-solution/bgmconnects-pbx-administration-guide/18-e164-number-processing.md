@@ -1,4 +1,4 @@
-# 18 E164 Number Processing
+# E164 Number Processing
 
 E.164 is an [international standard](https://en.wikipedia.org/wiki/International_standard) ([ITU-T](https://en.wikipedia.org/wiki/ITU-T) Recommendation), titled _The international public telecommunication numbering plan_, that defines a [numbering plan](https://en.wikipedia.org/wiki/Telephone_numbering_plan) for the worldwide [public switched telephone network](https://en.wikipedia.org/wiki/Public_switched_telephone_network) (PSTN) and some other data [networks](https://en.wikipedia.org/wiki/Telecommunications_network).
 

@@ -1,4 +1,4 @@
-# 21 Call Reports
+# Call Reports
 
 ### Call Reporting Overview
 

@@ -1,4 +1,4 @@
-# 19 Billing
+# Billing
 
 PortSIP PBX integrates a complete Call Accounting System through which you can generate a wide variety of reports manually and automatically.
 

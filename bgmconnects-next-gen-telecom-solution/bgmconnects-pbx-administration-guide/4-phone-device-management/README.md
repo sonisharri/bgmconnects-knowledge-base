@@ -1,4 +1,4 @@
-# 4 Phone Device Management
+# Phone Device Management
 
 ### Configuring Desk IP Phones
 

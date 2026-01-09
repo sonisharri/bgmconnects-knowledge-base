@@ -21,9 +21,9 @@ Remove??? (30+ references to service providers)
       * [Upgrade v16.x to the Latest v22.x](bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/1-installation-of-the-bgmconnects-pbx/installation-of-bgmconnects-pbx-v22.3/upgrade-v16.x-to-the-latest-v22.x-on-linux.md)
     * [Installation of BGMconnects PBX v16.x](bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/1-installation-of-the-bgmconnects-pbx/installation-of-bgmconnects-pbx-v16/README.md)
       * [Upgrade to the Latest v16.x Release](bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/1-installation-of-the-bgmconnects-pbx/installation-of-bgmconnects-pbx-v16/upgrade-bgmconnects-pbx-to-v16.x.md)
-      -->
   * [2 BGMconnects PBX Management](bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/2-bgmconnects-pbx-management/README.md)
     * [Administrator Management](bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/2-bgmconnects-pbx-management/administrator-management.md)
+    -->
   * [3 Tenant Management](bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/3-tenant-management/README.md)
     * [Managing Tenants](<bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/3-tenant-management/3-tenant-management (1).md>)
     * [Password and Sign-In Security](bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/3-tenant-management/3-tenant-management.md)

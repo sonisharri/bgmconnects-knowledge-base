@@ -1,4 +1,4 @@
-# 7 Trunk Management
+# Trunk Management
 
 Session Initiation Protocol (SIP) Trunking is the digital way of making and receiving phone calls and other communications over an internet connection, utilizing SIP, an application layer protocol. "Trunking" in this context refers to the method of consolidating multiple communication channels into a single connection, allowing for the efficient use of resources and connection to a telephone network.
 

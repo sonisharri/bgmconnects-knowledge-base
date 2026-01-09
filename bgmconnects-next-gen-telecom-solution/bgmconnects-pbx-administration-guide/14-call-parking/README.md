@@ -1,4 +1,4 @@
-# 14 Call Parking
+# Call Parking
 
 Call parking is a feature that allows callers to be put on hold in a communal parking spot so that any extensions can retrieve the call on a different phone or extension. Today, every PBX offers this feature to its users.
 

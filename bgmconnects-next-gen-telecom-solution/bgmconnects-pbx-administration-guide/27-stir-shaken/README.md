@@ -1,4 +1,4 @@
-# 27 STIR/SHAKEN
+# STIR/SHAKEN
 
 Robocalls and telemarketing calls are currently the number one source of consumer complaints at the FCC. What was once a nuisance has become a plague to U.S consumers receiving an estimated “16.3 billion robo-calls in the first five months of 2018. In May 2018, U.S. people received about 4.1 billion robocalls or 12 calls for every person.”
 

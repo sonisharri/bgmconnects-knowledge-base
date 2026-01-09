@@ -1,4 +1,4 @@
-# 26 Hot Desking
+# Hot Desking
 
 Hot desking is a form of workplace sharing where employees will take whatever desk is available instead of having an assigned workspace. It was first introduced in the 1990s. Today, technology has aided in the implementation of hot desking by making it more feasible and accessible. Some businesses use hot desking for the whole company, while others use hot desking for specific spaces or roles in the company. 
 

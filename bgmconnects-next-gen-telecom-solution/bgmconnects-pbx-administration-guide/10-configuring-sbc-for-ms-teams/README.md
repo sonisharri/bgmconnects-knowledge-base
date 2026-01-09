@@ -1,4 +1,4 @@
-# 10 Configuring SBC for MS Teams
+# Configuring SBC for MS Teams
 
 Businesses that want to optimize their investment in Office 365 and Microsoft Teams can utilize PortSIP's robust communications solution. PortSIP PBX for Microsoft Teams is a native Direct Routing integration that provides calling functionality and enables Teams users to get more done with an industry-leading cloud or on-premise PBX while keeping Teams at the center of the collaboration experience.
 

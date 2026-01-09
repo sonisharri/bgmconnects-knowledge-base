@@ -1,4 +1,4 @@
-# 16 Call Queue
+# Call Queue
 
 ### What Is a Call Queue?
 

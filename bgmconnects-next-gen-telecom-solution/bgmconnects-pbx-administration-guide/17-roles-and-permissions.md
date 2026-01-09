@@ -1,4 +1,4 @@
-# 17 Roles and Permissions
+# Roles and Permissions
 
 ### Roles and Permissions Overview
 

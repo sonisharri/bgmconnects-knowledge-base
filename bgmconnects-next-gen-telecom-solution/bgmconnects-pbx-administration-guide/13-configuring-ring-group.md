@@ -1,4 +1,4 @@
-# 13 Configuring Ring Group
+# Configuring Ring Group
 
 Ring groups are used to ring specific groups of users in a pre-configured pattern. Calls routed to a Ring Group will follow the configured ring pattern for that group.
 

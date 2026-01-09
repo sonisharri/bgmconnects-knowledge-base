@@ -1,4 +1,4 @@
-# 6 Transport Management
+# Transport Management
 
 After completing the **Setup Wizard**, you can manage your **PortSIP PBX** through the **Web Portal**.
 

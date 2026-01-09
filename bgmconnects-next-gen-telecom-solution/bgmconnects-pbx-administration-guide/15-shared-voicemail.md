@@ -1,4 +1,4 @@
-# 15 Shared Voicemail
+# Shared Voicemail
 
 How to access call group voicemail in some instances, extensions or groups within your company may share a voicemail box. An example would be a voicemail assigned to the main company telephone number, the Virtual Receptionist, the Ring Group, or the Call Queue. There are various ways a shared voicemail box can be used. Here are some examples:
 

@@ -1,4 +1,4 @@
-# 20 CDR and Call Recordings
+# CDR and Call Recordings
 
 PortSIP PBX collects CDRs (Call Detail Records) and Call Recordings to provide reports and Dashboards to help manage the infrastructure, reduce expenses, increase productivity, deliver alerts, and provide management with information to make more informed decisions:
 

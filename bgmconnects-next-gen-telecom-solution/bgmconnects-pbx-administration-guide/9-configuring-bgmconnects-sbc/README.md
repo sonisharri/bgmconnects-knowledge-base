@@ -1,4 +1,4 @@
-# 9 Configuring PortSIP SBC
+# Configuring PortSIP SBC
 
 The PortSIP Session Border Controller (PortSIP SBC) delivers best-in-class communications security combined with the flexibility and convenience of software-based deployment on popular virtual machine and cloud platforms such as Microsoft Azure and AWS.
 

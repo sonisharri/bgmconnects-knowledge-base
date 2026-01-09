@@ -1,4 +1,4 @@
-# 32 Night Mode
+# Night Mode
 
 PortSIP PBX includes a **Night Mode** feature that allows you to automatically redirect incoming calls during **non-business hours**. This is particularly useful for services such as **Virtual Receptionists**, **Ring Groups**, and **Call Queues**, enabling calls to be routed to alternative destinations—such as a mobile number, answering service, or voicemail—when your business is closed.
 

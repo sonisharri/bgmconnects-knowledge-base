@@ -1,4 +1,4 @@
-# 22 Dealers
+# Dealers
 
 Cloud PBX and UCaaS enable businesses to scale, remain agile, and focus on their core operations without the burden of managing IT infrastructure. Service providers prioritize hosting reliable, stable services, while distributors and resellers handle sales to end-users, creating a seamless connection between providers and customers.
 

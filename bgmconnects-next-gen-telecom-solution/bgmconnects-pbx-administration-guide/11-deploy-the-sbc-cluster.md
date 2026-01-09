@@ -1,4 +1,4 @@
-# 11 Deploy the SBC Cluster
+# Deploy the SBC Cluster
 
 If your deployment handles a high volume of **WebRTC** or **Microsoft Teams** calls, or if you use a Session Border Controller (SBC) to isolate the PBX from external networks, all signaling and media traffic will be routed through the SBC layer.
 
