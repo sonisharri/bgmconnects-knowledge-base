@@ -48,7 +48,7 @@ Through the web portal, system administrators and dealers (including distributor
 Designed specifically for the cloud era, this modern multi-tenant PBX model combines operational simplicity with carrier-grade scalability. BGMconnects executes this approach exceptionally well, enabling service providers to scale faster, operate more efficiently, and deliver a superior unified communications experience to every tenant.
 
 ***
-
+<!--
 ### **Full White-Label Solution**
 
 A white-label solution allows one company to deliver a product or service under its own brand, even though the underlying technology is developed by another vendor. While building a strong and consistent brand identity can be challenging, **BGMconnects** makes it straightforward by offering a fully customizable white-label PBX and Cloud PBX platform.
@@ -70,6 +70,7 @@ As a result, service providers can focus on **marketing, sales, customer onboard
 For step-by-step configuration details, please refer to the article [Rebranding BGMconnects PBX, SBC](bgmconnects-pbx-administration-guide/rebranding-bgmconnects-pbx-sbc.md).
 
 ***
+-->
 
 ### **A Scalable Communications Platform**
 

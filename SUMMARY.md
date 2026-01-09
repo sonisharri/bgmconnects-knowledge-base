@@ -5,8 +5,9 @@
 * [What is BGMconnects?](README.md)
 <!-- Remove???
 * [Cloud PBX Phone System for Service Providers](bgmconnects-next-gen-telecom-solution/cloud-pbx-phone-system-for-service-providers.md)
--->
+Remove??? (30+ references to service providers)
 * [The Advantages of BGMconnects vs. Other PBXs](bgmconnects-next-gen-telecom-solution/the-advantages-of-bgmconnects-vs.-other-pbxs.md)
+-->
 * [BGMconnects Administration Guide](bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/README.md)
   * [Overview](bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/overview.md)
   * [Summary of Changes](bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/summary-of-changes.md)
