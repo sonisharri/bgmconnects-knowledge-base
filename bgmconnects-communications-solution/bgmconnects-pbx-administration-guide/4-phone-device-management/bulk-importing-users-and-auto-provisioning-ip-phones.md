@@ -300,7 +300,7 @@ For example, if the user is offline outside of office hours, the new call that c
 
 We provide a sample CSV file for bulk importing and auto-provisioning four users.
 
-* For v22.x: [Sample CSV file](portsip_bulk_users_v22.csv)
+* For v22.x: [Sample CSV file](bgmconnects_bulk_users_v22.csv)
 
 After you download that sample CSV file, you can sign in to the BGMconnects web port, in the menu **Call Manager > Users**, click the **Import** button, and select the sample CSV file to import the users, the users will be successfully created with provisioning information.
 
