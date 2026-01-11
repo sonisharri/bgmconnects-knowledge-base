@@ -25,7 +25,7 @@
     * [Managing Tenants](<bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/3-tenant-management/3-tenant-management (1).md>)
     * [Password and Sign-In Security](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/3-tenant-management/3-tenant-management.md)
     * [Tenant Feature Management](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/3-tenant-management/tenant-feature-management.md)
-  * [4 Phone Device Management](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/4-phone-device-management/README.md)
+  * [2 Phone Device Management](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/4-phone-device-management/README.md)
     * [Managing Phones](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/4-phone-device-management/managing-phones.md)
     * [Auto Provisioning Security](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/4-phone-device-management/auto-provisioning-security.md)
     * [Customing IP Phone Template](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/4-phone-device-management/custom-ip-phone-template.md)
