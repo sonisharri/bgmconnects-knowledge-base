@@ -4,7 +4,7 @@ Speed Dial 100 allows you to assign the numbers you call most. Once programmed y
 
 ## Configuring Speed Dial 100 in the Web Portal <a href="#configuring-speed-dial-8-in-the-web-portal" id="configuring-speed-dial-8-in-the-web-portal"></a>
 
-You can configure Speed Dial 100 in the PortSIP PBX Web Portal through the following steps:
+You can configure Speed Dial 100 in the PBX Web Portal through the following steps:
 
 1. **For Tenant Admins**:
    * Log in to the Web Portal as a tenant administrator.

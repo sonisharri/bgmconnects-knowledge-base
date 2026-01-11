@@ -1,39 +1,35 @@
 # How to Configure the Endpoints?
 
-After successfully [configuring the PortSIP PBX](/broken/pages/6uo0BsKGLXFqs7Cz40HY) and [SBC](../9-configuring-portsip-sbc/), and [creating the tenants](../3-tenant-management/) and [extensions](./), you can now register the endpoints (WebRTC, mobile app, Windows Desktop app, IP Phone, and any SIP-based device) to the PBX. This will allow you to make and receive calls.
+After successfully [configuring the PBX](/broken/pages/6uo0BsKGLXFqs7Cz40HY) and [SBC](../9-configuring-bgmconnects-sbc/), and [creating the tenants](../3-tenant-management/) and [extensions](./), you can now register the endpoints (WebRTC, mobile app, Windows Desktop app, IP Phone, and any SIP-based device) to the PBX. This will allow you to make and receive calls.
 
-## Configuring the PortSIP ONE App
+## Configuring the BGMconnects App
 
-If you are using the PortSIP PBX v22.0 or higher, please follow the guides below:
+Please follow the guides below:
 
-* [PortSIP ONE for Desktop and WebRTC](../../../apps-guides/portsip-one-app/portsip-one-desktop-app.md)
-* [PortSIP ONE for Mobile](../../../apps-guides/portsip-one-mobile-app/)
-
-## Configuring the PortSIP Softphone App
-
-If you are using the PortSIP PBX v16.x, please follow the guide [PortSIP Softphone](../../../apps-guides/portsip-softphone.md) to configure it.
+* [BGMconnects App for Desktop and WebRTC](../../../apps-guides/bgmconnects-app/bgmconnects-desktop-app.md)
+* [BGMconnects App for Mobile](../../../apps-guides/bgmconnects-mobile-app/)
 
 ## Configuring IP Phone
 
 In this article, we assume the following configurations:
 
-* The PortSIP PBX and SBC are installed on a server with a public IP of **66.175.221.120** and a private IP of **192.168.1.72**.
-* The PBX web domain **uc.portsip.cc** has been resolved to the PBX server public IP **66.175.221.120**.
+* The PBX and SBC are installed on a server with a public IP of **66.175.221.120** and a private IP of **192.168.1.72**.
+* The PBX web domain **uc.bgmconnects.cc** has been resolved to the PBX server public IP **66.175.221.120**.
 * The PBX created UDP transport on port **5060**, TLS transport on port **5061** over TLS,  TCP transport on port **5063**, and WSS transport on port **5065** in the SBC.
 * A tenant has been created with the SIP domain set up as **test.io**.
 
 As per the above settings, after you sign in to the PBX as the system administrator, you will see a page like the screenshot below:
 
-<figure><img src="../../../.gitbook/assets/portsip-pbx-home-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects-pbx-home-1.png" alt=""><figcaption></figcaption></figure>
 
 ### Essential Information
 
 There are some rules for configuring the client endpoints for the above scenario:
 
 * **Transport.** It's the network transport for sending & receiving the SIP message in the PBX. For more details please read the article: [Transport Management](../6-transport-management.md).
-* **Outbound Proxy server.** The PBX server IP refers to the **Outbound Proxy Server** in the client endpoints. If the client endpoint registers to PBX over the internet, use the public IP as the **Outbound Proxy Server**. You can also use **uc.portsip.cc** as the **Outbound Proxy Server** if registering to PBX over the internet since this domain has been resolved to the public IP; If registering to PBX from the LAN, use the private IP as the **Outbound Proxy Server**.
+* **Outbound Proxy server.** The PBX server IP refers to the **Outbound Proxy Server** in the client endpoints. If the client endpoint registers to PBX over the internet, use the public IP as the **Outbound Proxy Server**. You can also use **uc.bgmconnects.cc** as the **Outbound Proxy Server** if registering to PBX over the internet since this domain has been resolved to the public IP; If registering to PBX from the LAN, use the private IP as the **Outbound Proxy Server**.
 * **Outbound Proxy Server Port.** The port of transport is created in the PBX or SBC. For example, if you want the endpoint registered to the PBX over TCP transport, then you will need to set 5063 for **Outbound Proxy Server Port** in the endpoint settings.
-* **Domain.** Also known as **SIP domain** or **SIP server** in the endpoint settings. It’s the **SIP domain** of the tenant that was created in PortSIP PBX - so just set the tenant’s **SIP domain** for Domain/SIP Domain/SIP server in the endpoint settings.&#x20;
+* **Domain.** Also known as **SIP domain** or **SIP server** in the endpoint settings. It’s the **SIP domain** of the tenant that was created in the PBX - so just set the tenant’s **SIP domain** for Domain/SIP Domain/SIP server in the endpoint settings.&#x20;
 
 {% hint style="danger" %}
 &#x20;Just need to set the transport port for the Outbound Proxy Server Port only. Don’t set the transport port for the Domain in the endpoint settings. If the endpoint requires filling the port for the Domain, please fill in 0 for the domain port.
@@ -41,7 +37,7 @@ There are some rules for configuring the client endpoints for the above scenario
 
 ### Auto provision the IP phone to PBX
 
-For popular IP phones such as Fanvil, Yelaink, SNOM, GrandStream, DinStar, ALE, and Htek, they can be auto-provisioned to register to the PortSIP PBX without the need to configure the IP phone manually. For more details, please read this article: [Phone Device Management](../4-phone-device-management/).
+For popular IP phones such as Fanvil, Yelaink, SNOM, GrandStream, DinStar, ALE, and Htek, they can be auto-provisioned to register to the PBX without the need to configure the IP phone manually. For more details, please read this article: [Phone Device Management](../4-phone-device-management/).
 
 ### Manually Register the IP Phone to PBX
 

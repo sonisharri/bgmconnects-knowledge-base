@@ -8,7 +8,7 @@ There are two methods by which a user can program speed codes, through the web p
 
 ## Configuring Speed Dial 8 in the Web Portal
 
-You can configure Speed Dial 8 in the PortSIP PBX Web Portal through the following steps:
+You can configure Speed Dial 8 in the PBX Web Portal through the following steps:
 
 1. **For Tenant Admins**:
    * Log in to the Web Portal as a tenant administrator.

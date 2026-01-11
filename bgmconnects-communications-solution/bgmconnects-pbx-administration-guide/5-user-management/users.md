@@ -1,6 +1,6 @@
 # Users
 
-This section explains how to create and configure extensions in PortSIP PBX. There are multiple methods to create an extension.
+This section explains how to create and configure extensions in the PBX. There are multiple methods to create an extension.
 
 * When provisioning a new phone, you could choose to create a new extension for that phone.
 * Extensions can be manually created from the left menu: **Call Manager > Extensions**.
@@ -10,8 +10,8 @@ This section explains how to create and configure extensions in PortSIP PBX. The
 
 To configure an extension,
 
-1. Sign in to the PortSIP PBX Web Portal by **System Admin** credentials, click the menu **Tenants**, select a tenant then click the **Manage** button to manage this tenant, or sign a user who has the `Tenant Admin` permission into the Web Portal to manage that tenant.&#x20;
-2. Click on the left menu option **Call Manager > Extensions** in the PortSIP PBX Web Portal. Click on **Add** to create a new one, or select an existing extension and click the **Edit** button to configure or manage the existing extension users.
+1. Sign in to the PBX Web Portal by **System Admin** credentials, click the menu **Tenants**, select a tenant then click the **Manage** button to manage this tenant, or sign a user who has the `Tenant Admin` permission into the Web Portal to manage that tenant.&#x20;
+2. Click on the left menu option **Call Manager > Extensions** in the PBX Web Portal. Click on **Add** to create a new one, or select an existing extension and click the **Edit** button to configure or manage the existing extension users.
 
 ## User
 
@@ -21,7 +21,7 @@ The user can grant permissions by selecting a role from the **Role** list box; t
 
 If a user has the **Admin** role, we refer to him as a **Tenant Admin**. A tenant admin has ability to manage the tenant to which it belongs.
 
-The PortSIP PBX allows adding more than one administrator to a tenant.
+BGMconnects allows adding more than one administrator to a tenant.
 
 The **Email** field is mandatory since the PBX will need to send the notification email to the user's email address.
 
@@ -41,11 +41,11 @@ If the SIP domain you entered is correct, you will see the below screenshot to a
 
 The extension number and password are mandatory fields that must be filled in under the **Extension** page.
 
-If the tenant's SMTP server is configured, once an extension is successfully created, a welcome email will be sent to the user's email address with details about the newly created extension and PBX parameters such as the PBX SIP domain, the PBX IP, and the QR code. The PortSIP UC App can be used to scan the QR code and register to the PBX without having to enter any information manually.
+If the tenant's SMTP server is configured, once an extension is successfully created, a welcome email will be sent to the user's email address with details about the newly created extension and PBX parameters such as the PBX SIP domain, the PBX IP, and the QR code. The BGMconnects UC App can be used to scan the QR code and register to the PBX without having to enter any information manually.
 
-There is a QR code for this extension; instead of entering the information manually, you can save the QR code and use the PortSIP App to scan the QR code to sign in to the PBX.
+There is a QR code for this extension; instead of entering the information manually, you can save the QR code and use the BGMconnects App to scan the QR code to sign in to the PBX.
 
-The **Preferred transport for QR code** list box allows you to specify the preferred transport for the QR code; when registering PBX by scanning the QR code, the PortSIP App will prioritize the preferred transport.
+The **Preferred transport for QR code** list box allows you to specify the preferred transport for the QR code; when registering PBX by scanning the QR code, the BGMconnects App will prioritize the preferred transport.
 
 The **Generate QR code with the below network interface** option allows you to specify the "**outbound proxy server"** address for the client app when it scans the QR code to register to the PBX.
 
@@ -62,7 +62,7 @@ As shown in the screenshot below, if the call is made over trunk 1, the **Outbou
 
 ## Forwarding Rule
 
-Each extension can have a set of call forwarding rules that define what the PortSIP PBX should do when the extension user is unable to answer an incoming call. This can be configured using the following criteria.
+Each extension can have a set of call forwarding rules that define what the PBX should do when the extension user is unable to answer an incoming call. This can be configured using the following criteria.
 
 * The user’s status
 * The time
@@ -83,7 +83,7 @@ The forwarding rules have the following optional values:
 
 ## Voicemail
 
-The **Voicemail** page allows you to specify the extension's voicemail preferences (including the voicemail PIN number for authentication), enable or disable PIN Authentication, and enable PortSIP PBX to read out the message's date and time.
+The **Voicemail** page allows you to specify the extension's voicemail preferences (including the voicemail PIN number for authentication), enable or disable PIN Authentication, and enable the PBX to read out the message's date and time.
 
 The **Choose default Voicemail greeting message** section allows you to configure your voicemail greetings.
 
@@ -112,7 +112,7 @@ You can configure the BLF lights on an IP phone in this tab.
 Match a BLF button with an extension, so that this button will show the status of that extension. The number of available BLF buttons varies per phone. The following options are available for BLFs.
 
 * BLF: shows the dialog status of another extension
-* Visual Park: The unique park feature that PortSIP PBX offered, get more details in the article [Call Parking](../14-call-parking/).
+* Visual Park: The unique park feature that BGMconnects offers, get more details in the article [Call Parking](../14-call-parking/).
 * Speed Dial: Link to a phone number for easy calling
 * Custom Speed Dial
 * Change Status
@@ -130,11 +130,11 @@ We can see the extension status in the list by selecting **Call Manager > Users*
 
 You can click on the search icon to check an online extension's device details.
 
-As shown in the below screenshot, extension 102 is registered from a PortSIP UC client (IP is 192.168.0.22, the port is 5960 over the UDP transport), and the Yealink T53 IP Phone (IP is 192.168.0.36, the port is 5060 over the UDP transport).
+As shown in the below screenshot, extension 102 is registered from a BGMconnects UC client (IP is 192.168.0.22, the port is 5960 over the UDP transport), and the Yealink T53 IP Phone (IP is 192.168.0.36, the port is 5060 over the UDP transport).
 
 <figure><img src="../../../.gitbook/assets/extension_status_2.png" alt=""><figcaption></figcaption></figure>
 
 ## Register the Client App and IP Phone to PBX
 
-Please read this article to learn how to register the client app and IP Phone to the PortSIP PBX: [How to Configure the Endpoints?](how-to-configure-the-endpoints.md)
+Please read this article to learn how to register the client app and IP Phone to the PBX: [How to Configure the Endpoints?](how-to-configure-the-endpoints.md)
 

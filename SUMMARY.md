@@ -42,7 +42,7 @@
     * [Provision Snom DECT IP Phones](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/4-phone-device-management/provision-snom-dect-ip-phones.md)
     * [Provision Gigaset DECT IP Phones](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/4-phone-device-management/provision-gigasedect-ip-phones.md)
     * [Configuring Private RPS Account](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/4-phone-device-management/configuring-private-rps-account.md)
-  * [5 User Management](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/5-user-management/README.md)
+  * [3 User Management](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/5-user-management/README.md)
     * [Users](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/5-user-management/users.md)
     * [How to Configure the Endpoints?](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/5-user-management/how-to-configure-the-endpoints.md)
     * [User Groups](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/5-user-management/user-groups.md)
@@ -272,4 +272,4 @@
   * [Customize Your Caller ID](apps-guides/bgmconnects-mobile-app/customize-your-caller-id.md)
   * [SMS and WhatsApp Messaging](apps-guides/bgmconnects-mobile-app/sms-and-whatsapp-messaging.md)
   * [Change Your Call Queue Status](apps-guides/bgmconnects-mobile-app/change-your-call-queue-status.md)
-* [BGMconnects Softphone](apps-guides/bgmconnects-softphone.md)
+<!-- v16 only: * [BGMconnects Softphone](apps-guides/bgmconnects-softphone.md) -->

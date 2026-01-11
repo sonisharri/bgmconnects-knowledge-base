@@ -1,4 +1,4 @@
-# PortSIP Softphone
+# PortSIP Softphone (RESERVED)
 
 After successfully [configuring the PortSIP PBX](/broken/pages/6uo0BsKGLXFqs7Cz40HY) and [SBC](../portsip-communications-solution/portsip-pbx-administration-guide/9-configuring-portsip-sbc/), and [creating the tenants](../portsip-communications-solution/portsip-pbx-administration-guide/3-tenant-management/) and [extensions](../portsip-communications-solution/portsip-pbx-administration-guide/5-user-management/), you can now register the endpoints (WebRTC, mobile app, Windows Desktop app, IP Phone, and any SIP-based device) to the PBX. This will allow you to make and receive calls.
 
