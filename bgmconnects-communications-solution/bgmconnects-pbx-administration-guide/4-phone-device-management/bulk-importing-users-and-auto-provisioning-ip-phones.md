@@ -262,40 +262,6 @@ For example, if the user is offline outside of office hours, the new call that c
 ]
 ```
 
-**For the v16.x:**
-
-```json
-[{
-	"mac": "cc:5e:f8:41:b7:95",
-	"filename": "yealinkT3x.ph.xml",
-	"vendor": "Yealink",
-	"interface": "PRIVATE_IPV4",
-	"preferred_transport": "UDP",
-	"model": "SIP-T32G",
-	"password": "365894258",
-	"language": "English",
-	"timezone": "GMT-5:00 US Eastern Time, New York",
-	"transfer": "BLIND",
-	"ringtone": "",
-	"queue_ringtone": "Ring 1",
-	"date_format": "",
-	"time_format": "",
-	"powerled": "",
-	"backlight": "",
-	"screensaver": "",
-	"rps": false,
-	"https": false,
-	"codecs": ["PCMU", "PCMA", "G729", "G722"],
-	"enable_lldp": false,
-	"enable_vlan_wan_port": false,
-	"wan_port_id": 1,
-	"wan_port_priority": 0,
-	"enable_vlan_pc_port": false,
-	"pc_port_id": 1,
-	"pc_port_priority": 0
-}]
-```
-
 ## Sample CSV File
 
 We provide a sample CSV file for bulk importing and auto-provisioning four users.
