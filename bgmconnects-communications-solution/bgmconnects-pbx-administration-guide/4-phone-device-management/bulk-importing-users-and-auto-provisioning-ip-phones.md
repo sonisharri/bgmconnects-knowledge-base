@@ -6,9 +6,9 @@ This guide is designed to assist company administrators in configuring a large n
 
 1. Create a user with all necessary settings, such as forwarding rules, office hours, IP Phone, and BLF keys.
 2. Export this user to a CSV file to serve as a template.
-3. Delete that user in the BGMconnects web portal.
+3. Delete that user in the PBX Web Portal.
 4. Edit the template CSV file to add new user information. This can be done by copying from the example user and making necessary changes. For instance, you may need to change the username, password, extension number, office hours, and phone information, among other things.
-5. Save your changes and then import the CSV file into the BGMconnects web portal.
+5. Save your changes and then import the CSV file into the PBX Web Portal.
 
 By following these steps, you can efficiently manage and configure multiple users on the BGMconnects platform. This process not only saves time but also ensures consistency in user settings across the board. Remember, the key to successful bulk importing and auto-provisioning lies in careful preparation and attention to detail when creating and editing your CSV file.
 
@@ -185,7 +185,7 @@ For example, if the user is offline outside of office hours, the new call that c
 }
 ```
 
-* **custom\_forward\_rules**: These rules serve as exceptions that override the standard forwarding rules. They are defined as a JSON object. If you wish to leave this field empty, set it to `[]`. This allows the user to establish their own exception rules via the BGMconnects web portal.
+* **custom\_forward\_rules**: These rules serve as exceptions that override the standard forwarding rules. They are defined as a JSON object. If you wish to leave this field empty, set it to `[]`. This allows the user to establish their own exception rules via the PBX Web Portal.
 * **blfs**: This field is used to specify the BLF (Busy Lamp Field) keys. It is also a JSON object. To leave it empty, set it to `[]`.
 * **interface**: This field is used to specify the network interface IP Address, which is used to generate the QR code. The client application will connect to BGMconnects using this IP address. It accepts the following values:
   * WEB\_DOMAIN: The client app will use the BGMconnects Web Domain as the outbound proxy server address.

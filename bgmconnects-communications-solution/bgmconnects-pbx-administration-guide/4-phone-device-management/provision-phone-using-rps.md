@@ -1,8 +1,8 @@
 # Provision Phone Using RPS
 
-When the PortSIP PBX is deployed in the cloud, IP phones can be auto-provisioned using **RPS** (Redirection and Provisioning Service).
+Since the PBX is deployed in the cloud, IP phones can be auto-provisioned using **RPS** (Redirection and Provisioning Service).
 
-PortSIP PBX supports RPS for the following IP phone vendors:
+BGMconnects supports RPS for the following IP phone vendors:
 
 * [Fanvil](https://www.fanvil.com)
 * [Yealink](https://www.yealink.com)
@@ -26,7 +26,7 @@ To provision a remote IP phone via RPS, follow the steps below.
 #### Add a New Phone
 
 1. **Open the Phones page**\
-   In the PortSIP PBX Web Portal, navigate to **Call Manager > Phones**.
+   In the PBX Web Portal, navigate to **Call Manager > Phones**.
 2. **Add the phone**\
    Click **Add Phone**.
 3. **Select the extension**\
@@ -59,7 +59,7 @@ To provision a remote IP phone via RPS, follow the steps below.
 <figure><img src="../../../.gitbook/assets/phone_provisioning_settings_1.png" alt=""><figcaption></figcaption></figure>
 
 10. **Save the configuration**\
-    Click **OK**. The PortSIP PBX saves the provisioning link to the IP phone’s **RPS**.
+    Click **OK**. The PBX saves the provisioning link to the IP phone’s **RPS**.
 
 ***
 
@@ -70,7 +70,7 @@ When the IP phone powers on or restarts:
 * The phone queries the **RPS server** using its **MAC address**
 * The RPS server returns the **provisioning URL**
 * The phone downloads the configuration file automatically
-* The phone applies the settings and registers with the **PortSIP PBX**
+* The phone applies the settings and registers with the **PBX**
 
 ***
 
@@ -78,8 +78,8 @@ When the IP phone powers on or restarts:
 
 After provisioning is complete:
 
-* The phone is **automatically registered** with the PortSIP PBX
-* The phone can be fully **managed from the PortSIP PBX Web Portal**
+* The phone is **automatically registered** with the PBX
+* The phone can be fully **managed from the PBX Web Portal**
 * You can view the registered phone under **Call Manager > Phones**, as shown in the screenshot below
 
 <figure><img src="../../../.gitbook/assets/phone_provision1.png" alt=""><figcaption></figcaption></figure>

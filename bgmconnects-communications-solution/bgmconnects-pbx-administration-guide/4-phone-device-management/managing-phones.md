@@ -1,11 +1,11 @@
 # Managing Phones
 
-PortSIP PBX provides a centralized and efficient way to monitor, manage, and secure IP phones and softphones across your network.
+BGMconnects provides a centralized and efficient way to monitor, manage, and secure IP phones and softphones across your network.
 
-The Call **Manager > Phones** menu in the PortSIP PBX Web Portal allows administrators to:
+The Call **Manager > Phones** menu in the PBX Web Portal allows administrators to:
 
 * View all phones on the network, including IP addresses and MAC addresses
-* View all PortSIP clients connected in softphone mode
+* View all BGMconnects clients connected in softphone mode
 * Check the firmware version currently running on each phone
 * Remotely reboot one or multiple phones
 * Re-provision phones to apply updated configurations
@@ -20,7 +20,7 @@ The Call **Manager > Phones** menu in the PortSIP PBX Web Portal allows administ
 
 ### Adding Phones
 
-You can add phones to PortSIP PBX using the following methods:
+You can add phones to the PBX using the following methods:
 
 * **Plug and Play (PnP)**\
   Simply connect the IP phone to the local LAN. The PBX will automatically detect and provision the device.

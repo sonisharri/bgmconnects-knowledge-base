@@ -16,7 +16,7 @@ After completing the **Configuration Wizard**, you can manage **BGMconnects** th
 
 To create a new tenant:
 
-1. Sign in to the **BGMconnects Web Portal** as a System Administrator.
+1. Sign in to the **PBX Web Portal** as a System Administrator.
 2. Navigate to **Tenants** from the left-hand menu.
 3. Click **Add**.
 
@@ -175,7 +175,7 @@ To delete a tenant:
 
 A **System Administrator** can manage tenants and their extensions directly.
 
-1. Sign in to the **BGMconnects Web Portal**.
+1. Sign in to the **PBX Web Portal**.
 2. Navigate to **Tenants**.
 3. Select the tenant and click **Manage**.
 

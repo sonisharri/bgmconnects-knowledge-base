@@ -1,6 +1,6 @@
 # Configuring Private RPS Account
 
-PortSIP PBX allows customers to configure their own **private Remote Provisioning Server (RPS)** accounts for automatic IP phone provisioning.\
+BGMconnects allows customers to configure their own **private Remote Provisioning Server (RPS)** accounts for automatic IP phone provisioning.\
 Using a private RPS simplifies device management and improves security by giving you direct control over IP phone provisioning credentials and workflows.
 
 ***
@@ -17,7 +17,7 @@ Using a private RPS simplifies device management and improves security by giving
 
 Open the **system.ini** file on your PBX server:
 
-* **Linux:** `/var/lib/portsip/pbx/system.ini`
+* **Linux:** `/var/lib/bgmconnects/pbx/system.ini`
 
 ***
 
@@ -97,12 +97,12 @@ After updating the configuration file, restart the provisioning service to apply
 2.  Navigate to the PortSIP directory:
 
     ```bash
-    cd /opt/portsip
+    cd /opt/bgmconnects
     ```
 3.  Restart the provisioning service:
 
     ```bash
-    sudo /bin/sh pbx_ctl.sh restart -s portsip.provision
+    sudo /bin/sh pbx_ctl.sh restart -s bgmconnects.provision
     ```
 
 

@@ -2,7 +2,7 @@
 
 ### Legacy IP Phone Support
 
-PortSIP PBX provides **legacy IP phone support** to simplify migration from an existing PBX system without requiring you to replace all deployed devices.
+BGMconnects provides **legacy IP phone support** to simplify migration from an existing PBX system without requiring you to replace all deployed devices.
 
 > **Important Recommendation**\
 > Legacy phone support is intended **only for migration purposes**.\
@@ -12,7 +12,7 @@ PortSIP PBX provides **legacy IP phone support** to simplify migration from an e
 
 ### Supported Legacy Phone Models and Firmware
 
-The following legacy Cisco IP phones have been tested with PortSIP PBX using the firmware versions listed below:
+The following legacy Cisco IP phones have been tested with BGMconnects using the firmware versions listed below:
 
 * **Cisco 7940** – SIP Firmware **8.5.4s**
 * **Cisco 7941** – SIP Firmware **8.5.4s**
@@ -20,7 +20,7 @@ The following legacy Cisco IP phones have been tested with PortSIP PBX using the
 * **Cisco 7961** – SIP Firmware **8.5.4s**
 
 > **Note**\
-> Other firmware versions _may_ work with PortSIP PBX, but they have not been officially tested.
+> Other firmware versions _may_ work with BGMconnects, but they have not been officially tested.
 
 ***
 
@@ -32,11 +32,11 @@ If the required firmware is not installed, manually upgrade the phone firmware b
 #### To update the firmware:
 
 1. Download the appropriate **Cisco SIP firmware package**.
-2.  Locate the **PortSIP PBX provisioning directory**.\
+2.  Locate the **PBX provisioning directory**.\
     By default, it is located at:
 
     ```
-    C:\ProgramData\PortSIP\pbx\provision\R2Xu8aVV20Jka
+    C:\ProgramData\BGMconnects\pbx\provision\R2Xu8aVV20Jka
     ```
 
     > `R2Xu8aVV20Jka` is a **randomly generated provisioning folder name** and may differ in your environment.
@@ -55,7 +55,7 @@ To allow the phones to download firmware and configuration files, you must confi
 
 Refer to the following guide for detailed instructions:
 
-* [Configure a TFTP server for PortSIP PBX](provision-phone-using-tftp.md)
+* [Configure a TFTP server for the PBX](provision-phone-using-tftp.md)
 
 ***
 
@@ -80,19 +80,19 @@ After the reboot completes, the phone is restored to **factory default settings*
 
 ***
 
-### Configure the Phone in PortSIP PBX
+### Configure the Phone in BGMconnects
 
-Follow the steps below to configure an IP phone in **PortSIP PBX**.
+Follow the steps below to configure an IP phone in the **PBX**.
 
 #### To configure the phone:
 
-1. Sign in to the PortSIP PBX Web Portal.
+1. Sign in to the PBX Web Portal.
 2. Navigate to **Call Manager > Phones**.
 3. Click **Add Phone**.
 4. From the **Extension** list, select the extension to which the IP phone will be assigned.
 5. Click **OK**.
 
-<figure><img src="../../../.gitbook/assets/portsip_pbx_add_phone1.png" alt="" width="357"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects_pbx_add_phone1.png" alt="" width="357"><figcaption></figcaption></figure>
 
 ***
 
@@ -102,7 +102,7 @@ Follow the steps below to configure an IP phone in **PortSIP PBX**.
 7. Enter the **MAC address** of the IP phone.
 8. Click **OK**.
 
-<figure><img src="../../../.gitbook/assets/portsip_pbx_add_phone2.png" alt="" width="343"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects_pbx_add_phone2.png" alt="" width="343"><figcaption></figcaption></figure>
 
 ***
 
@@ -123,7 +123,7 @@ Follow the steps below to configure an IP phone in **PortSIP PBX**.
 12. Open the **Phone Provisioning** tab.
 13. Copy the **Provisioning Link**.
 
-<figure><img src="../../../.gitbook/assets/portsip_pbx_provsion_cisco79xx.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects_pbx_provsion_cisco79xx.png" alt=""><figcaption></figcaption></figure>
 
 
 

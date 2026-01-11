@@ -39,10 +39,10 @@ Download the latest supported firmware version and install it using the steps be
 
 ***
 
-### Configure the PBX in PortSIP Web Portal
+### Configure the PBX in the Web Portal
 
 1. Obtain the **MAC address** of the device.
-2. In **PortSIP Tenant Management**, navigate to **Call Manager > DECT Phones**.
+2. In **BGMconnects Tenant Management**, navigate to **Call Manager > DECT Phones**.
 3. Click **Add**.
 4. Select the appropriate **model**, enter the **MAC address**, and click **OK**.
 

@@ -1,8 +1,8 @@
 # PnP Auto Provisioning IP Phone Multicast Debug
 
-To enable **PortSIP PBX** to answer PnP provisioning requests, **all** of the following requirements must be met:
+To enable the **PBX** to answer PnP provisioning requests, **all** of the following requirements must be met:
 
-* The **PortSIP PBX must be able to join the multicast group**
+* The **PBX must be able to join the multicast group**
 * The **IP phone and PBX must be on the same local LAN subnet**
 * The **network switch/router must support multicast**
 * The **IP phone must support PnP provisioning**
@@ -12,9 +12,9 @@ To enable **PortSIP PBX** to answer PnP provisioning requests, **all** of the fo
 
 ***
 
-### PortSIP PBX Must Be Able to Join the Multicast Group
+### The PBX Must Be Able to Join the Multicast Group
 
-Depending on the **network interface order**, PortSIP PBX may not be able to listen for multicast events.
+Depending on the **network interface order**, the PBX may not be able to listen for multicast events.
 
 > ❗ **Important**\
 > **Unused LAN adapters, Wi-Fi, and Bluetooth interfaces must be disabled.**\
@@ -125,7 +125,7 @@ For successful PnP provisioning:
 * The network must **permit multicast traffic**
 * IP phones must support **PnP and run compatible firmware**
 
-When these conditions are met, IP phones will be discovered automatically and can be provisioned quickly through the **PortSIP PBX Web Portal**.
+When these conditions are met, IP phones will be discovered automatically and can be provisioned quickly through the **PBX Web Portal**.
 
 
 

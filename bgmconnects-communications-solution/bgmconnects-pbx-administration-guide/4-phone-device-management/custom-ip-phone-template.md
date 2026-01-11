@@ -1,6 +1,6 @@
 # Customing IP Phone Template
 
-PortSIP PBX allows you to customize IP phone provisioning templates, enabling you to deliver a branded user experience and apply your own corporate identity to supported IP phones.
+BGMconnects allows you to customize IP phone provisioning templates, enabling you to deliver a branded user experience and apply your own corporate identity to supported IP phones.
 
 By creating custom templates, service providers and enterprises can present IP phones under their own brand while maintaining full provisioning and management functionality.
 
@@ -8,7 +8,7 @@ By creating custom templates, service providers and enterprises can present IP p
 
 ### Copying a Base Phone Template
 
-1. Sign in to the PortSIP PBX Web Portal as the System Administrator.
+1. Sign in to the PBX Web Portal as the System Administrator.
 2. Navigate to **Advanced > Phone Templates**.
 3. From the **Select a Template** drop-down list, choose the **default template** you want to copy.
 4. Verify that the phone models you intend to customize are included in the selected template.
@@ -27,7 +27,7 @@ After copying the template, you can edit the following sections to apply your br
 #### Template Name
 
 * Update the `<name>` section to reflect your brand\
-  **Example:** `PortSIP IP Phone`
+  **Example:** `BGMconnects IP Phone`
 
 ***
 
@@ -38,8 +38,8 @@ After copying the template, you can edit the following sections to apply your br
 
 **Example changes:**
 
-* `Fanvil V62` → `PortSIP V62`
-* `Fanvil V65` → `PortSIP V65`
+* `Fanvil V62` → `BGMconnects V62`
+* `Fanvil V65` → `BGMconnects V65`
 
 ***
 
@@ -58,7 +58,7 @@ Most templates include a section similar to the following:
   <device>
     <type>phone</type>
     <!-- Friendly Name -->
-    <field name="Name">PortSIP Phone</field>
+    <field name="Name">BGMconnects Phone</field>
 ```
 
 * Replace the **friendly name** with your branded phone name.
@@ -142,7 +142,7 @@ Within the template file:
 * Avoid **duplicate provisioning parameters** for the same device.
 * Always refer to the **vendor’s official provisioning guide**.
 * If a value must be reverted to the device default, **explicitly set it back**—do not simply delete the parameter.
-* When unsure, contact the **IP phone vendor** or **PortSIP support** for guidance.
+* When unsure, contact the **IP phone vendor** or **BGMconnects support** for guidance.
 
 ***
 

@@ -30,7 +30,7 @@ BGMconnects is more than a PBX—it is a **complete communications ecosystem**, 
 * **Native CRM integrations** to unify communications and customer data
 <!--
 This open and extensible architecture gives service providers full control to differentiate, customize, and innovate without vendor lock-in.-->
-<!--
+
 ***
 
 ### Purpose-Built for Service Providers
@@ -43,7 +43,6 @@ Whether you are:
 * A contact center operator building CCaaS offerings
 
 BGMconnects provides a **carrier-grade, multi-tenant architecture** designed for performance, scalability, and reliability. It enables you to launch quickly, operate efficiently, and scale confidently as your customer base grows.
--->
 
 ***
 

@@ -103,7 +103,7 @@ To support legacy phones while maintaining deployment flexibility, BGMconnects p
 
 #### How to Disable Secure Folder Isolation (Not Recommended)
 
-1. Sign in to the BGMconnects Web Portal
+1. Sign in to the PBX Web Portal
 2. Navigate to **Advanced > Settings**
 3. Open the **General** page
 4. In the **Custom Options** field, add the following JSON string:

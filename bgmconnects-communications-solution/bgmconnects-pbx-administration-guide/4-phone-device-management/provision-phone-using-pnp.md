@@ -4,8 +4,8 @@
 
 PnP provisioning requires that:
 
-* The **PortSIP PBX** is running on the **default SIP port (5060)**.
-* The **IP phones** are located on the **same local LAN subnet** as the PortSIP PBX.
+* The **PBX** is running on the **default SIP port (5060)**.
+* The **IP phones** are located on the **same local LAN subnet** as the PBX.
 
 <figure><img src="../../../.gitbook/assets/phone_pnp.png" alt=""><figcaption></figcaption></figure>
 
@@ -18,7 +18,7 @@ To provision IP phones automatically using **Plug and Play (PnP)**, follow these
 1. **Connect the phone**\
    Plug the IP phone into the network.
 2. **Phone discovery**\
-   The phone sends a **multicast message** on the local LAN, which is detected by the PortSIP PBX.
+   The phone sends a **multicast message** on the local LAN, which is detected by the PBX.
 3. **Phone detection in the Web Portal**\
    The phone appears as a new device under **Call Manager > Phones** in the Web Portal.
 
@@ -67,9 +67,9 @@ After the configuration is saved:
 
 * The PBX generates a **provisioning URL** for the phone.
 * The phone downloads the **configuration file** using the provisioning link.
-* The phone applies the settings and **automatically registers** with the **PortSIP PBX**.
+* The phone applies the settings and **automatically registers** with the **PBX**.
 
-Once provisioning is complete, the phone is fully **managed through the PortSIP PBX Web Portal**.\
+Once provisioning is complete, the phone is fully **managed through the PBX Web Portal**.\
 You can view the registered phone under **Call Manager > Phones**, as shown in the screenshot below.
 
 <figure><img src="../../../.gitbook/assets/phone_provision1.png" alt=""><figcaption></figcaption></figure>
@@ -78,12 +78,12 @@ You can view the registered phone under **Call Manager > Phones**, as shown in t
 
 ### Provisioning Phones Using the Provisioning Link Manually
 
-Remote IP phones that are not located on the same LAN as the PortSIP PBX—and therefore cannot broadcast SIP multicast messages—must be provisioned manually using a provisioning link.
+Remote IP phones that are not located on the same LAN as the PBX—and therefore cannot broadcast SIP multicast messages—must be provisioned manually using a provisioning link.
 
 To provision a remote phone manually, follow these steps:
 
 1. **Add a new phone**
-   * In the PortSIP PBX Web Portal, navigate to **Call Manager > Phones**.
+   * In the PBX Web Portal, navigate to **Call Manager > Phones**.
    * Click **Add Phone**.
 2. **Select the extension**
    * Choose the extension that will be associated with the phone.
@@ -126,9 +126,9 @@ After the configuration is saved:
 
 * The PBX generates a **provisioning URL** for the phone.
 * The phone downloads the **configuration file** using the provisioning link.
-* The phone applies the settings and **automatically registers** with the **PortSIP PBX**.
+* The phone applies the settings and **automatically registers** with the **PBX**.
 
-Once provisioning is complete, the phone is fully **managed through the PortSIP PBX Web Portal**.\
+Once provisioning is complete, the phone is fully **managed through the PBX Web Portal**.\
 You can view the registered phone under **Call Manager > Phones**, as shown in the screenshot below.
 
 <figure><img src="../../../.gitbook/assets/phone_provision1.png" alt=""><figcaption></figcaption></figure>

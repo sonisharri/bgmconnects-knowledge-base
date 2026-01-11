@@ -1,11 +1,8 @@
 # The Advantages of BGMconnects vs. Other PBXs
-<!--
-May need to overhaul this section to remove references to service providers
--->
 
 The communications technology landscape is evolving at an unprecedented pace. Cloud-based unified communication platforms have emerged as the go-to choice for businesses of all sizes, replacing aging traditional phone systems that struggle to support modern needs. Today’s organizations require solutions that are not only efficient and reliable, but also flexible, scalable, and capable of supporting remote and hybrid work models.
 
-As <!--service providers and -->IT leaders evaluate business communications platforms, one question becomes increasingly important:
+As service providers and IT leaders evaluate business communications platforms, one question becomes increasingly important:
 
 **When comparing BGMconnects with other PBX solutions, which platform delivers the most value, performance, and future-ready architecture?**
 

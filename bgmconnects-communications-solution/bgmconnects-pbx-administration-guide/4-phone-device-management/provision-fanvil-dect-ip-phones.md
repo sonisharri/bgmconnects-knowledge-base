@@ -33,7 +33,7 @@ You can also perform a factory reset from the web interface:
 
 ### Upgrade the DECT Base and Handsets to the Latest Firmware
 
-Before provisioning with PortSIP PBX, ensure that both the **DECT base station** and **handsets** are running the **latest supported firmware**.
+Before provisioning with the PBX, ensure that both the **DECT base station** and **handsets** are running the **latest supported firmware**.
 
 <figure><img src="../../../.gitbook/assets/fanvil-dectp-1.png" alt=""><figcaption></figcaption></figure>
 
@@ -80,13 +80,13 @@ Handset firmware can be upgraded using the **same procedure**:
 
 ***
 
-### Add a DECT Phone in PortSIP PBX
+### Add a DECT Phone in the PBX
 
-Follow the steps below to add a **DECT phone** to **PortSIP PBX**.
+Follow the steps below to add a **DECT phone** to the **PBX**.
 
 #### To add a DECT phone:
 
-1. Sign in to the PortSIP PBX Web Portal.
+1. Sign in to the PBX Web Portal.
 2. Navigate to **Call Manager > DECT Phones**.
 3. Click **Add**.\
    The **Add DECT Phone** window appears.
@@ -117,25 +117,25 @@ After adding the DECT phone, you need to assign users to the handsets.
 
 ***
 
-### Auto-Provision Handsets via RPS
+### Auto-Provision Handsets via RPS <!-- Maybe unecessary; everything is cloud -->
 
-If your PortSIP PBX is deployed in the **cloud** and you enabled **Save to RPS** when configuring the DECT phone in the previous steps, handset provisioning is performed automatically.
+If your PBX is deployed in the **cloud** and you enabled **Save to RPS** when configuring the DECT phone in the previous steps, handset provisioning is performed automatically.
 
 With **Save to RPS** enabled:
 
 * The DECT base station downloads its **configuration file** from the vendor’s **Remote Provisioning Server (RPS)**.
 * The base station automatically provisions all associated **handsets**.
-* All handsets registered to this DECT base station are **automatically registered with PortSIP PBX**, without manual configuration.
+* All handsets registered to this DECT base station are **automatically registered with the PBX**, without manual configuration.
 
 ***
 
 ### Manually Provision Handsets
 
-If your PortSIP PBX is deployed **on-premises without Internet access**, or if you **disabled the Save to RPS option**, you must provision the DECT handsets manually.
+If your PBX is deployed **on-premises without Internet access**, or if you **disabled the Save to RPS option**, you must provision the DECT handsets manually.
 
 #### To manually provision handsets:
 
-1. Sign in to the PortSIP PBX Web Portal.
+1. Sign in to the PBX Web Portal.
 2. Navigate to **Call Manager > DECT Phones**.
 3. **Double-click** the DECT phone you want to provision.
 4. **Copy the provisioning URL**.

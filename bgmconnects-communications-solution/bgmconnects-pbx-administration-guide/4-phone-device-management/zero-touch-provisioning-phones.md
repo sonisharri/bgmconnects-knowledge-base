@@ -4,12 +4,12 @@
 
 **Zero Touch Provisioning (ZTP)** enables IP phones and devices to **self-configure out of the box**, eliminating the need for manual setup.
 
-When IP phones are shipped directly from the factory, each device has a **unique MAC address**. **PortSIP PBX** uses this MAC address to associate the phone with its **configuration file URL**, which is stored on the **vendor’s Remote Provisioning Server (RPS)**.
+When IP phones are shipped directly from the factory, each device has a **unique MAC address**. The **PBX** uses this MAC address to associate the phone with its **configuration file URL**, which is stored on the **vendor’s Remote Provisioning Server (RPS)**.
 
 Once the phone is plugged in and connected to the internet, it automatically:
 
 * Retrieves the configuration URL from the vendor’s RPS server
-* Connects to PortSIP PBX
+* Connects to the PBX
 * Downloads its configuration
 * Registers to the PBX without any user interaction
 
@@ -29,7 +29,7 @@ Once the phone is plugged in and connected to the internet, it automatically:
 
 * The service provider creates user extension accounts.
 * Phone MAC addresses are associated with users by **importing a CSV file**.
-* PortSIP PBX automatically writes each phone’s **configuration URL** to the vendor’s **RPS server**.
+* The PBX automatically writes each phone’s **configuration URL** to the vendor’s **RPS server**.
 
 ***
 
@@ -38,7 +38,7 @@ Once the phone is plugged in and connected to the internet, it automatically:
 * When users receive and connect their IP phones:
   * The phone contacts the vendor’s RPS server
   * Retrieves its configuration file URL
-  * Downloads the configuration from PortSIP PBX
+  * Downloads the configuration from the PBX
   * Registers automatically
 
 With ZTP, large-scale IP phone deployments become **fast, reliable, and error-free**.
@@ -66,7 +66,7 @@ In this example, we demonstrate **Zero Touch Provisioning (ZTP)** using **five I
 
 #### Create a User with Phone Provisioning Information
 
-1. Sign in to the **PortSIP PBX Web Portal**.
+1. Sign in to the **PBX Web Portal**.
 2. Navigate to **Call Manager > Users** and click **Add**.
 3. Enter:
    * Username
@@ -160,7 +160,7 @@ For the **second user**, update the following fields:
 
 After a successful import:
 
-* PortSIP PBX automatically writes each IP phone’s **configuration URL** to the vendor’s **RPS server**
+* The PBX automatically writes each IP phone’s **configuration URL** to the vendor’s **RPS server**
 * No manual interaction with the RPS platform is required
 
 ***
@@ -171,7 +171,7 @@ Once users receive their IP phones and connect them to the internet:
 
 * Phones contact the vendor’s RPS server
 * Retrieve their configuration file URLs
-* Download the configuration from PortSIP PBX
+* Download the configuration from the PBX
 * Register automatically to the system
 
 This seamless process ensures **fast, consistent, and large-scale deployments** with minimal operational effort.

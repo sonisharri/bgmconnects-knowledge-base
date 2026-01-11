@@ -44,7 +44,7 @@ After the restart, the handset is successfully reset to factory defaults.
 
 ### Upgrade the Base Station Firmware
 
-Before provisioning your SNOM DECT system with PortSIP PBX, ensure the base station is running the **latest required firmware**.
+Before provisioning your SNOM DECT system with PBX, ensure the base station is running the **latest required firmware**.
 
 #### Check and Update Firmware
 
@@ -92,7 +92,7 @@ Before provisioning your SNOM DECT system with PortSIP PBX, ensure the base stat
 If you encounter any issues during the firmware upgrade:
 
 * Refer to the **SNOM user guide troubleshooting section**, or
-* Contact **SNOM technical support** or your **PortSIP support representative** for assistance.
+* Contact **SNOM technical support** or your **BGMconnects support representative** for assistance.
 
 Here also have the SNOM official guides:
 
@@ -101,13 +101,13 @@ Here also have the SNOM official guides:
 
 ***
 
-### Add a DECT Phone in PortSIP PBX
+### Add a DECT Phone in BGMconnects
 
-Follow the steps below to add an **SNOM DECT phone** to the **PortSIP PBX**.
+Follow the steps below to add an **SNOM DECT phone** to the **PBX**.
 
 #### To add a DECT phone:
 
-1. Sign in to the PortSIP PBX Web Portal.
+1. Sign in to the PBX Web Portal.
 2. Navigate to **Call Manager > DECT Phones**.
 3. Click **Add**.\
    The **Add DECT Phone** window appears.
@@ -154,11 +154,11 @@ If you need to remove a handset restriction for a user, you can clear the assign
 
 ### Enter the Provisioning URL in the DECT Web UI
 
-After configuring the DECT phone in PortSIP PBX, you must enter the **provisioning URL** in the DECT base station’s web interface to provision the handsets.
+After configuring the DECT phone in the PBX, you must enter the **provisioning URL** in the DECT base station’s web interface to provision the handsets.
 
-#### Step 1: Copy the Provisioning URL from PortSIP PBX
+#### Step 1: Copy the Provisioning URL from the PBX
 
-1. Sign in to the PortSIP PBX Web Portal.
+1. Sign in to the PBX Web Portal.
 2. Navigate to **Call Manager > DECT Phones**.
 3. Double-click the desired **DECT phone** to open its settings.
 4. Copy the **Provisioning URL**.
@@ -207,7 +207,7 @@ To upgrade a SNOM handset’s firmware, the handset must already be **paired wit
 This procedure can be performed **only after**:
 
 * The DECT base station has been upgraded to the required firmware
-* The base station has been provisioned by PortSIP PBX
+* The base station has been provisioned by the PBX
 * The handsets have been successfully registered (paired)
 
 > ❗**Important**\
@@ -228,7 +228,7 @@ This procedure can be performed **only after**:
 1. Open a web browser and enter the **IP address of the DECT base station**.
 2. Log in to the web interface:
    * **Username:** `admin`
-   * **Password:** The password you configured when [adding the DECT phone to PortSIP PBX](provision-snom-dect-ip-phones.md#add-a-dect-phone-in-portsip-pbx)
+   * **Password:** The password you configured when [adding the DECT phone to the PBX](provision-snom-dect-ip-phones.md#add-a-dect-phone-in-bgmconnects)
 3. Navigate to the **Firmware Update** tab.
 4. In the **Firmware update server address** field, enter: [http://dect.snom.com](http://dect.snom.com/)
 5. Verify that the handset model appears in the **Type** field\

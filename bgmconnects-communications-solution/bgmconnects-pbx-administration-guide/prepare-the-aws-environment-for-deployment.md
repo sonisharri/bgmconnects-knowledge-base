@@ -1,4 +1,4 @@
-# Prepare the AWS Environment for Deployment
+# Prepare the AWS Environment for Deployment (RESERVED)
 
 If you plan to deploy PortSIP PBX on Amazon Web Services (AWS), follow the steps below to prepare the required EC2 instance, Elastic IP, and security groups.
 

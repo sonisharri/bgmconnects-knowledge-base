@@ -10,7 +10,7 @@ Configurable options include password length, complexity requirements, and two-f
 
 To configure the password policy:
 
-1. Sign in to the **BGMconnects Web Portal**.
+1. Sign in to the **PBX Web Portal**.
 2. Navigate to **Company** from the left-hand menu.
 3. Select the **Password Policy** tab.
 
@@ -49,9 +49,7 @@ Because 2FA relies on email delivery, it is **critical** that the **Mail Server 
 
 #### Verification Warning
 
-After enabling 2FA and clicking **OK** to save the configuration, the BGMconnects Web Portal will display a **warning message** prompting you to verify the mail server settings. This ensures administrators confirm email delivery before enforcing two-factor authentication for users.
+After enabling 2FA and clicking **OK** to save the configuration, the PBX Web Portal will display a **warning message** prompting you to verify the mail server settings. This ensures administrators confirm email delivery before enforcing two-factor authentication for users.
 
 <figure><img src="../../../.gitbook/assets/tenant-security-2.png" alt=""><figcaption></figcaption></figure>
-
-
 
