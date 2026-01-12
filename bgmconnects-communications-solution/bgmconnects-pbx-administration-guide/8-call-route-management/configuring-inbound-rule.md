@@ -10,7 +10,7 @@ You must configure at least one trunk before adding inbound rules.
 
 To add an inbound rule:
 
-1. Sign in to the PortSIP PBX Web Portal using **System Admin** credentials. Navigate to **Tenants**, select a tenant, and click the **Manage** button to configure the inbound rule for that tenant. Alternatively, a user with **Tenant Admin** permissions can sign in to manage the tenant.
+1. Sign in to the PBX Web Portal using **System Admin** credentials. Navigate to **Tenants**, select a tenant, and click the **Manage** button to configure the inbound rule for that tenant. Alternatively, a user with **Tenant Admin** permissions can sign in to manage the tenant.
 2. From the Web Portal, go to **Call Manager > Inbound Rules**, and click the **Add** button.
 3. Enter a friendly name for the rule.
 4.  **Caller Number Mask**:\
@@ -27,7 +27,7 @@ To add an inbound rule:
 
     The caller number mask field can be left empty in most cases, as it is not always necessary to set.
 5. In the **Trunk** box, select the SIP trunk you wish to associate with this DID and inbound rule. Only one SIP trunk can be assigned to an inbound rule.
-6.  In the **DID/DDI Number Mask** field, enter the DID number as it appears in the SIP **To** header (the main or first DID number assigned by your trunk provider). PortSIP PBX will match this number with the **To** header in the SIP INVITE message sent to the PBX by the trunk.
+6.  In the **DID/DDI Number Mask** field, enter the DID number as it appears in the SIP **To** header (the main or first DID number assigned by your trunk provider). The PBX will match this number with the **To** header in the SIP INVITE message sent to the PBX by the trunk.
 
     The DID number can be:
 
@@ -48,7 +48,7 @@ Alternatively, if only the **DID Number Mask** is set, it means that when an inc
 
 7. Play recording notifications: When this option is enabled, any inbound calls routed to the PBX through this rule will trigger the PBX to play a voice prompt, notifying the caller that the call may be recorded.
 
-<figure><img src="../../../.gitbook/assets/portsip-pbx-inbound-rule-recording.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects-pbx-inbound-rule-recording.png" alt=""><figcaption></figcaption></figure>
 
 8. Specify how you wish to forward incoming calls according to this inbound rule:
 
@@ -106,7 +106,7 @@ When a caller dials **00326012345670**:
 
 For large corporations with hundreds or thousands of employees, manually creating inbound rules to route each DID number to a corresponding extension can be a daunting task. For example, assigning 1,000 DID numbers to 1,000 employees would traditionally require creating 1,000 inbound rules.
 
-PortSIP PBX simplifies this process with a feature that allows you to accomplish this with just **one inbound rule**.
+The PBX simplifies this process with a feature that allows you to accomplish this with just **one inbound rule**.
 
 **Example:**
 
@@ -117,7 +117,7 @@ To configure the inbound rule:
 1. Set the **DID Number Mask** field to **12012345001-12012346000**.
 2. Configure the **Call Route Destination** field to **1001-2000**.
 
-With this setup, PortSIP PBX will route calls as follows:
+With this setup, the PBX will route calls as follows:
 
 * If someone dials **0012012345001**, the call will be routed to extension **1001**.
 * If someone dials **0012012345002**, the call will be routed to extension **1002**.
@@ -143,7 +143,7 @@ You can also configure the DID number as a single number, rather than a range, f
 
 ## Advanced Routing
 
-In addition to office hours and holidays, PortSIP PBX allows you to route inbound calls based on specific criteria such as year, month, day, weekday, and time. This enables more granular control over call routing, ensuring that calls are directed to the appropriate destinations based on various temporal factors.
+In addition to office hours and holidays, the PBX allows you to route inbound calls based on specific criteria such as year, month, day, weekday, and time. This enables more granular control over call routing, ensuring that calls are directed to the appropriate destinations based on various temporal factors.
 
 For more detailed information, please refer to the topic [**Advanced Routing for Inbound Rules**](../office-hours-and-holiday-schedule/routing-calls-based-on-office-hours-and-holidays.md#advanced-routing-for-inbound-rule).
 

@@ -2,7 +2,7 @@
 
 Ring groups are used to ring specific groups of users in a pre-configured pattern. Calls routed to a Ring Group will follow the configured ring pattern for that group.
 
-PortSIP PBX allows you to create a ring group with the below settings.&#x20;
+The PBX allows you to create a ring group with the below settings.&#x20;
 
 * Ring group profile information.&#x20;
 * User assignments.&#x20;
@@ -12,7 +12,7 @@ PortSIP PBX allows you to create a ring group with the below settings.&#x20;
 
 To add a Ring Group:
 
-* In the PortSIP PBX Web Portal, select **Call Manager** > **Advanced Services** > **Ring Groups** and click the **Add** button
+* In the PBX Web Portal, select **Call Manager** > **Advanced Services** > **Ring Groups** and click the **Add** button
 * Now enter the ring group fields:
   * **Ring Group Number** – This number identifies the ring group from other extensions. Specify a new one as needed. Do not specify an existing extension number
   * **Ring Group Name** – Enter a friendly name for the ring group

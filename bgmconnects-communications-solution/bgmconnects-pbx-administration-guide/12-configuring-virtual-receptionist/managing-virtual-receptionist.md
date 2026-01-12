@@ -21,7 +21,7 @@ rather than:
 This approach allows callers to listen for their desired option first and then register the digit to press, resulting in a better caller experience.
 
 {% hint style="info" %}
-For the prompt file format, please refer to [What's the file format required for the PortSIP PBX prompt files?](../../faq/what-file-format-is-required-for-portsip-pbx-prompt.md)
+For the prompt file format, please refer to [What's the file format required for the PBX prompt files?](../../faq/what-file-format-is-required-for-bgmconnects-pbx-prompt.md)
 {% endhint %}
 
 ***
@@ -290,7 +290,7 @@ This field is **mandatory** and is used to identify the action.
 
 **Type**
 
-Specifies how the Action URL is triggered. PortSIP PBX supports the following trigger types:
+Specifies how the Action URL is triggered. The PBX supports the following trigger types:
 
 * **DTMF** – Triggered by user-entered DTMF digits
 * **Caller Number** – Triggered by matching the caller’s number
@@ -381,7 +381,7 @@ key1:value1&key2:value2
 **Example:**
 
 ```http
-Authorization:Bearer token123&X-App-ID:portsip
+Authorization:Bearer token123&X-App-ID:bgmconnects
 ```
 
 ***
@@ -399,7 +399,7 @@ The Action URL feature enables the Virtual Receptionist to integrate with **exte
 
 ### HTTP Request Message
 
-PortSIP defines the following parameters for constructing the **HTTP request message** sent to a WebHook.\
+The PBX defines the following parameters for constructing the **HTTP request message** sent to a WebHook.\
 The request payload is formatted in **JSON** (for POST requests) or as URL query parameters (for GET requests).
 
 #### Parameters
@@ -457,7 +457,7 @@ If **POST** is selected as the HTTP method, the Virtual Receptionist sends the r
 
 ### HTTP Response Message
 
-PortSIP PBX defines the following **HTTP response format** for WebHook requests sent by the **Virtual Receptionist**.\
+The PBX defines the following **HTTP response format** for WebHook requests sent by the **Virtual Receptionist**.\
 The response is expected in **JSON format** and determines how the Virtual Receptionist should handle the call.
 
 #### Response Parameters

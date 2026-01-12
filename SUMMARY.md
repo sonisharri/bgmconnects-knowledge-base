@@ -53,7 +53,7 @@
   * [5 Trunk Management](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/7-trunk-management/README.md)
     * [Configuring SIP Trunk](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/7-trunk-management/configuring-sip-trunk.md)
     * [Handle Outbound Calls Through SIP Trunk](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/7-trunk-management/handle-outbound-calls-through-sip-trunk.md)
-  * [8 Call Route Management](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/8-call-route-management/README.md)
+  * [6 Call Route Management](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/8-call-route-management/README.md)
     * [Configuring Inbound Rule](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/8-call-route-management/configuring-inbound-rule.md)
     * [Configuring Outbound Rule](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/8-call-route-management/configuring-outbound-rule.md)
     <!-- RESERVED:
@@ -70,11 +70,11 @@
     * [Configure an SBC for Multiple Tenants](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/10-configuring-sbc-for-ms-teams/configure-an-sbc-for-multiple-tenants.md)
   * [11 Deploy the SBC Cluster](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/11-deploy-the-sbc-cluster.md)
   -->
-  * [12 Configuring Virtual Receptionist](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/12-configuring-virtual-receptionist/README.md)
+  * [7 Configuring Virtual Receptionist](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/12-configuring-virtual-receptionist/README.md)
     * [Managing Virtual Receptionist](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/12-configuring-virtual-receptionist/managing-virtual-receptionist.md)
     * [Visual IVR Editor Guide](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/12-configuring-virtual-receptionist/visual-ivr-editor-guide.md)
     * [Direct Inward System Access (DISA)](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/12-configuring-virtual-receptionist/direct-inward-system-access-disa.md)
-  * [13 Configuring Ring Group](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/13-configuring-ring-group.md)
+  * [8 Configuring Ring Group](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/13-configuring-ring-group.md)
   * [14 Call Parking](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/14-call-parking/README.md)
     * [BGMconnects Call Parking Feature](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/14-call-parking/bgmconnects-call-parking-feature.md)
     * [Using Call Parking Feature](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/14-call-parking/using-call-parking-feature.md)

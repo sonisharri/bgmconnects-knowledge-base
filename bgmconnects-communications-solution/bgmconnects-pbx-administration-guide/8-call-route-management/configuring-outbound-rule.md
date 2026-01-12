@@ -6,7 +6,7 @@ An outbound rule determines which trunk is used for outbound calls. The rule is 
 
 To add an outbound rule:
 
-1. From the PortSIP PBX Web Portal, navigate to **Call Manager > Outbound Rules** and click the **Add** button. Enter a name for the new rule.
+1. From the PBX Web Portal, navigate to **Call Manager > Outbound Rules** and click the **Add** button. Enter a name for the new rule.
 2. **Priority**: Set the priority for the outbound rule. If a call meets multiple rules, a lower number indicates a higher priority. If multiple rules have the same priority, any one of these rules may be selected.
 3. **Routing Strategy**: Select how the PBX will route calls through trunks:
    * **Prioritized**: The PBX will use the trunks in the configured order. If the first route fails, the PBX will try the next route.
@@ -26,7 +26,7 @@ To add an outbound rule:
 
 ## **Office Hours for Outbound Rules**
 
-PortSIP PBX allows the **Tenant Admin** to specify office hours and holidays for outbound rules. If an outbound call is made outside the defined office hours or on a holiday, the outbound rule will be blocked by the PBX, preventing the call from being routed.
+The PBX allows the **Tenant Admin** to specify office hours and holidays for outbound rules. If an outbound call is made outside the defined office hours or on a holiday, the outbound rule will be blocked by the PBX, preventing the call from being routed.
 
 * On the **Office Hours** tab, you can configure the office hours for the outbound rule. The PBX will then determine whether to route outgoing calls based on the current time.
   * If the current time falls outside the specified office hours, the call will fail even if the outbound rule matches successfully.

@@ -1,14 +1,14 @@
 # Direct Inward System Access (DISA)
 
-DISA is commonly known as Direct Inward System Access. It’s a feature offered by the PortSIP PBX that gives the user the ability to call from the outside using his cell phone, or landline… and dial out via the SIP trunk or PSTN trunk connected to the PortSIP PBX as it is an internal extension.&#x20;
+DISA is commonly known as Direct Inward System Access. It’s a feature offered by the PBX that gives the user the ability to call from the outside using his cell phone, or landline… and dial out via the SIP trunk or PSTN trunk connected to the PBX as it is an internal extension.&#x20;
 
-In many scenarios where the user needs to access PortSIP PBX resources to perform calls for instance to other extensions or external calls via Trunks but doesn’t have access to his extension. In such cases, if DISA is configured on the PortSIP PBX, the user can call to the PortSIP PBX from any PSTN number, Mobile, or payphone, and act as an internal extension in a secure way using the password.
+In many scenarios where the user needs to access the PBX resources to perform calls for instance to other extensions or external calls via Trunks but doesn’t have access to his extension. In such cases, if DISA is configured on the PBX, the user can call to the PBX from any PSTN number, Mobile, or payphone, and act as an internal extension in a secure way using the password.
 
-&#x20;After successful DISA configuration, when users call into PortSIP PBX and reach DISA, they will be required to enter a password.
+&#x20;After successful DISA configuration, when users call into the PBX and reach DISA, they will be required to enter a password.
 
 ## Create a New DISA
 
-To configure DISA on the PortSIP PBX, please follow these steps:
+To configure DISA on the PBX, please follow these steps:
 
 1. Sign in to the PBX web portal as the tenant admin.&#x20;
 2. Select the menu **Advanced Services > Virtual Receptionist**.&#x20;

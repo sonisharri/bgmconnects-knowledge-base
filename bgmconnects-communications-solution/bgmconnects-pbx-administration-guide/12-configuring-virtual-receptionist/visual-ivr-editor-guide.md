@@ -2,11 +2,11 @@
 
 This article provides information for Tenant Administrators on how to use Visual IVR Editor.
 
-The Visual IVR Editor lets Tenant Administrators configure the Multi-level IVR using an easy-to-use graphical interface. This feature helps Tenant Administrators to add IVR menus and assign them to extensions with just a few clicks. It allows Tenant Administrators to edit and update an existing IVR menu. Once the configuration has been saved, PortSIP PBX will automatically verify the settings and display any missing information.&#x20;
+The Visual IVR Editor lets Tenant Administrators configure the Multi-level IVR using an easy-to-use graphical interface. This feature helps Tenant Administrators to add IVR menus and assign them to extensions with just a few clicks. It allows Tenant Administrators to edit and update an existing IVR menu. Once the configuration has been saved, the PBX will automatically verify the settings and display any missing information.&#x20;
 
 Tenant Administrators can log in the tenant to web portal and access the Visual IVR Editor by going to **Advanced Services > Virtual Receptionsit > IVR Editor** tab. Below is the  Visual IVR Editor.
 
-<figure><img src="../../../.gitbook/assets/portsip_ivr_editor.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects_ivr_editor.png" alt=""><figcaption></figcaption></figure>
 
 ## Create a new IVR menu
 
