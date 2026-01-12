@@ -36,8 +36,8 @@ Within the **Extension** tab of a user’s settings, there are two QR code confi
 
 The BGMconnects app makes logging in effortless by using a QR code. On the BGMconnects login page, tap the QR code icon, then scan the QR code provided by the PBX. The app will log in automatically.
 
-<figure><img src="../../.gitbook/assets/bgmconnects_one_mobile_login_1.png" alt="" width="563"><figcaption></figcaption></figure>
-
+<!--<figure><img src="../../.gitbook/assets/bgmconnects_one_mobile_login_1.png" alt="" width="563"><figcaption></figcaption></figure>
+-->
 ***
 
 ### Logging into the BGMconnects app via SSO
@@ -57,21 +57,21 @@ Once you have configured the [**Microsoft 365 integration**](../../bgmconnects-c
    * On the login page, enter your tenant’s **SIP domain** and the **PBX IP address** or **hostname/domain**.
    * Click the **Next** button to proceed.
 
-<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-3.png" alt="" width="375"><figcaption></figcaption></figure>
-
+<!--<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-3.png" alt="" width="375"><figcaption></figcaption></figure>
+-->
 3. **SSO Authentication via Microsoft 365:**
    * If the Microsoft 365 integration is configured correctly, the BGMconnects app will detect your tenant and display the Microsoft 365 logo (as shown in the screenshot below).
    * Click on the **Sign in with Microsoft 365** button to initiate the authentication process.
 
-<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-4.png" alt="" width="375"><figcaption></figcaption></figure>
-
+<!--<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-4.png" alt="" width="375"><figcaption></figcaption></figure>
+-->
 4. **Log in to Microsoft 365:**
    * A browser window will automatically open, directing you to the Microsoft 365 portal.
    * Enter your **Microsoft 365 username** and **password** to sign in.
    * After successfully logging into Microsoft 365, the BGMconnects app will automatically log you into the PBX.
 
-<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-5.png" alt="" width="375"><figcaption></figcaption></figure>
-
+<!--<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-5.png" alt="" width="375"><figcaption></figcaption></figure>
+-->
 ***
 
 ### Logging into the BGMconnects app manually
@@ -89,10 +89,10 @@ You can manually input user details in the BGMconnects app to log in to the PBX.
   * WSS on port `5065`
 * A tenant has been created with the SIP domain set as **`test.io`**.
 
-Based on these configurations, after signing in to the PBX as the system administrator, you will see a page similar to the screenshot below.
+<!--Based on these configurations, after signing in to the PBX as the system administrator, you will see a page similar to the screenshot below.
 
 <figure><img src="../../.gitbook/assets/bgmconnects-pbx-info.png" alt=""><figcaption></figcaption></figure>
-
+-->
 #### 1. Entering the server information
 
 At the BGMconnects login window, **tap the profile icon in the upper-right corner**, then provide the following details:
@@ -103,8 +103,8 @@ At the BGMconnects login window, **tap the profile icon in the upper-right corne
   * If logging in from a LAN, use the private IP (**`192.168.1.72`**).
   * Alternatively, you can enter the web domain (**`uc.bgmconnects.cc`**) instead of the IP address.
 
-<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-6.png" alt="" width="375"><figcaption></figcaption></figure>
-
+<!--<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-6.png" alt="" width="375"><figcaption></figcaption></figure>
+-->
 Click **Next** after entering this information. If the details are correct, the next window will prompt you to enter user credentials.
 
 #### 2. Entering user information
@@ -114,8 +114,8 @@ In the user information window, provide the following:
 * **Username**: Enter the username of the extension user. Note that this is **not the extension number**, but the designated username.
 * **Password**: Enter the password for the extension user. This is **not the extension password**, but the user’s account password.
 
-<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-7.png" alt="" width="375"><figcaption></figcaption></figure>
-
+<!--<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-7.png" alt="" width="375"><figcaption></figcaption></figure>
+-->
 Click the **Sign In** button to complete the login process. The BGMconnects app will successfully log in to the PBX.
 
 
