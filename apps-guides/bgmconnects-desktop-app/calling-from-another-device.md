@@ -17,8 +17,8 @@ For example, if you prefer to make calls on your desk phone, you can route all o
 3. Enable **Calling from another device**.
 4. Click **Apply** to save your changes.
 
-<figure><img src="../../.gitbook/assets/bgmconnects-one-calling-device-1.png" alt=""><figcaption></figcaption></figure>
-
+<!--<figure><img src="../../.gitbook/assets/bgmconnects-one-calling-device-1.png" alt=""><figcaption></figcaption></figure>
+-->
 ***
 
 ### Connect to a Device
@@ -27,8 +27,8 @@ For example, if you prefer to make calls on your desk phone, you can route all o
 2. A list of currently available devices will be displayed.
 3. Select the device you want to use for outbound calls. A confirmation message appears, indicating that all outbound calls will now be initiated from the selected device.
 
-<figure><img src="../../.gitbook/assets/bgmconnects-one-calling-device.png" alt=""><figcaption></figcaption></figure>
-
+<!--<figure><img src="../../.gitbook/assets/bgmconnects-one-calling-device.png" alt=""><figcaption></figcaption></figure>
+-->
 ***
 
 ### Expected Behavior
