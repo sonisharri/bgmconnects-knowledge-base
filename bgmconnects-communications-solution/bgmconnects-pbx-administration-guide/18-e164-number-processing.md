@@ -4,7 +4,7 @@ E.164 is an [international standard](https://en.wikipedia.org/wiki/International
 
 E.164 defines a general format for international [telephone numbers](https://en.wikipedia.org/wiki/Telephone_number). Plan-conforming telephone numbers are limited to only digits and to a maximum of fifteen digits.[\[1\]](https://en.wikipedia.org/wiki/E.164#cite_note-:0-1) The specification divides the digit string into a country code of one to three digits, and the subscriber telephone number of a maximum of twelve digits.
 
-In PortSIP PBX, E164 processing converts user-dialed numbers (including those with a leading +) into a standardized format that can be interpreted by your outbound rules and provider.
+In the PBX, E164 processing converts user-dialed numbers (including those with a leading +) into a standardized format that can be interpreted by your outbound rules and provider.
 
 Using E164 processing is optional, but it can help solve the issue of handling numbers dialed with a leading +. It converts these numbers into a format that can be interpreted by the rules based on the call type (local, national, or international).
 

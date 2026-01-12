@@ -1,6 +1,6 @@
 # Billing
 
-PortSIP PBX integrates a complete Call Accounting System through which you can generate a wide variety of reports manually and automatically.
+The PBX integrates a complete Call Accounting System through which you can generate a wide variety of reports manually and automatically.
 
 After signing in as a tenant administrator, select **Billing > Settings** from the menu. From there, you can enable or disable the billing feature.
 
@@ -31,7 +31,7 @@ From the menu, select **Call Manager > Users**. Edit a user and click on the “
 
 Select **Billing > Billing Rules** from the menu. From there, you can create, modify, delete, import, or export billing rules.
 
-PortSIP PBX uses the called number to match the billing rule prefix; that call will be billed if the prefix is matched. For billing rules, the prefix cannot be duplicated.
+The PBX uses the called number to match the billing rule prefix; that call will be billed if the prefix is matched. For billing rules, the prefix cannot be duplicated.
 
 ### Parameters of billing rules
 

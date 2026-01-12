@@ -2,11 +2,11 @@
 
 ### Roles and Permissions Overview
 
-PortSIP Roles and Permissions provide role-based control over the features and functions that users can access in the PortSIP PBX.
+BGMconnects Roles and Permissions provide role-based control over the features and functions that users can access in the PBX.
 
 Each role includes a predefined set of permissions that determines the scope of access available to a user. By assigning roles, administrators can efficiently control who can view, configure, and manage different parts of the system.
 
-PortSIP PBX includes **ready-to-use standard roles** for common positions, such as administrators and end users, with appropriate permissions already configured. For more specialized requirements, you can also create **custom roles** and define exactly which permissions they include. Both standard and custom roles can be assigned to users.
+The PBX includes **ready-to-use standard roles** for common positions, such as administrators and end users, with appropriate permissions already configured. For more specialized requirements, you can also create **custom roles** and define exactly which permissions they include. Both standard and custom roles can be assigned to users.
 
 ***
 
@@ -46,9 +46,9 @@ Custom admin roles provide fine-grained control, enabling you to delegate specia
 
 ***
 
-### Standard Roles in PortSIP PBX
+### Standard Roles in the PBX
 
-PortSIP PBX includes a set of **standard roles**, consisting of **three system administrator roles** and **three tenant user roles**. Each role includes a predefined set of permissions.
+The PBX includes a set of **standard roles**, consisting of **three system administrator roles** and **three tenant user roles**. Each role includes a predefined set of permissions.
 
 ***
 
@@ -56,7 +56,7 @@ PortSIP PBX includes a set of **standard roles**, consisting of **three system a
 
 System Administrator roles provide access to system-level configuration and management.
 
-For details about System Administrator roles and permissions, see [Administrator Management](2-portsip-pbx-management/administrator-management.md).
+For details about System Administrator roles and permissions, see [Administrator Management](2-bgmconnects-pbx-management/administrator-management.md).
 
 ***
 
@@ -94,7 +94,7 @@ Once created, the role can be assigned to any user who requires the same permiss
 
 ### Predefined Roles and Permissions
 
-PortSIP PBX also includes **predefined roles** with built-in permission sets that can be assigned by administrators.
+The PBX also includes **predefined roles** with built-in permission sets that can be assigned by administrators.
 
 Permissions for predefined roles **cannot be modified**.
 
@@ -149,10 +149,10 @@ Allows configuring and deleting the extension user’s voicemail.
 #### User Meetings
 
 **View Only**\
-Allows viewing information about meetings created from the PortSIP ONE app.
+Allows viewing information about meetings created from the BGMconnects app.
 
 **Full Access**\
-Allows viewing, editing, and deleting meetings created from the PortSIP ONE app.
+Allows viewing, editing, and deleting meetings created from the BGMconnects app.
 
 ***
 
