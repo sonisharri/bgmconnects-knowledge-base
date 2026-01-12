@@ -4,7 +4,7 @@
 
 VoIP service providers replace traditional telecom lines by hosting phone lines and delivering trunk services. These providers can assign local numbers in various cities or countries and route calls to your system, often supporting number porting as well. VoIP providers typically offer better call rates, leveraging international networks or favourable rate negotiations to reduce overall call costs.
 
-PortSIP PBX supports several types of trunks:
+BGMconnects' PBX supports several types of trunks:
 
 1. **Register-Based Trunk**\
    A Register-Based Trunk requires the PBX to register with the trunk provider using an authentication ID and password. The System Admin can configure this type of trunk and assign it to multiple tenants, with each tenant receiving a unique DID pool. Tenant Admins can also set up Register-Based Trunks; however, these trunks cannot be shared with other tenants. To avoid conflicts, the hostname and authentication ID must be unique.
@@ -13,9 +13,9 @@ PortSIP PBX supports several types of trunks:
 3. **IP-Based Trunk**\
    An IP-Based Trunk does not require registration with the trunk provider. Instead, the provider configures the PBX’s IP address on their end to route calls correctly. Only the System Admin can configure this trunk, and it can only be added once per provider. If multiple tenants need access, the System Admin assigns the trunk to the tenants and allocates unique DID pools for each.
 4. **Microsoft Teams**\
-   PortSIP PBX supports Microsoft Teams Direct Routing as a trunk. This trunk type can only be configured by the Tenant Admin and cannot be shared with other tenants.
+   The PBX supports Microsoft Teams Direct Routing as a trunk. This trunk type can only be configured by the Tenant Admin and cannot be shared with other tenants.
 5. **WhatsApp**\
-   PortSIP PBX also supports WhatsApp as a trunk, allowing users to send and receive messages via WhatsApp. This trunk type can only be set up by the Tenant Admin and cannot be shared with other tenants.
+   The PBX also supports WhatsApp as a trunk, allowing users to send and receive messages via WhatsApp. This trunk type can only be set up by the Tenant Admin and cannot be shared with other tenants.
 
 ## Tenant Admin Permissions
 
@@ -25,17 +25,17 @@ The Tenant Admin can modify the settings of any trunk that they have added thems
 
 ## **Configuring a Trunk**
 
-To begin, ensure that you have an account with a VoIP or SIP trunk service provider. PortSIP PBX supports most popular SIP-based VoIP and SIP trunk providers.
+To begin, ensure that you have an account with a VoIP or SIP trunk service provider. The PBX supports most popular SIP-based VoIP and SIP trunk providers.
 
-Once you have obtained an account from your VoIP/SIP trunk provider, you can configure the account in PortSIP PBX.
+Once you have obtained an account from your VoIP/SIP trunk provider, you can configure the account in the PBX.
 
 <figure><img src="../../../.gitbook/assets/turnk_1.png" alt=""><figcaption></figcaption></figure>
 
 ## **DID Pool Concept**
 
-Since PortSIP PBX is a multi-tenant system, if multiple tenants set up trunks from the same provider and use the same DID number for their inbound rules, the PBX would not know which tenant to route the incoming call to. Similarly, if an extension from one tenant uses an outbound caller ID that belongs to another tenant, it could cause conflicts.
+Since the PBX is a multi-tenant system, if multiple tenants set up trunks from the same provider and use the same DID number for their inbound rules, the PBX would not know which tenant to route the incoming call to. Similarly, if an extension from one tenant uses an outbound caller ID that belongs to another tenant, it could cause conflicts.
 
-To prevent these issues, PortSIP PBX introduced the concept of a **DID pool**, which is a designated range of DID numbers assigned to each tenant.
+To prevent these issues, BGMconnects introduced the concept of a **DID pool**, which is a designated range of DID numbers assigned to each tenant.
 
 When the System Admin assigns a trunk to a tenant, they must configure a DID pool for that tenant. The DID numbers in this pool cannot overlap with other tenants’ DID pools. When a tenant creates an inbound rule for the assigned trunk, they can only use DID numbers from their specific DID pool.
 
@@ -156,13 +156,13 @@ Click **Next** to configure additional parameters:
 * **Send OPTIONS message interval (seconds)**:\
   This setting determines how often SIP OPTIONS messages are sent to check trunk availability. The default interval is 360 seconds.
 
-## **Configure E1/T1 Gateway Registration to PortSIP PBX**
+## **Configure E1/T1 Gateway Registration to the PBX**
 
-In scenarios where PortSIP PBX is deployed on a cloud platform like AWS, Azure, or GCE, and you need to configure an E1/T1 gateway located on a local LAN as a trunk for PortSIP PBX, but the E1/T1 gateway lacks a static public IP, you cannot use IP-Based or Register-Based authentication modes.
+In scenarios where the PBX is deployed on a cloud platform like AWS, Azure, or GCE, and you need to configure an E1/T1 gateway located on a local LAN as a trunk for the PBX, but the E1/T1 gateway lacks a static public IP, you cannot use IP-Based or Register-Based authentication modes.
 
-For this scenario, you can configure the E1/T1 gateway to register from the local LAN to the cloud-hosted PortSIP PBX. This allows the E1/T1 gateway to function as a trunk for making and receiving calls with PortSIP PBX.
+For this scenario, you can configure the E1/T1 gateway to register from the local LAN to the cloud-hosted PBX. This allows the E1/T1 gateway to function as a trunk for making and receiving calls with the PBX.
 
-To configure the E1/T1 gateway to register with the cloud-hosted PortSIP PBX, follow these steps:
+To configure the E1/T1 gateway to register with the cloud-hosted PBX, follow these steps:
 
 1. Navigate to **Call Manager > Trunks**, click the arrow button, and choose **Accept Register**.
 2. Enter a friendly name for the trunk.
@@ -175,21 +175,21 @@ Ensure this domain does not equal any tenant's SIP domain.
 
 Click **Next** to configure additional parameters:
 
-* For the **Authorization Name**, you can enter any identifier, such as "123456". The E1/T1 gateway will use this for authorization when registering with PortSIP PBX.
-* For the **Password**, enter any password. The E1/T1 gateway will use this password for authorization when registering to PortSIP PBX.
+* For the **Authorization Name**, you can enter any identifier, such as "123456". The E1/T1 gateway will use this for authorization when registering with the PBX.
+* For the **Password**, enter any password. The E1/T1 gateway will use this password for authorization when registering to the PBX.
 
 The remaining settings are the same as those used for configuring IP-Based and Register-Based Trunks.
 
-Once the trunk has been successfully added, you can proceed to configure the E1/T1 gateway to register with the cloud-hosted PortSIP PBX.
+Once the trunk has been successfully added, you can proceed to configure the E1/T1 gateway to register with the cloud-hosted PBX.
 
 ### **Configure the E1/T1 Gateway**
 
-1. In the E1/T1 settings, enter the **trunk Host Domain or IP Address** (e.g., **portsiptrunk1.io**) in the **SIP Server/Domain** field. This should match the domain you configured in the previous steps.
+1. In the E1/T1 settings, enter the **trunk Host Domain or IP Address** (e.g., **bgmconnectstrunk1.io**) in the **SIP Server/Domain** field. This should match the domain you configured in the previous steps.
 2. For the **Outbound Proxy Server** field, input the cloud PBX’s public static IP address.
-3. In the **Outbound Proxy Server Port** field, specify the PortSIP PBX transport port.
+3. In the **Outbound Proxy Server Port** field, specify the PBX transport port.
 4. Enter the **Authorization Name** and **Password** you configured earlier into the **Username/Auth ID/Auth Name** and **Password** fields of the E1/T1 gateway.
 
-This will allow the E1/T1 gateway to successfully register with the cloud-hosted PortSIP PBX.
+This will allow the E1/T1 gateway to successfully register with the cloud-hosted PBX.
 
 ## **Outbound Parameters and Inbound Parameters**
 

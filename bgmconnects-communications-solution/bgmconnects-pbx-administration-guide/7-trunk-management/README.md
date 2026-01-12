@@ -6,7 +6,7 @@ SIP Trunks provision Voice over Internet Protocol (VoIP) connectivity between an
 
 In short, SIP trunking is used for call setup, management, and teardown. It’s flexible, reliable, and quite lightweight. This means you can focus on your business instead of the technicalities. SIP is the basis for VoIP communications, and SIP Trunking is used to provide VoIP connectivity through a PBX.
 
-PortSIP PBX supports a wide range of mainstream SIP trunk providers worldwide. This includes, but is not limited to, the following:
+The PBX supports a wide range of mainstream SIP trunk providers worldwide. This includes, but is not limited to, the following:
 
 * [Vonage](https://www.vonage.com/)
 * [QuestBlue](https://questblue.com/)

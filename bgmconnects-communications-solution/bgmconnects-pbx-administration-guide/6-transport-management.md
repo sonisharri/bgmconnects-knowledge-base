@@ -1,8 +1,8 @@
 # Transport Management
 
-After completing the **Setup Wizard**, you can manage your **PortSIP PBX** through the **Web Portal**.
+After completing the **Setup Wizard**, you can manage your **PBX** through the **Web Portal**.
 
-PortSIP PBX supports multiple SIP signaling transports, including **UDP**, **TCP**, and **TLS**. You must configure which transports and ports the PBX listens on to accept SIP registrations and calls.
+The PBX supports multiple SIP signaling transports, including **UDP**, **TCP**, and **TLS**. You must configure which transports and ports the PBX listens on to accept SIP registrations and calls.
 
 > ❗ **Important**\
 > Only **System Administrators** are allowed to create or delete SIP transports.\
@@ -48,7 +48,7 @@ To add a new SIP transport:
 
 Before adding a TLS transport, you must prepare **TLS certificate files**.
 
-Refer to [Preparing TLS Certificates](certificates-for-tls-https-webrtc/preparing-tls-certificates.md) to obtain a certificate from a trusted third-party provider for your PBX Web Domain (for example: `uc.portsip.cc`).
+Refer to [Preparing TLS Certificates](certificates-for-tls-https-webrtc/preparing-tls-certificates.md) to obtain a certificate from a trusted third-party provider for your PBX Web Domain (for example: `uc.bgmconnects.cc`).
 
 To add the TLS transport:
 
@@ -79,10 +79,10 @@ You created the following transports:
 Run the following commands on the PBX server:
 
 ```bash
-firewall-cmd --permanent --service=portsip-pbx --add-port=5066/udp --set-description="PortSIP PBX"
-firewall-cmd --permanent --service=portsip-pbx --add-port=5071/tcp --set-description="PortSIP PBX"
-firewall-cmd --permanent --service=portsip-pbx --add-port=5072/tcp --set-description="PortSIP PBX"
-firewall-cmd --permanent --service=portsip-pbx --add-port=5075/tcp --set-description="PortSIP PBX"
+firewall-cmd --permanent --service=bgmconnects-pbx --add-port=5066/udp --set-description="BGMconnects"
+firewall-cmd --permanent --service=bgmconnects-pbx --add-port=5071/tcp --set-description="BGMconnects"
+firewall-cmd --permanent --service=bgmconnects-pbx --add-port=5072/tcp --set-description="BGMconnects"
+firewall-cmd --permanent --service=bgmconnects-pbx --add-port=5075/tcp --set-description="BGMconnects"
 firewall-cmd --reload
 ```
 

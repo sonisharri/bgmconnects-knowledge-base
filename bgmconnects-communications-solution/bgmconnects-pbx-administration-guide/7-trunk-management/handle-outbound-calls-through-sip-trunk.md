@@ -1,14 +1,14 @@
 # Handle Outbound Calls Through SIP Trunk
 
-This topic describes how PortSIP PBX handles outbound calls through a SIP trunk. Specifically, the INVITE message structure and how the SIP field values are populated.
+This topic describes how the PBX handles outbound calls through a SIP trunk. Specifically, the INVITE message structure and how the SIP field values are populated.
 
 ## **DID Pool**
 
 To understand the concept of Direct Inward Dialing (DID), please refer to the article [_What is Direct Inward Dialing (DID)_](../../faq/what-is-direct-inward-dialing-did.md)_?_
 
-Since PortSIP PBX is a multi-tenant system, if multiple tenants set up trunks from the same provider and use the same DID number for their inbound rules, the PBX would not know which tenant to route the incoming call to. Similarly, if an extension from one tenant uses an outbound caller ID that belongs to another tenant, it could cause conflicts.
+Since the PBX is a multi-tenant system, if multiple tenants set up trunks from the same provider and use the same DID number for their inbound rules, the PBX would not know which tenant to route the incoming call to. Similarly, if an extension from one tenant uses an outbound caller ID that belongs to another tenant, it could cause conflicts.
 
-To prevent these issues, PortSIP PBX introduced the concept of a **DID pool**, which is a designated range of DID numbers assigned to each tenant.
+To prevent these issues, BGMconnects introduced the concept of a **DID pool**, which is a designated range of DID numbers assigned to each tenant.
 
 ### Trunks Added by System Admin
 
@@ -34,9 +34,9 @@ DID numbers or ranges cannot begin with "+", "0", or "00" when adding them to th
 
 ## Structuring the INVITE Message
 
-The values included in outgoing INVITE messages sent by PortSIP PBX can be configured within the SIP trunk settings on the **Outbound Parameters** page. This allows you to customize the values assigned to each SIP field, which will be discussed in more detail later.
+The values included in outgoing INVITE messages sent by the PBX can be configured within the SIP trunk settings on the **Outbound Parameters** page. This allows you to customize the values assigned to each SIP field, which will be discussed in more detail later.
 
-Below is an example of a basic INVITE message sent by PortSIP PBX when initiating an outgoing call through a SIP trunk:
+Below is an example of a basic INVITE message sent by the PBX when initiating an outgoing call through a SIP trunk:
 
 ```log
 INVITE sip:88888888@pstn.twillio.com:5060 SIP/2.0
@@ -44,7 +44,7 @@ Via: SIP/2.0/UDP 192.168.0.11:5060;branch=z9hG4bK-524287-1---39f4bc06b915b70f;rp
 Max-Forwards: 19
 Contact: <sip:101@192.168.0.11:5060;ob>
 To: <88888888@pstn.twillio.com>
-From: <sip:101@sip.portsip.io>;tag=35c2342b
+From: <sip:101@sip.bgmconnects.io>;tag=35c2342b
 Call-ID: DSSzmYKnCwhMeB1TWUwv2A..
 CSeq: 1 INVITE
 Session-Expires: 300
@@ -53,7 +53,7 @@ Accept-Language: en
 Allow: REGISTER, INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, NOTIFY, SUBSCRIBE, UPDATE, INFO, MESSAGE, PUBLISH
 Content-Type: application/sdp
 Supported: replaces, norefersub, tdialog, join, timer
-User-Agent: PortSIP UC - Call Manager 16.0.0.302
+User-Agent: BGMconnects UC - Call Manager 16.0.0.302
 X-CID: QERh8-brREchTYRqTSTALQ..
 X-Session-Id: 678271070897180672
 X-Trunk-Name: CallCentric
@@ -62,7 +62,7 @@ Content-Length: 361
 
 ## Configurable SIP Fields <a href="#h.rhrzb9hdve5w" id="h.rhrzb9hdve5w"></a>
 
-PortSIP PBX does not allow full customization of the INVITE message, meaning its base structure must always include the essential SIP fields shown above. However, PortSIP PBX allows the configuration of the following fields:
+The PBX does not allow full customization of the INVITE message, meaning its base structure must always include the essential SIP fields shown above. However, the PBX allows the configuration of the following fields:
 
 * Request Line URI : User Part&#x20;
 * Request Line URI : Host Part&#x20;
@@ -113,11 +113,11 @@ This variable refers to the user part of the SIP **To** header.
 
 ### CallerDispName
 
-When an extension user registered with PortSIP PBX makes a call to an external number, and a value is provided in the **From: Display Name** field, PortSIP PBX attempts to preserve this value in the INVITE message sent to the SIP trunk. If the endpoint does not use a display name, PortSIP PBX will default to using the extension's name for this variable.
+When an extension user registered with the PBX makes a call to an external number, and a value is provided in the **From: Display Name** field, the PBX attempts to preserve this value in the INVITE message sent to the SIP trunk. If the endpoint does not use a display name, the PBX will default to using the extension's name for this variable.
 
 ### OriginatorCallerID
 
-The **OriginatorCallerID** variable attempts to retain the original caller's number, even if that number did not originate from PortSIP PBX. If an extension user registered with PortSIP PBX uses an anonymous dial code to make an outbound call, this variable will be populated with the value **anonymous**.
+The **OriginatorCallerID** variable attempts to retain the original caller's number, even if that number did not originate from the PBX. If an extension user registered with the PBX uses an anonymous dial code to make an outbound call, this variable will be populated with the value **anonymous**.
 
 ### Anonymous
 
@@ -137,7 +137,7 @@ This variable is the combined value of the **Outbound Proxy Server** and **Outbo
 
 ### ContactUri
 
-The "**ContactUri**" variable value containing the IP and port on which a SIP Trunk should contact PortSIP PBX, is typically used to populate the **Contact : Host Part**. The port is always the port of PortSIP transport.
+The "**ContactUri**" variable value containing the IP and port on which a SIP Trunk should contact the BGMconnects PBX, is typically used to populate the **Contact : Host Part**. The port is always the port of BGMcconnects transport.
 
 ### OutboundCallerId
 
@@ -158,7 +158,7 @@ If both the user’s outbound caller ID and the group’s outbound caller ID are
 When making an outbound call through a SIP trunk, the PBX applies the outbound caller ID in the following order of priority:
 
 1. **App specified Outbound Caller ID**:\
-   If the user makes a call from the PortSIP ONE app and specifies an Outbound caller ID, the PBX will use that caller ID anyway.
+   If the user makes a call from the BGMconnects app and specifies an Outbound caller ID, the PBX will use that caller ID anyway.
 2. **Caller Extension's Outbound Caller ID**:\
    If the caller’s extension has an outbound caller ID set, the PBX will use this ID to overwrite the **FROM** header.
 3. **Outbound Rule's Outbound Caller ID**:\
@@ -170,7 +170,7 @@ When making an outbound call through a SIP trunk, the PBX applies the outbound c
 
 ## Outbound Caller ID for PBX Services
 
-You can configure the outbound caller ID for system services such as the **Virtual Receptionist**, **Call Queue**, **Ring Group**, and **Meeting** features in PortSIP PBX.
+You can configure the outbound caller ID for system services such as the **Virtual Receptionist**, **Call Queue**, **Ring Group**, and **Meeting** features in the PBX.
 
 When calls from a call queue, ring group, or virtual receptionist are not answered, fail, or time out and are re-routed to the trunk, or when a meeting invites an external number to join via the trunk, the outbound caller ID will be taken from the respective service's outbound caller ID settings. If no specific outbound caller ID is configured for these services, the system will default to the company’s outbound caller ID.
 
@@ -182,7 +182,7 @@ Refer to the screenshot below to adjust the trunk's outbound parameters and appl
 
 ## Bypassing the Outbound Caller ID Settings
 
-PortSIP PBX allows you to bypass the default outbound caller ID settings by letting the caller’s device specify the outbound caller ID via a custom SIP header when sending the INVITE message to PBX. By adding the **X-Outbound-Cli** SIP header, the PBX can modify the INVITE message before sending it to the trunk.
+The PBX allows you to bypass the default outbound caller ID settings by letting the caller’s device specify the outbound caller ID via a custom SIP header when sending the INVITE message to PBX. By adding the **X-Outbound-Cli** SIP header, the PBX can modify the INVITE message before sending it to the trunk.
 
 Here’s how it works:
 
@@ -212,7 +212,7 @@ When using the "X-Outbound-Cli" header to bypass the PBX outbound caller ID sett
 
 ## Remove the SIP Header
 
-PortSIP PBX  support allows you to remove the following SIP headers when sending the SIP message to the SIP trunk:
+THe PBX support allows you to remove the following SIP headers when sending the SIP message to the SIP trunk:
 
 * P-Asserted-Identity
 * P-Preferred-Identity
@@ -224,7 +224,7 @@ Simply set up the SIP headers as shown in the following screenshot and the heade
 
 ## Privacy Types Supported
 
-The PortSIP PBX supports the following Privacy types:
+The PBX supports the following Privacy types:
 
 * user: user-level privacy function provided. Any non-essential informational headers are removed, including the Subject, Call-Info, Organization, User-Agent, Reply-To, and In-Reply-To. Possibly the original value of the From header is changed to anonymous.
 * header: headers that cannot be set arbitrarily by the user (Contact/Via) are modified. No unnecessary headers that might reveal personal information about the originator of the request are added. (The values modified must be recoverable when further messages in the dialog need to be routed to the originator.)
