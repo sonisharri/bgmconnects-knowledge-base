@@ -15,7 +15,7 @@ To learn how to monitor agents' calls using the Supervisor feature, follow the s
 
 ## Enable Monitoring
 
-Sign in to the PortSIP PBX Web portal, select the menu **Contact Center > Monitor Service**, and turn on the **Enable Monitor** option to enable the monitoring feature.
+Sign in to the PBX Web portal, select the menu **Contact Center > Monitor Service**, and turn on the **Enable Monitor** option to enable the monitoring feature.
 
 The monitoring service number is 888 by default, we suggest don't change it.
 

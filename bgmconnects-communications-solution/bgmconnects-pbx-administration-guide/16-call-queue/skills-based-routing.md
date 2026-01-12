@@ -8,7 +8,7 @@ That is where skills-based routing comes in handy. Let’s go over what skills-b
 
 Skill-based routing (or skill-based distribution) is a call routing strategy where customers are assigned to agents with the most relevant skills for handling their concerns. For example, Spanish-speaking customers are sent to agents that can speak Spanish.
 
-The PortSIP PBX includes Skills-Based Routing, moving incoming queue calls to agents in the next skill group if members of the previous skill group(s) are busy, unavailable, or logged out. For example, a contact center can assign its support agents to increase skill groups based on their expertise. In this way, incoming calls are first assigned to agents in the skill group that has the highest skill level and when not available, move on to the less experienced agents(lower skill level) in subsequent skill groups.
+The PBX includes Skills-Based Routing, moving incoming queue calls to agents in the next skill group if members of the previous skill group(s) are busy, unavailable, or logged out. For example, a contact center can assign its support agents to increase skill groups based on their expertise. In this way, incoming calls are first assigned to agents in the skill group that has the highest skill level and when not available, move on to the less experienced agents(lower skill level) in subsequent skill groups.
 
 With this routing system, the customer won’t have to deal with agents who aren’t equipped with the skills required to assist them, reducing the chances of them being angry.
 
@@ -27,7 +27,7 @@ Now let all English-speaking employees be agents of **English Support Queue 8000
 
 ## Route Call By VIP
 
-PortSIP PBX provides the **VIP Caller** feature, making VIP customers feel special when trying to connect to the PortSIP PBX contact center. When the VIP call was determined, the queue always gave the top priority to the caller and pushed them to the front of the queue.
+The PBX provides the **VIP Caller** feature, making VIP customers feel special when trying to connect to the PBX contact center. When the VIP call was determined, the queue always gave the top priority to the caller and pushed them to the front of the queue.
 
 * Click the menu **Contact Center > VIP Numbers**, and click the **Add** button
 * **Enabled:** turn on/off
@@ -43,7 +43,7 @@ The VIP list is global validity for all queues in the tenant scope
 
 In some scenarios, for the special industry callers in the contact center, we will need special agents who have rich special industry knowledge and skills to serve them.
 
-PortSIP PBX provides the **Exclusive Agent** feature, which allows setting up one or more agents from the queue as **Exclusive Agents** for the special callers; once the call comes from these callers, the queue will distribute the call to the **exclusive agent,** giving it the highest priority if the agent is ready (idle); of course, if all exclusive agents are busy / Not Ready / signed out, the call will be distributed to other agents.
+The PBX provides the **Exclusive Agent** feature, which allows setting up one or more agents from the queue as **Exclusive Agents** for the special callers; once the call comes from these callers, the queue will distribute the call to the **exclusive agent,** giving it the highest priority if the agent is ready (idle); of course, if all exclusive agents are busy / Not Ready / signed out, the call will be distributed to other agents.
 
 {% hint style="danger" %}
 The Exclusive Agent feature cannot be applied to the queue when the Ring Strategy is configured to Ring Simultaneously.
@@ -60,7 +60,7 @@ If the call does not come from the specified caller numbers, the exclusive agent
 
 ## Route Call By Agent Skill Level
 
-PortSIP PBX currently supports the following skill base routing strategies:
+The PBX currently supports the following skill base routing strategies:
 
 * Skill Based Routing Prioritized Hunt: Ring each available agent in the queue serially in the configured order. Assign the call to agents in the highest level skill group first. If the call is not answered in the current skill group, move on to less experienced agents in subsequent skill groups.
 * Skill Based Routing Cyclic Hunt: Ring each available agent in the queue serially. Ring the agent who hasn't been rung from a call from this queue in the longest amount of time first. Assign the call to agents in the highest level skill group first. If the call is not answered in the current skill group, move on to less experienced agents in subsequent skill groups.
@@ -74,12 +74,12 @@ When adding the agents to the queue, you can specify the skill level for each ag
 
 **Last Called Agent Routing** is a feature that routes a customer call to the agent who last spoke with that customer (last called agent or LCA routing).&#x20;
 
-PortSIP PBX has an option **Last Called Agent Routing** in the call queue that allows you to enable or disable this feature.
+The PBX has an option **Last Called Agent Routing** in the call queue that allows you to enable or disable this feature.
 
 Here’s a summary of the scenario:
 
 1. A customer calls the contact center and the call is routed to an agent.
-2. The agent ID and the call time are saved to the customer contact information in the PortSIP PBX database.
+2. The agent ID and the call time are saved to the customer contact information in the PBX database.
 3. A future call from the same customer can be routed to the same agent.
 4. If **Last Called Agent Routing** is enabled and the customer calls again, the call is routed to that agent.
 5. If that agent is unavailable, the call is routed to another appropriate agent.
@@ -90,10 +90,10 @@ The Last Called Agent Routing feature cannot be applied to the queue when the Ri
 
 ## **Harass Numbers**
 
-Spam calls are the plague of all businesses, especially contact centers, PortSIP PBX provides two ways to prevent spam calls.
+Spam calls are the plague of all businesses, especially contact centers, the PBX provides two ways to prevent spam calls.
 
 * A global **Number Blacklist**, will reject the call silently if the caller is in the number blacklist. You can add the blacklisted number by selecting the menu **Blacklist and Codes > Number Blacklist**.
-* **Harass Number:** PortSIP PBX also provides the **Harass Number** feature to prevent spam calls only for the Call Queue. The harass number is defined as having two levels.
+* **Harass Number:** The PBX also provides the **Harass Number** feature to prevent spam calls only for the Call Queue. The harass number is defined as having two levels.
   1. if a caller is determined in **Harass Number** **Level 1**, the preset prompt file will be played to alert the caller, and if the caller presses button **1** the call will hang up, press **2** the call will continue.
   2. If a caller is determined in **Harass Number** **Level 2**, the preset prompt file will be played to alert the caller, and the call will be hung up automatically after the play is finished.
 

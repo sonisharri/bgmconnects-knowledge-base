@@ -8,7 +8,7 @@ Example A: In this example, there is one companywide voicemail box accessed when
 
 ## **Creating a Shared Voicemail**
 
-* In the PortSIP PBX Web Portal, select **Call Manager** > **Advanced Services** > **Shared Voicemail** and click the **Add** button
+* In the PBX Web Portal, select **Call Manager** > **Advanced Services** > **Shared Voicemail** and click the **Add** button
 * Now enter the below fields:
   * **Extension Number** – This number identifies the shared voicemail from other extensions, also known as the **Shared Voicemail Number**. Specify a new one as needed. Do not specify an existing extension number
   * **Display Name** – Enter a friendly name for the shared voicemail
@@ -85,7 +85,7 @@ From any IP phone or client APP, dial `*56` followed by the **shared voicemail n
 
 ### To access shared voicemail from the PBX Web Portal:
 
-In the PortSIP PBX Web Portal, select **Call Manager** > **Advanced Services** > **Shared Voicemail**, double click a shared voicemail, select a shared voicemail then click the **Edit** button, and click the **Voicemail** page.
+In the PBX Web Portal, select **Call Manager** > **Advanced Services** > **Shared Voicemail**, double click a shared voicemail, select a shared voicemail then click the **Edit** button, and click the **Voicemail** page.
 
 In the voicemails list, you can download, play, or delete the voicemails.
 

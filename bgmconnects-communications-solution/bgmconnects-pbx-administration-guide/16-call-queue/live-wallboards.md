@@ -2,7 +2,7 @@
 
 ### Live Wallboards Overview
 
-PortSIP Contact Center Live Wallboards provide real-time visibility into contact center performance through dynamic, widget-based dashboards. These wallboards allow supervisors and operations teams to monitor key metrics at a glance and tailor the display to their specific operational needs.
+BGMconnects Contact Center Live Wallboards provide real-time visibility into contact center performance through dynamic, widget-based dashboards. These wallboards allow supervisors and operations teams to monitor key metrics at a glance and tailor the display to their specific operational needs.
 
 Live wallboards can also be displayed on **large screens** in shared environments, making them ideal for team rooms, operations centers, and supervisor dashboards—ensuring everyone stays aligned on current queue and agent performance.
 
@@ -22,11 +22,11 @@ This role-based access control ensures secure and appropriate visibility across 
 
 ### Accessing Live Wallboards
 
-<figure><img src="../../../.gitbook/assets/portsip_live_wallboard_1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects_live_wallboard_1.png" alt=""><figcaption></figcaption></figure>
 
-Follow the steps below to access Live Wallboards in the PortSIP PBX web portal:
+Follow the steps below to access Live Wallboards in the PBX web portal:
 
-1. Sign in to the PortSIP PBX web portal using one of the following methods:
+1. Sign in to the PBX web portal using one of the following methods:
    * Sign in as a **System Administrator**, then switch to the desired tenant.
    * Sign in directly as a **Tenant Administrator** or **Queue Manager**.
 2. Navigate to the Wallboards:
@@ -42,7 +42,7 @@ Follow the steps below to access Live Wallboards in the PortSIP PBX web portal:
 
 Click a **queue name** to view detailed information about the selected queue, including the callers currently waiting in the queue.
 
-<figure><img src="../../../.gitbook/assets/portsip_contact_center_wallboard_2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects_contact_center_wallboard_2 (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -50,7 +50,7 @@ Click a **queue name** to view detailed information about the selected queue, in
 
 Navigate to **Contact Center > Agent Activity** to view the real-time status of all agents, as shown in the screenshot below.
 
-<figure><img src="../../../.gitbook/assets/portsip_contact_center_wallboard_1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects_contact_center_wallboard_1.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -58,7 +58,7 @@ Navigate to **Contact Center > Agent Activity** to view the real-time status of 
 
 Click an **agent** to display real-time information for that agent, including current status and activity details.
 
-<figure><img src="../../../.gitbook/assets/portsip_contact_center_wallboard_3 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects_contact_center_wallboard_3 (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
