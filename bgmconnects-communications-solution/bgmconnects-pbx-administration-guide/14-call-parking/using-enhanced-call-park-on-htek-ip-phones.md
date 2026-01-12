@@ -1,6 +1,6 @@
 # Using Enhanced Call Park on Htek IP Phones
 
-This article explains how to use the PortSIP PBX’s uniquely enhanced call park feature with Htek IP phones.
+This article explains how to use the PBX’s uniquely enhanced call park feature with Htek IP phones.
 
 ## Supported Htek IP Phone Models
 
@@ -9,15 +9,11 @@ This article explains how to use the PortSIP PBX’s uniquely enhanced call park
 * Models: UCxxx
 * ROM: From V2.42.6.6.1R22
 
-## Supported PortSIP PBX Version
-
-From version 22.0.
-
 ## Application Scenarios
 
 ### **Enhanced Call Park**
 
-Enhanced Call Park is a feature that improves the call park experience on the phone. It provides the park and retrieve key instead of the call park FACs. And it provides the capability of call park notification and any other enhanced features with PortSIP PBX.
+Enhanced Call Park is a feature that improves the call park experience on the phone. It provides the park and retrieve key instead of the call park FACs. And it provides the capability of call park notification and any other enhanced features with the PBX.
 
 ### Call Park
 
@@ -41,7 +37,7 @@ The User can configure the recall settings, such as the recall object and recall
 
 ## Provisioning IP Phones
 
-Once the IP phone has been successfully provisioned, the PortSIP PBX Enhanced Call Park feature is activated.
+Once the IP phone has been successfully provisioned, the PBX Enhanced Call Park feature is activated.
 
 ## Parking Call
 

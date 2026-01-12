@@ -1,6 +1,6 @@
 # Using Enhanced Call Park on Yealink IP Phones
 
-This article explains how to use the PortSIP PBX’s uniquely enhanced call park feature with Yealink IP phones.
+This article explains how to use the BGMconnects' uniquely enhanced call park feature with Yealink IP phones.
 
 ## Supported Yealink IP Phone Models
 
@@ -15,15 +15,11 @@ This article explains how to use the PortSIP PBX’s uniquely enhanced call park
   * [T54W(T57W,T53W,T53,T53C,T54,T57)-96.86.0.118.rom](https://dmfile.yealinkops.com/firmware/821074fc924f43a8ad2fe494a0a5cae9/1670571488097/T54W\(T57W,T53W,T53,T53C,T54,T57\)-96.86.0.118.rom)
 * T7x, T8x serries, download the firmawre from yearlink website.
 
-## Supported PortSIP PBX Version
-
-From version 16.1.0.
-
 ## Application Scenarios
 
 ### **Enhanced Call Park**
 
-Enhanced Call Park is a feature that improves the call park experience on the phone. It provides the park and retrieves soft keys instead of the call park FACs. And it provides the capability of call park notification and any other Enhanced features with PortSIP PBX.
+Enhanced Call Park is a feature that improves the call park experience on the phone. It provides the park and retrieves soft keys instead of the call park FACs. And it provides the capability of call park notification and any other Enhanced features with the PBX.
 
 ### Call Park
 

@@ -8,7 +8,7 @@ Once someone parks a call at a spot, subscribers who have subscribed to this spo
 
 This article includes the following topics:
 
-* [PortSIP Call Parking Feature](portsip-call-parking-feature.md)
+* [BGMconnects Call Parking Feature](bgmconnects-call-parking-feature.md)
 * [Using the Call Parking Feature](using-call-parking-feature.md)
 * [Using Enhanced Call Park on Fanvil IP Phones](using-enhanced-call-park-on-fanvil-ip-phones.md)
 * [Using Enhanced Call Park on Yealink IP Phones](using-enhanced-call-park-on-yealink-ip-phones.md)

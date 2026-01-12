@@ -1,21 +1,17 @@
 # Using Enhanced Call Park on Dinstar IP Phones
 
-This article explains how to use the PortSIP PBX’s uniquely enhanced call park feature with Dinstar IP phones.
+This article explains how to use the PBX’s uniquely enhanced call park feature with Dinstar IP phones.
 
 ## Supported Dinstar IP Phone Models
 
 * Models: C60/C61/C62/C63/C64/C66&#x20;
 * ROM: From the firmware version **2.x.6.9.7** or **2.x.11.9.7**.
 
-## Supported PortSIP PBX Version
-
-From version 16.0.2.
-
 ## Application Scenarios
 
 ### **Enhanced Call Park**
 
-Enhanced Call Park is a feature that improved the call park experience on the phone. It provides the park and retrieve soft key instead of the call park FACs. And it provides the capability of call park notification and any other Enhanced features with PortSIP PBX.
+Enhanced Call Park is a feature that improved the call park experience on the phone. It provides the park and retrieve soft key instead of the call park FACs. And it provides the capability of call park notification and any other Enhanced features with the PBX.
 
 ### Call Park
 

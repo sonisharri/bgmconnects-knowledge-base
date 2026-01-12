@@ -1,6 +1,6 @@
 # Using Enhanced Call Park on Fanvil IP Phones
 
-This article explains how to use the PortSIP PBX’s uniquely enhanced call park feature with Fanvil IP phones.
+This article explains how to use the PBX’s uniquely enhanced call park feature with Fanvil IP phones.
 
 ## Supported Fanvil IP Phone Models
 
@@ -14,15 +14,11 @@ This article explains how to use the PortSIP PBX’s uniquely enhanced call park
 * Models: X4U-V2/X5U-V2/X6U-V2, X7-V2/X7C-V2/X210-V2, V62, V64, V65&#x20;
 * ROM: from version 2.12.16.17.
 
-## Supported PortSIP PBX Version
-
-From version 16.0.2.
-
 ## Application Scenarios
 
 ### **Enhanced Call Park**
 
-Enhanced Call Park is a feature that improved the call park experience on the phone. It provides the park and retrieve key instead of the call park FACs. And it provides the capability of call park notification and any other Enhanced features with PortSIP PBX.
+Enhanced Call Park is a feature that improved the call park experience on the phone. It provides the park and retrieve key instead of the call park FACs. And it provides the capability of call park notification and any other Enhanced features with the PBX.
 
 ### Call Park
 

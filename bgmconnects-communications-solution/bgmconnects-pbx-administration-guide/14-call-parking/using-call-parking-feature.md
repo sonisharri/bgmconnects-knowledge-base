@@ -1,6 +1,6 @@
 # Using Call Parking Feature
 
-## Park calls and retrieve calls with PortSIP
+## Park calls and retrieve calls with BGMconnects
 
 **Park a call** — When you're on an active call, transfer the call to `*68` to place the call into a parking space.
 
@@ -16,23 +16,23 @@ If Alice is not at her desk, another colleague can retrieve this parked call by 
 
 ### **Scenario 2**
 
-Bob's extension number is 101, and he answered the client's call using his desktop IP phone. He now needs to go to another office, so he transfers the call to `*68` and hangs up from IP Phone, the caller hears music. Bob uses his mobile phone App (which is also registered to the PortSIP PBX with the same extension number 101) to retrieve this call by dialing `*88` in order to continue speaking with the client while walking to another office.
+Bob's extension number is 101, and he answered the client's call using his desktop IP phone. He now needs to go to another office, so he transfers the call to `*68` and hangs up from IP Phone, the caller hears music. Bob uses his mobile phone App (which is also registered to the PBX with the same extension number 101) to retrieve this call by dialing `*88` in order to continue speaking with the client while walking to another office.
 
 ### **Scenario 3**
 
 Bob's extension number is 101, and he answered the client's call using his desktop IP phone. He now needs to go to another office, so he transfers the call to `*68` and hangs up from IP Phone, the caller hears music. When Bob arrived at the other office, he used another IP Phone to retrieve the call by dialing `*88101` in order to continue speaking with the client.
 
-## Retrieve call by PortSIP App, Fanvil, and Yealink IP Phone
+## Retrieve call by BGMconnects App, Fanvil, and Yealink IP Phone
 
-The PortSIP App, Fanvil, and Yealink IP Phone all support retrieving park calls with a single key press.
+The BGMconnects App, Fanvil, and Yealink IP Phone all support retrieving park calls with a single key press.
 
 ### **Scenario**&#x20;
 
 Bob's extension number is 101, and he answered the client's call (client number is 003386002678) using his desktop IP phone. This call will now need to be handled by his colleague Alice, whose extension number is 102.
 
-Bob simply transferred the call to `*68102` and then hung up. Once the call has been successfully parked, Alice's App (PortSIP Mobile App, Windows desktop App, WebRTC App), and IP Phone (Fanvil, Yealink, Dinstar) will receive a notification, and light, display a message to alert that a call has been parked on extension 102.&#x20;
+Bob simply transferred the call to `*68102` and then hung up. Once the call has been successfully parked, Alice's App (BGMconnects Mobile App, Windows desktop App, WebRTC App), and IP Phone (Fanvil, Yealink, Dinstar) will receive a notification, and light, display a message to alert that a call has been parked on extension 102.&#x20;
 
-Alice only needs to press the button (PortSIP App) or press the key (Fanvil, Yealink, Dinstar IP Phone) to retrieve the call rather than dialing `*88`.
+Alice only needs to press the button (BGMconnects App) or press the key (Fanvil, Yealink, Dinstar IP Phone) to retrieve the call rather than dialing `*88`.
 
 <figure><img src="../../../.gitbook/assets/yealink_t31_park.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -44,7 +44,7 @@ The Group Call Park feature allows a defined group user to park a call against o
 
 What to know before getting started:
 
-* Group Call Park is a tenant-level feature that is offered by the PortSIP PBX license, no extra cost is required.
+* Group Call Park is a tenant-level feature that is offered by the BGMconnects PBX license, no extra cost is required.
 * A user can only be assigned to one Call Park group.
 * A Call Park group may only have users from the same tenant.
 * A tenant may have multiple Call Park groups.
@@ -78,7 +78,7 @@ The parked caller is hearing the music until a group member retrieves the parked
 
 Users 101, 102, and 103 are members of a Call Park Group.&#x20;
 
-101 parks the call to the group by transferring the active call to `*58`, the caller will hear music,  the 102, and 103 will receive a notification alerting them that the call has been parked (PortSIP App, Fanvil, Yealink, Dinstar IP Phone), and they can simply press the button to retrieve the call, or retrieve the call by dialing `*88` from other 3rd apps or IP Phones.
+101 parks the call to the group by transferring the active call to `*58`, the caller will hear music,  the 102, and 103 will receive a notification alerting them that the call has been parked (BGMconnects App, Fanvil, Yealink, Dinstar IP Phone), and they can simply press the button to retrieve the call, or retrieve the call by dialing `*88` from other 3rd apps or IP Phones.
 
 ## Enhanced Call Park
 

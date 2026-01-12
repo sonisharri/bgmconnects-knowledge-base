@@ -75,7 +75,7 @@
     * [Visual IVR Editor Guide](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/12-configuring-virtual-receptionist/visual-ivr-editor-guide.md)
     * [Direct Inward System Access (DISA)](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/12-configuring-virtual-receptionist/direct-inward-system-access-disa.md)
   * [8 Configuring Ring Group](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/13-configuring-ring-group.md)
-  * [14 Call Parking](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/14-call-parking/README.md)
+  * [9 Call Parking](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/14-call-parking/README.md)
     * [BGMconnects Call Parking Feature](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/14-call-parking/bgmconnects-call-parking-feature.md)
     * [Using Call Parking Feature](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/14-call-parking/using-call-parking-feature.md)
     * [Using Enhanced Call Park on Fanvil IP Phones](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/14-call-parking/using-enhanced-call-park-on-fanvil-ip-phones.md)

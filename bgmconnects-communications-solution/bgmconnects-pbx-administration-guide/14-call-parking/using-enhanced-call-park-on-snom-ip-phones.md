@@ -1,6 +1,6 @@
 # Using Enhanced Call Park on SNOM IP Phones
 
-This article explains how to use the PortSIP PBX’s uniquely enhanced call park feature with SNOM IP phones.
+This article explains how to use the PBX’s uniquely enhanced call park feature with SNOM IP phones.
 
 ## Supported SNOM IP Phone Models
 
@@ -14,15 +14,11 @@ This article explains how to use the PortSIP PBX’s uniquely enhanced call park
 
 From version 10.1.204.0.
 
-## Supported PortSIP PBX Version
-
-From version 22.2.
-
 ## Application Scenarios
 
 ### **Enhanced Call Park**
 
-Enhanced Call Park is a feature that improves the call park experience on the phone. It provides the park and retrieves soft keys instead of the call park FACs. And it provides the capability of call park notification and any other enhanced features with PortSIP PBX.
+Enhanced Call Park is a feature that improves the call park experience on the phone. It provides the park and retrieves soft keys instead of the call park FACs. And it provides the capability of call park notification and any other enhanced features with the PBX.
 
 ### Call Park
 

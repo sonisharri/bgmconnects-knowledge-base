@@ -1,6 +1,6 @@
 # Using Enhanced Call Park on Grandstream IP Phones
 
-This article explains how to use the PortSIP PBX’s uniquely enhanced call park feature with Grandstream IP phones.
+This article explains how to use the PBX’s uniquely enhanced call park feature with Grandstream IP phones.
 
 ## Supported Grandstream IP Phone Models
 
@@ -11,15 +11,11 @@ This article explains how to use the PortSIP PBX’s uniquely enhanced call park
   * Models: 2610, 2611, 2612, 2613, 2614, 2615, 2616, 2624, 2634, 2636, 2650, 2670.&#x20;
   * ROM: From 1.0.13.13
 
-## Supported PortSIP PBX Version
-
-From version 22.0.
-
 ## Application Scenarios
 
 ### **Enhanced Call Park**
 
-Enhanced Call Park is a feature that improves the call park experience on the phone. It provides the park and retrieves soft keys instead of the call park FACs. And it provides the capability of call park notification and any other enhanced features with PortSIP PBX.
+Enhanced Call Park is a feature that improves the call park experience on the phone. It provides the park and retrieves soft keys instead of the call park FACs. And it provides the capability of call park notification and any other enhanced features with the PBX.
 
 ### Call Park
 
