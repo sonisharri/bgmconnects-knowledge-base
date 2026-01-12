@@ -11,7 +11,7 @@ Once call recording is enabled, you can access recorded calls to review conversa
 * Investigate disputes or incidents
 * Meet regulatory and compliance requirements
 
-Discover how **PortSIP PBX** can help improve your business communications.
+Discover how **BGMconnects** can help improve your business communications.
 
 ***
 
@@ -35,7 +35,7 @@ From this page:
 
 ### Call Recording Control Levels
 
-PortSIP PBX allows call recording to be controlled at **two levels**: **User Level** and **Tenant Level**.
+The PBX allows call recording to be controlled at **two levels**: **User Level** and **Tenant Level**.
 
 #### User Level Call Recording
 
@@ -92,13 +92,13 @@ To comply with these regulations:
 3. Open the **General** page.
 4. Disable **Record the call between external numbers**.
 
-Once disabled, PortSIP PBX automatically stops recording when a call transitions to two external endpoints.
+Once disabled, the PBX automatically stops recording when a call transitions to two external endpoints.
 
 ***
 
 ### Pause and Resume Call Recording
 
-PortSIP PBX supports pausing and resuming call recording during an active call.
+The PBX supports pausing and resuming call recording during an active call.
 
 #### Using Feature Access Codes (FAC)
 
@@ -171,15 +171,15 @@ pause-audio-recording
 
 ### Call Recording File Format
 
-By default, PortSIP PBX records calls in **WAV** format, which provides high audio quality but consumes more disk space.
+By default, the PBX records calls in **WAV** format, which provides high audio quality but consumes more disk space.
 
-PortSIP PBX also supports **MP3** and **AMR** formats.
+The PBX also supports **MP3** and **AMR** formats.
 
 #### Change Recording Format
 
 1. Open the configuration file:
-   * **Linux**: `/var/lib/portsip/pbx/system.ini`
-   * **Windows**: `C:/ProgramData/PortSIP/pbx/system.ini`
+   * **Linux**: `/var/lib/bgmconnects/pbx/system.ini`
+   * **Windows**: `C:/ProgramData/BGMconnects/pbx/system.ini`
 2.  In the `[mediaserver]` section, locate:
 
     ```
@@ -193,11 +193,11 @@ PortSIP PBX also supports **MP3** and **AMR** formats.
 
 #### Restart Media Server
 
-* **Windows**: Restart **PortSIP Media Server** from Windows Services.
+* **Windows**: Restart **BGMconnects Media Server** from Windows Services.
 *   **Linux**:
 
     ```bash
-    cd /opt/portsip && /bin/sh pbx_ctl.sh restart -s portsip.mediaserver
+    cd /opt/bgmconnects && /bin/sh pbx_ctl.sh restart -s bgmconnects.mediaserver
     ```
 
 > ⚠️ Recording in **AMR** or **MP3** reduces disk usage but may impact audio quality and performance.

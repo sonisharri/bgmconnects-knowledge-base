@@ -1,10 +1,10 @@
 # Call History
 
-In PortSIP PBX, **Call History** and **Call Detail Records (CDRs)** represent the same underlying call information, but they differ in data source, availability, and performance.
+In the PBX, **Call History** and **Call Detail Records (CDRs)** represent the same underlying call information, but they differ in data source, availability, and performance.
 
 ### Call History
 
-Starting with **v22.3.0**, PortSIP PBX introduced the **Data Flow** service, which is built on **ClickHouse** for high-performance analytics and reporting.
+Starting with **v22.3.0**, BGMconnects introduced the **Data Flow** service, which is built on **ClickHouse** for high-performance analytics and reporting.
 
 * **Call History** data is queried from the **Data Flow service**.
 * It provides **significantly higher query performance** and scalability, especially for large datasets.
@@ -42,13 +42,13 @@ A call is considered:
 
 ### CDR Service and Real-Time Delivery
 
-PortSIP PBX includes a built-in **CDR service** that generates complete, real-time records for all calls.
+The PBX includes a built-in **CDR service** that generates complete, real-time records for all calls.
 
 When a call is completed:
 
 * The CDR can be **pushed instantly** to external systems via:
   * &#x20;[WebHook](cdr.md#push-cdr-to-webhook)&#x20;
-  * [WebSocket](../../../development-portsip/going-real-time-with-portsip-pbx-pub-sub.md#cdr_events)
+  * [WebSocket](../../../development-bgmconnects/going-real-time-with-bgmconnects-pbx-pub-sub.md#cdr_events)
 
 This allows seamless integration with billing systems, CRM platforms, analytics services, and compliance tools.
 

@@ -4,7 +4,7 @@
 
 You can collect **Call Detail Records (CDRs)** by sending an HTTP request to an external service or application each time a call is completed.
 
-A **webhook** is an event-driven mechanism that allows PortSIP PBX to notify an external system when specific events occur, such as call start or call completion.
+A **webhook** is an event-driven mechanism that allows the PBX to notify an external system when specific events occur, such as call start or call completion.
 
 Only the **Tenant Administrator** has permission to enable or disable this feature.
 
@@ -17,7 +17,7 @@ Only the **Tenant Administrator** has permission to enable or disable this featu
 
 <figure><img src="../../../.gitbook/assets/cdr-webhook.png" alt=""><figcaption></figcaption></figure>
 
-Once configured, PortSIP PBX will push CDR-related events to the specified third-party webhook endpoint.
+Once configured, the PBX will push CDR-related events to the specified third-party webhook endpoint.
 
 ***
 
@@ -68,7 +68,7 @@ The call flow is: **caller > trunk > PBX IVR > Queue > Agent**
    "start_time":"1679476851",
    "status_code":"0",
    "tenant_id":"690833127458734080",
-   "tenant_name":"PortSIP Inc.",
+   "tenant_name":"BGM Networks Inc.",
    "trunk_name":"AudioCodes"
    "user_data":"",
    "call_targets":[
@@ -147,7 +147,7 @@ The CDR information is provided in **JSON format** and includes the following fi
   In this example, it represents when the PBX IVR answered the call.\
   A value of `0` indicates the call was not answered.
 * **call\_id**\
-  The Call-ID of the SIP INVITE received by PortSIP PBX from the trunk.
+  The Call-ID of the SIP INVITE received by the PBX from the trunk.
 * **callee**\
   The first destination when the call arrived at the PBX (for example, IVR 5000).
 * **callee\_domain**\
@@ -180,7 +180,7 @@ The CDR information is provided in **JSON format** and includes the following fi
 * **session\_id**\
   Session ID also present in the SIP `X-Session-ID` header; can be used to query call recordings.
 * **start\_time**\
-  The timestamp when the call arrived at PortSIP PBX.
+  The timestamp when the call arrived at the PBX.
 * **status\_code**\
   SIP status code if the call failed (e.g., `404`, `408`).\
   A value of `0` indicates no error.
@@ -233,7 +233,7 @@ In this example:
   "trunk_name":"AudioCodes"
 }
 ```
-
+<!--
 ***
 
 ### Push CDR to WebSocket Subscriber
@@ -242,7 +242,7 @@ You can also collect CDRs by subscribing to **CDR events via WebSocket**.
 
 A WebSocket subscription allows an external service or application to receive real-time events directly from PortSIP PBX without polling.
 
-For more details, please refer to the [WSI: Pub/Sub](../../../development-portsip/going-real-time-with-portsip-pbx-pub-sub.md) documentation.
+For more details, please refer to the [WSI: Pub/Sub](../../../development-bgmconnects/going-real-time-with-portsip-pbx-pub-sub.md) documentation.-->
 
 
 
