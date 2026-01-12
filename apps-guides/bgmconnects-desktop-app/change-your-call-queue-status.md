@@ -2,9 +2,9 @@
 
 ### Managing Call Queue Status
 
-When your administrator assigns you as an **agent** to a call queue, you can manage your **call queue status** directly within the **PortSIP ONE** app.
+When your administrator assigns you as an **agent** to a call queue, you can manage your **call queue status** directly within the **BGMconnects** app.
 
-When a call enters a queue you are assigned to and your status is set to **Ready**, you will receive an in-app notification and can answer the call directly from PortSIP ONE.
+When a call enters a queue you are assigned to and your status is set to **Ready**, you will receive an in-app notification and can answer the call directly from BGMconnects.
 
 ***
 

@@ -1,20 +1,20 @@
 # CRM Integrations
 
-PortSIP ONE includes **native CRM integration** that works seamlessly with PortSIP PBX.
+BGMconnects includes **native CRM integration** that works seamlessly with the PBX.
 
-Once CRM integration is enabled at the **tenant level**, PortSIP ONE automatically connects to the configured CRM system—**no client-side setup is required**.
+Once CRM integration is enabled at the **tenant level**, BGMconnects automatically connects to the configured CRM system—**no client-side setup is required**.
 
 After activation, CRM functionality is applied automatically during inbound and outbound calls, ensuring consistent customer context across the communication lifecycle.
 
-To use PortSIP ONE with CRM integration features, ensure that your tenant administrator has completed the [CRM configuration as described in the CRM Integrations](../../portsip-communications-solution/portsip-pbx-administration-guide/33-crm-integrations/) guide.
+To use BGMconnects with CRM integration features, ensure that your tenant administrator has completed the [CRM configuration as described in the CRM Integrations](../../bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/33-crm-integrations/) guide.
 
 ***
 
-### How CRM Integration Works in PortSIP ONE
+### How CRM Integration Works in BGMconnects
 
 #### 1. Automatic Caller Identification
 
-When an incoming call is received, PortSIP ONE automatically attempts to match the caller’s phone number against existing customer records in the connected CRM system.
+When an incoming call is received, BGMconnects automatically attempts to match the caller’s phone number against existing customer records in the connected CRM system.
 
 This real-time lookup ensures that agents have immediate visibility into caller context.
 
@@ -32,7 +32,7 @@ If a matching CRM contact is found, the caller’s CRM information is automatica
 
 Once the call is answered:
 
-* If the caller matches a CRM contact, PortSIP ONE automatically opens the **CRM contact details page**.
+* If the caller matches a CRM contact, BGMconnects automatically opens the **CRM contact details page**.
 * Agents can review customer information in real time while speaking with the caller.
 
 <figure><img src="../../.gitbook/assets/answered_call.png" alt=""><figcaption></figcaption></figure>
@@ -58,7 +58,7 @@ If the caller’s number does **not** match any existing CRM contact:
 
 #### 5. Resolving Multiple CRM Matches
 
-If a phone number matches **multiple CRM contacts**, PortSIP ONE prompts you to select the correct record.
+If a phone number matches **multiple CRM contacts**, BGMconnects prompts you to select the correct record.
 
 <figure><img src="../../.gitbook/assets/rematching_contacts.png" alt="" width="549"><figcaption></figcaption></figure>
 
@@ -105,7 +105,7 @@ To add a comment:
 
 After a CRM contact is matched or created:
 
-* When the call ends, PortSIP PBX automatically synchronizes the **call record** to the CRM.
+* When the call ends, the PBX automatically synchronizes the **call record** to the CRM.
 * If available, the following assets are also attached:
   * **Call recordings**
   * **AI-generated transcriptions**
@@ -122,7 +122,7 @@ CRM capabilities are controlled by the **tenant administrator**, including permi
 * Submit call records
 * Upload call recordings
 
-📌 If certain actions are restricted by the tenant’s CRM configuration, they will not be available in PortSIP ONE.
+📌 If certain actions are restricted by the tenant’s CRM configuration, they will not be available in BGMconnects.
 
 This centralized control aligns with enterprise security and compliance best practices.
 
@@ -130,7 +130,7 @@ This centralized control aligns with enterprise security and compliance best pra
 
 #### 10. CRM Data in Call History
 
-Within the **Call History** section of PortSIP ONE:
+Within the **Call History** section of BGMconnects:
 
 * CRM customer information is displayed in the **CRM tab** for each call.
 * Agents can quickly review customer context even after the call has ended.
@@ -141,7 +141,7 @@ Within the **Call History** section of PortSIP ONE:
 
 ### Summary
 
-PortSIP ONE’s CRM integration delivers a **frictionless, context-aware calling experience** by tightly coupling real-time communications with customer data.\
+BGMconnects’ CRM integration delivers a **frictionless, context-aware calling experience** by tightly coupling real-time communications with customer data.\
 With automatic caller matching, in-call CRM access, and post-call synchronization, it enables agents to work more efficiently while maintaining accurate and complete CRM records—without adding operational complexity.
 
 

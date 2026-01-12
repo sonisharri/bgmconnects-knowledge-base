@@ -1,9 +1,6 @@
-# PortSIP ONE Mobile App
+# BGMconnects Mobile App
 
-The **PortSIP ONE app** is compatible only with **PortSIP PBX version 22.0 or later**.\
-It does **not** support PortSIP PBX version **16.x**.
-
-PortSIP ONE is a versatile unified communications app that allows you to manage your calling service from your **desktop computer**, **web browser**, or **mobile device**. With a single application, you can:
+BGMconnects is a versatile unified communications app that allows you to manage your calling service from your **desktop computer**, **web browser**, or **mobile device**. With a single application, you can:
 
 * Make and receive calls
 * Send and receive text messages
@@ -16,9 +13,9 @@ All communication features are delivered through one secure, easy-to-use platfor
 
 ***
 
-### Why PortSIP ONE
+### Why BGMconnects
 
-The all-new PortSIP ONE app is designed to help you **call, message, meet, and get work done**—all from one place:
+The all-new BGMconnects app is designed to help you **call, message, meet, and get work done**—all from one place:
 
 * **Brings everyone together** to collaborate and deliver exceptional work
 * **Adapts to you**, with a personalized user experience
@@ -26,21 +23,21 @@ The all-new PortSIP ONE app is designed to help you **call, message, meet, and g
 
 ***
 
-### Downloading PortSIP ONE
+### Downloading BGMconnects
 
 #### Mobile Devices
 
-You can download PortSIP ONE directly from your mobile device:
+You can download BGMconnects directly from your mobile device:
 
 * Open the **App Store** (iOS) or **Google Play Store** (Android)
-* Search for **PortSIP ONE**
+* Search for **BGMconnects**
 * Download and install the app
 
-#### PortSIP Website
+#### BGMconnects Website
 
-You can also download the latest versions of PortSIP ONE from the [PortSIP website](https://www.portsip.com/download-portsip-one/), which provides installers and links for supported platforms.
+You can also download the latest versions of BGMconnects from the [BGMconnects website](https://www.bgmconnects.com/download-app/), which provides installers and links for supported platforms.
 
 
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-1.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-1.png" alt="" width="375"><figcaption></figcaption></figure>
 

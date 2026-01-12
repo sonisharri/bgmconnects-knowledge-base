@@ -1,8 +1,8 @@
 # Change Your Call Queue Status
 
-When your administrator assigns you as an **agent** to a call queue, you can manage your **queue status** directly within the **PortSIP ONE** app.
+When your administrator assigns you as an **agent** to a call queue, you can manage your **queue status** directly within the **BGMconnects** app.
 
-When a call enters a queue you are assigned to and your status is set to **Ready**, you will receive an in-app notification and can answer the call directly from PortSIP ONE.
+When a call enters a queue you are assigned to and your status is set to **Ready**, you will receive an in-app notification and can answer the call directly from BGMconnects.
 
 ***
 
@@ -15,7 +15,7 @@ Follow the steps below to manage your agent status and queue participation.
 In the **upper-right corner** of the app, locate the **Queue Status** icon.\
 This icon shows your current agent status and provides access to the list of call queues you are assigned to.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-28.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-28.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -28,7 +28,7 @@ A window will appear displaying:
 * The list of call queues you belong to
 * Available options to update your status
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-29.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-29.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -38,7 +38,7 @@ From the **Agent Status** drop-down list, select the desired status (for example
 
 > The selected status applies to **all queues you are currently logged into**.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-30.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-30.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -51,7 +51,7 @@ In the queue list, each queue includes an **ON/OFF toggle**:
 
 Changes take effect immediately.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-29 (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-29 (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 

@@ -2,7 +2,7 @@
 
 After successfully [configuring the PortSIP PBX](/broken/pages/6uo0BsKGLXFqs7Cz40HY) and [SBC](../portsip-communications-solution/portsip-pbx-administration-guide/9-configuring-portsip-sbc/), and [creating the tenants](../portsip-communications-solution/portsip-pbx-administration-guide/3-tenant-management/) and [extensions](../portsip-communications-solution/portsip-pbx-administration-guide/5-user-management/), you can now register the endpoints (WebRTC, mobile app, Windows Desktop app, IP Phone, and any SIP-based device) to the PBX. This will allow you to make and receive calls.
 
-## Configuring the PortSIP ONE App
+## Configuring the BGMconnects App
 
 If you are using the PortSIP PBX v22.0 or higher, please follow the guide [Apps Guides](/broken/pages/gsi6heTY2aTH1UABLlye) to configure it.
 
@@ -52,7 +52,7 @@ If you make changes to the PBX IP or the above two options, you will need to ref
 ## Manually register the client app to the PBX
 
 {% hint style="warning" %}
-This section is only applicable to the PortSIP Softphone v6.1x, it's not for the PortSIP ONE app.
+This section is only applicable to the PortSIP Softphone v6.1x, it's not for the BGMconnects app.
 {% endhint %}
 
 You can fill in the user details in the client app manually to register the app to the PortSIP PBX.

@@ -4,7 +4,7 @@
 
 ### Default Caller ID Behavior
 
-By default, **PortSIP PBX** determines the outbound Caller ID based on system configuration.\
+By default, the **PBX** determines the outbound Caller ID based on system configuration.\
 This centralized approach ensures consistency and accuracy in the caller information presented to recipients.
 
 ***
@@ -13,7 +13,7 @@ This centralized approach ensures consistency and accuracy in the caller informa
 
 While default settings cover most use cases, there are situations where you may need to customize the Caller ID—either for specific calls or across the organization.
 
-PortSIP PBX provides flexible Caller ID control at multiple levels, allowing both **per-call** and **global** customization.
+The PBX provides flexible Caller ID control at multiple levels, allowing both **per-call** and **global** customization.
 
 > **Note**\
 > Administrators can restrict Caller ID changes across the organization to maintain security, compliance, and control over outbound call identity.
@@ -49,7 +49,7 @@ You can adjust your Caller ID from the following locations:
 
 * Keypad
 * Conversation Thread
-* Mobile apps ([iOS ](https://www.portsip.com/portsip-one/)and [Android](https://www.portsip.com/portsip-one/)).
+* Mobile apps ([iOS ](https://www.bgmconnects.com/app/)and [Android](https://www.bgmconnects.com/app/)).
 
 > **Limitation**\
 > Caller ID cannot currently be modified from **desk IP phones**. Desk phones always follow PBX-defined Caller ID rules.
@@ -66,7 +66,7 @@ To adjust your Caller ID before placing a call:
 4. Enter the number or select the contact you want to call.
 5. Press **Enter** or tap **Dial** to start the call.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-30 (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-30 (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -79,13 +79,13 @@ You can change the outbound Caller ID before placing a call directly from **Call
 1. Open the **Calls** tab or the **Contacts** tab.
 2. **Long-press** a call entry or contact.
 
-<figure><img src="../../.gitbook/assets/portsip_one_customize_id_2.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects_one_customize_id_2.png" alt="" width="375"><figcaption></figcaption></figure>
 
 3. Tap the **drop-down arrow** in the **From** combo box.
 4. Select the desired **Caller ID**.
 5. Tap the **Phone** icon to place the call using the selected Caller ID.
 
-<figure><img src="../../.gitbook/assets/portsip_one_customize_id_1.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects_one_customize_id_1.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -102,7 +102,7 @@ In some situations, you may want to hide your caller ID when placing a call.
 > **Expected Result**\
 > The call is placed without sending your caller ID to the recipient.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-31.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-31.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -113,13 +113,13 @@ If you prefer not to manually select a caller ID when placing a call, you can al
 To do this, select **Server delivery caller ID**.\
 When this option is enabled, the PBX chooses the appropriate caller ID based on its configuration and routing rules.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-32.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-32.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Tap the **drop-down arrow** next to **Call as**, then select **Server delivery caller ID**.
 
 When this option is enabled, the app places the call through the SIP trunk, and the **PBX automatically selects the appropriate outbound caller ID** based on its configuration and routing rules.
 
-For more information on how the PBX determines the outbound caller ID, see [Handle Outbound Calls Through SIP Trunk](../../portsip-communications-solution/portsip-pbx-administration-guide/7-trunk-management/handle-outbound-calls-through-sip-trunk.md#outboundcallerid), which explains how the PBX dynamically chooses the correct caller ID.
+For more information on how the PBX determines the outbound caller ID, see [Handle Outbound Calls Through SIP Trunk](../../bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/7-trunk-management/handle-outbound-calls-through-sip-trunk.md#outboundcallerid), which explains how the PBX dynamically chooses the correct caller ID.
 
 > **Note**\
 > This automatic caller ID selection logic also applies to **desk IP phones**, which always rely on the PBX to determine the outbound caller ID.

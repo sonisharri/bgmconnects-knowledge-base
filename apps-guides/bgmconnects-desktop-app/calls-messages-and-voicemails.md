@@ -7,7 +7,7 @@ Upon signing in, click the **Calls** tab to navigate to the Calls page. The page
 1. **Call Log Window**: This section displays all incoming, outgoing, and missed calls.
 2. **Caller Information Section**: This section shows detailed information for the selected caller. The data displayed will update based on the caller you choose.
 
-<figure><img src="../../.gitbook/assets/portsip-one-desktop-place-call.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-desktop-place-call.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -17,7 +17,7 @@ Upon signing in, click the **Calls** tab to navigate to the Calls page. The page
 2. Enter a valid extension or a phone number.
 3. Click the **Call** button. The call will be initiated and displayed at the top of the dashboard screen.
 
-<figure><img src="../../.gitbook/assets/portsip-one-desktop-place-call-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-desktop-place-call-1.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -28,7 +28,7 @@ Upon signing in, click the **Calls** tab to navigate to the Calls page. The page
 3. You can either search for a contact using the search field or scroll through the list.
 4. Once you locate the contact, hover over their name and click the blue phone icon to initiate the call.
 
-<figure><img src="../../.gitbook/assets/portsip-one-desktop-place-call-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-desktop-place-call-2.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -38,7 +38,7 @@ Upon signing in, click the **Calls** tab to navigate to the Calls page. The page
 2. You can filter contacts by **Users**, **Company Contacts**, or **Personal Contacts**.
 3. On the user/contact information page, you can easily place a call by selecting the extension or phone number.
 
-<figure><img src="../../.gitbook/assets/portsip-one-desktop-place-call-3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-desktop-place-call-3.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -47,9 +47,9 @@ Upon signing in, click the **Calls** tab to navigate to the Calls page. The page
 * Press the **Leave** button located at the bottom-right corner to end the current call.
 * Alternatively, press the **End** button located at the top-right corner to terminate the active call.
 
-<figure><img src="../../.gitbook/assets/portsip-one-desktop-end-call-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-desktop-end-call-1.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/portsip-one-desktop-end-call-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-desktop-end-call-2.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -60,12 +60,12 @@ A **Blind Transfer** occurs when you transfer a call to another person without a
 1. Click the **Transfer** button.
 2. Select **Blind Transfer**.
 
-<figure><img src="../../.gitbook/assets/portsip-one-desktop-transfer-call.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-desktop-transfer-call.png" alt=""><figcaption></figcaption></figure>
 
 3. From the **Contact Panel**, select the recipient to whom you wish to transfer the call.
 4. Click the extension. The call will be successfully transferred
 
-<figure><img src="../../.gitbook/assets/portsip-one-desktop-transfer-call-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-desktop-transfer-call-1.png" alt=""><figcaption></figcaption></figure>
 
 You can also transfer the call to a receptionist by the number via the **Dial Pad**. From the **Contact Panel** window:
 
@@ -82,13 +82,13 @@ An **Attended Transfer** occurs when you announce the call to the recipient befo
 1. Click the **Transfer** button.
 2. Select **Attended Transfer**.
 
-<figure><img src="../../.gitbook/assets/portsip-one-desktop-transfer-call-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-desktop-transfer-call-2.png" alt=""><figcaption></figcaption></figure>
 
 3. From the **Contact Panel**, select the recipient to whom you wish to transfer the call.
 4. Click on that recipient.
 5. Once the party answers, announce the call and click the blinking **Transfer Now** button. The call will then be transferred.
 
-<figure><img src="../../.gitbook/assets/portsip-one-desktop-transfer-call-3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-desktop-transfer-call-3.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -101,7 +101,7 @@ A **Direct-to-Voicemail Transfer** is used when you wish to transfer a call dire
 3. From the **Contact Panel**, select the recipient to whom you wish to transfer the call to click on it.
 4. The call will be transferred directly to their voicemail.
 
-<figure><img src="../../.gitbook/assets/portsip-one-desktop-transfer-call-4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-desktop-transfer-call-4.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -137,19 +137,19 @@ Once a call is parked to an extension user or a park group, the extension user o
 1. Click the **HUD** icon. The parked call will appear in the list.
 2. Click the **Retrieve** button to easily retrieve the call.
 
-<figure><img src="../../.gitbook/assets/portsip-one-desktop-call-retrieve.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-desktop-call-retrieve.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
 #### Call Flip
 
-**Call Flip** allows you to quickly transfer an active call from PortSIP ONE to another endpoint, such as PortSIP ONE mobile or an IP phone. To perform a Call Flip while on an active call:
+**Call Flip** allows you to quickly transfer an active call from BGMconnects to another endpoint, such as BGMconnects mobile or an IP phone. To perform a Call Flip while on an active call:
 
 1. Click the **Transfer** button.
 2. Select **Flip**.
-3. Your other devices (e.g., PortSIP ONE mobile or IP phone) will ring. Simply answer the call on the other device.
+3. Your other devices (e.g., BGMconnects mobile or IP phone) will ring. Simply answer the call on the other device.
 
-<figure><img src="../../.gitbook/assets/portsip-one-desktop-call-flip.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-desktop-call-flip.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -160,7 +160,7 @@ To access your voicemails, click on the **Voicemails** tab. The page is divided 
 1. **Voicemail Window**: This area displays your voicemails, typically organized in chronological order (by date).
 2. **Voicemail Details**: Located to the right of the voicemail window, this section provides detailed information about each voicemail.
 
-<figure><img src="../../.gitbook/assets/portsip-one-vm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-vm.png" alt=""><figcaption></figcaption></figure>
 
 #### Listening to a voicemail
 
@@ -196,9 +196,9 @@ To access your contact directory, follow these steps:
      * Situated to the right of the Contact List Window.
      * Displays detailed information about the selected contact.
      * Updates dynamically based on the contact you choose, showing relevant details and available actions.
-   * **Synchronous:** The PortSIP ONE app synchronizes your contacts—including extension users, company contacts, and personal contacts—periodically. When you make changes to an extension user or contact, these updates are automatically propagated to all instances of the app. Please note that synchronization is not instantaneous; it may take a short while for the updated information to appear across all devices.
+   * **Synchronous:** The BGMconnects app synchronizes your contacts—including extension users, company contacts, and personal contacts—periodically. When you make changes to an extension user or contact, these updates are automatically propagated to all instances of the app. Please note that synchronization is not instantaneous; it may take a short while for the updated information to appear across all devices.
 
-<figure><img src="../../.gitbook/assets/portsip-contacts.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-contacts.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -213,7 +213,7 @@ To add a new contact to your directory, follow these steps:
 
 Your new contact will now appear in the **My Contacts** table.
 
-<figure><img src="../../.gitbook/assets/portsip-contacts-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-contacts-1.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -230,7 +230,7 @@ To delete a contact, follow these steps:
    * A verification prompt will appear to confirm your intention to delete the contact.
    * Click **Delete** to permanently remove the contact.
 
-<figure><img src="../../.gitbook/assets/portsip-contacts-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-contacts-2.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -245,7 +245,7 @@ To efficiently remove multiple contacts at once, follow these steps:
    * Locate the **...** (ellipsis) button situated next to the search box within the selected sub-tab.
    * Click on the **Ellipsis** button to open additional options.
 
-<figure><img src="../../.gitbook/assets/portsip-contacts-4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-contacts-4.png" alt=""><figcaption></figcaption></figure>
 
 3. **Select contacts to delete**
    1. **Delete all contacts**:
@@ -257,7 +257,7 @@ To efficiently remove multiple contacts at once, follow these steps:
    * A verification prompt will appear to confirm your intention to delete the selected contacts.
    * Click **Delete** to permanently remove the chosen contacts from your directory.
 
-<figure><img src="../../.gitbook/assets/portsip-contacts-5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-contacts-5.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -273,7 +273,7 @@ To quickly access your most frequently used contacts, you can mark them as favor
 5. Once clicked, a **solid yellow star (⭐)** will appear next to the contact to confirm that the contact has been successfully added to your **Favorites** list.
 6. **Unfavorite a contact:** To remove a contact from your **Favorites**, follow the same steps. The yellow star will disappear, indicating that the contact is no longer in your favorites.
 
-<figure><img src="../../.gitbook/assets/portsip-contacts-6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-contacts-6.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Both the extension users and contacts can be favored.
@@ -283,7 +283,7 @@ Both the extension users and contacts can be favored.
 
 ### How to access team messages <a href="#id-6" id="id-6"></a>
 
-PortSIP allows seamless communication within your team through internal extension user chat. If the contact you're messaging isn't an extension user, messages will be sent via SMS, MMS, or a WhatsApp channel, ensuring you're always connected.
+BGMconnects allows seamless communication within your team through internal extension user chat. If the contact you're messaging isn't an extension user, messages will be sent via SMS, MMS, or a WhatsApp channel, ensuring you're always connected.
 
 To access your team messages, follow these steps:
 
@@ -292,7 +292,7 @@ To access your team messages, follow these steps:
    * **Messaging List Window**: This is where your team messages are displayed. Messages are usually sorted by date and recipient in chronological order.
    * **Message Details Area**: On the right, you’ll find the message details section, which updates based on the selected team message. Here, you can view more information about the selected message.
 
-<figure><img src="../../.gitbook/assets/portsip-one-message.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-message.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -306,7 +306,7 @@ There are **three ways** to send a new team message:
 * In the right-hand window, you will see the user's information.
 * Click the **Message Icon** (as shown in the screenshot below) to open a chat window and begin composing your message. Note: there have two message icons allow you to send the message.
 
-<figure><img src="../../.gitbook/assets/portsip-one-message-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-message-1.png" alt=""><figcaption></figcaption></figure>
 
 **2. From the messaging menu:**
 
@@ -319,7 +319,7 @@ There are **three ways** to send a new team message:
 * Navigate to the **Messaging** menu and click the **New Message** button in the upper-right corner.
 * From the list, select the extension user you wish to message, and click their name to proceed.
 
-<figure><img src="../../.gitbook/assets/portsip-one-message-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-message-2.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -341,7 +341,7 @@ Once you’ve entered the chat UI, type your message in the chat window, when yo
    * Once you've selected all desired members, click **Apply** to finalize the group creation.
 5. **Finish and View the Group:** Once the group is created, you will see it listed in the **Team Messaging** window.
 
-<figure><img src="../../.gitbook/assets/portsip-one-group-message.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-group-message.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -351,7 +351,7 @@ Once you’ve entered the chat UI, type your message in the chat window, when yo
 2. **Compose Your Message:** Type your message in the **chat window** field located in the information area.
 3. **Send the Message:** When you're ready, press **Enter** on your keyboard to send your message to the group. You can also click the arrow icon to send the message.
 
-<figure><img src="../../.gitbook/assets/portsip-one-group-message-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-group-message-1.png" alt=""><figcaption></figcaption></figure>
 
 
 

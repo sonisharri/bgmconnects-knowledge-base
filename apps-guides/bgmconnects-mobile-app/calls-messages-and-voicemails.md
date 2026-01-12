@@ -35,7 +35,7 @@ You can start a new chat in multiple ways:
 2. Select a user.
 3. On the user details page, tap the **Message** icon to start a chat.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-8.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-8.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -61,7 +61,7 @@ You can also start a new call directly from the Calls tab:
 1. Tap the **New Call** icon.
 2. Select a contact or enter a phone number to place the call.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-9.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-9.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -74,7 +74,7 @@ The **Contacts** tab contains all of your saved contacts and is organized into *
 * **Company Contacts**\
   Displays contacts from your company’s internal directory.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-10.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-10.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -89,7 +89,7 @@ In addition to dialing numbers, the Keypad allows you to dial **Feature Access C
 
 
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-11.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-11.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -103,7 +103,7 @@ The **Meetings** tab lets you view and manage your video meetings in one place. 
 
 This centralized view allows you to quickly access and manage your scheduled video conferences.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-13.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-13.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -118,7 +118,7 @@ On the left side of the dashboard, you will see your **profile icon**, which dis
 
 From the Quick Menu, you can manage the following settings and information:
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-15.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-15.png" alt="" width="375"><figcaption></figcaption></figure>
 
 **Change Your Presence Status**
 
@@ -140,11 +140,11 @@ From the Quick Menu, you can manage the following settings and information:
 
 To access your settings, from the Quick Menu, click on **Settings**. Here, you have the option to configure the following areas.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-16.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-16.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### How to Place Calls
 
-There are several ways to place outbound calls using the **PortSIP ONE mobile app**.
+There are several ways to place outbound calls using the **BGMconnects mobile app**.
 
 ***
 
@@ -169,7 +169,7 @@ There are several ways to place outbound calls using the **PortSIP ONE mobile ap
 2. Enter the phone number.
 3. Tap the **Dial** button to place the call.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-17.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-17.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -188,7 +188,7 @@ A **blind transfer** sends the call directly to another party without speaking t
      Enter the number using the **Keypad**.
 4. Once the destination is selected or entered, the call is transferred immediately.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-18.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-18.png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
@@ -210,7 +210,7 @@ An **attended transfer** (also known as a consultative transfer) allows you to s
 4. When the third party answers, the **Attended Transfer** icon will begin flashing.
 5. Tap the **Attended Transfer** icon to complete the transfer.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-19.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-19.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -248,7 +248,7 @@ You can temporarily place a call on hold during an active conversation.
 1. During an active call, tap the **Transfer** icon.
 2. Select **Park**.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-20.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-20.png" alt="" width="375"><figcaption></figcaption></figure>
 
 3. From the **Contacts** panel, select the extension on which you want to park the call.
 
@@ -257,7 +257,7 @@ The call is parked on the selected extension. The user associated with that exte
 You can also **copy the retrieval code** and share it with the user.\
 The user can retrieve the parked call by dialing the provided retrieval code (for example, **\*881004**).
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-21.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-21.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -288,7 +288,7 @@ When a call is parked on an extension or park group, the intended recipient(s) w
 3. Locate the parked call in the list.
 4. Tap **Retrieve** to answer the call.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-22.png.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-22.png.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -302,7 +302,7 @@ When a call is parked on an extension or park group, the intended recipient(s) w
 
 ### Call Flip
 
-**Call Flip** allows you to move an active call from the PortSIP ONE app to another registered device, such as the **PortSIP ONE mobile app** or an **IP phone**, without disconnecting the call.
+**Call Flip** allows you to move an active call from the BGMconnects app to another registered device, such as the **BGMconnects mobile app** or an **IP phone**, without disconnecting the call.
 
 #### To perform a Call Flip:
 
@@ -332,13 +332,13 @@ You can access your voicemails directly from the **Messages** tab.
    * **Voicemail** – Displays your voicemail messages.
 3. Tap **Voicemail** to listen to, manage, or delete your voicemail messages.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-23.png.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-23.png.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
 ### Accessing Your Contacts
 
-Follow the steps below to access and browse your contact directory in the PortSIP ONE mobile app.
+Follow the steps below to access and browse your contact directory in the BGMconnects mobile app.
 
 #### Open the Contacts Tab
 
@@ -357,13 +357,13 @@ The Contacts page is organized into the following sections:
 * **Personal:** Contains your **private, personal contacts**.
 * **Device:** Shows contacts stored locally on your **mobile device**.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-24.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-24.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
 ### Adding a New Contact
 
-Follow the steps below to add a new contact to your directory in the PortSIP ONE mobile app.
+Follow the steps below to add a new contact to your directory in the BGMconnects mobile app.
 
 #### To add a new contact:
 
@@ -378,7 +378,7 @@ Follow the steps below to add a new contact to your directory in the PortSIP ONE
     This allows you to control contact visibility and access based on your organization’s needs.
 4. Tap **Save** to create the contact. The new contact is saved successfully and appears in your **Contacts** list.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-25.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-25.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -395,7 +395,7 @@ You can mark frequently used contacts as **Favorites** to access them more quick
 
 When selected, the star turns **solid yellow (⭐)**, indicating the contact has been added to your Favorites list.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-26.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-26.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -405,13 +405,13 @@ To remove a contact from Favorites, repeat the same steps and tap the **Star** i
 
 * The star will no longer be highlighted, indicating the contact has been removed from Favorites.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-27.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-27.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
 ### Accessing Team Messages
 
-PortSIP enables seamless internal communication through **extension-based team messaging**.\
+BGMconnects enables seamless internal communication through **extension-based team messaging**.\
 If the person you are messaging is **not** an extension user, messages are automatically delivered through **SMS**, **MMS**, or **WhatsApp**, ensuring uninterrupted communication.
 
 #### To access your team messages:
@@ -431,7 +431,7 @@ If the person you are messaging is **not** an extension user, messages are autom
      Displays your voicemail messages.\
      Tap a voicemail to view details and play the recording.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-28 (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-28 (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
@@ -491,7 +491,7 @@ Group chats allow multiple extension users to collaborate in a single conversati
 * The newly created group appears in the **Messaging** list.
 * You can edit the group later to **upload a group picture** or update details.
 
-<figure><img src="../../.gitbook/assets/portsip-one-mobile-29 (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-29 (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
