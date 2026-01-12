@@ -33,11 +33,10 @@ You can download BGMconnects directly from your mobile device:
 * Search for **BGMconnects**
 * Download and install the app
 
-#### BGMconnects Website
+<!--#### BGMconnects Website
 
 You can also download the latest versions of BGMconnects from the [BGMconnects website](https://www.bgmconnects.com/download-app/), which provides installers and links for supported platforms.
-
-
+-->
 
 <figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-1.png" alt="" width="375"><figcaption></figcaption></figure>
 

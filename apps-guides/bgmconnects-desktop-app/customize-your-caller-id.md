@@ -55,7 +55,7 @@ Caller ID can be adjusted from:
 
 * The **Keypad**
 * The **Conversation Thread**
-* **BGMconnects mobile apps**  ([iOS ](https://www.bgmconnects.com/app/)and [Android](https://www.bgmconnects.com/bgmconnects-one/)).
+* **BGMconnects mobile apps** <!-- ([iOS ](https://www.bgmconnects.com/app/)and [Android](https://www.bgmconnects.com/bgmconnects-one/)).-->
 
 > ❗**Limitation**\
 > Caller ID selection is **not currently supported on desk IP phones**.

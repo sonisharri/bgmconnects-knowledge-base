@@ -1,8 +1,8 @@
 # Sign in to PBX
 
-To download the latest version of BGMconnects for Windows desktop, visit the [BGMconnects website](https://www.bgmconnects.com/download-app/). The application is provided as an MSI installer. Simply double-click the downloaded file to start the installation process.
+<!--To download the latest version of BGMconnects for Windows desktop, visit the [BGMconnects website](https://www.bgmconnects.com/download-app/). The application is provided as an MSI installer. Simply double-click the downloaded file to start the installation process.
 
-This guide applies to both **BGMconnects for Windows** and **BGMconnects WebRTC**.
+-->This guide applies to both **BGMconnects for Windows** and **BGMconnects WebRTC**.
 
 ***
 

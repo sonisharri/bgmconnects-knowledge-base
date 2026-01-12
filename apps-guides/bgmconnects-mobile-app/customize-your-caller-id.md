@@ -49,7 +49,7 @@ You can adjust your Caller ID from the following locations:
 
 * Keypad
 * Conversation Thread
-* Mobile apps ([iOS ](https://www.bgmconnects.com/app/)and [Android](https://www.bgmconnects.com/app/)).
+* Mobile apps <!--([iOS ](https://www.bgmconnects.com/app/)and [Android](https://www.bgmconnects.com/app/)).-->
 
 > **Limitation**\
 > Caller ID cannot currently be modified from **desk IP phones**. Desk phones always follow PBX-defined Caller ID rules.
