@@ -1,12 +1,12 @@
 # Night Mode
 
-PortSIP PBX includes a **Night Mode** feature that allows you to automatically redirect incoming calls during **non-business hours**. This is particularly useful for services such as **Virtual Receptionists**, **Ring Groups**, and **Call Queues**, enabling calls to be routed to alternative destinations—such as a mobile number, answering service, or voicemail—when your business is closed.
+The PBX includes a **Night Mode** feature that allows you to automatically redirect incoming calls during **non-business hours**. This is particularly useful for services such as **Virtual Receptionists**, **Ring Groups**, and **Call Queues**, enabling calls to be routed to alternative destinations—such as a mobile number, answering service, or voicemail—when your business is closed.
 
 ***
 
 ### Activating Tenant-Level Night Mode from the Web Portal
 
-You can easily enable or disable **Night Mode** at the **tenant level** using the PortSIP PBX web portal.
+You can easily enable or disable **Night Mode** at the **tenant level** using the PBX web portal.
 
 When Night Mode is enabled at the tenant level, all incoming calls to queues, ring groups, and virtual receptionists are handled according to the Destination for Night Mode settings.
 
@@ -44,7 +44,7 @@ If you are using **provisioned IP phones**, you can assign a **BLF (Busy Lamp Fi
 
 ### Activating Service-Level Night Mode from the Web Portal
 
-You can enable or disable **Night Mode** at the **service level** for individual services such as **Ring Groups**, **Call Queues**, and **Virtual Receptionists** using the PortSIP PBX web portal.
+You can enable or disable **Night Mode** at the **service level** for individual services such as **Ring Groups**, **Call Queues**, and **Virtual Receptionists** using the PBX web portal.
 
 When Night Mode is enabled at the service level, incoming calls to that specific service are handled according to its **Destination for Night Mode** settings.
 
@@ -92,7 +92,7 @@ Once the phone is successfully registered with the PBX, the BLF key indicates th
 
 ### Setting Night Mode Destinations for Call Queues and Ring Groups
 
-PortSIP PBX allows you to define **specific call routing behavior** for **Call Queues** and **Ring Groups** when **Night Mode** is enabled.
+The PBX allows you to define **specific call routing behavior** for **Call Queues** and **Ring Groups** when **Night Mode** is enabled.
 
 Within the **Call Queue** and **Ring Group** settings, you can configure a **Night Mode Destination**. When Night Mode is active at the tenant or service level, incoming calls to the queue or ring group are automatically redirected to the configured destination.
 
@@ -110,7 +110,7 @@ This ensures that calls are handled appropriately outside of normal business hou
 
 ### Setting Night Mode Destinations for Virtual Receptionists
 
-PortSIP PBX allows you to define **specific call routing behavior** for **Virtual Receptionists** when **Night Mode** is enabled.
+The PBX allows you to define **specific call routing behavior** for **Virtual Receptionists** when **Night Mode** is enabled.
 
 Within the **Virtual Receptionist** settings, you can configure a **Night Mode Destination**. When Night Mode is active at the tenant or service level, incoming calls to the virtual receptionist are automatically redirected to the configured destination.
 
@@ -128,7 +128,7 @@ This ensures that calls are handled appropriately outside of normal business hou
 
 ### Activating Night Mode by dialing FAC
 
-PortSIP PBX also allows you to use a **Feature Access Code (FAC, default is \*16)** to toggle **Night Mode** on or off.
+The PBX also allows you to use a **Feature Access Code (FAC, default is \*16)** to toggle **Night Mode** on or off.
 
 * If tenant-level Night Mode is currently disabled, dialing this FAC enables it.
 * If tenant-level Night Mode is currently enabled, dialing this FAC disables it.

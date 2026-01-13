@@ -1,15 +1,15 @@
 # Google Workspace Integration
 
-The PortSIP PBX integrates with Google Workspace to provide the following features:
+The PBX integrates with Google Workspace to provide the following features:
 
 * Send email notifications through Google Workspace with OAuth.
 
-Since Google stopped supporting "[**Less secure apps**](https://support.google.com/accounts/answer/6010255?hl=en)" to send emails from 3rd applications, you must configure the Google Workspace Integration with PortSIP PBX to allow the PBX to utilize Gmail to send the email notifications.
+Since Google stopped supporting "[**Less secure apps**](https://support.google.com/accounts/answer/6010255?hl=en)" to send emails from 3rd applications, you must configure the Google Workspace Integration with the PBX to allow the PBX to utilize Gmail to send the email notifications.
 
 ## Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
-* You need PortSIP PBX running on a static public IP address.
-* A web domain (which is an FQDN) in PortSIP PBX with a valid SSL certificate. The certificate should be issued by a trusted certificate provider such as Digicert, Thawte, GoDaddy, etc. You can read this [article ](../certificates-for-tls-https-webrtc/)to configure the SSL certificate.
+* You need the PBX running on a static public IP address.
+* A web domain (which is an FQDN) in the PBX with a valid SSL certificate. The certificate should be issued by a trusted certificate provider such as Digicert, Thawte, GoDaddy, etc. You can read this [article ](../certificates-for-tls-https-webrtc/)to configure the SSL certificate.
 * Requires the PBX system administrator or tenant who wants to enable the Google Workspace integration to have a Google account (Workspace or a normal Google account).
 
 ## Configuring Settings on the Google Side
@@ -61,7 +61,7 @@ Google will then ask for some basic information about your app.
 
 This section is mostly for personal use since no one else will be using your app. However, some fields are still marked as required:
 
-* **App name:** Enter an app name of your choice (e.g., PortSIP PBX App).
+* **App name:** Enter an app name of your choice (e.g., BGMconnects App).
 * **User support email:** Select your email address from the choices provided.
 * **App logo:** If you’d like, you can upload a logo for your app. This is optional.
 * **Developer contact information:** add your email address in the **Email addresses** field. Then click on the **SAVE AND CONTINUE** button to proceed to the next step.
@@ -70,21 +70,21 @@ This section is mostly for personal use since no one else will be using your app
 
 ### Setting Up Your OAuth Client ID
 
-Now sign in to the PortSIP PBX Web Portal, navigate to the menu **Integrations > Google Workspace,** and copy the **Authorized Redirect URI** from the PBX Web Portal.
+Now sign in to the PBX Web Portal, navigate to the menu **Integrations > Google Workspace,** and copy the **Authorized Redirect URI** from the PBX Web Portal.
 
-If you have setup the PortSIP SBC with PortSIP PBX, there will be two **Authorized Redirect URIs,** please copy all of them.
+If you have setup the SBC with PBX, there will be two **Authorized Redirect URIs,** please copy all of them.
 
 <figure><img src="../../../.gitbook/assets/google-integration-8.png" alt=""><figcaption></figcaption></figure>
 
 Next, you’ll need to fill out some information about your OAuth Client ID in the Google Cloud Console.
 
-From the **Application type** dropdown, select the **Web application** option. Once you do so, more fields will automatically populate. For the name, enter PortSIP PBX Web Portal as an example.
+From the **Application type** dropdown, select the **Web application** option. Once you do so, more fields will automatically populate. For the name, enter BGMconnects PBX Web Portal as an example.
 
 <figure><img src="../../../.gitbook/assets/google-integration-7.png" alt=""><figcaption></figcaption></figure>
 
 Next, skip the **Authorized JavaScript origins** section and scroll to **Authorized redirect URIs**.
 
-Click on the **+ ADD URI** button and paste the **Authorized Redirect URI.** If you have two URIs from the PortSIP PBX web portal, please add both.
+Click on the **+ ADD URI** button and paste the **Authorized Redirect URI.** If you have two URIs from the PBX web portal, please add both.
 
 <figure><img src="../../../.gitbook/assets/google-integration-9.png" alt=""><figcaption></figcaption></figure>
 
@@ -136,7 +136,7 @@ This will open all of the details for your app. On this page, you’ll see the *
 
 <figure><img src="../../../.gitbook/assets/google-integration-17.png" alt=""><figcaption></figcaption></figure>
 
-Go ahead and copy both of these values and paste them into the corresponding fields in your PortSIP PBX Web Portal settings **Integrations > Google Workspace**, and then click the OK button to save.
+Go ahead and copy both of these values and paste them into the corresponding fields in your PBX Web Portal settings **Integrations > Google Workspace**, and then click the OK button to save.
 
 <figure><img src="../../../.gitbook/assets/google-integration-18.png" alt=""><figcaption></figcaption></figure>
 
@@ -144,5 +144,5 @@ After saving the **Client ID** and **Client secret**, now Click the hyperlink **
 
 <figure><img src="../../../.gitbook/assets/google-integration-19.png" alt=""><figcaption></figcaption></figure>
 
-You have successfully completed the Google Workspace integration. You can now use OAuth to send email notifications from PortSIP PBX via Google Mail service.
+You have successfully completed the Google Workspace integration. You can now use OAuth to send email notifications from the PBX via Google Mail service.
 

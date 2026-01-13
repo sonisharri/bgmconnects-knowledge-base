@@ -6,7 +6,7 @@ This feature also allows users to pick up incoming calls made to a monitored BLF
 
 ## Directed Call Pickup
 
-The **Call Pickup** feature is enabled by default for PortSIP PBX users. This feature allows a user on any phone to answer calls that are ringing on other phones in the company. To access the Call Pickup feature, the user dials a corresponding Call Pickup FAC with the extension number - it's `*97` by default.&#x20;
+The **Call Pickup** feature is enabled by default for BGMconnects users. This feature allows a user on any phone to answer calls that are ringing on other phones in the company. To access the Call Pickup feature, the user dials a corresponding Call Pickup FAC with the extension number - it's `*97` by default.&#x20;
 
 For example, Alice's extension is **102**, she is out of the office and her phone rings, anyone can answer the call from another phone by dialing `*97102`.
 
@@ -43,9 +43,9 @@ Call pickups must meet the following conditions:
 * A tenant may have multiple call pickup groups.
 * Call pickup group names must be unique.
 
-To add group members to the PortSIP PBX Web portal, follow these steps:
+To add group members to the PBX Web portal, follow these steps:
 
-1. Sign in to the PortSIP PBX Web portal as the tenant admin or sign in as the system administrator and then select a tenant to manage.
+1. Sign in to the PBX Web portal as the tenant admin or sign in as the system administrator and then select a tenant to manage.
 2. Select the menu **Advanced Services > Call Pickup**.
 3. Click the **Add** button.
 4. Enter a name for the group.

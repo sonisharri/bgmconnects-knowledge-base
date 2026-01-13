@@ -1,17 +1,17 @@
 # Microsoft 365 Integration
 
-The PortSIP PBX integrates with Microsoft 365 to provide the following features:
+The PBX integrates with Microsoft 365 to provide the following features:
 
 * Synchronous user accounts from Microsoft 365 or Azure Active Directory (Local Active Directory synced to the cloud using Azure Connect).
-* Allow users to use their Microsoft Account to log in to the PortSIP PBX web portal and PortSIP ONE app(SSO).
-* Microsoft 365 Users' personal contacts are synchronized with the PortSIP PBX users' personal contacts.
-* Shared mailbox contacts are synchronized with the PortSIP PBX Company contacts.
+* Allow users to use their Microsoft Account to log in to the PBX web portal and BGMconnects app(SSO).
+* Microsoft 365 Users' personal contacts are synchronized with the PBX users' personal contacts.
+* Shared mailbox contacts are synchronized with the PBX Company contacts.
 * Send email notifications through Microsoft 365 mail server with OAuth.
 
 ## Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
-* You need PortSIP PBX running on a static public IP address.
-* A web domain (which is FQDN) in PortSIP PBX with a valid SSL certificate. The certificate should be issued by a trusted certificate provider such as Digicert, Thawte, Godaddy, etc. You can read this [article ](../certificates-for-tls-https-webrtc/)to configure the SSL certificate.
+* You need the PBX running on a static public IP address.
+* A web domain (which is FQDN) in the PBX with a valid SSL certificate. The certificate should be issued by a trusted certificate provider such as Digicert, Thawte, Godaddy, etc. You can read this [article ](../certificates-for-tls-https-webrtc/)to configure the SSL certificate.
 * Requires the PBX tenant who wants to enable the Microsoft 365 integration to have Microsoft 365 Accounts with an Exchange subscription plan:
   * Microsoft 365 Business Basic, Standard, or Premium
   * Microsoft 365 F3, E3 or E5
@@ -20,7 +20,7 @@ The PortSIP PBX integrates with Microsoft 365 to provide the following features:
 
 ### Configure the App ID for the Tenant
 
-To enable synchronization between PortSIP PBX and your Azure or Microsoft 365 account, follow these steps:
+To enable synchronization between the PBX and your Azure or Microsoft 365 account, follow these steps:
 
 1. Sign in to your Azure or Microsoft 365 account.
 2. Navigate to Microsoft Entra ID:
@@ -28,9 +28,9 @@ To enable synchronization between PortSIP PBX and your Azure or Microsoft 365 ac
    * In the left-hand menu, select **App registrations**.
    * Click **New registration** to create a new application.
 3. Enter a name for the application: For example: **PBX Server-side**.
-4. Configure supported account types: Choose **Accounts in this organizational directory only** (Single tenant: PortSIP Solutions, Inc. only).
-5. Sign in to the PortSIP PBX web portal: Log in as the **Tenant Administrator**, or switch to the tenant scope if you are logged in as a **PBX System Administrator**.
-6. Copy the Redirect UR&#x49;**:** From the **Advanced > Microsoft 365 Integration** menu, copy the **Redirect URI**. There may be two Redirect URIs if you configured the PortSIP SBC; please copy them both.
+4. Configure supported account types: Choose **Accounts in this organizational directory only** (Single tenant: BGMconnects only).
+5. Sign in to the PBX web portal: Log in as the **Tenant Administrator**, or switch to the tenant scope if you are logged in as a **PBX System Administrator**.
+6. Copy the Redirect UR&#x49;**:** From the **Advanced > Microsoft 365 Integration** menu, copy the **Redirect URI**. There may be two Redirect URIs if you configured the SBC; please copy them both.
 
 <figure><img src="../../../.gitbook/assets/ms365_callback_v22_1.png" alt=""><figcaption></figcaption></figure>
 
@@ -46,7 +46,7 @@ To enable synchronization between PortSIP PBX and your Azure or Microsoft 365 ac
 
 <figure><img src="../../../.gitbook/assets/ms365_registration_3.png" alt=""><figcaption></figcaption></figure>
 
-10. If you have installed and configured the PortSIP SBC with the PBX, you will have two Redirect URIs in the PBX web portal. The first URI was added in the previous step.
+10. If you have installed and configured the SBC with the PBX, you will have two Redirect URIs in the PBX web portal. The first URI was added in the previous step.
 
     Next, follow these steps to add the second URI:
 
@@ -61,7 +61,7 @@ To enable synchronization between PortSIP PBX and your Azure or Microsoft 365 ac
 
 ### Generate Key Pair
 
-Now generate the certificate public key for Microsoft 365 (go to the PortSIP PBX Web portal menu **Advanced > Microsoft 365 Integration**).
+Now generate the certificate public key for Microsoft 365 (go to the PBX Web portal menu **Advanced > Microsoft 365 Integration**).
 
 1. Click the button **Generate New Key Pair**, and download the **public\_key.pem** file.
 
@@ -69,7 +69,7 @@ Now generate the certificate public key for Microsoft 365 (go to the PortSIP PBX
 
 2. Go to Microsoft 365, and upload the **public\_key.pem** file to Microsoft 365 by clicking the **Upload certificates.**
 
-<figure><img src="../../../.gitbook/assets/portsip_ms365_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects_ms365_2.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 By default, the certificate is only valid for one year. To maintain the validity of your MS 365 integration, you must regenerate the certificates and repeat the previously mentioned steps to update them before the current certificate expires each year.
@@ -77,7 +77,7 @@ By default, the certificate is only valid for one year. To maintain the validity
 
 ## Sync Options
 
-Select the PortSIP PBX Web portal menu  **Advanced > Microsoft 365 Integration** to configure the options for sync with Microsoft 365.
+Select the PBX Web portal menu  **Advanced > Microsoft 365 Integration** to configure the options for sync with Microsoft 365.
 
 1. Schedule a time for the PBX system to synchronize with Microsoft 365 users. Suggest set it to occur at midnight (00:00).&#x20;
 2. directory\_id: Paste the **Directory (tenant) ID** (which you saved in above step 8).
@@ -88,12 +88,12 @@ Select the PortSIP PBX Web portal menu  **Advanced > Microsoft 365 Integration**
     * Azure Government
     * Microsoft Azure operated by 21Vianet
 
-Currently, PortSIP PBX supports **Global Azure cloud** and **Microsoft Azure operated by 21Vianet**. Please choose the **GLOBAL** unless you are sure you need to connect with Microsoft Azure operated by 21Vianet.
+Currently, the PBX supports **Global Azure cloud** and **Microsoft Azure operated by 21Vianet**. Please choose the **GLOBAL** unless you are sure you need to connect with Microsoft Azure operated by 21Vianet.
 
 <figure><img src="../../../.gitbook/assets/sync_options.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
-If both the first name and last name fields are empty for a Microsoft 365 user, but the email address is not, the user will not be synchronized with PortSIP PBX. This limitation is imposed by Microsoft 365.
+If both the first name and last name fields are empty for a Microsoft 365 user, but the email address is not, the user will not be synchronized with the PBX. This limitation is imposed by Microsoft 365.
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/sync_ms365.png" alt=""><figcaption></figcaption></figure>
@@ -121,23 +121,23 @@ If you want to use the MS365 mail server to send the email notifications, you ha
 
 ### Configuring User Synchronization <a href="#h.qstanjnw2wlt" id="h.qstanjnw2wlt"></a>
 
-Now you need to synchronize the users from Microsoft 365 to PortSIP PBX:
+Now you need to synchronize the users from Microsoft 365 to the PBX:
 
 1. Set the extension number range to be assigned to Microsoft users. You can configure a starting extension, otherwise, it will use the first available extension.
-2. The synchronization is one-way (Microsoft 365 to PortSIP PBX) and happens every middle night(time 00:00) or the custom time that you scheduled. If you have not deleted the user in Microsoft 365 it will reappear in PortSIP PBX the next day.
-3. You can sync Microsoft 365 user photos to PortSIP PBX to show the photo as a profile picture in the apps and in the WebRTC client.
+2. The synchronization is one-way (Microsoft 365 to the PBX) and happens every middle night(time 00:00) or the custom time that you scheduled. If you have not deleted the user in Microsoft 365 it will reappear in the PBX the next day.
+3. You can sync Microsoft 365 user photos to the PBX to show the photo as a profile picture in the apps and in the WebRTC client.
 
-<figure><img src="../../../.gitbook/assets/portsip_ms365_5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects_ms365_5.png" alt=""><figcaption></figcaption></figure>
 
 ### Configuring SSO <a href="#h.nldqa5h65d0n" id="h.nldqa5h65d0n"></a>
 
-Once Microsoft 365 is successfully integrated, a Microsoft icon will appear on both the PBX Web portal and WebRTC Client login pages. This indicates that Single Sign-On (SSO) is enabled. Users can then click on this icon to log in to the PortSIP web portal and WebRTC client using their Microsoft credentials.
+Once Microsoft 365 is successfully integrated, a Microsoft icon will appear on both the PBX Web portal and WebRTC Client login pages. This indicates that Single Sign-On (SSO) is enabled. Users can then click on this icon to log in to the web portal and WebRTC client using their Microsoft credentials.
 
-<figure><img src="../../../.gitbook/assets/portsip_ms365_sso.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects_ms365_sso.png" alt=""><figcaption></figcaption></figure>
 
 ### Configuring Contact Synchronization <a href="#h.pwuvv0v8qcyq" id="h.pwuvv0v8qcyq"></a>
 
-You can have personal 365 contacts synced to the PortSIP PBX user's personal contacts. This is a one-way synchronization: Contacts need to be managed and updated from Microsoft 365. You can do the same for Microsoft 365 shared mailbox contacts and synchronize these with the PortSIP PBX company contacts. All contacts in [“Well-Known Folders”](https://learn.microsoft.com/en-us/dotnet/api/microsoft.exchange.webservices.data.wellknownfoldername?view=exchange-ews-api) (Default) folders will be synced.
+You can have personal 365 contacts synced to the PBX user's personal contacts. This is a one-way synchronization: Contacts need to be managed and updated from Microsoft 365. You can do the same for Microsoft 365 shared mailbox contacts and synchronize these with the PBX company contacts. All contacts in [“Well-Known Folders”](https://learn.microsoft.com/en-us/dotnet/api/microsoft.exchange.webservices.data.wellknownfoldername?view=exchange-ews-api) (Default) folders will be synced.
 
-<figure><img src="../../../.gitbook/assets/portsip_ms365_6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects_ms365_6.png" alt=""><figcaption></figcaption></figure>
 

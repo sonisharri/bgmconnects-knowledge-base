@@ -14,7 +14,7 @@ When a customer sends an SMS or WhatsApp message, a **new chat conversation** is
 
 ### Creating Message Routing Rules
 
-To route inbound SMS or WhatsApp messages to a **ring group** or **call queue**, you must create a corresponding **inbound message rule** in **PortSIP PBX**.
+To route inbound SMS or WhatsApp messages to a **ring group** or **call queue**, you must create a corresponding **inbound message rule** in the **PBX**.
 
 #### Example Scenario
 
@@ -77,7 +77,7 @@ This transfer mechanism ensures seamless escalation, clear agent ownership, and 
 
 <figure><img src="../../../.gitbook/assets/sms-whatsapp-queue-1.png" alt=""><figcaption></figcaption></figure>
 
-In the **PortSIP ONE** mobile app, the **currently assigned agent** can **tap and hold their own message**, then select **Transfer** from the pop-up menu to initiate a conversation transfer.
+In the **BGMconnects** mobile app, the **currently assigned agent** can **tap and hold their own message**, then select **Transfer** from the pop-up menu to initiate a conversation transfer.
 
 <figure><img src="../../../.gitbook/assets/sms-whatsapp-queue-6.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -102,7 +102,7 @@ Refer to the screenshot below for an example of this selection in the user inter
 
 <figure><img src="../../../.gitbook/assets/sms-whatsapp-queue-3.png" alt=""><figcaption></figcaption></figure>
 
-In the **PortSIP ONE** mobile app, tap the **message** icon at the top of the conversation to open the selection window, where you can choose the **destination phone number** and the **outbound Caller ID**.
+In the **BGMconnects** mobile app, tap the **message** icon at the top of the conversation to open the selection window, where you can choose the **destination phone number** and the **outbound Caller ID**.
 
 <figure><img src="../../../.gitbook/assets/sms-whatsapp-queue-4.png" alt="" width="375"><figcaption></figcaption></figure>
 

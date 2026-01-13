@@ -2,11 +2,11 @@
 
 ### Overview
 
-This guide describes how to configure **Azure AI Transcription** in PortSIP PBX.
+This guide describes how to configure **Azure AI Transcription** in the PBX.
 
-Once configured, PortSIP PBX integrates with Microsoft Azure Cognitive Services to provide high-quality Speech-to-Text (STT) transcription and optional sentiment analysis for calls and voicemails. These AI capabilities enhance call analytics, compliance recording, quality management, and overall user experience.
+Once configured, the PBX integrates with Microsoft Azure Cognitive Services to provide high-quality Speech-to-Text (STT) transcription and optional sentiment analysis for calls and voicemails. These AI capabilities enhance call analytics, compliance recording, quality management, and overall user experience.
 
-This guide follows VoIP, UCaaS, and CCaaS best practices and assumes basic familiarity with PortSIP PBX administration and Microsoft Azure services.
+This guide follows VoIP, UCaaS, and CCaaS best practices and assumes basic familiarity with PBX administration and Microsoft Azure services.
 
 ***
 
@@ -14,7 +14,7 @@ This guide follows VoIP, UCaaS, and CCaaS best practices and assumes basic famil
 
 Before you begin, ensure the following requirements are met:
 
-* **System Administrator** privileges in PortSIP PBX
+* **System Administrator** privileges in the PBX
 * An active **Microsoft Azure account**
 * Azure **Speech** service enabled
 * _(Optional)_ Azure **Text Analytics** service enabled for sentiment analysis
@@ -25,11 +25,11 @@ Before you begin, ensure the following requirements are met:
 
 ***
 
-### Configuring the PortSIP PBX AI Engine
+### Configuring the PBX AI Engine
 
-#### Step 1: Log in to PortSIP PBX
+#### Step 1: Log in to the PBX
 
-1. Sign in to the **PortSIP PBX Web Portal** using a **System Administrator** account.
+1. Sign in to the **PBX Web Portal** using a **System Administrator** account.
 
 ***
 
@@ -40,14 +40,14 @@ Before you begin, ensure the following requirements are met:
 
 <figure><img src="../../../.gitbook/assets/Azure_AI_Engine.png" alt=""><figcaption></figcaption></figure>
 
-This configures PortSIP PBX to use **Microsoft Azure Cognitive Services** as the backend for AI transcription and language analytics.
+This configures the PBX to use **Microsoft Azure Cognitive Services** as the backend for AI transcription and language analytics.
 
 ***
 
 #### Step 3: Configure Azure Credentials and Service Settings
 
 Use the information obtained from the Azure Portal to configure the following settings.\
-These settings allow PortSIP PBX to store audio data and invoke Azure AI Foundry services for speech transcription and sentiment analysis.
+These settings allow the PBX to store audio data and invoke Azure AI Foundry services for speech transcription and sentiment analysis.
 
 **Azure Storage Account Configuration:**
 
@@ -63,7 +63,7 @@ This value identifies the storage account where call audio files and related art
 
 The access key generated for the Azure Storage Account.
 
-This key allows PortSIP PBX to authenticate and access the storage account.\
+This key allows the PBX to authenticate and access the storage account.\
 Ensure the key has appropriate permissions and is stored securely.
 
 > **Security Best Practice**\
@@ -88,7 +88,7 @@ These settings are used to invoke Azure AI Foundry services for Speech-to-Text a
 
 The API key generated for your **Azure AI Foundry** resource.
 
-This key is used by PortSIP PBX to authenticate API requests sent to Azure AI Foundry services.
+This key is used by the PBX to authenticate API requests sent to Azure AI Foundry services.
 
 > **Security Best Practice**\
 > Protect this key carefully and restrict access using Azure role-based access control (RBAC) where possible.
@@ -119,11 +119,11 @@ Proper configuration helps control usage and prevent throttling.
 
 **Speech-to-Text Requests**
 
-Specifies the maximum number of Speech-to-Text API requests that PortSIP PBX is allowed to send to the Azure platform.
+Specifies the maximum number of Speech-to-Text API requests that the PBX is allowed to send to the Azure platform.
 
 **Sentiment Analysis Requests**
 
-Specifies the maximum number of Sentiment Analysis API requests that PortSIP PBX is allowed to send to the Azure platform.
+Specifies the maximum number of Sentiment Analysis API requests that the PBX is allowed to send to the Azure platform.
 
 This limit is applied when analyzing transcription text to determine caller sentiment or call quality metrics.
 
@@ -131,7 +131,7 @@ This limit is applied when analyzing transcription text to determine caller sent
 
 #### Step 4: Enable AI Transcription for a Tenant
 
-1. Log in to **PortSIP PBX** as a **System Administrator**.
+1. Log in to the **PBX** as a **System Administrator**.
 2. Navigate to **Tenants**, select the target tenant, and click **Edit**.
 3. Open the **Features** tab and enable **AI Transcription**.
 4. Navigate to **General** and enable **Enable AI Transcription**.
@@ -168,7 +168,7 @@ Once AI transcription is enabled, **Tenant Administrators** can manage and use A
 
 Once AI transcription is enabled for the tenant, **Tenant Administrators** can manage and use AI transcription features for individual users as follows:
 
-1. Log in to the PortSIP PBX Web Portal as a **Tenant Administrator**.
+1. Log in to the PBX Web Portal as a **Tenant Administrator**.
 2. Navigate to **Call Manager > Users**, then double-click the target user.
 3. Select the **Extension** tab and enable or disable the following option:
    * **Automatically Transcribe Recorded Calls**

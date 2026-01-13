@@ -12,7 +12,7 @@ Key questions call reporting helps answer include:
 * Which agents may be underperforming or experiencing burnout?
 * What are the SLA statistics, unanswered calls, abandoned calls, agent activities, queue performance, and callbacks?
 
-With **PortSIP PBX Call Reporting**, you can generate reports for detailed analysis, monitor report status, and share insights across the organization. Reports can be:
+With **BGMconnects PBX Call Reporting**, you can generate reports for detailed analysis, monitor report status, and share insights across the organization. Reports can be:
 
 * Viewed directly in the browser
 * Printed
@@ -20,19 +20,19 @@ With **PortSIP PBX Call Reporting**, you can generate reports for detailed analy
 
 By leveraging these reports, you can make informed business decisions, restructure your contact center, optimize agent productivity, and improve customer satisfaction.
 
-To support ongoing monitoring and analysis, PortSIP provides a wide range of **predefined reports**, which can be customized to meet your operational requirements.
+To support ongoing monitoring and analysis, BGMconnects provides a wide range of **predefined reports**, which can be customized to meet your operational requirements.
 
 ***
 
 ### Call Reporting Modes
 
-PortSIP PBX offers **two call reporting modes**, depending on whether the **Data Flow** service is deployed.
+The PBX offers **two call reporting modes**, depending on whether the **Data Flow** service is deployed.
 
 ***
 
 ### Call Reports
 
-Starting with **v22.3.0**, PortSIP PBX introduced the **Data Flow** service, built on **ClickHouse**, to deliver high-performance analytics and reporting.
+Starting with **v22.3.0**, the PBX introduced the **Data Flow** service, built on **ClickHouse**, to deliver high-performance analytics and reporting.
 
 * Call Reports data is queried from the **Data Flow service**.
 * Optimized for **high-speed queries and large-scale datasets**.

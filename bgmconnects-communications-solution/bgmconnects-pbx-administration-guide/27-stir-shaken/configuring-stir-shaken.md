@@ -1,6 +1,6 @@
 # Configuring STIR/SHAKEN
 
-In PortSIP PBX, you can configure the system to drop inbound calls on a specified SIP trunk based on **Caller ID verification** - when the trunk provider passes a parameter value in the **P-Asserted-Identity** SIP header in the INVITE message, which by default is named **'verstat'**. Additionally, you can also upload the **STIR/SHAKEN** certificate to sign outbound calls on a specified SIP trunk.
+In the PBX, you can configure the system to drop inbound calls on a specified SIP trunk based on **Caller ID verification** - when the trunk provider passes a parameter value in the **P-Asserted-Identity** SIP header in the INVITE message, which by default is named **'verstat'**. Additionally, you can also upload the **STIR/SHAKEN** certificate to sign outbound calls on a specified SIP trunk.
 
 ## Drop Calls with Verification Status
 
@@ -25,7 +25,7 @@ This parameter is used for caller ID validation and is typically named **'versta
 
 ### Enable STIR/SHAKEN Validation
 
-This option allows you to enable or disable PortSIP PBX's validation of inbound calls based on **STIR/SHAKEN** Caller ID verification.
+This option allows you to enable or disable the PBX's validation of inbound calls based on **STIR/SHAKEN** Caller ID verification.
 
 ### Drop Calls with Verification Status
 
@@ -126,7 +126,7 @@ To enable the STIR/SHAKEN signature on a specific trunk, follow these steps:
 
 <figure><img src="../../../.gitbook/assets/stire-shaken-2.png" alt=""><figcaption></figcaption></figure>
 
-Now that you’ve enabled the STIR/SHAKEN signature, when an extension makes an outbound call over a trunk where the **STIR/SHAKEN Signature Required** option is enabled, the PortSIP PBX will sign the call using the uploaded certificates. It will then add an **Identity** header to the INVITE message, which contains the call signature. The INVITE message will look similar to the following example:
+Now that you’ve enabled the STIR/SHAKEN signature, when an extension makes an outbound call over a trunk where the **STIR/SHAKEN Signature Required** option is enabled, the PBX will sign the call using the uploaded certificates. It will then add an **Identity** header to the INVITE message, which contains the call signature. The INVITE message will look similar to the following example:
 
 {% code overflow="wrap" %}
 ```

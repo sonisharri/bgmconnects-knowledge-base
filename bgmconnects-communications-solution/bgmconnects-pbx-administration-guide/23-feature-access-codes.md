@@ -2,7 +2,7 @@
 
 Feature access codes (FACs), also known as star codes, give you access to advanced calling features. To use a Feature Access Code, pick up the handset and enter the appropriate Feature Access Code (see below) to dial. For some features that require additional input, follow the audible prompts to input the required additional information.
 
-Your PortSIP ONE app and IP phone support FACs.
+Your BGMconnects app and IP phone support FACs.
 
 ## Feature Access Code Definitions
 

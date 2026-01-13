@@ -19,7 +19,7 @@ This method is typically used for on-premises PBX.
 
 * Sign in to the PBX Web Portal as the tenant administrator.
 * Plug the phone into the network.&#x20;
-* The phone will send a multicast message across the LAN, which will be received by the PortSIP PBX.&#x20;
+* The phone will send a multicast message across the LAN, which will be received by the PBX.&#x20;
 * The phone will appear in the **Call Manager > Phones** menu in the Web Portal as a new phone.
 * &#x20;Copy the IP phone's MAC address.&#x20;
 * Create a hot desking extension for that hot desking phone by selecting **Advanced Services > Hot Desking** from the menu, and clicking **Add**.&#x20;
@@ -33,7 +33,7 @@ The IP phone will automatically download the configuration file, provision itsel
 
 ### Setting Up Hot Desking via RPS Provisioning
 
-This method is typically used if the PortSIP PBX is deployed in the cloud.
+Because the PBX is deployed in the cloud, this method is typically used.
 
 * Sign in to the PBX Web Portal as the tenant administrator.
 * Copy the IP phone's MAC address.&#x20;
@@ -41,7 +41,7 @@ This method is typically used if the PortSIP PBX is deployed in the cloud.
 * Enter basic information about the IP phone, such as its MAC address and provisioning method. If using SBC, select SBC for the **Network** option.
 * Enter a friendly name for the **Display Name** and a unique extension number for this hot desking phone.&#x20;
 * Ensure the **Save to RPS** is turned on.
-* Click **OK** to create the hot desking extension and generate the configuration file. and the PortSIP PBX will write the provisioning link to the IP phone's RPS. When the IP phone is powered on, it will query the provisioning link from the RPS server using its MAC address to complete the auto-provisioning.
+* Click **OK** to create the hot desking extension and generate the configuration file. and the PBX will write the provisioning link to the IP phone's RPS. When the IP phone is powered on, it will query the provisioning link from the RPS server using its MAC address to complete the auto-provisioning.
 
 The IP phone will automatically download the configuration file, provision itself, and register the hot desking extension.
 

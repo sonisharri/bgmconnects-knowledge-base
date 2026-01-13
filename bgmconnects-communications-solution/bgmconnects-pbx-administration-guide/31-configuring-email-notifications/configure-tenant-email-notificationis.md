@@ -1,12 +1,12 @@
 # Configure Tenant Email Notificationis
 
-Follow the steps below to configure tenant-level email notifications in PortSIP PBX.
+Follow the steps below to configure tenant-level email notifications in the PBX.
 
 ***
 
 ### About Tenant-Level Email Notifications
 
-PortSIP PBX supports email notifications for tenant administrators, primarily for call-related and tenant-specific events. These notifications are separate from system-level events, which are managed by the PBX System Administrator.
+The PBX supports email notifications for tenant administrators, primarily for call-related and tenant-specific events. These notifications are separate from system-level events, which are managed by the PBX System Administrator.
 
 Each tenant can configure its own mail server to send email notifications. Alternatively, if permitted by the System Administrator, tenants may use the system-level mail server settings.
 
@@ -23,7 +23,7 @@ For more information, see [Apply Mail Settings to All Tenants](configure-system-
 
 #### Steps
 
-1. Sign in to the **PortSIP PBX Web Portal** as a Tenant Administrator, or switch to the desired tenant from the System Administrator workspace.
+1. Sign in to the **PBX Web Portal** as a Tenant Administrator, or switch to the desired tenant from the System Administrator workspace.
 2. If the SMTP server has not yet been configured, the Web Portal displays a pop-up prompt.
 3. Click **Settings** in the pop-up dialog to configure the mail server.
 
@@ -55,7 +55,7 @@ This indicates that you do not need to configure a mail server at the tenant lev
 
 If you prefer to use your own mail server, follow the steps in  [Set up the mail server](configure-system-email-notifications.md#set-up-the-mail-server) to set it up at the tenant level.
 
-Once configured, PortSIP PBX will use the tenant’s mail server settings to send email notifications, even if [Apply Mail Settings to All Tenants](configure-system-email-notifications.md#apply-mail-settings-to-all-tenants) is enabled at the system level.
+Once configured, the PBX will use the tenant’s mail server settings to send email notifications, even if [Apply Mail Settings to All Tenants](configure-system-email-notifications.md#apply-mail-settings-to-all-tenants) is enabled at the system level.
 
 ***
 

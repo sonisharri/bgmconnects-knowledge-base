@@ -2,17 +2,17 @@
 
 ### Overview
 
-This guide explains how to configure AWS AI Transcription in PortSIP PBX.
+This guide explains how to configure AWS AI Transcription in PBX.
 
-Once configured, PortSIP PBX integrates with **Amazon Web Services (AWS) AI services** to provide enterprise-grade **Speech-to-Text (STT)** transcription and optional **sentiment analysis** for calls and voicemails. These capabilities enhance call analytics, quality management, compliance recording, and overall customer experience.
+Once configured, the PBX integrates with **Amazon Web Services (AWS) AI services** to provide enterprise-grade **Speech-to-Text (STT)** transcription and optional **sentiment analysis** for calls and voicemails. These capabilities enhance call analytics, quality management, compliance recording, and overall customer experience.
 
-This guide follows VoIP, UCaaS, and CCaaS best practices and assumes basic familiarity with PortSIP PBX administration and AWS services.
+This guide follows VoIP, UCaaS, and CCaaS best practices and assumes basic familiarity with PBX administration and AWS services.
 
 ***
 
 ### AWS Services Used
 
-PortSIP PBX leverages the following **AWS AI services and IAM permissions** to enable transcription, analytics, and optional AI capabilities:
+The PBX leverages the following **AWS AI services and IAM permissions** to enable transcription, analytics, and optional AI capabilities:
 
 * **AmazonTranscribeFullAccess**\
   Provides real-time or post-call **Speech-to-Text (STT)** transcription for calls and voicemails.
@@ -32,7 +32,7 @@ PortSIP PBX leverages the following **AWS AI services and IAM permissions** to e
 
 Before you begin, ensure the following requirements are met:
 
-* **System Administrator** privileges in PortSIP PBX
+* **System Administrator** privileges in the PBX
 * An active **AWS account**
 * An AWS **IAM user or role** with permissions for:
   * `AmazonTranscribe`
@@ -43,11 +43,11 @@ Before you begin, ensure the following requirements are met:
 
 ***
 
-### Configuring the PortSIP PBX AI Engine
+### Configuring the PBX AI Engine
 
-#### Step 1: Log in to PortSIP PBX
+#### Step 1: Log in to the PBX
 
-1. Sign in to the **PortSIP PBX Web Portal** using a **System Administrator** account.
+1. Sign in to the **PBX Web Portal** using a **System Administrator** account.
 
 ***
 
@@ -58,13 +58,13 @@ Before you begin, ensure the following requirements are met:
 
 <figure><img src="../../../.gitbook/assets/AWS_AI_Engine.png" alt=""><figcaption></figcaption></figure>
 
-This configures PortSIP PBX to use **Amazon AI services** as the backend for transcription and language analytics.
+This configures the PBX to use **Amazon AI services** as the backend for transcription and language analytics.
 
 ***
 
 #### Step 3: Configure AWS Credentials and Settings
 
-This section describes how to configure **AWS credentials**, **service parameters**, and **platform API request limits** used by PortSIP PBX for AI-powered speech processing features such as **Speech-to-Text (STT)** and **language analysis**.
+This section describes how to configure **AWS credentials**, **service parameters**, and **platform API request limits** used by the PBX for AI-powered speech processing features such as **Speech-to-Text (STT)** and **language analysis**.
 
 ***
 
@@ -74,7 +74,7 @@ This section describes how to configure **AWS credentials**, **service parameter
 
 The **AWS Access Key ID** associated with an IAM user or role.
 
-This key identifies the AWS account and is required to authenticate requests sent from PortSIP PBX to AWS services.
+This key identifies the AWS account and is required to authenticate requests sent from the PBX to AWS services.
 
 **Secret Key**
 
@@ -126,7 +126,7 @@ Defines the maximum number of **Speech-to-Text** requests that can be queued and
 
 **Sentiment Analysis Requests**
 
-Specifies the maximum number of **Sentiment Analysis API requests** that PortSIP PBX is allowed to send to AWS.
+Specifies the maximum number of **Sentiment Analysis API requests** that the PBX is allowed to send to AWS.
 
 This limit applies when analyzing transcription text to determine **caller sentiment**, **call quality metrics**, or other AI-derived insights.
 
@@ -134,7 +134,7 @@ This limit applies when analyzing transcription text to determine **caller senti
 
 #### Step 4: Enable AI Transcription for a Tenant
 
-1. Log in to **PortSIP PBX** web portal as a **System Administrator**.
+1. Log in to the **PBX web portal** as a **System Administrator**.
 2. Navigate to **Tenants**, select the target tenant, and click **Edit**.
 3. Select the **Features** tab and enable **AI Transcription**.
 4. Navigate to **General** and enable **Enable AI Transcription**.
@@ -146,7 +146,7 @@ This limit applies when analyzing transcription text to determine **caller senti
 
 Once AI transcription is enabled, **Tenant Administrators** can manage and use AI features as follows:
 
-1. Log in to the PortSIP PBX web portal as a tenant administrator.
+1. Log in to the PBX web portal as a tenant administrator.
 2. Navigate to **Company > General** and configure:
    * **Automatically Transcribe Recorded Calls**
    * **Automatically Transcribe Voicemails**
@@ -169,7 +169,7 @@ Once AI transcription is enabled, **Tenant Administrators** can manage and use A
 
 Once AI transcription is enabled for the tenant, **Tenant Administrators** can manage and use AI transcription features for individual users as follows:
 
-1. Log in to the PortSIP PBX Web Portal as a **Tenant Administrator**.
+1. Log in to the PBX Web Portal as a **Tenant Administrator**.
 2. Navigate to **Call Manager > Users**, then double-click the target user.
 3. Select the **Extension** tab and enable or disable the following option:
    * **Automatically Transcribe Recorded Calls**

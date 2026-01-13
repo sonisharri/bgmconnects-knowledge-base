@@ -2,7 +2,7 @@
 
 ## Creating Meeting
 
-To create a meeting in PortSIP PBX, follow these steps after successful installation:
+To create a meeting in the PBX, follow these steps::
 
 * Select the menu **Advanced Services > Meeting** and click the **Add** button.
 * Enter a **suitable topic** for the meeting to remind participants of the topic to be discussed.
@@ -19,7 +19,7 @@ To create a meeting in PortSIP PBX, follow these steps after successful installa
 * Choose a **time zone** for meeting time; it uses the tenant’s time zone by default.
 * Pick up the **start time** and **end time** of your meeting.
 
-When the PortSIP PBX is successfully installed, you can create a meeting by selecting the menu **Advanced Services** **> Meeting** and clicking the **Add** button, then enter the following information:
+You can create a meeting by selecting the menu **Advanced Services** **> Meeting** and clicking the **Add** button, then enter the following information:
 
 * Enter the suitable topic for the meeting to remind participants of the topic to be discussed.
 * Enter a meeting extension number which will be dialed by the meeting participants to join the meeting. It should not be an existing extension number.

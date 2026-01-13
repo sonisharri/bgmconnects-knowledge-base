@@ -1,6 +1,6 @@
 # Configure System Email Notifications
 
-Follow the steps below to configure **system-level email notifications** in PortSIP PBX.
+Follow the steps below to configure **system-level email notifications** in the PBX.
 
 ***
 
@@ -10,7 +10,7 @@ To send email notifications for **system events** to the System Administrator, y
 
 #### Steps
 
-1. Sign in to the **PortSIP PBX Web Portal** as a **System Administrator**.
+1. Sign in to the **PBX Web Portal** as a **System Administrator**.
 2. Navigate to **Advanced > System Notifications**.
 3. Open the **Mail Server** tab.
 4. Configure the mail server according to your email service provider.
@@ -67,7 +67,7 @@ Because Microsoft no longer allows basic SMTP authentication using only a userna
 
 Enable Apply the mail server settings to all tenants if you want tenants to inherit the System Administrator’s mail server configuration.
 
-When enabled, PortSIP PBX uses the system-level mail server settings to send notification emails for any tenant that has not configured its own mail server.
+When enabled, the PBX uses the system-level mail server settings to send notification emails for any tenant that has not configured its own mail server.
 
 ***
 

@@ -1,10 +1,10 @@
 # Routing Calls Based on Office Hours and Holidays
 
-PortSIP PBX allows you to route calls based on office hours, holidays, and other situations where you need to reroute calls to another destination.
+The PBX allows you to route calls based on office hours, holidays, and other situations where you need to reroute calls to another destination.
 
 ## Inbound Call Routing
 
-PortSIP PBX routes all inbound calls from the SIP trunk by creating inbound rules. In an inbound rule, you can specify which SIP trunk the call is coming from, specify the CID and DID numbers, and set the routing destination based on office hours and holidays.
+The PBX routes all inbound calls from the SIP trunk by creating inbound rules. In an inbound rule, you can specify which SIP trunk the call is coming from, specify the CID and DID numbers, and set the routing destination based on office hours and holidays.
 
 <figure><img src="../../../.gitbook/assets/inbound_rule_1 (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -52,13 +52,13 @@ If a call fails to match any strategy in the advanced routing, the call routing 
 
 ## Outbound Call Routing
 
-PortSIP PBX allows tenant admin to specify office hours and holidays for outbound rules. If the current time falls outside of the specified office hours or on a holiday, the outbound rule will be blocked by the PBX.&#x20;
+The PBX allows tenant admin to specify office hours and holidays for outbound rules. If the current time falls outside of the specified office hours or on a holiday, the outbound rule will be blocked by the PBX.&#x20;
 
 To set up office hours and holidays for an outbound rule, click on the **Office Hours** tab of the inbound rule. From here, you can choose to use the **Global Office Hours** or define custom office hours for this rule. You can also select holidays from the **Global Holiday List** to apply to this rule. If you do not want to block the outbound rule at any time, do not select any holidays and specify that all days and times are within office hours.
 
 ## Extension Call Routing
 
-Each extension can have a set of call forwarding rules that define what PortSIP PBX should do when the extension user is unable to answer an incoming call. This can be configured using the following criteria.
+Each extension can have a set of call forwarding rules that define what the PBX should do when the extension user is unable to answer an incoming call. This can be configured using the following criteria.
 
 * The user’s status
 * The time

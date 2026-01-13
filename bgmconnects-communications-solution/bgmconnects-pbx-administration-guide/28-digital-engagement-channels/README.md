@@ -2,7 +2,7 @@
 
 In today’s business environment, digital communication is no longer optional—it is essential. Customers expect to interact with businesses through multiple digital channels to ask questions, share feedback, and engage in real-time conversations. Organizations that fail to meet these expectations risk missed opportunities and diminished customer satisfaction.
 
-PortSIP Digital Engagement enables seamless, omnichannel communication between your business and your customers. By unifying multiple digital channels into a single platform, PortSIP ensures that no customer interaction is overlooked—whether it is handled through automated self-service or live agent engagement.
+BGMconnects Digital Engagement enables seamless, omnichannel communication between your business and your customers. By unifying multiple digital channels into a single platform, BGMconnects ensures that no customer interaction is overlooked—whether it is handled through automated self-service or live agent engagement.
 
 Each supported channel is designed to deliver:
 
@@ -14,7 +14,7 @@ Each supported channel is designed to deliver:
 
 ### Supported Channels
 
-PortSIP currently supports the following digital engagement channels, with additional channels planned for future releases:
+BGMconnects currently supports the following digital engagement channels, with additional channels planned for future releases:
 
 ***
 
@@ -22,7 +22,7 @@ PortSIP currently supports the following digital engagement channels, with addit
 
 SMS (Short Message Service) enables businesses to send and receive text messages directly from their business phone numbers to customers’ mobile phones. Unlike internal team messaging or instant messaging platforms—which operate within apps, threads, or channels—SMS establishes a **direct, personal communication channel** using standard phone numbers.
 
-PortSIP PBX integrates with leading [SMS service providers](../../configuring-sip-trunks/), allowing organizations to:
+Our PBX integrates with leading [SMS service providers](../../configuring-sip-trunks/), allowing organizations to:
 
 * Send and receive business text messages from their PBX numbers
 * Launch outbound SMS campaigns to increase customer engagement
@@ -34,7 +34,7 @@ This integration allows businesses to extend traditional voice services into a m
 
 #### WhatsApp
 
-PortSIP’s WhatsApp integration enables businesses to engage customers through one of the world’s most widely used messaging platforms. It supports both **automated and agent-assisted interactions**, allowing organizations to scale customer engagement efficiently.
+BGMconnects' WhatsApp integration enables businesses to engage customers through one of the world’s most widely used messaging platforms. It supports both **automated and agent-assisted interactions**, allowing organizations to scale customer engagement efficiently.
 
 With WhatsApp integration, you can:
 

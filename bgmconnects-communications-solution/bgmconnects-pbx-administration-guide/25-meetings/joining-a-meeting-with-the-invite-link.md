@@ -1,17 +1,17 @@
 # Joining a Meeting with the Invite Link
 
-This article explains how to create a meeting in PortSIP PBX and send the meeting invitation to the invitees.
+This article explains how to create a meeting in the PBX and send the meeting invitation to the invitees.
 
-To join a PortSIP meeting, you may receive an invite link through email, message, or directly from the meeting host. The invite link is a web address that includes the meeting ID and can often include an embedded passcode, allowing participants to join more quickly. When you click the invite link, your web browser will display a dialog box to allow you to join the meeting.
+To join a meeting, you may receive an invite link through email, message, or directly from the meeting host. The invite link is a web address that includes the meeting ID and can often include an embedded passcode, allowing participants to join more quickly. When you click the invite link, your web browser will display a dialog box to allow you to join the meeting.
 
 ## Prerequisites
 
-* Ensure that PortSIP SBC is installed and configured for WebRTC. Please refer to this article: [Configuring SBC for WebRTC](../9-configuring-portsip-sbc/).
+* Ensure that BGMconnects SBC is installed and configured for WebRTC. Please refer to this article: [Configuring SBC for WebRTC](../9-configuring-bgmconnects-sbc/).
 * If you want to send the meeting invitation via email, ensure that the SMTP server is configured as described in this article: [Configuring Email Notifications](../configuring-email-notifications.md).
 
 ## Create Meeting
 
-To create a meeting in PortSIP PBX and send the invitation to the invitees, follow these steps:
+To create a meeting in the PBX and send the invitation to the invitees, follow these steps:
 
 1. Sign in as the tenant admin.
 2. Select **Advanced Services** > **Meeting**.
@@ -34,7 +34,7 @@ To join the meeting, the invitee clicks the link in the invitation. The browser 
 
 ## Join the Meeting by Dialing the Meeting Number
 
-As shown in the example above, to join the meeting, invitees can dial the number **110200800** from an IP phone or PortSIP app (mobile, Windows, WebRTC client).
+As shown in the example above, to join the meeting, invitees can dial the number **110200800** from an IP phone or BGMconnects app (mobile, Windows, WebRTC client).
 
 ## Join the Meeting by Dialing Number from PSTN
 

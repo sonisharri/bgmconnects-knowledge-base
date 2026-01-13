@@ -1,6 +1,6 @@
 # SMS Channel
 
-PortSIP PBX provides native SMS integration with the following SIP trunk providers:
+Our PBX provides native SMS integration with the following SIP trunk providers:
 
 * [Vonage](https://www.vonage.com/)
 * [QuestBlue](https://questblue.com/)
@@ -15,13 +15,13 @@ PortSIP PBX provides native SMS integration with the following SIP trunk provide
 * [Aire Networks](https://airenetworks.es/)
 * [VoiceMeUp](https://www.voicemeup.com/)
 
-If you are using one of the supported providers listed above, **configuring the SMS channel in PortSIP PBX is quick and straightforward**.
+If you are using one of the supported providers listed above, **configuring the SMS channel in our PBX is quick and straightforward**.
 
-If your preferred SIP trunk provider is not currently supported, please contact us via [email with](mailto:support@portsip.com) your request. Our team will evaluate the integration and explore adding support in a future release.
+If your preferred SIP trunk provider is not currently supported, please contact us via [email with](mailto:support@bgmconnects.com) your request. Our team will evaluate the integration and explore adding support in a future release.
 
 ***
 
-### 1. Preparing to Configure SMS in PortSIP PBX
+### 1. Preparing to Configure SMS in the PBX
 
 Before configuring the SMS channel, ensure that SMS services are fully enabled and operational with your SIP trunk provider.
 
@@ -37,7 +37,7 @@ Failure to complete provider-side SMS configuration may result in inbound or out
 
 ### 2. Full-Chain SSL Certificate Requirement
 
-To allow the SMS provider to successfully **verify webhooks**, your PortSIP PBX must be configured with a **trusted, full-chain SSL certificate**.
+To allow the SMS provider to successfully **verify webhooks**, your PBX must be configured with a **trusted, full-chain SSL certificate**.
 
 You can verify whether your SSL certificate is valid and includes the complete certificate chain using one of the following tools:
 
@@ -49,7 +49,7 @@ If your certificate does not include the full chain, contact your SSL certificat
 
 ***
 
-### 3. Configuring the SMS Channel in PortSIP PBX
+### 3. Configuring the SMS Channel in the PBX
 
 This section demonstrates how to configure SMS integration using [QuestBlue ](https://www.questblue.com)as an example.
 
@@ -68,7 +68,7 @@ Before proceeding, ensure you have completed the following setup:
 
 Follow the steps below to route inbound SMS messages to an extension:
 
-1. Sign in to the PortSIP PBX Web Portal as an administrator.
+1. Sign in to the PBX Web Portal as an administrator.
 2. Navigate to **Call Manager > Inbound Rules**.
 3. Click **Add** to create a new inbound rule.
 4. Configure the rule as follows:
@@ -82,11 +82,11 @@ Follow the steps below to route inbound SMS messages to an extension:
 
 Once completed, inbound SMS messages sent to the DID number will be delivered directly to the specified extension.
 
-Next, register the **PortSIP ONE** client application to the PBX using **extension 1001**.
+Next, register the **BGMconnects** client application to the PBX using **extension 1001**.
 
 Once the extension is successfully registered:
 
-* Any SMS messages sent to **+1 217 207 4422** will be **delivered directly to extension 1001** and displayed in the **PortSIP ONE** app.
+* Any SMS messages sent to **+1 217 207 4422** will be **delivered directly to extension 1001** and displayed in the **BGMconnects** app.
 * Inbound voice calls to the DID **+1 217 207 4422** will also be **routed to extension 1001**, based on the inbound rule configured earlier.
 
 This configuration ensures that **both voice calls and SMS messages** associated with the same DID are handled consistently by a single extension, providing a unified communication experience for end users.
@@ -95,11 +95,11 @@ This configuration ensures that **both voice calls and SMS messages** associated
 
 ### 5. Sending Outbound SMS
 
-The **PortSIP ONE** app allows users to send outbound SMS messages through **PortSIP PBX**, using the SMS capabilities provided by the configured SIP trunk provider.
+The **BGMconnects** app allows users to send outbound SMS messages through the **PBX**, using the SMS capabilities provided by the configured SIP trunk provider.
 
 If your SMS provider supports and requires a **Sender ID** (for example, an alphanumeric sender name), and you want outbound messages from an extension to display this Sender ID, you must configure it in the PBX:
 
-1. Sign in to the **PortSIP PBX Web Portal**.
+1. Sign in to the **PBX Web Portal**.
 2. Navigate to the **SMS settings** for the relevant extension or tenant.
 3. Specify the **Sender ID** exactly as registered with your SIP trunk provider.
 
@@ -116,7 +116,7 @@ By default, extensions are **not authorized to send outbound SMS messages**. To 
 
 To allow an extension to send SMS:
 
-1. Sign in to the PortSIP PBX Web Portal as a tenant administrator.
+1. Sign in to the PBX Web Portal as a tenant administrator.
 2. Navigate to **Call Manager > Users**.
 3. Double-click the target extension and open the **Extension** tab.
 4. Locate the **Send SMS/MMS** option and select one of the following:
@@ -161,12 +161,12 @@ Refer to the accompanying screenshot for a visual walkthrough of the configurati
 
 ### 5.3 Sending an SMS to a Contact
 
-Users can send SMS messages to contacts directly from the **PortSIP ONE** app using the following steps:
+Users can send SMS messages to contacts directly from the **BGMconnects** app using the following steps:
 
 1. **Open Contacts**\
-   In the PortSIP ONE app, navigate to the **Contacts** menu, select the desired contact, and click the **SMS** icon to open the SMS conversation interface.
+   In the BGMconnects app, navigate to the **Contacts** menu, select the desired contact, and click the **SMS** icon to open the SMS conversation interface.
 
-<figure><img src="../../../.gitbook/assets/portsip_pbx_sms1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects_pbx_sms1.png" alt=""><figcaption></figcaption></figure>
 
 2. **Send the Message**\
    Enter your message in the text field, just as you would in a standard chat application.\
@@ -175,20 +175,20 @@ Users can send SMS messages to contacts directly from the **PortSIP ONE** app us
 * Select the **destination number** associated with the contact
 * Choose the **sender number or Caller ID** that will be displayed to the recipient
 
-<figure><img src="../../../.gitbook/assets/portsip_pbx_sms2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects_pbx_sms2.png" alt=""><figcaption></figcaption></figure>
 
-Once sent, the message will be delivered through **PortSIP PBX** using the configured SMS provider.
+Once sent, the message will be delivered through the **PBX** using the configured SMS provider.
 
 ***
 
 ### 5.4 Sending an SMS Directly to a Phone Number
 
-The **PortSIP ONE** app allows users to send SMS messages directly to a phone number, even if the number is not saved as a contact.
+The **BGMconnects** app allows users to send SMS messages directly to a phone number, even if the number is not saved as a contact.
 
 To send an SMS to a phone number:
 
 1. **Start a New Message**\
-   In the PortSIP ONE app, click the **+** button at the top of the interface and select **Send a Message**.
+   In the BGMconnects app, click the **+** button at the top of the interface and select **Send a Message**.
 2. **Select the Message Target**\
    In the pop-up window, you can:
    * Select an **extension** to send an internal instant message (IM), or
@@ -197,7 +197,7 @@ To send an SMS to a phone number:
 3. **Open the SMS Chat**\
    Click the green **message** icon to open the SMS conversation interface.
 
-<figure><img src="../../../.gitbook/assets/portsip_pbx_sms3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects_pbx_sms3.png" alt=""><figcaption></figcaption></figure>
 
 4. **Send the Message**\
    Type your message in the chat window, as you would in a standard messaging application.\
@@ -206,7 +206,7 @@ To send an SMS to a phone number:
 * Select the **destination phone number**, and
 * Specify the **sender number or Caller ID** that will be displayed to the recipient.
 
-Once sent, the message is delivered through **PortSIP PBX** using the configured SMS provider.
+Once sent, the message is delivered through the **PBX** using the configured SMS provider.
 
 
 

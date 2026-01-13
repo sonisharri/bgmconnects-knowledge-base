@@ -2,9 +2,9 @@
 
 ### Available Email Template Variables
 
-Below is a complete list of template variables that can be used when customizing email templates in PortSIP PBX.
+Below is a complete list of template variables that can be used when customizing email templates in the PBX.
 
-You can configure email templates in the PortSIP PBX Web Portal under:\
+You can configure email templates in the PBX Web Portal under:\
 **Advanced > Email Templates**
 
 ***

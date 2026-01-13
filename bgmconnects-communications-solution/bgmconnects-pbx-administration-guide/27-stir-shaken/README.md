@@ -18,9 +18,9 @@ The idea behind of STIR/SHAKEN is to mitigate unwanted robocalls and bad actors 
 
 STIR is used to enhance the SIP protocol to provide a mechanism for service providers to verify that the originator of a SIP call is highly likely to be valid (i.e. not a spoofed/fraudulent calling party). The goal of these enhancements is to make it considerably more difficult for bad actors to spoof the identity of a call for malevolent or other purposes. Examples of such activities are spoofing voice messaging or credit card validation services to get access to the victim’s voice messages or credit, respectively; engaging in confidence schemes by masquerading as legitimate enterprises looking for information or cash (e.g., banks for personal identification or the IRS for swindling); or to get through blocked caller lists (e.g., robocalling).
 
-## PortSIP Solution
+## BGMconnects Solution
 
-**PortSIP PBX** provides the complete implementation of **STIR/SHAKEN** for two key reasons:
+Our **PBX** provides the complete implementation of **STIR/SHAKEN** for two key reasons:
 
 * Our clients no longer need to pay for expensive STIR/SHAKEN subscription services for their business.
 * Our clients' data stays secure, without being routed through third-party service provider networks.

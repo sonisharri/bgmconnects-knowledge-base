@@ -2,7 +2,7 @@
 
 ### HubSpot CRM Integration Overview
 
-Improve your team’s productivity with **PortSIP PBX’s native HubSpot CRM integration**. This integration automatically matches incoming and outgoing calls with **HubSpot contacts, leads, and accounts**, and logs call activities—including **call records, call recordings, and AI transcriptions**—to the appropriate CRM records.
+Improve your team’s productivity with **the PBX’s native HubSpot CRM integration**. This integration automatically matches incoming and outgoing calls with **HubSpot contacts, leads, and accounts**, and logs call activities—including **call records, call recordings, and AI transcriptions**—to the appropriate CRM records.
 
 By eliminating manual data entry and providing agents with real-time customer context, this integration helps teams work more efficiently and deliver a consistently superior customer experience.
 
@@ -14,9 +14,9 @@ By eliminating manual data entry and providing agents with real-time customer co
 
 Inbound calls automatically trigger a **HubSpot** CRM lookup to identify the caller and display the associated contact name.
 
-#### Contact Lookup from PortSIP ONE
+#### Contact Lookup from BGMconnects app
 
-When searching by name in **PortSIP ONE for Windows, macOS, or Web Client**, the system queries **HubSpot** CRM and matches contacts based on phone numbers.
+When searching by name in **BGMconnects for Windows, macOS, or Web Client**, the system queries **HubSpot** CRM and matches contacts based on phone numbers.
 
 #### Automatic Call Journaling
 
@@ -24,7 +24,7 @@ All trunk calls are automatically logged in the HubSpot Contact Card as CRM call
 
 #### Create New Contacts Automatically
 
-For calls from unknown numbers, agents can create new HubSpot contacts or leads directly from the PortSIP PBX client.
+For calls from unknown numbers, agents can create new HubSpot contacts or leads directly from the PBX client.
 
 #### Recording and AI Transcription Logging
 
@@ -40,10 +40,10 @@ Call recording links and AI transcription links are automatically attached to th
 <figure><img src="../../../.gitbook/assets/hubspot_create_legacy_app.png" alt=""><figcaption></figcaption></figure>
 
 3. Select **Public** as the type of legacy app.
-4. In the **App Info** tab, enter a **Public app name**, for example: `PortSIP PBX Integration`
-5.  In the **Redirect URL** field, enter the callback URL of your PortSIP PBX Admin Console. For example: `https://pbx.portsip.com:8887/api/auth/callback/hubspot`
+4. In the **App Info** tab, enter a **Public app name**, for example: `BGMconnects PBX Integration`
+5.  In the **Redirect URL** field, enter the callback URL of your PBX Admin Console. For example: `https://pbx.bgmconnects.com:8887/api/auth/callback/hubspot`
 
-    > **Note:** Replace `pbx.portsip.com` with your actual PBX host name.
+    > **Note:** Replace `pbx.bgmconnects.com` with your actual PBX host name.
 6. In the **Scopes** section, add the following permissions:
    * **CRM**
      * `crm.objects.contacts.read`
@@ -57,17 +57,17 @@ Call recording links and AI transcription links are automatically attached to th
 
 7. Click **Create App**. HubSpot will generate a **Client ID** and **Client Secret**.
 8. Securely store the **Client ID** and **Client Secret**.\
-   These credentials are required when configuring PortSIP PBX. Treat them as confidential and rotate them immediately if you suspect they have been compromised.
+   These credentials are required when configuring the PBX. Treat them as confidential and rotate them immediately if you suspect they have been compromised.
 
 <figure><img src="../../../.gitbook/assets/hubspot_app_credentials.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-### Step 2: Configure PortSIP PBX
+### Step 2: Configure the PBX
 
 #### Enable CRM at the Tenant Level
 
-Log in to the **PortSIP PBX Web Portal** as a **System Administrator**, then navigate to **Tenants**, select the target tenant, and click **Edit**.
+Log in to the **PBX Web Portal** as a **System Administrator**, then navigate to **Tenants**, select the target tenant, and click **Edit**.
 
 Open the **Features** tab and ensure that the **CRM** option is enabled.
 
@@ -98,7 +98,7 @@ Define the priority for HubSpot CRM searches:
 
 #### Query CRM
 
-Specify when PortSIP PBX should query HubSpot CRM:
+Specify when the PBX should query HubSpot CRM:
 
 * **Always query**
 * **Only when not found in PBX CRM contacts**
@@ -109,8 +109,8 @@ Enable this option to automatically log calls as HubSpot CRM activities.
 
 When enabled, a call recording link can be included in the activity:
 
-* **Private Recording Link** – Authentication with PortSIP PBX is required to access the recording.
-* **Public Recording Link** – Authentication with PortSIP PBX is not required.
+* **Private Recording Link** – Authentication with the PBX is required to access the recording.
+* **Public Recording Link** – Authentication with the PBX is not required.
 
 #### Create Contacts for New Numbers
 
@@ -125,7 +125,7 @@ Allow agents to create CRM records when calls come from unknown numbers.
 
 <figure><img src="../../../.gitbook/assets/pbx_hubspot_choose_account.png" alt=""><figcaption></figcaption></figure>
 
-3. Click **Connect app** to authorize PortSIP PBX to access HubSpot CRM data.
+3. Click **Connect app** to authorize the PBX to access HubSpot CRM data.
 
 <figure><img src="../../../.gitbook/assets/pbx_hubspot_authorize.png" alt=""><figcaption></figcaption></figure>
 

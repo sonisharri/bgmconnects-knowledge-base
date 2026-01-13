@@ -2,7 +2,7 @@
 
 ### Call Reports Overview
 
-**PortSIP Call Reports** deliver the power of a full-featured call analytics tool directly on top of your call data. They enable you to create highly customized reports and analyses, providing the exact metrics you need, in the format you prefer, and delivered to the right stakeholders.
+**BGMconnects Call Reports** deliver the power of a full-featured call analytics tool directly on top of your call data. They enable you to create highly customized reports and analyses, providing the exact metrics you need, in the format you prefer, and delivered to the right stakeholders.
 
 With Call Reports, you can turn raw call data into actionable insights for operational monitoring, performance optimization, and strategic decision-making.
 
@@ -10,10 +10,10 @@ With Call Reports, you can turn raw call data into actionable insights for opera
 
 ### Key Features
 
-PortSIP Call Reports offer the following capabilities, and more:
+BGMconnects Call Reports offer the following capabilities, and more:
 
 * **Advanced filtering and logic**\
-  Access more filters and more complex filter logic than other Analytics features in PortSIP PBX. This includes filtering by business hours, multiple users or contact centers simultaneously, and additional advanced conditions.
+  Access more filters and more complex filter logic than other Analytics features in the PBX. This includes filtering by business hours, multiple users or contact centers simultaneously, and additional advanced conditions.
 * **Custom calculations and formatting**\
   Apply automated calculations and formatting to your data, eliminating the need for manual spreadsheet work to derive specific metrics or insights.
 * **Custom reports and scorecards**\
@@ -33,9 +33,9 @@ Automating scheduled reports eliminates the need to manually generate reports at
 
 #### Steps to Create a Scheduled Report
 
-<figure><img src="../../../.gitbook/assets/portsip_call_reports_1 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects_call_reports_1 (2).png" alt=""><figcaption></figcaption></figure>
 
-1. Sign in to the **PortSIP PBX Web Portal**.
+1. Sign in to the **PBX Web Portal**.
 2. Navigate to **Data Analytics > Reports**.
 3. Click **Generate Report** in the upper-right corner.
 
@@ -84,7 +84,7 @@ Click **OK** to save the configuration and activate the scheduled report.
 
 This tab displays a list of reports that are configured to run **recurrently**.&#x20;
 
-<figure><img src="../../../.gitbook/assets/portsip_call_reports_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects_call_reports_2.png" alt=""><figcaption></figcaption></figure>
 
 For each scheduled report, you can view key details, including:
 
@@ -102,7 +102,7 @@ You can temporarily pause or resume a scheduled report by toggling the **Status*
 
 This tab displays a list of generated reports that are ready for download. If you subscribed to a report when scheduling it, you will receive an **email notification** when the report is available.
 
-<figure><img src="../../../.gitbook/assets/portsip_call_reports_3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects_call_reports_3.png" alt=""><figcaption></figcaption></figure>
 
 You can:
 
