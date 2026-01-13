@@ -114,13 +114,11 @@ Bottom line: Softphones and VoIP desk phones often work hand-in-hand within mode
 
 Choosing the right softphone is crucial for optimizing your business communications. Here’s a quick overview of some leading VoIP softphone apps:
 
-**1. PortSIP ONE**
+**1. BGMconnects app**
 
-[PortSIP ONE](https://www.portsip.com/portsip-one/) is engineered as a comprehensive [cloud PBX and UCaaS solution](https://www.portsip.com/portsip-pbx/), centralizing calls, video meetings, and SMS/WhatsApp messages into one intuitive application. It connects your team members and clients with exceptional call quality across desktop (Windows, macOS), web browsers, iOS, and Android devices.
+The [BGMconnects app](https://www.bgmconnects.com/downloads/) is engineered as a comprehensive [cloud PBX and UCaaS solution](https://www.bgmconnects.com/pbx/), centralizing calls, video meetings, and SMS/WhatsApp messages into one intuitive application. It connects your team members and clients with exceptional call quality across desktop (Windows, macOS), web browsers, iOS, and Android devices.
 
 <figure><img src="https://www.portsip.com/wp-content/uploads/2024/09/t2.png" alt=""><figcaption></figcaption></figure>
-
-PortSIP ONE is available for free, and crucially, PortSIP also offers a white-label softphone based on the PortSIP ONE app. This is a significant advantage for service providers looking to offer a one-stop UCaaS solution under their own brand, providing unparalleled flexibility and brand recognition.
 
 **2. NextivaONE by Nextiva**
 
@@ -150,4 +148,4 @@ Bria Solo (formerly X-Lite) is another excellent softphone solution, designed fo
 
 Softphones deliver scalable and flexible internet phone service, making them an ideal choice for businesses that require fluid communications from anywhere. They promise all the core features of traditional telephone devices, enhanced with significant benefits like seamless integration with video conferencing, chat, and SMS.
 
-If you desire the full features of a traditional desk phone experience combined with the convenience of portability and powerful integrations, [PortSIP PBX](https://www.portsip.com/portsip-pbx/), with its integrated softphone applications like [PortSIP ONE](https://www.portsip.com/portsip-one/) could be precisely what your business needs to thrive in the modern communication landscape.
+If you desire the full features of a traditional desk phone experience combined with the convenience of portability and powerful integrations, [BGMconnects](https://www.bgmconnects.com/pbx/), with its integrated softphone applications like the [BGMconnects app](https://www.bgmconnects.com/downloads/) could be precisely what your business needs to thrive in the modern communication landscape.

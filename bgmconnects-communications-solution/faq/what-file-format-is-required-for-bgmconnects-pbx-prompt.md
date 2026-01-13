@@ -1,6 +1,6 @@
-# What File Format Is Required for PortSIP PBX Prompt?
+# What File Format Is Required for the PBX Prompt?
 
-PortSIP PBX accepts the file format as  **WAV file in PCM, 16kHz/32kHz/48 kHz, 16-bit, Mono**. This file format is applicable to the following applications:
+The PBX accepts the file format as  **WAV file in PCM, 16kHz/32kHz/48 kHz, 16-bit, Mono**. This file format is applicable to the following applications:
 
 * Virtual Receptionist
 * Call Queue
@@ -12,7 +12,7 @@ PortSIP PBX accepts the file format as  **WAV file in PCM, 16kHz/32kHz/48 kHz, 1
 
 ## Converting Unsupported Audio Files to WAV Format
 
-To convert an unsupported audio file for the PortSIP PBX prompt file, you can follow these steps:
+To convert an unsupported audio file for the PBX prompt file, you can follow these steps:
 
 1. Download and install the free [Audacity ](https://www.audacityteam.org/download/windows/)audio editor software.
 2. Launch [Audacity](https://www.audacityteam.org/download/windows/), navigate to the menu **File >  Open**. Choose the file you wish to convert.
@@ -23,9 +23,9 @@ To convert an unsupported audio file for the PortSIP PBX prompt file, you can fo
    * For the **Encoding** option, choose **Signed 16-bit PCM**.
 5. Finally, click the **Export** button to save your converted WAV file.
 
-This process will ensure your audio file is compatible with the PortSIP PBX system.
+This process will ensure your audio file is compatible with the PBX system.
 
-<figure><img src="../../.gitbook/assets/portsip-pbx-convert-wav-file.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-pbx-convert-wav-file.png" alt=""><figcaption></figcaption></figure>
 
 
 

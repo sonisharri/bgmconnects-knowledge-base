@@ -43,7 +43,7 @@ Since the Trace server usually takes large CPU and memory resources, we recommen
 * Memory: 16G
 
 {% hint style="danger" %}
-**Important**: Please note that the PortSIP Trace Server and PortSIP PBX should not be installed on the same server. Doing so may lead to undefined issues.
+**Important**: Please note that the BGMconnects Trace Server and PBX should not be installed on the same server. Doing so may lead to undefined issues.
 {% endhint %}
 
 ## Firewall Rules
@@ -54,7 +54,7 @@ The firewall and cloud platform security group must allow the ports listed below
 * Port 9080 on TCP
 * Port 9060 on UDP
 
-## Installing PortSIP Trace Server
+## Installing BGMconnects Trace Server
 
 * Ensure the server date and time are synced correctly
 * Must perform all Linux commands as the **root** user. Please **su root** first
@@ -75,9 +75,9 @@ curl https://raw.githubusercontent.com/bgmconnects/bgmconnects-pbx-sh/master/v22
 cd /opt/bgmconnects-trace && /bin/sh install_docker.sh
 ```
 
-### Run the PortSIP Trace Server
+### Run the BGMconnects Trace Server
 
-The command for running the PortSIP Trace Server with **default settings** is below:
+The command for running the BGMconnects Trace Server with **default settings** is below:
 
 ```sh
 cd /opt/bgmconnects-trace && /bin/sh trace_ctl.sh run
@@ -88,9 +88,9 @@ We can specify the following parameters for specific usage.
 * **-p**: Specify the folder path where the data will be stored, for example, `/opt/bgmconnects/trace`. Please ensure that the path does not contain any spaces. The default path is /`var/lib/bgmconnects`.
 * **-k**: This option allows you to specify the number of days that the SIP message data will be stored. Any stored SIP message data will be automatically deleted if it exceeds the specified number of days. The default storage duration is 5 days.
 * **-l**: Specify the listening port for the trace server on the web portal. The default port is set to 9080.
-* **-z**: Specify the port for receiving the SIP messages sent from the PortSIP PBX. The default port is set to 9061.
+* **-z**: Specify the port for receiving the SIP messages sent from the PBX. The default port is set to 9061.
 
-The following example demonstrates how to run the PortSIP Trace Server.
+The following example demonstrates how to run the BGMconnects Trace Server.
 
 In this example, the data is stored in the `/opt/bgmconnects/trace` directory, the data is retained for **30** days, the web portal listens on port **12345**, and the server listens on port **23456** for receiving SIP messages.
 
@@ -103,7 +103,7 @@ cd /opt/bgmconnects-trace && \
 -z 23456
 ```
 
-After the PortSIP Trace Server is successfully installed, you can access the trace server Web Portal by the following URL:
+After the BGMconnects Trace Server is successfully installed, you can access the trace server Web Portal by the following URL:
 
 `http://trace-server-ip:12345`
 
@@ -121,9 +121,9 @@ The default username is `admin`, the password is `admin.`
 Please change the default password for the admin after you sign in to the web portal.
 {% endhint %}
 
-## Enabling SIP Trace in the PortSIP PBX
+## Enabling SIP Trace in the PBX
 
-Sign in to the PortSIP PBX Web Portal, click **Advanced** > **Settings**, on the **General** page, and fill out the trace server information as shown in the screenshot below:
+Sign in to the PBX Web Portal, click **Advanced** > **Settings**, on the **General** page, and fill out the trace server information as shown in the screenshot below:
 
 <figure><img src="../../.gitbook/assets/bgmconnects_trance_server.png" alt=""><figcaption></figcaption></figure>
 
@@ -133,9 +133,9 @@ Important: Enter your actually trace server IP. If you used the **-z** parameter
 
 After successfully setting up the SIP trace server information and clicking the **OK** button, the PBX will send all SIP messages to the trace server.
 
-## Disabling SIP Trace in the PortSIP PBX
+## Disabling SIP Trace in the PBX
 
-Sign in to the PortSIP PBX Web Portal, click **Advanced** > **Settings**, on the **General** page, remove the information from the trace server fields, and click the **OK** button. The PortSIP PBX will stop sending the SIP message to the trace server.
+Sign in to the PBX Web Portal, click **Advanced** > **Settings**, on the **General** page, remove the information from the trace server fields, and click the **OK** button. The PBX will stop sending the SIP message to the trace server.
 
 {% hint style="danger" %}
 Important: SIP Trace should be off most of the time and only enabled when troubleshooting is required, since it will consume the hardware resources and reduce the PBX's performance.
@@ -177,7 +177,7 @@ By clicking on the **QoS** tab, you’ll be able to select and analyze the voice
 
 ## Managing Trace Server
 
-You can use the following commands to manage the PortSIP Trace Server.
+You can use the following commands to manage the BGMconnects Trace Server.
 
 ### Start Service
 
@@ -225,5 +225,5 @@ cd /opt/bgmconnects-trace && /bin/sh trace_ctl.sh stop
 cd /opt/bgmconnects-trace && /bin/sh trace_ctl.sh rm
 ```
 
-Now follow the Installing [PortSIP Trace Server](debug-sip-message.md#installing-bgmconnects-trace-server).
+Now follow the Installing [BGMconnects Trace Server](debug-sip-message.md#installing-bgmconnects-trace-server).
 

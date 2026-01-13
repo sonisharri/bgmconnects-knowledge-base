@@ -17,16 +17,16 @@ Date: December 19, 2025
   * Enhanced CDR with additional filters
   * Redesigned Dashboards and Wallboards for queue and agent metrics
 * **CRM Integration** _(initially supports Zoho and HubSpot; more CRMs to follow)_\
-  Provides seamless synchronization between PortSIP PBX and CRM systems:
+  Provides seamless synchronization between PBX and CRM systems:
   * Automatic contact synchronization
   * Call logging and note-taking directly within the CRM
   * Ability to create and edit call notes
-  * Unified interaction tracking from both the **PortSIP PBX** and **PortSIP ONE App**
+  * Unified interaction tracking from both the **PBX** and **BGMconnects App**
 * **CRM Contacts Category**\
   Introduced a new _CRM Contacts_ section that categorizes contacts synchronized from connected CRM platforms.
 * **AI Transcription Service**
   * Integrated with AWS and Microsoft Azure to provide automatic transcription for calls and voicemails.
-  * Transcriptions are viewable in both the PBX Web Portal and the PortSIP ONE App.
+  * Transcriptions are viewable in both the PBX Web Portal and the BGMconnects App.
 
 ***
 
@@ -42,7 +42,7 @@ Date: December 19, 2025
   Administrators can now create custom roles to fine-tune access permissions, enhancing role-based access control and operational flexibility.
 * **User Access Limits**\
   System administrators can set per-tenant limits on how many users can access:
-  * The PortSIP ONE App
+  * The BGMconnects App
   * The Teams Phone App
 
 ***
@@ -85,17 +85,17 @@ Date: December 19, 2025
 #### Device and App Updates
 
 * **New App Releases**
-  * Released the PortSIP Teams Phone App.
-  * Released PortSIP ONE for macOS.
+  * Released the BGMconnects Teams Phone App.
+  * Released BGMconnects for macOS.
 * **Device Support**
   * Added support for [Fanvil ](https://www.fanvil.com)W620W, V50P, V60P, and W series phones.
   * Added support for [Yealink ](https://www.yealink.com)T7x and T8x phones.
   * Added support for [Gigaset ](https://www.gigaset.com)IP and DECT phones.
   * Added support for [Intelbras ](https://www.intelbras.com/en)IP Phones
-  * Added support for [SNOM ](https://www.snom.com/en/)headsets in the PortSIP ONE app.
+  * Added support for [SNOM ](https://www.snom.com/en/)headsets in the BGMconnects app.
   * DECT phone handset names can now be automatically set to the Extension Name.
 * **Power Optimization**
-  * Phones provisioned by PortSIP PBX now automatically disable power-saving mode to prevent missed calls.
+  * Phones provisioned by the PBX now automatically disable power-saving mode to prevent missed calls.
 * **Codec Configuration**
   * Added the ability to enable or disable codecs for IP phones during auto-provisioning.
 
@@ -133,7 +133,7 @@ Date: November 21, 2025
 * Fixed a bug where, if an SNOM phone performs the blind transfer to an app extension user who is offline but has activated push notifications(displayed as "push online" in the PBX web portal), it would cause the voice not to work.
 * Fixed a bug where the phone BLF label was displayed incorrectly.
 
-#### PortSIP SBC v11.20
+#### BGMconnects SBC v11.20
 
 This version fixed a bug where, if the IM service was installed on a separate server, the WebRTC app would fail to connect to the IM server.
 
@@ -153,7 +153,7 @@ Date: November 6, 2025
 * Added new phone templates for the following devices:
   * Polycom 8800 series
   * AudioCodes 420 and 405 models
-* Released PortSIP SBC v11.1.10, which includes the new WebRTC app version.
+* Released BGMconnects SBC v11.1.10, which includes the new WebRTC app version.
 
 #### Bug Fixes
 
@@ -285,7 +285,7 @@ After upgrading from a previous version to v22.2.x, the SBC token is automatical
 
 * Added **night mode support** for Queues, Ring Groups, and Virtual Receptionists. When night mode is active, calls are forwarded to a predefined destination.
 * Enabled **BLF key integration for night mode** on supported IP phones, allowing activation and deactivation via BLF key press.
-* Added support for **activating/deactivating night mode** directly from the PortSIP ONE app.
+* Added support for **activating/deactivating night mode** directly from the BGMconnects app.
 * Added support for **Two-Factor Authentication (2FA)** via email verification code for **web portal login and app login**. Requires proper email server configuration by the administrator.
 * Added the ability to **reset passwords by sending a reset link via email** for users who forget their login credentials.
 * Introduced **PIN-protected calling**. When dialing a Feature Access Code (FAC) followed by a number, the PBX prompts the user to enter their voicemail PIN before placing the call.
@@ -325,7 +325,7 @@ After upgrading from a previous version to v22.2.x, the SBC token is automatical
 * Resolved a problem in Ring Groups where, if the last agent declined the call and "Repeat on No Answer" was enabled, the caller was disconnected.
 * Fixed a bug in Advanced Routing logic where only the last configured route would take effect.
 * Corrected an issue where calls were still being routed to an outdated IP/port of an Accept Register Trunk after registration refresh.
-* Fixed a bug in PortSIP ONE app where switching between Wi-Fi and mobile networks during a call caused disconnection.
+* Fixed a bug in BGMconnects app where switching between Wi-Fi and mobile networks during a call caused disconnection.
 
 ## Changes for Release v22.1.7
 
@@ -397,7 +397,7 @@ Date: Jan 2, 2025
 Date: Dec 12, 2024
 
 * Optimized performance: 2 cores, 4GB memory for up to 1,000 online users, supports \~500 simultaneous calls
-* PortSIP ONE app: Available for WebRTC, Windows, iOS, and Android (macOS support coming soon)
+* BGMconnects app: Available for WebRTC, Windows, iOS, and Android (macOS support coming soon)
 * SSO login: Support for Microsoft 365 accounts across WebRTC, Windows, iOS, and Android apps
 * Messaging features: Group chat, offline messaging, sync messages across devices, support for SMS and WhatsApp messaging
 * Call management: Optimized for blind and attended call transfers, Call Flip and Call Park features within the app, Call Park notifications for easy retrieval, Visual voicemail in the app

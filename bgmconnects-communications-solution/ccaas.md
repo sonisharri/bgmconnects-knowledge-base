@@ -135,13 +135,13 @@ CCaaS represents the natural evolution of the contact center — from hardware-b
 
 ***
 
-## **Why PortSIP CCaaS is Your Ideal Partner**
+## **Why BGMconnects CCaaS is Your Ideal Partner**
 
-If you're ready to unlock the full potential of your contact center, **PortSIP CCaaS** provides a comprehensive, cloud-native solution built for modern businesses.
+If you're ready to unlock the full potential of your contact center, **BGMconnects CCaaS** provides a comprehensive, cloud-native solution built for modern businesses.
 
-With **truly multi-tenant architecture**, **open APIs**, **AI-powered tools**, and **seamless integration with PortSIP UCaaS and CPaaS**, PortSIP CCaaS empowers service providers and enterprises alike to deliver best-in-class customer experiences — all with flexible licensing, global scalability, and unmatched support.
+With **truly multi-tenant architecture**, **open APIs**, **AI-powered tools**, and **seamless integration with BGMconnects UCaaS and CPaaS**, BGMconnects CCaaS empowers service providers and enterprises alike to deliver best-in-class customer experiences — all with flexible licensing, global scalability, and unmatched support.
 
-Contact [PortSIP ](mailto:sales@portsip.com)today to learn how our CCaaS platform can help you transform your customer engagement strategy.
+Contact [BGMconnects](mailto:sales@bgmconnects.com)today to learn how our CCaaS platform can help you transform your customer engagement strategy.
 
 
 

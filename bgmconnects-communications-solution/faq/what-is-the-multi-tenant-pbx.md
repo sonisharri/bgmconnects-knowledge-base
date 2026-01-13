@@ -10,5 +10,5 @@ In a multi-tenant environment, a cloud vendor can offer their services to many c
 
 For the cloud PBX service providers and MSPs, the multi-tenant architecture is mandatory for hosting the cloud PBX service.
 
-[PortSIP PBX](https://www.portsip.com/portsip-pbx) is a native cloud-based, multi-tenant solution that allows for easy scaling, and flexible pricing and boasts rapid innovation. With PortSIP, large and small businesses get the best of both worlds: superior uptime and resilient site connectivity in the case of an outage.
+[BGMconnects](https://www.bgmconnects.com/pbx) is a native cloud-based, multi-tenant solution that allows for easy scaling, and flexible pricing and boasts rapid innovation. With BGMconnects, large and small businesses get the best of both worlds: superior uptime and resilient site connectivity in the case of an outage.
 

@@ -1,6 +1,6 @@
 # Simplifying Unified Communications with WebRTC and SIP
 
-[PortSIP SBC](https://www.portsip.com/portsip-sbc/) provides a bridge between Voice over Internet Protocol (VoIP) networks and the latest web services. It performs a number of federation services to transform SIP communications into WebRTC or vice versa, so organizations can retain their SIP-based call control (PBX, contact center, etc.) and offer tools that embed real-time communications into business applications, websites, processes, and workflows.
+[BGMconnects SBC](https://www.bgmconnects.com/sbc/) provides a bridge between Voice over Internet Protocol (VoIP) networks and the latest web services. It performs a number of federation services to transform SIP communications into WebRTC or vice versa, so organizations can retain their SIP-based call control (PBX, contact center, etc.) and offer tools that embed real-time communications into business applications, websites, processes, and workflows.
 
 ### What is WebRTC
 
@@ -101,8 +101,8 @@ SIP plays an important role in the following scenarios:
 
 While WebRTC allows for browser-based communication, traditional SIP-based PBX phone systems rely on the SIP protocols. To enable these two technologies to work together seamlessly, a WebRTC gateway is essential. This gateway serves as an intelligent bridge between Voice over Internet Protocol (VoIP) networks and the open ecosystem of the Internet.
 
-PortSIP, a renowned name in this domain, offers a product called [PortSIP SBC](https://www.portsip.com/portsip-sbc/). This product provides a bridge between VoIP networks and the latest web services. It performs a number of federation services to transform SIP communications into WebRTC or vice versa. This allows organizations to retain their SIP-based call control (such as PBX, contact center, etc.) and offer tools that embed real-time communications into business applications, websites, processes, and workflows.
+BGMconnects, a renowned name in this domain, offers a product called [BGMconnects SBC](https://www.bgmconnects.com/sbc/). This product provides a bridge between VoIP networks and the latest web services. It performs a number of federation services to transform SIP communications into WebRTC or vice versa. This allows organizations to retain their SIP-based call control (such as PBX, contact center, etc.) and offer tools that embed real-time communications into business applications, websites, processes, and workflows.
 
-Positioned at the edge of the network, the [PortSIP SBC](https://www.portsip.com/portsip-sbc/) provides open, web-centric APIs. These APIs allow application developers to gain access to the enterprise’s Unified Communications (UC) services – including voice, video, presence, shared address book, call history, instant messaging, and collaboration.
+Positioned at the edge of the network, the [BGMconnects SBC](https://www.bgmconnects.com/sbc/) provides open, web-centric APIs. These APIs allow application developers to gain access to the enterprise’s Unified Communications (UC) services – including voice, video, presence, shared address book, call history, instant messaging, and collaboration.
 
 <figure><img src="../.gitbook/assets/enterprise_pbx_sbc_teams1.png" alt=""><figcaption></figcaption></figure>

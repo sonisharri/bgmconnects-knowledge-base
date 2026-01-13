@@ -1,6 +1,6 @@
 # Hardware Specifications
 
-The PortSIP PBX is usually deployed for users within 100K and around 10K simultaneous calls, we recommended the following hardware specifications.
+The PBX is usually deployed for users within 100K and around 10K simultaneous calls, we recommended the following hardware specifications.
 
 ## PBX Service
 

@@ -1,6 +1,6 @@
 # What is Direct Inward Dialing (DID)?
 
-Direct Inward Dialing (DID) is when a telephone service provider connects a block of telephone numbers to your company’s [Private Branch Exchange](https://www.portsip.com/portsip-pbx) (PBX). It allows businesses to set up virtual numbers that can bypass the main reception lines and go directly to a desk extension or group of extensions. DID can be used with local, premium-rate, or toll-free numbers.
+Direct Inward Dialing (DID) is when a telephone service provider connects a block of telephone numbers to your company’s [Private Branch Exchange](https://www.bgmconnects.com/pbx) (PBX). It allows businesses to set up virtual numbers that can bypass the main reception lines and go directly to a desk extension or group of extensions. DID can be used with local, premium-rate, or toll-free numbers.
 
 Other common names for DID are DDI, direct-dial numbers, direct dial, and direct dial-ins. Essentially, when someone says "**Reach me at my direct number**,” this is what they’re referring to. In summary, a phone number that is used like this is often called a "DID" (and multiple numbers are called "**DIDs**”).&#x20;
 

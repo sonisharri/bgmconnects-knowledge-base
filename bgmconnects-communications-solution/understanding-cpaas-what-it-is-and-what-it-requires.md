@@ -31,27 +31,27 @@ Unfortunately, the current market lacks viable turnkey options for service provi
 
 In short, these solutions are fundamentally unsuitable for building a competitive CPaaS offering.
 
-## Why PortSIP is the Best CPaaS Foundation for Service Providers
+## Why BGMconnects is the Best CPaaS Foundation for Service Providers
 
-**PortSIP PBX** is purpose-built for the modern cloud era. It’s designed from the ground up to enable service providers to launch, scale, and operate their own CPaaS platforms—quickly and efficiently.
+**BGMconnects** is purpose-built for the modern cloud era. It’s designed from the ground up to enable service providers to launch, scale, and operate their own CPaaS platforms—quickly and efficiently.
 
-Here’s why PortSIP stands out:
+Here’s why BGMconnects stands out:
 
 **1. Cloud-Native and Containerized**
 
-PortSIP PBX runs in Docker containers, with support for clustering and orchestration. It’s inherently scalable and supports high availability with minimal operational overhead.
+Our PBX runs in Docker containers, with support for clustering and orchestration. It’s inherently scalable and supports high availability with minimal operational overhead.
 
 **2. Built for Multi-Tenancy**
 
-Unlike Asterisk- or FreeSWITCH-based systems, PortSIP PBX is built on a native multi-tenant architecture. From day one, it was designed for service providers managing thousands of tenants. It’s also developed in-house and powered by the **reSIProcate SIP stack**, the same SIP engine used by [**Cisco**](http://www.cisco.com/)**,** [**Poly**](https://www.hp.com/us-en/poly.html)**,** [**Google**](http://www.google.com/), and other industry leaders.
+Unlike Asterisk- or FreeSWITCH-based systems, our PBX is built on a native multi-tenant architecture. From day one, it was designed for service providers managing thousands of tenants. It’s also developed in-house and powered by the **reSIProcate SIP stack**, the same SIP engine used by [**Cisco**](http://www.cisco.com/)**,** [**Poly**](https://www.hp.com/us-en/poly.html)**,** [**Google**](http://www.google.com/), and other industry leaders.
 
 **3. Engineered for High Performance**
 
-PortSIP PBX is optimized for high throughput and minimal latency, capable of supporting tens of thousands of concurrent sessions without compromising call quality or stability.
+Our PBX is optimized for high throughput and minimal latency, capable of supporting tens of thousands of concurrent sessions without compromising call quality or stability.
 
 **4. Developer-First: SDKs, APIs, and Events**
 
-PortSIP provides:
+BGMconnects provides:
 
 * Full-featured **App SDKs** for iOS, Android, Windows, macOS, and WebRTC, these SDK are using by a lot of top100 companies around the world
 * A unified interface that simplifies app development
@@ -64,7 +64,7 @@ These tools are critical for CPaaS providers who need to quickly build different
 
 While subscription-based CPaaS platforms like [**RingCentral**](http://www.ringcentral.com/),[ **Cisco Webex Calling**](http://www.webex.com/), [**Vonage**](http://www.vonage.com/), [**Twilio**](http://www.twilio.com/), [**Nextiva**](http://www.nextiva.com/), and [**Dialpad**](http://www.dialpad.com/)[ ](http://www.dialpad.com/)serve their markets well, **they do not offer service providers the infrastructure to build and run their own CPaaS business**. And with most open-source PBX systems falling short on scalability, performance, and developer readiness, the options are limited—until now.
 
-**PortSIP PBX** is the answer. It delivers everything a service provider needs to launch and operate a modern, cloud-native CPaaS platform—without the limitations of legacy architecture.
+**BGMconnects** is the answer. It delivers everything a service provider needs to launch and operate a modern, cloud-native CPaaS platform—without the limitations of legacy architecture.
 
-**PortSIP is the smart choice for building your CPaaS business. Fast to deploy. Easy to scale. Designed for the cloud era.**
+**BGMconnects is the smart choice for building your CPaaS business. Fast to deploy. Easy to scale. Designed for the cloud era.**
 

@@ -1,6 +1,6 @@
 # What is the PBX? Features, Benefits
 
-PBX, short for Private Branch Exchange, which is a private telephone network used within a company or organization. More and more modern companies are opting for[ cloud PBX systems for small businesses.](https://www.portsip.com/portsip-pbx)
+PBX, short for Private Branch Exchange, which is a private telephone network used within a company or organization. More and more modern companies are opting for[ cloud PBX systems for small businesses.](https://www.bgmconnects.com/pbx)
 
 PBX (or Private Branch Exchange) systems revolutionized business telephone services back in the midcentury, allowing businesses to make calls internally between employees in the office.
 
@@ -12,7 +12,7 @@ This guide breaks down all the essentials you need to know about modern PBX solu
 
 ## What Is a PBX (Private Branch Exchange)?
 
-A [**PBX system**](https://www.portsip.com/portsip-pbx) provides businesses with the necessary functions and features exclusive to business requirements instead of a residential landline or mobile phone, for example. Some of those features might include the ability to manage multiple inbound or outbound calls, offer individual extensions for employees, auto attendants and general business call management features, which would be surplus to requirements in a residential or mobile system. Different types of PBX use different communications channels, including [**voice over internet protocol (VoIP)**](https://en.wikipedia.org/wiki/Voice\_over\_IP) and integrated services digital network (ISDN).
+A [**PBX system**](https://www.bgmconnects.com/pbx) provides businesses with the necessary functions and features exclusive to business requirements instead of a residential landline or mobile phone, for example. Some of those features might include the ability to manage multiple inbound or outbound calls, offer individual extensions for employees, auto attendants and general business call management features, which would be surplus to requirements in a residential or mobile system. Different types of PBX use different communications channels, including [**voice over internet protocol (VoIP)**](https://en.wikipedia.org/wiki/Voice\_over\_IP) and integrated services digital network (ISDN).
 
 These business telephone systems are specifically designed to meet the needs of the modern business in connecting it with the outside world and are differentiated from residential services on account of the features they have the propensity for. Typical PBX features include call routing, call queuing, conference calling, auto attendants, and hold music capabilities, among many other functions, as well as simply making and taking phone calls.
 
@@ -24,7 +24,7 @@ It allows for the internal management of phone calls within a smaller area, such
 
 In contrast, the PSTN is a public phone network that connects calls between different providers and handles the routing of calls on a larger scale. It’s not specifically designed for internal business phone systems like a PBX.
 
-PBX systems empower IT leaders to maintain their existing devices with an all-digital backbone by assigning different business phone numbers to different extensions. Alternatively, a [**cloud PBX**](https://www.portsip.com/portsip-pbx) blends the best of both worlds with a fully managed phone system deployment.
+PBX systems empower IT leaders to maintain their existing devices with an all-digital backbone by assigning different business phone numbers to different extensions. Alternatively, a [**cloud PBX**](https://www.bgmconnects.com/pbx) blends the best of both worlds with a fully managed phone system deployment.
 
 Now that we know the purpose of a Private Branch Exchange, let’s learn about the benefits of a modern PBX for business communications.
 
@@ -86,13 +86,10 @@ To know which PBX phone system your business needs, examine your knowledge of te
 
 PBX systems come with upfront and ongoing costs, ranging from installation to maintenance. For example, cloud PBX systems majorly require monthly subscription fees, while on-premises PBX will cost you hardware, installation, and licensing fees and often require replacement after some years. Also, VoIP PBX allows you to add and remove lines for free, while analog configuration requires a physical installation and extra payment on additional lines. To find out how much a PBX type will cost you and if your company can afford it.
 
-## PortSIP PBX Solution Has Your Back
+## BGMconnects PBX Solution Has Your Back
 
-[PortSIP PBX](https://www.portsip.com/portsip-pbx/) is a software-based multi-tenant PBX that offers business collaboration solutions, it’s designed for both on-premise and cloud PBX environments, including SBC, audio, video calling, Instant Messaging, presence, rich text chat, Microsoft Teams Direct Routing, WebRTC, sharing screen, sending file, picture, voice, and video messages, and mobile push notifications.
+[BGMconnects](https://www.bgmconnects.com/pbx/) is a software-based multi-tenant PBX that offers business collaboration solutions, it’s designed for both on-premise and cloud PBX environments, including SBC, audio, video calling, Instant Messaging, presence, rich text chat, Microsoft Teams Direct Routing, WebRTC, sharing screen, sending file, picture, voice, and video messages, and mobile push notifications.
 
-[PortSIP PBX](https://www.portsip.com/portsip-pbx/) integrates contact center features that help you satisfy the most demanding of customers. Integrated the free SBC to support Microsoft Teams Direct Routing and free video meeting, at no extra cost, share your screen for presentations & online meeting room.
+[BGMconnects](https://www.bgmconnects.com/pbx/) integrates contact center features that help you satisfy the most demanding of customers. Integrated the free SBC to support Microsoft Teams Direct Routing and free video meeting, at no extra cost, share your screen for presentations & online meeting room.
 
-The PortSIP PBX also includes [PortSIP SBC](https://www.portsip.com/portsip-pbx/), [PortSIP VoIP SDK](https://www.portsip.com/portsip-voip-sdk), and [Softphone App](https://www.portsip.com/portsip-softphone), allowing the service provider to host the cloud PBX service.
-
-If you are a large service provider looking for a UCaaS solution that supports 1M+ users, please try [PortSIP UCaaS](https://www.portsip.com/portsip-ucaas).
-
+BGMconnects also includes the [BGMconnects SBC](https://www.bgmconnects.com/pbx/) and [BGMconnects app](https://www.bgmconnects.com/downloads), allowing the service provider to host the cloud PBX service.

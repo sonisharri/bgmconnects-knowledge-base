@@ -2,7 +2,7 @@
 
 Unified Communications as a Service (UCaaS) brings together apps and services like call, chat, video, and audio conferencing into one cloud-based platform.
 
-PortSIP provides a software-based, multi-tenant [PBX solution](https://www.portsip.com/portsip-pbx), enabling service providers to host their own UCaaS business.
+BGMconnects provides a software-based, multi-tenant [PBX solution](https://www.bgmconnects.com/pbx), enabling service providers to host their own UCaaS business.
 
 <figure><img src="https://www.portsip.com/wp-content/uploads/2024/12/portsip-one-all-5.png" alt=""><figcaption></figcaption></figure>
 
@@ -139,16 +139,16 @@ UCaaS isn’t just transforming internal communication—it’s becoming a power
 **Advanced Security**\
 As communication channels multiply, so do potential vulnerabilities. UCaaS providers will continue to invest in stronger security architectures, including advanced encryption, threat detection, and compliance-focused solutions tailored to industries like healthcare, finance, and government.
 
-## PortSIP Solution Has Your Back
+## BGMconnects Solution Has Your Back
 
-<figure><img src="../.gitbook/assets/portsip-vs-other-pbx (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/bgmconnects-vs-other-pbx (1).jpg" alt=""><figcaption></figcaption></figure>
 
 When weighing the solution for hosting the UCaaS, you have to look at your needs today and tomorrow. There are, of course, a number of factors to consider when choosing a phone system solution. Pricing is the most obvious one, but there’s also security, flexibility, and scalability... You have to ask yourself where you want to be in the next year or two and beyond.
 
-Here at PortSIP, we’ll walk you through everything, including free porting of your existing solution. We’ll help you select the right VoIP desk phones that meet your client's budget and everyday business needs. We cover all of these bases, and its fast deployment means it can be set up in minutes, anywhere in the world. Add phone lines, swap numbers, and more—in real time, then you can run your UCaaS like some large service providers, for example[,](https://www.nextvia.com/) [Nextiva](https://www.nextvia.com/), [RingCentral](https://www.ringcentral.com/), [Vonage](https://www.vonage.com/), and [Dialpad](https://www.dialpad.com/).
+Here at BGMconnects, we’ll walk you through everything, including free porting of your existing solution. We’ll help you select the right VoIP desk phones that meet your client's budget and everyday business needs. We cover all of these bases, and its fast deployment means it can be set up in minutes, anywhere in the world. Add phone lines, swap numbers, and more—in real time, then you can run your UCaaS like some large service providers, for example[,](https://www.nextvia.com/) [Nextiva](https://www.nextvia.com/), [RingCentral](https://www.ringcentral.com/), [Vonage](https://www.vonage.com/), and [Dialpad](https://www.dialpad.com/).
 
 In the age of the cloud, you cannot keep inching along with a legacy PBX. Your traditional PBX solution costs you more than it’s saving.
 
-Take advantage of the PortSIP Solution and the freedom to work from anywhere. [PortSIP PBX](https://www.portsip.com/2023/11/23/the-advantages-of-portsip-pbx-vs-other-pbxs/) lets you focus on serving your customers, not trying to figure out the system. You can leave the rest to us.
+Take advantage of the BGMconnects Solution and the freedom to work from anywhere. BGMconnects lets you focus on serving your customers, not trying to figure out the system. You can leave the rest to us.
 
 <br>

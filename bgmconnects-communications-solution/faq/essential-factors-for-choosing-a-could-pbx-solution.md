@@ -4,7 +4,7 @@
 
 Cloud PBX (Cloud-based Private Branch Exchange) is a virtual PBX system rooted in the internet, which uses a cloud-based service to control and manage calls to and from a business and delivers advanced calling features and unified communications using Voice over Internet Protocol (VoIP) technology. Traditionally, PBX systems were located on-premises. These machines are big and need their own storage room. They also require significant capital investment, making them out of reach for smaller businesses.
 
-<figure><img src="../../.gitbook/assets/portsip-vs-other-pbx.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-vs-other-pbx.jpg" alt=""><figcaption></figcaption></figure>
 
 The advent of the cloud has revolutionized this. A Cloud PBX is hosted in secure, remote data centers and delivered via the internet. It offers the same call routing and management features as an on-premises PBX, but without the need for costly hardware. Furthermore, Cloud PBX solutions are available as a service with flexible plans. This allows smaller businesses to subscribe to the service, avoiding the heavy investment associated with an expensive on-premise system.
 
@@ -18,13 +18,13 @@ Today, every VoIP Service provider is looking for a good solution to host their 
 * **Open and Integratable Platform**: The PBX should be an open platform that provides a full REST API, allowing service providers to build their own web portal page. It should also provide a webhook and PUB/SUB mechanism for seamless integration with customer's current business system. The solution should also include a client app SDK that enables service providers to build their own applications with ease.
 * **All-In-One solution.**  Service providers are in search of an All-In-One solution that is ready to use out of the box. The Cloud PBX solution should include ready-to-use client apps for iOS, Android, Windows, and WebRTC, and offer rebranding with customer brands. This allows service providers to deliver a unified branding experience, all at no extra cost.
 
-### PortSIP PBX Solution Has Your Back
+### BGMconnects Solution Has Your Back
 
 When weighing the solution for hosting the Cloud PBX, you have to look at your needs today and tomorrow. You have to ask yourself where you want to be in the next year or two and beyond.
 
-Here at PortSIP, we’ll walk you through everything, including free porting of your existing solution. We’ll help you select the right VoIP desk phones that meet your client's budget and everyday business needs.
+Here at BGMconnects, we’ll walk you through everything, including free porting of your existing solution. We’ll help you select the right VoIP desk phones that meet your client's budget and everyday business needs.
 
 In the age of the cloud, you cannot keep inching along with a legacy PBX. Your traditional PBX solution costs you more than it’s saving.
 
-Take advantage of the PortSIP Solution and the freedom to work from anywhere. [PortSIP PBX](https://www.portsip.com/2023/11/23/the-advantages-of-portsip-pbx-vs-other-pbxs/) lets you focus on serving your customers, not trying to figure out the system. You can leave the rest to us.
+Take advantage of the BGMconnects Solution and the freedom to work from anywhere. BGMconnects lets you focus on serving your customers, not trying to figure out the system. You can leave the rest to us.
 

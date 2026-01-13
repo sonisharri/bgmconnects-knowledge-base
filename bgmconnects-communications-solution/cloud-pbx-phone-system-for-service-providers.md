@@ -94,7 +94,7 @@ Subscribing to a cloud PBX service streamlines maintenance and troubleshooting p
 
 Lastly, cloud PBX offers high scalability. As your business grows, your cloud PBX phone system can expand accordingly. You only need to contact your provider when you need to add more phone lines to your subscription. Extensions can be added or removed via your online dashboard, and every setting can be adjusted to meet the evolving needs of your business.
 
-Experience the limitless advantages and benefits of a cloud PBX system by reaching out to a PortSIP PBX solutions specialist today.
+Experience the limitless advantages and benefits of a cloud PBX system by reaching out to a BGMconnects solutions specialist today.
 
 #### Compare and Contrast
 
@@ -152,7 +152,7 @@ Cloud PBX solutions can scale to support numerous extensions, sites, and users. 
 
 Many Cloud PBX providers offer professional services (and collaborate with channel partners) to facilitate a seamless transition of your enterprise communications to the cloud.
 
-### PortSIP PBX Solution Has Your Back
+### BGMconnects Solution Has Your Back
 
 <figure><img src="https://www.portsip.com/wp-content/uploads/2024/09/t2.png" alt=""><figcaption></figcaption></figure>
 

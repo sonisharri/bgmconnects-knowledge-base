@@ -6,7 +6,7 @@
 
 [BGMconnects](https://www.bgmconnects.com/pbx/) integrates contact center features that help you satisfy the most demanding of customers. Integrated the free SBC to support Microsoft Teams Direct Routing, and free video meeting, at no extra cost, share your screen for presentations & online meeting rooms.&#x20;
 
-A purchased SIP PBX license is packaged with the Giveaway of [BGMconnects SBC](https://www.bgmconnects.com/pbx/)<!--,  [BGMconnects VoIP SDK](https://www.bgmconnects.com/voip-sdk),--> and the [BGMconnects app](https://www.bgmconnects.com/app)! If you are a large service provider looking for a UCaaS solution that supports 1M+ users, please get in [touch with us](mailto:sales@bgmconnects.com) for the BGMconnects UCaaS.
+A purchased SIP PBX license is packaged with the Giveaway of [BGMconnects SBC](https://www.bgmconnects.com/pbx/)<!--,  [BGMconnects VoIP SDK](https://www.bgmconnects.com/voip-sdk),--> and the [BGMconnects app](https://www.bgmconnects.com/downloads)! If you are a large service provider looking for a UCaaS solution that supports 1M+ users, please get in [touch with us](mailto:sales@bgmconnects.com) for the BGMconnects UCaaS.
 
 The solution includes the following features:
 

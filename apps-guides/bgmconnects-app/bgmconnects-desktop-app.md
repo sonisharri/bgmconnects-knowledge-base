@@ -24,16 +24,16 @@ The all-new BGMconnects app is designed to be **simple, secure, and flexible**, 
 * **Integrates seamlessly** with CRM systems and AI transcription features
 
 ***
-<!--
+
 ### Download and Installation
 
-To download the latest version of **BGMconnects for Windows**, visit the [BGMconnects website](https://www.bgmconnects.com/app).
+To download the latest version of **BGMconnects for Windows**, visit the [BGMconnects website](https://www.bgmconnects.com/downloads).
 
 * The Windows desktop app is provided as an MSI installer.
 * Double-click the downloaded MSI file and follow the on-screen instructions to complete the installation.
 
 ***
--->
+
 
 > ❗**Note**\
 > This guide applies to both **BGMconnects for Windows (desktop)** and **BGMconnects WebRTC (browser-based)**.
