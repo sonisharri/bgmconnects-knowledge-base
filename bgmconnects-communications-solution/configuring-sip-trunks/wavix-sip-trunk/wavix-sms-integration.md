@@ -133,15 +133,15 @@ After activating SMS capabilities (if required), you can create a Sender ID to u
 
 ***
 
-### Configure SMS with Wavix Trunk in PortSIP PBX
+### Configure SMS with Wavix Trunk in the PBX
 
-This section explains how to configure SMS/MMS messaging in PortSIP PBX using a Wavix SIP trunk.
+This section explains how to configure SMS/MMS messaging in the PBX using a Wavix SIP trunk.
 
 ***
 
 ### Prerequisites
 
-Before configuring SMS in PortSIP PBX, ensure that:
+Before configuring SMS in the PBX, ensure that:
 
 * A **Wavix SIP trunk** has already been configured using one of the following guides:
   * [Configuring Wavix IP Authentication Trunk](configuring-wavix-ip-authentication-trunk.md)
@@ -151,9 +151,9 @@ Before configuring SMS in PortSIP PBX, ensure that:
 
 ***
 
-### Sign in to the PortSIP PBX Web Portal
+### Sign in to the PBX Web Portal
 
-You can access the PortSIP PBX Web Portal using one of the following methods:
+You can access the PBX Web Portal using one of the following methods:
 
 #### Option 1: System Administrator
 
@@ -167,7 +167,7 @@ You can access the PortSIP PBX Web Portal using one of the following methods:
 * Sign in directly as a **Tenant Admin** to manage the tenant.
 
 > **Note**\
-> For more details about tenant roles and access levels, see [Tenant Management](../../portsip-pbx-administration-guide/3-tenant-management/).
+> For more details about tenant roles and access levels, see [Tenant Management](../../bgmconnects-pbx-administration-guide/3-tenant-management/).
 
 ***
 
@@ -186,9 +186,9 @@ You can access the PortSIP PBX Web Portal using one of the following methods:
 
 ***
 
-#### Step 2: Create an SMS Configuration in PortSIP PBX
+#### Step 2: Create an SMS Configuration in the PBX
 
-1. Sign in to the PortSIP PBX Web Portal.
+1. Sign in to the PBX Web Portal.
 2. From the left-hand menu, navigate to:\
    **SMS/MMS**
 3. Click **Add**.
@@ -196,7 +196,7 @@ You can access the PortSIP PBX Web Portal using one of the following methods:
 5. Configure the following fields:
    * **Sender ID**
      * If you want to use a **Sender ID** created on the Wavix platform, enter it here.
-     * If left empty, PortSIP PBX will use the **DID number associated with the Wavix trunk** as the Sender ID.
+     * If left empty, the PBX will use the **DID number associated with the Wavix trunk** as the Sender ID.
    * **API Key**
      * Paste the **Wavix API key** you copied earlier.
 6. Click **OK** to save the configuration.
@@ -207,11 +207,11 @@ You can access the PortSIP PBX Web Portal using one of the following methods:
 
 ### Configure Inbound SMS Webhook in Wavix
 
-To receive inbound SMS messages in PortSIP PBX, you must configure a **Webhook URL** on the Wavix platform.
+To receive inbound SMS messages in the PBX, you must configure a **Webhook URL** on the Wavix platform.
 
-#### Step 1: Copy the PortSIP PBX Webhook URL
+#### Step 1: Copy the PBX Webhook URL
 
-1. In PortSIP PBX, navigate to **Message Channel > SMS/MMS**.
+1. In the PBX, navigate to **Message Channel > SMS/MMS**.
 2. Select the SMS configuration you just created.
 3. Click **Copy Webhook**, or double-click the SMS configuration and manually copy the Webhook URL.
 
@@ -222,7 +222,7 @@ To receive inbound SMS messages in PortSIP PBX, you must configure a **Webhook U
 1. Log in to your [Wavix account](https://app.wavix.com/profile/api-keys).
 2. Click the **My Account** icon in the top-right corner.
 3. Open the **Default Destinations** tab.
-4. Paste the copied **PortSIP PBX Webhook URL** into the **Inbound SMS** (Webhook) field.
+4. Paste the copied **PBX Webhook URL** into the **Inbound SMS** (Webhook) field.
 5. Click  **Save changes** to apply the changes.
 
 <figure><img src="../../../.gitbook/assets/wafix-fig33.png" alt=""><figcaption></figcaption></figure>
@@ -237,7 +237,7 @@ To receive inbound SMS messages in PortSIP PBX, you must configure a **Webhook U
 
 At this point, the Wavix SMS/MMS integration is complete.
 
-You can now [create outbound and inbound rules](configuring-outbound-and-inbound-calls.md) in PortSIP PBX to send and receive SMS/MMS messages using the Wavix trunk, just as you would configure rules for voice calls.
+You can now [create outbound and inbound rules](configuring-outbound-and-inbound-calls.md) in the PBX to send and receive SMS/MMS messages using the Wavix trunk, just as you would configure rules for voice calls.
 
 
 

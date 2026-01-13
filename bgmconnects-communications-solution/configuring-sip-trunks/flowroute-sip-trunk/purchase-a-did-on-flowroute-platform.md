@@ -30,7 +30,7 @@ Before placing or receiving calls, you must have at least one active DID (or mul
 
 ### Next Step
 
-After purchasing your DID numbers, proceed to configure the SIP trunk in PortSIP PBX:
+After purchasing your DID numbers, proceed to configure the SIP trunk in the PBX:
 
 * [Configuring Flowroute IP Authentication Trunk](configuring-flowroute-ip-authentication-trunk.md)
 

@@ -11,13 +11,13 @@ To enable inbound calling, you must first complete the required configuration on
 1. Sign in to your [SIPTRUNK ](https://login.siptrunk.com/)account.
 2. &#x20;Your SIP trunk will also need to be configured via the customer portal. You must implement the following whitelisting requirements detailed in the article [Interconnecting with SIPTRUNK](https://support.siptrunk.com/hc/en-us/articles/38762945316379).
 
-Once completed, continue with the trunk configuration in PortSIP PBX.
+Once completed, continue with the trunk configuration in the PBX.
 
 ***
 
-### Configure a Register-Based Trunk in PortSIP PBX
+### Configure a Register-Based Trunk in the PBX
 
-A **SIPTRUNK Registration Trunk** corresponds to a **Register-Based Trunk** in **PortSIP PBX**.
+A **SIPTRUNK Registration Trunk** corresponds to a **Register-Based Trunk** in the **PBX**.
 
 You can configure a Register-Based Trunk at **either** of the following levels:
 
@@ -32,7 +32,7 @@ You can configure a Register-Based Trunk at **either** of the following levels:
 
 #### Step 1: Open the Trunks Page
 
-1. Sign in to the PortSIP PBX Web Portal as a **System Administrator** or **Tenant Administrator**.
+1. Sign in to the PBX Web Portal as a **System Administrator** or **Tenant Administrator**.
 2. From the left navigation menu, go to **Call Manager > Trunks**.
 3. Click **Add**, then select **Register Based Trunk**.
 
@@ -78,7 +78,7 @@ Enter the registration credentials provided by CM.com:
 
 * **Authentication Name**\
   Enter the **SIPTRUNK username** configured on the **SIPTRUNK** platform\
-  (for example: `portsipuser`).
+  (for example: `bgmconnectsuser`).
 * **Password**\
   Enter the **SIP trunk password** obtained from the CM.com platform.
 
@@ -91,7 +91,7 @@ Click **Next** to continue.
 #### Step 4: Configure Trunk Options
 
 * **Max Concurrent Calls**\
-  Set the maximum number of simultaneous calls that PortSIP PBX can establish using this trunk.
+  Set the maximum number of simultaneous calls that the PBX can establish using this trunk.
 
 > ❗**Recommendation**\
 > Keep the default values for other options unless you have specific requirements.
@@ -133,7 +133,7 @@ Click **OK** to save the settings. The trunk configuration is now complete.
 
 ### Expected Result
 
-* PortSIP PBX successfully registers the trunk with the **CM.com** platform.
+* The PBX successfully registers the trunk with the **CM.com** platform.
 * On the **Trunks** page, the trunk status is displayed as **Online**.
 
 <figure><img src="../../../.gitbook/assets/SIPTRUNK.com_2.png" alt=""><figcaption></figcaption></figure>

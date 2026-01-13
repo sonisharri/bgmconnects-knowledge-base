@@ -28,7 +28,7 @@ After checkout is complete:
 
 ### Next Steps
 
-Once the DID numbers are available, proceed with one of the following guides to configure the Telnyx trunk in PortSIP PBX:
+Once the DID numbers are available, proceed with one of the following guides to configure the Telnyx trunk in the PBX:
 
 * [Configuring Telnyx IP Authentication Trunk](configuring-telnyx-ip-authentication-trunk.md)
 * [Configuring Telnyx Register Authentication Trunk](configuring-telnyx-register-authentication-trunk.md)

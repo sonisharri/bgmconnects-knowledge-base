@@ -24,7 +24,7 @@ After purchasing your DID number(s), proceed with trunk configuration:
 
 * [Configuring VoIP.ms Register-Based Trunk](configuring-voip.ms-register-based-trunk.md)
 
-Once the trunk is configured in PortSIP PBX, you can create inbound and outbound rules to begin making and receiving calls.
+Once the trunk is configured in the PBX, you can create inbound and outbound rules to begin making and receiving calls.
 
 
 

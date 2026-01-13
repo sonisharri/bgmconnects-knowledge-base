@@ -18,7 +18,7 @@ To purchase a DID number on your QuestBlue account, follow these steps:
 
 ### Next Steps
 
-Once the DID number has been successfully purchased, follow one of the guides below to configure the QuestBlue trunk in PortSIP PBX:
+Once the DID number has been successfully purchased, follow one of the guides below to configure the QuestBlue trunk in the PBX:
 
 * [Configuring QuestBlue IP Authentication Trunk](configuring-questblue-ip-authentication-trunk.md)
 * [Configuring QuestBlue Register Authentication Trunk](configuring-questblue-register-authentication-trunk.md)

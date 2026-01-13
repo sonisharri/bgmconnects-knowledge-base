@@ -4,15 +4,15 @@ SIPTRUNK was founded by telecommunications experts with over 50 years combined S
 
 With SIPTRUNK, you don’t have to worry about the major upfront expense of purchasing your own softswitch or the monthly costs associated with hiring customer service and technical professionals. SIPTRUNK provides all of this for you.
 
-**PortSIP PBX** integrates seamlessly with SIPTRUNK, allowing administrators to configure SIPTRUNK as a service provider directly within the PBX. This ensures stable, standards-based voice connectivity for enterprise and service-provider deployments.
+The **PBX** integrates seamlessly with SIPTRUNK, allowing administrators to configure SIPTRUNK as a service provider directly within the PBX. This ensures stable, standards-based voice connectivity for enterprise and service-provider deployments.
 
-PortSIP PBX includes built-in support for **SIPTRUNK SIP trunking**, making it straightforward to configure and deploy voice services.
+The PBX includes built-in support for **SIPTRUNK SIP trunking**, making it straightforward to configure and deploy voice services.
 
 ***
 
 ### Prerequisites
 
-To integrate SIPTRUNK with PortSIP PBX, complete the following steps:
+To integrate SIPTRUNK with the PBX, complete the following steps:
 
 #### Obtain a SIPTRUNK Account
 
@@ -21,7 +21,7 @@ To integrate SIPTRUNK with PortSIP PBX, complete the following steps:
 #### Log In and Configure SIPTRUNK Settings
 
 * Sign in to the [SIPTRUNK customer portal](https://login.siptrunk.com/).
-* Complete the required configuration to enable SIP trunking for use with PortSIP PBX.
+* Complete the required configuration to enable SIP trunking for use with the PBX.
 * Ensure all **IP authentication and whitelisting requirements** are properly configured, as specified in the SIPTRUNK documentation.
 
 ***

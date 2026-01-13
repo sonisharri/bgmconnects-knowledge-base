@@ -4,18 +4,18 @@ Before proceeding with the next steps, you need to purchase a DID on the [VoIP I
 
 ***
 
-### Configure a VoIP Innovations IP Authentication Trunk in PortSIP PBX
+### Configure a VoIP Innovations IP Authentication Trunk in the PBX
 
 Before proceeding, ensure that you have **purchased at least one DID** on the VoIP Innovations platform.
 
-VoIP Innovations must be configured as an **IP-Based Trunk** at the **PortSIP PBX System Administrator** level.\
+VoIP Innovations must be configured as an **IP-Based Trunk** at the **PBX System Administrator** level.\
 Once configured, the trunk can be **shared with one or more tenants**, and DIDs can be assigned through a **DID Pool**.
 
 ***
 
 #### Step 1: Create the IP-Based Trunk
 
-1. Sign in to the **PortSIP PBX Web Portal** as a **System Administrator**.
+1. Sign in to the **PBX Web Portal** as a **System Administrator**.
 2. From the left-hand menu, navigate to:\
    **Call Manager > Trunks**
 3. Click **Add** to open the trunk type menu.
@@ -43,7 +43,7 @@ Once configured, the trunk can be **shared with one or more tenants**, and DIDs 
 1. Review the trunk options and adjust settings as needed.
 2. Configure the following field if required:
    * **Max Concurrent Calls**\
-     Defines the maximum number of simultaneous calls PortSIP PBX can establish using this trunk.\
+     Defines the maximum number of simultaneous calls the PBX can establish using this trunk.\
      Set this value according to your capacity planning and service agreement with VoIP Innovations.
 
 > **Best Practice**\

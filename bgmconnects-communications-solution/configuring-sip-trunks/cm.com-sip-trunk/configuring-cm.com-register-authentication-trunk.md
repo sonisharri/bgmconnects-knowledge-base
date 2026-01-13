@@ -12,13 +12,13 @@ To enable inbound calling, you must first complete the required configuration on
 2. Follow the CM.com guide to configure inbound DIDs: [How do I configure a DDI for incoming calls?](https://knowledgecenter.cm.com/knowledge-center/communications-platform/sip-trunking/ddi-numbers/how-do-i-configure-a-ddi-for-incoming-calls)
 3. Confirm that the DID is active and ready for SIP trunking.
 
-Once completed, continue with the trunk configuration in PortSIP PBX.
+Once completed, continue with the trunk configuration in the PBX.
 
 ***
 
-### Configure a Register-Based Trunk in PortSIP PBX
+### Configure a Register-Based Trunk in the PBX
 
-A **CM.com Registration Trunk** corresponds to a **Register-Based Trunk** in **PortSIP PBX**.
+A **CM.com Registration Trunk** corresponds to a **Register-Based Trunk** in **PBX**.
 
 You can configure a Register-Based Trunk at **either** of the following levels:
 
@@ -33,7 +33,7 @@ You can configure a Register-Based Trunk at **either** of the following levels:
 
 #### Step 1: Open the Trunks Page
 
-1. Sign in to the PortSIP PBX Web Portal as a **System Administrator** or **Tenant Administrator**.
+1. Sign in to the PBX Web Portal as a **System Administrator** or **Tenant Administrator**.
 2. From the left navigation menu, go to **Call Manager > Trunks**.
 3. Click **Add**, then select **Register Based Trunk**.
 
@@ -79,7 +79,7 @@ Enter the registration credentials provided by CM.com:
 
 * **Authentication Name**\
   Enter the **CM.com SIP trunk username** configured on the CM.com platform\
-  (for example: `portsipuser`).
+  (for example: `bgmconnectsuser`).
 * **Password**\
   Enter the **SIP trunk password** obtained from the CM.com platform.
 
@@ -92,7 +92,7 @@ Click **Next** to continue.
 #### Step 4: Configure Trunk Options
 
 * **Max Concurrent Calls**\
-  Set the maximum number of simultaneous calls that PortSIP PBX can establish using this trunk.
+  Set the maximum number of simultaneous calls that the PBX can establish using this trunk.
 
 > ❗**Recommendation**\
 > Keep the default values for other options unless you have specific requirements.
@@ -134,7 +134,7 @@ Click **OK** to save the settings. The trunk configuration is now complete.
 
 ### Expected Result
 
-* PortSIP PBX successfully registers the trunk with the **CM.com** platform.
+* The PBX successfully registers the trunk with the **CM.com** platform.
 * On the **Trunks** page, the trunk status is displayed as **Online**.
 
 <figure><img src="../../../.gitbook/assets/cm_trunk_reg_3.png" alt=""><figcaption></figcaption></figure>

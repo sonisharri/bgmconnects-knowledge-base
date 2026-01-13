@@ -19,7 +19,7 @@ If you already have one or more active DIDs, you may skip this section.
 
 ### Next Steps
 
-After purchasing the DID number(s), proceed with one of the following guides to configure the Vonage SIP trunk in PortSIP PBX:
+After purchasing the DID number(s), proceed with one of the following guides to configure the Vonage SIP trunk in the PBX:
 
 * [Configuring Vonage IP Authentication Trunk](configuring-vonage-ip-authentication-trunk.md)
 * [Configuring Vonage Register Authentication](configuring-vonage-register-authentication-trunk.md)

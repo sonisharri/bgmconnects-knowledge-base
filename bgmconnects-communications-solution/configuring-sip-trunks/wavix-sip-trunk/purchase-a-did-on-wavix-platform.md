@@ -37,7 +37,7 @@ Follow the steps below to purchase a DID number from Wavix:
 
 ### Next Steps
 
-Once your DID is successfully purchased and activated, proceed to configure the SIP trunk in PortSIP PBX using one of the following guides:
+Once your DID is successfully purchased and activated, proceed to configure the SIP trunk in the PBX using one of the following guides:
 
 * [Configuring Wavix IP Authentication Trunk](configuring-wavix-ip-authentication-trunk.md)
 * [Configuring Wavix Digest Trunk](configuring-wavix-digest-trunk.md)

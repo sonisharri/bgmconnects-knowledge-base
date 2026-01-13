@@ -14,13 +14,13 @@ Before proceeding with the next steps, ensure that you have [purchased a DID on 
   * Message throttling
   * Complete blocking by carriers
 
-Follow Flowroute’s [official guide](https://support.flowroute.com/265034-Messaging-Guidelines---10DLC-Carrier-Fees-and-Registration) to complete **A2P 10DLC registration** before enabling SMS in PortSIP PBX.
+Follow Flowroute’s [official guide](https://support.flowroute.com/265034-Messaging-Guidelines---10DLC-Carrier-Fees-and-Registration) to complete **A2P 10DLC registration** before enabling SMS in the PBX.
 
 ***
 
 ### Obtain Integration Details from Flowroute
 
-PortSIP PBX requires API credentials from Flowroute to enable SMS/MMS integration.
+The PBX requires API credentials from Flowroute to enable SMS/MMS integration.
 
 ***
 
@@ -52,15 +52,15 @@ PortSIP PBX requires API credentials from Flowroute to enable SMS/MMS integratio
 
 ***
 
-### Configure SMS with Flowroute Trunk in PortSIP PBX
+### Configure SMS with Flowroute Trunk in the PBX
 
-This section explains how to configure **SMS messaging** in PortSIP PBX using a Flowroute SIP trunk.
+This section explains how to configure **SMS messaging** in the PBX using a Flowroute SIP trunk.
 
 ***
 
 #### Prerequisites
 
-Before configuring SMS in PortSIP PBX, ensure that:
+Before configuring SMS in the PBX, ensure that:
 
 * A Flowroute SIP trunk has already been configured using the guide:
   * [Configuring Flowroute IP Authentication Trunk](configuring-flowroute-ip-authentication-trunk.md)
@@ -69,7 +69,7 @@ Before configuring SMS in PortSIP PBX, ensure that:
 
 ***
 
-#### Sign in to the PortSIP PBX Web Portal
+#### Sign in to the PBX Web Portal
 
 You can sign in using one of the following methods:
 
@@ -81,15 +81,15 @@ You can sign in using one of the following methods:
   * Sign in directly as a **Tenant Admin** to manage the tenant.
 
 > **Note**\
-> For more details, see [Tenant Management](../../portsip-pbx-administration-guide/3-tenant-management/).
+> For more details, see [Tenant Management](../../bgmconnects-pbx-administration-guide/3-tenant-management/).
 
 ***
 
-### Add an SMS Configuration in PortSIP PBX
+### Add an SMS Configuration in the PBX
 
 #### Step 1: Create the SMS Configuration
 
-1. In the **PortSIP PBX Web Portal**, navigate to: **Message Channel > SMS/MMS**
+1. In the **PBX Web Portal**, navigate to: **Message Channel > SMS/MMS**
 2. Click **Add**.
 3. Select your configured **Flowroute Trunk**.
 4.  Configure the following fields:
@@ -112,9 +112,9 @@ You can sign in using one of the following methods:
 
 ***
 
-#### Step 2: Copy the PortSIP PBX Webhook URL
+#### Step 2: Copy the PBX Webhook URL
 
-Inbound SMS messages are delivered to PortSIP PBX through a webhook.
+Inbound SMS messages are delivered to the PBX through a webhook.
 
 1. On the **Message Channel > SMS/MMS** list page, select the SMS configuration you just created.
 2. Click **Copy Webhook**,\
@@ -125,7 +125,7 @@ Inbound SMS messages are delivered to PortSIP PBX through a webhook.
 
 ### Configure SMS for a Number in Flowroute
 
-This section explains how to enable SMS for a specific DID in Flowroute and configure SMS webhook callbacks so inbound messages are delivered to PortSIP PBX.
+This section explains how to enable SMS for a specific DID in Flowroute and configure SMS webhook callbacks so inbound messages are delivered to the PBX.
 
 ***
 
@@ -154,12 +154,12 @@ Use this option if you want to receive inbound SMS messages **only for selected 
 1. In the Flowroute Portal, navigate to: **DIDs > Manage**
 2. Select the DID you want to configure.
 3. Configure the **Messaging Webhook URL** for that number.
-4. Paste the **PortSIP PBX Webhook URL** copied from the SMS configuration.
+4. Paste the **PBX Webhook URL** copied from the SMS configuration.
 5. Save the changes.
 
 **Use Case**
 
-* Recommended when only certain numbers should deliver SMS to PortSIP PBX.
+* Recommended when only certain numbers should deliver SMS to the PBX.
 
 <figure><img src="../../../.gitbook/assets/flowroute_trunk_5.png" alt=""><figcaption></figcaption></figure>
 
@@ -171,12 +171,12 @@ Use this option if you want to receive inbound SMS messages for **all DIDs** und
 
 1. In the Flowroute Portal, navigate to the **Messaging / Webhooks** configuration area.
 2. Configure the **Global Messaging Webhook URL**.
-3. Paste the **PortSIP PBX Webhook URL**.
+3. Paste the **PBX Webhook URL**.
 4. Save the configuration.
 
 **Use Case**
 
-* Recommended when all SMS-enabled numbers should be handled by PortSIP PBX.
+* Recommended when all SMS-enabled numbers should be handled by the PBX.
 
 <figure><img src="../../../.gitbook/assets/flowroute_trunk_1.png" alt=""><figcaption></figcaption></figure>
 
@@ -186,7 +186,7 @@ Use this option if you want to receive inbound SMS messages for **all DIDs** und
 
 At this point, the Flowroute SMS/MMS integration is complete.
 
-You can now [create outbound and inbound rules](configuring-outbound-and-inbound-calls.md) in PortSIP PBX to send and receive SMS/MMS messages using the Flowroute, just as you would configure rules for voice calls.
+You can now [create outbound and inbound rules](configuring-outbound-and-inbound-calls.md) in the PBX to send and receive SMS/MMS messages using the Flowroute, just as you would configure rules for voice calls.
 
 
 

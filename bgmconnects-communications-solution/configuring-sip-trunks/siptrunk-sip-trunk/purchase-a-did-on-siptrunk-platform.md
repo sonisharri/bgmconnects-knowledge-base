@@ -18,7 +18,7 @@ Before you can place or receive calls, you must have at least **one active DID**
 
 1. In the [SIPTRUN](https://www.sipturnk.com) portal, follow the guide [How to Order a Telephone Number?](https://support.siptrunk.com/hc/en-us/articles/38765340378523-How-to-Order-a-Telephone-Number)  to purchase the DID numbers.
 
-After the DID numbers are successfully purchased and activated, you can proceed with configuring the [SIPTRUN](https://www.sipturnk.com) SIP trunk in PortSIP PBX.
+After the DID numbers are successfully purchased and activated, you can proceed with configuring the [SIPTRUN](https://www.sipturnk.com) SIP trunk in the PBX.
 
 ***
 
@@ -27,7 +27,7 @@ After the DID numbers are successfully purchased and activated, you can proceed 
 * [Configure SIPTRUNK IP Authentication Trunk](configuring-siptrunk-ip-authentication-trunk.md)
 * [Configure SIPTRUNK Register Authentication Trunk](configuring-siptrunk-register-authentication-trunk.md)
 
-This step configures PortSIP PBX to use SIPTRUNK for outbound and inbound calling.
+This step configures the PBX to use SIPTRUNK for outbound and inbound calling.
 
 
 

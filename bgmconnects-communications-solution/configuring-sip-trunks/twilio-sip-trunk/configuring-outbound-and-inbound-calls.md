@@ -1,14 +1,14 @@
 # Configuring Outbound & Inbound Calls
 
-### Sign in to the PortSIP PBX Web Portal
+### Sign in to the PBX Web Portal
 
-To configure outbound and inbound call routing, you must first sign in to the PortSIP PBX Web Portal.
+To configure outbound and inbound call routing, you must first sign in to the PBX Web Portal.
 
 You can access a tenant in one of the following ways:
 
 #### Option 1: Sign in as System Administrator
 
-1. Sign in to the PortSIP PBX Web Portal as a **System Administrator**.
+1. Sign in to the PBX Web Portal as a **System Administrator**.
 2. Navigate to **Tenants**.
 3. Select the desired tenant and click **Manage** to switch to that tenant’s administration context.
 
@@ -17,7 +17,7 @@ You can access a tenant in one of the following ways:
 * Sign in directly as a **Tenant Administrator** to manage that tenant.
 
 > ❗**Note**\
-> For more information about tenant roles and access control, refer to [Tenant Management](../../portsip-pbx-administration-guide/3-tenant-management/).
+> For more information about tenant roles and access control, refer to [Tenant Management](../../bgmconnects-pbx-administration-guide/3-tenant-management/).
 
 ***
 
@@ -25,7 +25,7 @@ You can access a tenant in one of the following ways:
 
 To place outbound calls, you must create at least one **Outbound Rule**.
 
-#### Add an Outbound Rule in PortSIP PBX
+#### Add an Outbound Rule in the PBX
 
 1. From the left-hand navigation menu, go to **Call Manager > Outbound Rules**.
 2. Click **Add**.
@@ -69,11 +69,11 @@ If users typically dial US domestic numbers in national format (10 digits), you 
 
 To receive inbound calls, you must configure at least one **Inbound Rule**.
 
-#### Add an Inbound Rule in PortSIP PBX
+#### Add an Inbound Rule in the PBX
 
 Follow these steps to create an inbound routing rule:
 
-1. Sign in to the **PortSIP PBX Web Portal** as a **System Administrator** or **Tenant Administrator**.
+1. Sign in to the **PBX Web Portal** as a **System Administrator** or **Tenant Administrator**.
 2. From the left-hand navigation menu, go to **Call Manager > Inbound Rules**.
 3. Click **Add**.
 
@@ -99,9 +99,9 @@ Depending on your business requirements, you can further enhance the inbound rul
 * Sending calls to **voicemail** outside business hours
 * Automatically **rejecting or dropping calls** when appropriate
 
-For more details, refer to the article [Office Hours and Holiday Schedule](../../portsip-pbx-administration-guide/office-hours-and-holiday-schedule/).
+For more details, refer to the article [Office Hours and Holiday Schedule](../../bgmconnects-pbx-administration-guide/office-hours-and-holiday-schedule/).
 
-For comprehensive information about inbound and outbound routing behavior, see [Call Route Management](../../portsip-pbx-administration-guide/8-call-route-management/).
+For comprehensive information about inbound and outbound routing behavior, see [Call Route Management](../../bgmconnects-pbx-administration-guide/8-call-route-management/).
 
 
 

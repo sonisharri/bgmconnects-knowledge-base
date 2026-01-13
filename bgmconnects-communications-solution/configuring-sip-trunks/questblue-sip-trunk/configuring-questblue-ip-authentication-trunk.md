@@ -9,16 +9,16 @@ To create a new SIP trunk on the QuestBlue platform, follow these steps:
 1. **Sign in** to your QuestBlue account.
 2. From the left-hand navigation menu, select **SIP Trunks > Trunks**.
 3. Click **Add Trunk**.
-4. Enter a **friendly name** for the trunk (for example, `PortSIP-Trunk`).
+4. Enter a **friendly name** for the trunk (for example, `BGMconnects-Trunk`).
 5. For **Trunk Type**, select **Static IP Trunk**.
 6. For **Trunk Region**, choose the appropriate location.
    * Note the **SBC domain** for the selected region. QuestBlue typically recommends using `sbc.questblue.com`.
 7. For **Max Channels**, leave the default value unless your service plan requires a different setting.
-8. In the **IP Address** field, enter the **public static IP address of your PortSIP PBX**, then click **Create Trunk**.
+8. In the **IP Address** field, enter the **public static IP address of your PBX**, then click **Create Trunk**.
 
 <figure><img src="../../../.gitbook/assets/questblue-fig2.png" alt=""><figcaption></figcaption></figure>
 
-After the SIP trunk is successfully created, it will appear in the **SIP Trunks > Trunks** list in your QuestBlue account and will be ready to use in PortSIP PBX configuration.
+After the SIP trunk is successfully created, it will appear in the **SIP Trunks > Trunks** list in your QuestBlue account and will be ready to use in the PBX configuration.
 
 <figure><img src="../../../.gitbook/assets/questblue-fig3.png" alt=""><figcaption></figcaption></figure>
 
@@ -39,16 +39,16 @@ You can repeat these steps to assign additional DIDs to the same or different SI
 
 ***
 
-### Configure the IP Authentication Trunk in PortSIP PBX
+### Configure the IP Authentication Trunk in the PBX
 
-The **QuestBlue IP Authentication Trunk** corresponds to an **IP-Based Trunk** in PortSIP PBX.
+The **QuestBlue IP Authentication Trunk** corresponds to an **IP-Based Trunk** in the PBX.
 
 > ❗**Note**\
 > IP-Based Trunks must be configured at the **System Administrator** level. Once created, the trunk can be shared with one or more tenants.
 
 #### Step 1: Create the IP-Based Trunk
 
-1. Sign in to the **PortSIP PBX Web Portal** as a **System Administrator**.
+1. Sign in to the **PBX Web Portal** as a **System Administrator**.
 2. From the left-hand navigation menu, go to **Call Manager > Trunks**.
 3. Click **Add**, then select **IP Based Trunk**.
 
@@ -72,7 +72,7 @@ Click **Next** to continue.
 #### Step 3: Configure Call Capacity
 
 * **Max Concurrent Calls**\
-  Defines the maximum number of simultaneous calls that PortSIP PBX can establish through this trunk.
+  Defines the maximum number of simultaneous calls that the PBX can establish through this trunk.
   * Adjust this value based on your QuestBlue service plan and expected call volume.
   * For most deployments, the default value is sufficient.
 

@@ -32,7 +32,7 @@ Follow the steps below to purchase a DID with SMS/MMS enabled.
 
 ### Obtain VoiceMeUp Account Information for SMS API Integration
 
-To integrate the VoiceMeUp SMS API with PortSIP PBX, you must create a VoiceMeUp user account with API access and retrieve an Auth Token.
+To integrate the VoiceMeUp SMS API with the PBX, you must create a VoiceMeUp user account with API access and retrieve an Auth Token.
 
 ***
 
@@ -50,9 +50,9 @@ To integrate the VoiceMeUp SMS API with PortSIP PBX, you must create a VoiceMeUp
    * **User Type**\
      Select `Standard`.
    *   **Username**\
-       Enter a username (for example, `portsip`).
+       Enter a username (for example, `bgmconnects`).
 
-       > **Important**: Note this username—you will need it later in PortSIP PBX.
+       > **Important**: Note this username—you will need it later in the PBX.
    * **First Name / Last Name / Email**\
      Enter the appropriate details.
 3. Navigate to the **Access** tab.
@@ -91,9 +91,9 @@ If you need to retrieve the Auth Token in the future:
 
 ***
 
-### Configure SMS with the VoiceMeUp Trunk in PortSIP PBX
+### Configure SMS with the VoiceMeUp Trunk in the PBX
 
-This section explains how to configure SMS integration in PortSIP PBX using a VoiceMeUp SIP trunk.
+This section explains how to configure SMS integration in the PBX using a VoiceMeUp SIP trunk.
 
 ***
 
@@ -101,15 +101,15 @@ This section explains how to configure SMS integration in PortSIP PBX using a Vo
 
 Before configuring SMS, ensure that:
 
-* A VoiceMeUp SIP trunk has already been configured in PortSIP PBX: [Configuring VoiceMeUp Trunk](configuring-voicemeup-trunk.md)
+* A VoiceMeUp SIP trunk has already been configured in the PBX: [Configuring VoiceMeUp Trunk](configuring-voicemeup-trunk.md)
 * A VoiceMeUp user account with API access has been created
 * You have obtained the Username and Auth Token from VoiceMeUp
 
 ***
 
-#### Sign in to the PortSIP PBX Web Portal
+#### Sign in to the PBX Web Portal
 
-To configure SMS integration, sign in to the PortSIP PBX Web Portal using one of the following methods:
+To configure SMS integration, sign in to the PBX Web Portal using one of the following methods:
 
 **Option 1: PBX System Administrator**
 
@@ -123,15 +123,15 @@ To configure SMS integration, sign in to the PortSIP PBX Web Portal using one of
 * Sign in directly as a **Tenant Administrator** to manage the tenant’s settings.
 
 > **Note**\
-> For more details, see [Tenant Management](../../portsip-pbx-administration-guide/3-tenant-management/).
+> For more details, see [Tenant Management](../../bgmconnects-pbx-administration-guide/3-tenant-management/).
 
 ***
 
-### Add an SMS Configuration in PortSIP PBX
+### Add an SMS Configuration in the PBX
 
 #### Step 1: Create the SMS Configuration
 
-1. In the PortSIP PBX Web Portal, navigate to: **SMS/MMS**
+1. In the PBX Web Portal, navigate to: **SMS/MMS**
 2. Click **Add** to create a new SMS configuration.
 3. From the trunk list, select the **VoiceMeUp Trunk**.
 
@@ -146,7 +146,7 @@ Configure the following fields:
   * Leave this field empty to use the **DID associated with the VoiceMeUp trunk**.
 * **Username**
   * Enter the **VoiceMeUp username** created earlier\
-    (for example, `portsip`).
+    (for example, `bgmconnects`).
 * **Auth Token**
   * Enter the **Auth Token** obtained when creating the VoiceMeUp user account.
 
@@ -156,9 +156,9 @@ Configure the following fields:
 
 ***
 
-#### Step 3: Copy the PortSIP PBX Webhook URL
+#### Step 3: Copy the PBX Webhook URL
 
-Inbound SMS messages are delivered to PortSIP PBX through a webhook.
+Inbound SMS messages are delivered to the PBX through a webhook.
 
 1. On the **SMS/MMS** list page, select the SMS configuration you just created.
 2. Click **Copy Webhook**,\
@@ -171,7 +171,7 @@ Inbound SMS messages are delivered to PortSIP PBX through a webhook.
 
 ### Configure the Webhook in VoiceMeUp
 
-This section explains how to configure the **SMS/MMS webhook** in the VoiceMeUp portal so inbound messages are delivered to PortSIP PBX.
+This section explains how to configure the **SMS/MMS webhook** in the VoiceMeUp portal so inbound messages are delivered to the PBX.
 
 ***
 
@@ -188,7 +188,7 @@ This section explains how to configure the **SMS/MMS webhook** in the VoiceMeUp 
 
 1. In the **Available Options** section:
    * Ensure **SMS/MMS** is **enabled**.
-   * Paste the **Webhook URL** copied from the PortSIP PBX SMS configuration into the **Callback URL** field.
+   * Paste the **Webhook URL** copied from the PBX SMS configuration into the **Callback URL** field.
 
 <figure><img src="../../../.gitbook/assets/voicemeuo_trunk_9 (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -198,7 +198,7 @@ This section explains how to configure the **SMS/MMS webhook** in the VoiceMeUp 
 5. Click **Save** to apply the changes.
 
 > **Note**\
-> Using the same Webhook URL in both sections ensures that all inbound SMS/MMS messages are correctly delivered to PortSIP PBX.
+> Using the same Webhook URL in both sections ensures that all inbound SMS/MMS messages are correctly delivered to the PBX.
 
 <figure><img src="../../../.gitbook/assets/voicemeuo_trunk_10.png" alt=""><figcaption></figcaption></figure>
 
@@ -208,7 +208,7 @@ This section explains how to configure the **SMS/MMS webhook** in the VoiceMeUp 
 
 At this point, the VoiceMeUp SMS/MMS integration is complete.
 
-You can now [create outbound and inbound rules ](../../portsip-pbx-administration-guide/8-call-route-management/)in PortSIP PBX to send and receive SMS/MMS messages using the VoiceMeUp trunk, just as you would configure rules for outbound and inbound voice calls.
+You can now [create outbound and inbound rules ](../../bgmconnects-pbx-administration-guide/8-call-route-management/)in the PBX to send and receive SMS/MMS messages using the VoiceMeUp trunk, just as you would configure rules for outbound and inbound voice calls.
 
 
 

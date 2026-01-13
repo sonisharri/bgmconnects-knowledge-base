@@ -12,11 +12,11 @@ To enable inbound calling, you must first complete the required configuration on
 2. Follow the CM.com guide to configure inbound DIDs: [How do I configure a DDI for incoming calls?](https://knowledgecenter.cm.com/knowledge-center/communications-platform/sip-trunking/ddi-numbers/how-do-i-configure-a-ddi-for-incoming-calls)
 3. Confirm that the DID is active and ready for SIP trunking.
 
-Once completed, continue with the trunk configuration in PortSIP PBX.
+Once completed, continue with the trunk configuration in the PBX.
 
 ***
 
-### Configure a CM.com IP Authentication Trunk in PortSIP PBX
+### Configure a CM.com IP Authentication Trunk in the PBX
 
 You can configure [CM.com](https://www.cm.com) as an **IP-Based Trunk** at the **system administrator** level. After configuration, this trunk can be shared with one or more tenants.
 
@@ -24,7 +24,7 @@ You can configure [CM.com](https://www.cm.com) as an **IP-Based Trunk** at the *
 
 #### Step 1: Create the IP-Based Trunk
 
-1. Sign in to the PortSIP PBX Web Portal as a System Administrator.
+1. Sign in to the the PBX Web Portal as a System Administrator.
 2. Navigate to **Call Manager > Trunks**.
 3. Click **Add**, then select **IP Based Trunk**.
 
@@ -104,7 +104,7 @@ For example:
 
 * The [CM.com](https://www.cm.com) IP-based trunk is successfully created.
 * The trunk status displays **Registered**\
-  &#xNAN;_(IP-Based Trunks always show “Registered” in PortSIP PBX)_.
+  &#xNAN;_(IP-Based Trunks always show “Registered” in the PBX)_.
 * Assigned tenants can immediately use the configured DIDs for inbound and outbound calls.
 
 ***

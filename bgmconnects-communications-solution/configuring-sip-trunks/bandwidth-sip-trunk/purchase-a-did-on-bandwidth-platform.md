@@ -35,7 +35,7 @@ Before placing or receiving calls, you must have **at least one active DID** (or
 2. Scroll to the **Origination Settings** section.
 3. In **Voice IP Addresses / DNS Hosts**, enter:
    * Your **static public IP address**
-   * The **SIP port** used by your PortSIP PBX
+   * The **SIP port** used by your PBX
 4. Contact your Bandwidth account administrator to add your public IP address to the **Termination Settings**.
 
 > **Note**\
@@ -60,13 +60,13 @@ Before placing or receiving calls, you must have **at least one active DID** (or
 #### Step 5: Finalize Setup
 
 * Once your SIP trunk configuration is approved, Bandwidth will provide a pair of IP addresses for trunk connectivity.
-* Record these IP addresses, you will need them when configuring the SIP trunk in PortSIP PBX.
+* Record these IP addresses, you will need them when configuring the SIP trunk in the PBX.
 
 ***
 
 ### Next Step
 
-After purchasing and preparing your DIDs, proceed to configure the SIP trunk in PortSIP PBX:
+After purchasing and preparing your DIDs, proceed to configure the SIP trunk in the PBX:
 
 * [Configuring Bandwidth IP Authentication Trunk](configuring-bandwidth-ip-authentication-trunk.md)
 

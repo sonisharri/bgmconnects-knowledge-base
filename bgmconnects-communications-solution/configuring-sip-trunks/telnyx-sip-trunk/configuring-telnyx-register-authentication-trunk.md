@@ -21,7 +21,7 @@ To create a new SIP trunk on the **Telnyx** platform using **credential-based au
 1. Enter a **friendly name** for the SIP connection.
 2. For **Type**, select **Credentials**.
 3. Enter a **Username** and **Password** of your choosing.
-   * Choose strong, secure credentials, as they will be used by PortSIP PBX for SIP authentication.
+   * Choose strong, secure credentials, as they will be used by the PBX for SIP authentication.
 
 <figure><img src="../../../.gitbook/assets/telnyx-fig10.png" alt=""><figcaption></figcaption></figure>
 
@@ -29,7 +29,7 @@ To create a new SIP trunk on the **Telnyx** platform using **credential-based au
    * You will be redirected to the **Connection Details** page.
 
 > ❗**Note**\
-> After the trunk is configured in PortSIP PBX, you can return to this page and click **Check Registration Status** to verify whether PortSIP PBX is successfully registered to the Telnyx trunk.
+> After the trunk is configured in the PBX, you can return to this page and click **Check Registration Status** to verify whether the PBX is successfully registered to the Telnyx trunk.
 
 <figure><img src="../../../.gitbook/assets/telnyx-fig11.png" alt=""><figcaption></figcaption></figure>
 
@@ -56,7 +56,7 @@ Follow these steps:
 1. Sign in to your Telnyx account.
 2. From the left-hand navigation menu, go to **Voice > Outbound Voice Profiles**.
 3. Click **Add New Profile**.
-4. Enter a **friendly name** for the profile (for example, `PortSIP Outbound`), then click **Create**.
+4. Enter a **friendly name** for the profile (for example, `BGMconnects Outbound`), then click **Create**.
    * You will be redirected to the **Outbound Voice Profile Details** page.
 
 **Associate the SIP Connection**
@@ -70,9 +70,9 @@ Follow these steps:
 
 ***
 
-### Configure Register Authentication Trunk in PortSIP PBX
+### Configure Register Authentication Trunk in the PBX
 
-The **Register Authentication Telnyx trunk** corresponds to a **Register-Based Trunk** in PortSIP PBX.
+The **Register Authentication Telnyx trunk** corresponds to a **Register-Based Trunk** in the PBX.
 
 > ❗**Important**\
 > Register-Based Trunks **must be configured at the System Administrator level**.\
@@ -82,7 +82,7 @@ The **Register Authentication Telnyx trunk** corresponds to a **Register-Based T
 
 #### Step 1: Create the Register-Based Trunk
 
-1. Sign in to the PortSIP PBX Web Portal as a **System Administrator**.
+1. Sign in to the PBX Web Portal as a **System Administrator**.
 2. Navigate to **Call Manager > Trunks**.
 3. Click **Add**, then select **Register Based Trunk**.
 
@@ -140,7 +140,7 @@ Click **Next** to continue.
 #### Step 4: Configure Trunk Options
 
 * **Max Concurrent Calls**\
-  Specifies the maximum number of simultaneous calls that PortSIP PBX can establish using this trunk.
+  Specifies the maximum number of simultaneous calls that the PBX can establish using this trunk.
   * Adjust this value based on your Telnyx service plan and expected call volume.
 
 Leave all other options at their default values unless you have specific requirements.
@@ -184,7 +184,7 @@ Click **OK** to save the configuration.
 #### Expected Result
 
 * The trunk configuration is complete.
-* Once PortSIP PBX successfully registers with the Telnyx platform, the trunk status will display **Online** in the trunk list.
+* Once the PBX successfully registers with the Telnyx platform, the trunk status will display **Online** in the trunk list.
 
 <figure><img src="../../../.gitbook/assets/telnyx-fig9.png" alt=""><figcaption></figcaption></figure>
 

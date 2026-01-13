@@ -4,7 +4,7 @@
 
 One of the key advantages of using Wavix SIP trunking is its extensive global reach. Wavix provides connectivity in over 170 countries, enabling businesses to make and receive calls worldwide while allowing customers to reach your organization at local calling rates, regardless of location.
 
-PortSIP PBX natively integrates with [Wavix SIP trunking](https://www.wavix.com/sip-trunk) for both voice calls and SMS/MMS, allowing you to configure and deploy services quickly and efficiently without complex customization.
+The PBX natively integrates with [Wavix SIP trunking](https://www.wavix.com/sip-trunk) for both voice calls and SMS/MMS, allowing you to configure and deploy services quickly and efficiently without complex customization.
 
 This guide covers the following topics:
 

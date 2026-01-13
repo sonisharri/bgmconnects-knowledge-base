@@ -25,7 +25,7 @@ To create a new SIP trunk on the Twilio platform, follow these steps:
 ### Configure Trunk Termination
 
 After creating the SIP trunk, leave all settings on the **General** page unchanged and proceed to the **Termination** section.\
-This section defines where outbound calls from PortSIP PBX are sent to Twilio.
+This section defines where outbound calls from the PBX are sent to Twilio.
 
 <figure><img src="../../../.gitbook/assets/twilio-fig1.png" alt=""><figcaption></figcaption></figure>
 
@@ -35,8 +35,8 @@ This section defines where outbound calls from PortSIP PBX are sent to Twilio.
 2. If the URI is displayed as **Available** (shown in green), it is valid and can be used.
 
 > ❗**Important**\
-> Note the full Termination SIP URI (for example, `portsip-pbx.pstn.twilio.com`).\
-> This value will be required later when configuring the SIP trunk in **PortSIP PBX**.\
+> Note the full Termination SIP URI (for example, `bgmconnects-pbx.pstn.twilio.com`).\
+> This value will be required later when configuring the SIP trunk in the **PBX**.\
 > Your URI must be unique and will differ from the example shown here.
 
 <figure><img src="../../../.gitbook/assets/twilio-fig5.png" alt=""><figcaption></figcaption></figure>
@@ -47,8 +47,8 @@ This section defines where outbound calls from PortSIP PBX are sent to Twilio.
 
 1. Scroll down to the **Authentication** section.
 2. Under **IP Access Control Lists (IP ACLs)**, create a new ACL entry.
-3. Add the **public static IP address of your PortSIP PBX**.
-   * You can find this IP address on the **PortSIP PBX Home** page.
+3. Add the **public static IP address of your PBX**.
+   * You can find this IP address on the **PBX Home** page.
 
 > ❗**Best Practice**\
 > IP-based authentication improves security by ensuring that only your PBX is allowed to send traffic to Twilio.
@@ -65,7 +65,7 @@ This section defines where outbound calls from PortSIP PBX are sent to Twilio.
 4. Once completed, navigate to the **Origination** page to continue the Twilio trunk setup.
 
 > ❗**Note**\
-> These credentials will also be used later when configuring the **Twilio SIP trunk in PortSIP PBX**.
+> These credentials will also be used later when configuring the **Twilio SIP trunk in the PBX**.
 
 <figure><img src="../../../.gitbook/assets/twilio-fig7.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -73,13 +73,13 @@ This section defines where outbound calls from PortSIP PBX are sent to Twilio.
 
 ### Configure Trunk Origination
 
-In the **Origination** section, you define how inbound calls from **Twilio** are routed **to PortSIP PBX**.
+In the **Origination** section, you define how inbound calls from **Twilio** are routed **to the PBX**.
 
-You will add one or more **Origination SIP URIs** that point to your PortSIP PBX.
+You will add one or more **Origination SIP URIs** that point to your PBX.
 
 > ❗**Prerequisite**\
-> Ensure your PortSIP PBX has a **static public IP address or FQDN**.\
-> This information is available on the **PortSIP PBX Web Portal Home** page.
+> Ensure your PBX has a **static public IP address or FQDN**.\
+> This information is available on the **PBX Web Portal Home** page.
 
 ***
 
@@ -97,7 +97,7 @@ You will add one or more **Origination SIP URIs** that point to your PortSIP PBX
 4. Click **Add**.
 
 > ❗**Explanation**\
-> This configuration routes inbound SIP traffic from the **Twilio US1 (Virginia)** data center to your PortSIP PBX and restricts origination to that region.
+> This configuration routes inbound SIP traffic from the **Twilio US1 (Virginia)** data center to your PBX and restricts origination to that region.
 
 <figure><img src="../../../.gitbook/assets/twilio-fig8.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -127,7 +127,7 @@ To provide regional redundancy, add a secondary Origination URI:
 
 * Inbound calls from Twilio will first attempt delivery via **US1 (Virginia)**.
 * If US1 is unavailable, calls will automatically fail over to **US2 (Oregon)**.
-* PortSIP PBX will receive inbound SIP traffic securely and predictably.
+* The PBX will receive inbound SIP traffic securely and predictably.
 
 ***
 
@@ -145,15 +145,15 @@ Follow these steps in the **Twilio Console**:
 5. In the **SIP Trunk** drop-down list, choose the **Elastic SIP Trunk** you created earlier.
 6. Click **Save Configuration**.
 
-The selected DID number is now **associated with your Elastic SIP Trunk**. Inbound calls to this number will be routed through the SIP trunk to **PortSIP PBX**.
+The selected DID number is now **associated with your Elastic SIP Trunk**. Inbound calls to this number will be routed through the SIP trunk to the **PBX**.
 
 <figure><img src="../../../.gitbook/assets/twilio-fig10.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-### Configure the Twilio Register-Based Trunk in PortSIP PBX
+### Configure the Twilio Register-Based Trunk in the PBX
 
-The **Twilio Register-Based Trunk** corresponds to a **Register-Based Trunk** in PortSIP PBX.
+The **Twilio Register-Based Trunk** corresponds to a **Register-Based Trunk** in the PBX.
 
 You can configure this trunk at **either** of the following levels:
 
@@ -166,7 +166,7 @@ You can configure this trunk at **either** of the following levels:
 
 #### Step 1: Create the Register-Based Trunk
 
-1. Sign in to the **PortSIP PBX Web Portal** as a **System Administrator** or **Tenant Administrator**.
+1. Sign in to the **PBX Web Portal** as a **System Administrator** or **Tenant Administrator**.
 2. From the left-hand navigation menu, go to **Call Manager > Trunks**.
 3. Click **Add**, then select **Register Based Trunk**.
 
@@ -205,7 +205,7 @@ Enter the following information:
   Enter the **Twilio Trunk Termination URI** created earlier, for example:
 
 ```
-portsip-pbx.pstn.twilio.com
+bgmconnects-pbx.pstn.twilio.com
 ```
 
 Click **Next** to continue.
@@ -230,7 +230,7 @@ Click **Next** to continue.
 
     > ❗Twilio Elastic SIP Trunking does **not** accept SIP `REGISTER` messages.
 * **Max Concurrent Calls**\
-  Defines the maximum number of simultaneous calls that PortSIP PBX can establish using this trunk.
+  Defines the maximum number of simultaneous calls that the PBX can establish using this trunk.
   * Adjust this value according to your Twilio capacity and expected call volume.
 
 Leave all other settings at their default values unless you have specific requirements.
@@ -283,7 +283,7 @@ Click **OK** to save the configuration.
 ### Next Steps
 
 * Refer to[ Twilio Elastic SIP Trunking](https://www.twilio.com/docs/sip-trunking) documentation for platform-specific details.
-* Proceed to [Configuring inbound and outbound calls](configuring-outbound-and-inbound-calls.md) in PortSIP PBX.
+* Proceed to [Configuring inbound and outbound calls](configuring-outbound-and-inbound-calls.md) in the PBX.
 
 
 

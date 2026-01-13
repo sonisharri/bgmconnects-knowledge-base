@@ -26,7 +26,7 @@ Before placing or receiving calls, you must have at least one active DID (Direct
 
 ### Next Step
 
-After purchasing your DID(s), proceed to configure the SIP trunk in PortSIP PBX using the following guide:
+After purchasing your DID(s), proceed to configure the SIP trunk in the PBX using the following guide:
 
 * [Configuring VoIP Innovations IP Authentication Trunk](configuring-voip-innovations-ip-authentication-trunk.md)
 

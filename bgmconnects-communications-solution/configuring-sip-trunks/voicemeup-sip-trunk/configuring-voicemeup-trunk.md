@@ -1,6 +1,6 @@
 # Configuring VoiceMeUp Trunk
 
-Configuring the [VoiceMeUp SIP trunk](https://www.voicemeup.com/index.html) in PortSIP PBX is straightforward. Follow the steps below to complete the setup.
+Configuring the [VoiceMeUp SIP trunk](https://www.voicemeup.com/index.html) in the PBX is straightforward. Follow the steps below to complete the setup.
 
 ***
 
@@ -17,9 +17,9 @@ Keep these details available—you will need them during trunk configuration.
 
 ***
 
-### Configure the VoiceMeUp Trunk in PortSIP PBX
+### Configure the VoiceMeUp Trunk in the PBX
 
-VoiceMeUp SIP trunks are configured as **Register-Based Trunks** in PortSIP PBX.\
+VoiceMeUp SIP trunks are configured as **Register-Based Trunks** in the PBX.\
 You can configure the trunk at either level:
 
 * **System Administrator level**
@@ -31,7 +31,7 @@ You can configure the trunk at either level:
 
 #### Step 1: Create a Register-Based Trunk
 
-1. Sign in to the **PortSIP PBX Web Portal** as a **System Administrator** or **Tenant Admin**.
+1. Sign in to the **PBX Web Portal** as a **System Administrator** or **Tenant Admin**.
 2. From the left-hand navigation menu, go to:\
    **Call Manager > Trunks**
 3. Click **Add**.
@@ -90,7 +90,7 @@ Enter the following information:
 1. Review the trunk options.
 2. Configure the following field if required:
    * **Max Concurrent Calls**\
-     Sets the maximum number of simultaneous calls PortSIP PBX can establish using this trunk.\
+     Sets the maximum number of simultaneous calls the PBX can establish using this trunk.\
      Adjust this value according to your service agreement with VoiceMeUp.
 
 > **Best Practice**\
@@ -132,7 +132,7 @@ This step is **available only when configuring the trunk at the System Administr
 #### Expected Result
 
 * The VoiceMeUp trunk is successfully created.
-* Once PortSIP PBX registers with the VoiceMeUp platform, the trunk status displays as **Online** on the trunk list page.
+* Once the PBX registers with the VoiceMeUp platform, the trunk status displays as **Online** on the trunk list page.
 
 <figure><img src="../../../.gitbook/assets/voicemeuo_trunk_4.png" alt=""><figcaption></figcaption></figure>
 
@@ -146,7 +146,7 @@ For outbound calls, VoiceMeUp requires specific SIP header mappings to ensure co
 
 #### Step 1: Configure Outbound Parameters
 
-1. In the **PortSIP PBX Web Portal**, navigate to **Call Manager > Trunks**.
+1. In the **PBX Web Portal**, navigate to **Call Manager > Trunks**.
 2. **Double-click** the configured **VoiceMeUp trunk**.
 3. Open the **Outbound Parameters** tab.
 4.  Configure the following fields:
@@ -192,7 +192,7 @@ VoiceMeUp requires the **CLI (outbound caller ID)** to be in **E.164 format**.
     +16468097065
     ```
 
-When configuring the outbound caller ID for an extension in PortSIP PBX, ensure the number follows this format.
+When configuring the outbound caller ID for an extension in the PBX, ensure the number follows this format.
 
 <figure><img src="../../../.gitbook/assets/voicemeuo_trunk_5.png" alt=""><figcaption></figcaption></figure>
 
@@ -208,7 +208,7 @@ You can proceed to:
 * Configure inbound DID routing
 * Assign outbound caller IDs
 
-Refer to the next guide: [Route Management](../../portsip-pbx-administration-guide/8-call-route-management/).<br>
+Refer to the next guide: [Route Management](../../bgmconnects-pbx-administration-guide/8-call-route-management/).<br>
 
 
 

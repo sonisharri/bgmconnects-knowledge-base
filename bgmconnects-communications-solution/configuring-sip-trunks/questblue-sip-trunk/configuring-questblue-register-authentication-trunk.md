@@ -9,16 +9,16 @@ To create a new SIP trunk on the QuestBlue platform, follow these steps:
 1. **Sign in** to your QuestBlue account.
 2. From the left-hand navigation menu, select **SIP Trunks > Trunks**.
 3. Click **Add Trunk**.
-4. Enter a **friendly name** for the trunk (for example, `PortSIP-Trunk`).
+4. Enter a **friendly name** for the trunk (for example, `BGMconnects-Trunk`).
 5. For **Trunk Type**, select **Static IP Trunk**.
 6. For **Trunk Region**, choose the appropriate location.
    * Note the **SBC domain** for the selected region. QuestBlue typically recommends using `sbc.questblue.com`.
 7. For **Max Channels**, leave the default value unless your service plan requires a different setting.
-8. In the **IP Address** field, enter the **public static IP address of your PortSIP PBX**, then click **Create Trunk**.
+8. In the **IP Address** field, enter the **public static IP address of your PBX**, then click **Create Trunk**.
 
 <figure><img src="../../../.gitbook/assets/questblue-fig4.png" alt=""><figcaption></figcaption></figure>
 
-After the SIP trunk is successfully created, it will appear in the **SIP Trunks > Trunks** list in your QuestBlue account and will be ready to use in PortSIP PBX configuration.
+After the SIP trunk is successfully created, it will appear in the **SIP Trunks > Trunks** list in your QuestBlue account and will be ready to use in the PBX configuration.
 
 <figure><img src="../../../.gitbook/assets/questblue-fig5.png" alt=""><figcaption></figcaption></figure>
 
@@ -50,9 +50,9 @@ You can repeat these steps to assign additional DIDs as needed.
 
 ***
 
-### Configure a Register-Based Trunk in PortSIP PBX
+### Configure a Register-Based Trunk in the PBX
 
-The **QuestBlue Registration Trunk** corresponds to a **Register-Based Trunk** in PortSIP PBX.
+The **QuestBlue Registration Trunk** corresponds to a **Register-Based Trunk** in the PBX.
 
 You can configure a Register-Based Trunk at **either** of the following levels:
 
@@ -65,7 +65,7 @@ You can configure a Register-Based Trunk at **either** of the following levels:
 
 #### Step 1: Create the Register-Based Trunk
 
-1. Sign in to the PortSIP PBX Web Portal as a **System Administrator** or **Tenant Administrator**.
+1. Sign in to the PBX Web Portal as a **System Administrator** or **Tenant Administrator**.
 2. From the left-hand navigation menu, go to **Call Manager > Trunks**.
 3. Click **Add**, then select **Register Based Trunk**.
 
@@ -112,7 +112,7 @@ Enter the credentials provided by QuestBlue:
 
 * **Authentication Name**\
   Enter the QuestBlue trunk username specified when creating the SIP trunk on the QuestBlue platform\
-  (for example, `portsipRegUser`).
+  (for example, `bgmconnectsRegUser`).
 * **Password**\
   Enter the trunk password retrieved earlier from the QuestBlue platform.
 
@@ -125,7 +125,7 @@ Click **Next** to continue.
 #### Step 4: Configure Call Capacity and Options
 
 * **Max Concurrent Calls**\
-  Specifies the maximum number of simultaneous calls that PortSIP PBX can establish using this trunk.
+  Specifies the maximum number of simultaneous calls that the PBX can establish using this trunk.
   * Adjust this value based on your QuestBlue service plan and expected call volume.
   * For most deployments, the default value is sufficient.
 
@@ -172,7 +172,7 @@ Click **OK** to save the configuration.
 #### Expected Result
 
 * The trunk configuration is now complete.
-* Once PortSIP PBX successfully registers to the QuestBlue platform, the trunk status will display **Registered** on the trunk list page.
+* Once the PBX successfully registers to the QuestBlue platform, the trunk status will display **Registered** on the trunk list page.
 
 <figure><img src="../../../.gitbook/assets/questblue-fig13.png" alt=""><figcaption></figcaption></figure>
 

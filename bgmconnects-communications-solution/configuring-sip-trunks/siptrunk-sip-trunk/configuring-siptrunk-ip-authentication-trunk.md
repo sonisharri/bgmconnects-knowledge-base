@@ -17,11 +17,11 @@ To enable inbound calling, you must first complete the required configuration on
 
     &#x20;
 
-Once completed, continue with the trunk configuration in PortSIP PBX.
+Once completed, continue with the trunk configuration in the PBX.
 
 ***
 
-### Configure a SIPTRUNK IP Authentication Trunk in PortSIP PBX
+### Configure a SIPTRUNK IP Authentication Trunk in the PBX
 
 You can configure SIPTRUNK as an **IP-Based Trunk** at the **system administrator** level. After configuration, this trunk can be shared with one or more tenants.
 
@@ -29,7 +29,7 @@ You can configure SIPTRUNK as an **IP-Based Trunk** at the **system administrato
 
 #### Step 1: Create the IP-Based Trunk
 
-1. Sign in to the PortSIP PBX Web Portal as a System Administrator.
+1. Sign in to the PBX Web Portal as a System Administrator.
 2. Navigate to **Call Manager > Trunks**.
 3. Click **Add**, then select **IP Based Trunk**.
 
@@ -108,7 +108,7 @@ For example:
 
 * The [SIPTURNK ](https://www.siptrunk.com)P-based trunk is successfully created.
 * The trunk status displays **Registered**\
-  &#xNAN;_(IP-Based Trunks always show “Registered” in PortSIP PBX)_.
+  &#xNAN;_(IP-Based Trunks always show “Registered” in the PBX)_.
 * Assigned tenants can immediately use the configured DIDs for inbound and outbound calls.
 
 ***

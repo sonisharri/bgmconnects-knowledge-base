@@ -6,16 +6,16 @@ Before proceeding with the next steps, you need to purchase a DID on the [Bandwi
 
 ### Overview
 
-Bandwidth must be configured as an **IP-Based Trunk** at the PortSIP PBX System Administrator level.\
+Bandwidth must be configured as an **IP-Based Trunk** at the PBX System Administrator level.\
 Once the trunk is successfully created, it can be shared with one or more tenants, and DIDs can be assigned through a DID Pool.
 
 ***
 
-### Configure a Bandwidth IP Authentication Trunk in PortSIP PBX
+### Configure a Bandwidth IP Authentication Trunk in the PBX
 
 #### Step 1: Create an IP-Based Trunk
 
-1. Sign in to the **PortSIP PBX Web Portal** as a **System Administrator**.
+1. Sign in to the **PBX Web Portal** as a **System Administrator**.
 2. From the left-hand menu, navigate to:\
    **Call Manager > Trunks**
 3. Click **Add** to open the trunk type menu.
@@ -56,7 +56,7 @@ Once the trunk is successfully created, it can be shared with one or more tenant
 1. Review the trunk options and adjust settings as needed.
 2. Configure the following field if required:
    * **Max Concurrent Calls**\
-     Defines the maximum number of simultaneous calls PortSIP PBX can establish using this trunk.\
+     Defines the maximum number of simultaneous calls the PBX can establish using this trunk.\
      Set this value based on your capacity planning and service agreement with Bandwidth.
 
 > **Best Practice**\

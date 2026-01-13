@@ -2,19 +2,19 @@
 
 Before proceeding with the next steps, you need to purchase a DID on the [Flowroute ](https://www.flowroute.com)platform.
 
-This section explains how to configure **IP Authentication** and **Inbound Routes** in the Flowroute portal so the trunk can successfully interoperate with PortSIP PBX.
+This section explains how to configure **IP Authentication** and **Inbound Routes** in the Flowroute portal so the trunk can successfully interoperate with the PBX.
 
 ***
 
 ### Configure IP Authentication
 
-The **IP Authentication** section defines which PBX is allowed to send and receive SIP traffic and provides key information used later in PortSIP PBX.
+The **IP Authentication** section defines which PBX is allowed to send and receive SIP traffic and provides key information used later in the PBX.
 
 #### Steps
 
 1. Log in to your Flowroute portal.
 2. Navigate to the **IP Authentication** section.
-3. Add the **public static IP address** of your PortSIP PBX server.
+3. Add the **public static IP address** of your PBX server.
 
 After configuring IP authentication, Flowroute will provide:
 
@@ -22,7 +22,7 @@ After configuring IP authentication, Flowroute will provide:
 * **Call Prefix**
 
 > **Important**\
-> Make a note of the **Call Prefix**. You will need it later when configuring **Outbound Rules** in PortSIP PBX.
+> Make a note of the **Call Prefix**. You will need it later when configuring **Outbound Rules** in the PBX.
 
 <figure><img src="../../../.gitbook/assets/flowroute_trunk_1 (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -37,7 +37,7 @@ Inbound routes define where incoming calls from Flowroute are delivered.
 1. In the Flowroute portal, navigate to **Inbound Routes**.
 2. Create a new inbound route.
 3. Set the **Route Type** to **Host**.
-4.  In the **Route** field, enter your PortSIP PBX address using the following format:
+4.  In the **Route** field, enter your PBX address using the following format:
 
     ```
     sip:<PBX-IP>:<PORT>
@@ -76,16 +76,16 @@ To ensure inbound calls reach your PBX, each DID must be linked to the correct i
 
 ***
 
-### Configure an IP Authentication Trunk in PortSIP PBX
+### Configure an IP Authentication Trunk in the PBX
 
-To integrate Flowroute with PortSIP PBX, you must configure Flowroute as an **IP-Based Trunk** at the **System Administrator** level.\
+To integrate Flowroute with the PBX, you must configure Flowroute as an **IP-Based Trunk** at the **System Administrator** level.\
 Once configured, the trunk can be **shared with one or more tenants**.
 
 ***
 
 #### Step 1: Create an IP-Based Trunk
 
-1. Sign in to the PortSIP PBX Web Portal as a **System Administrator**.
+1. Sign in to the PBX Web Portal as a **System Administrator**.
 2. From the left-hand navigation menu, go to:\
    **Call Manager > Trunks**
 3. Click **Add**.
@@ -134,7 +134,7 @@ Enter the following information:
 1. Review the trunk options.
 2. Configure the following field if required:
    * **Max Concurrent Calls**\
-     Sets the maximum number of simultaneous calls PortSIP PBX can establish using this trunk.\
+     Sets the maximum number of simultaneous calls the PBX can establish using this trunk.\
      Adjust this value according to your capacity planning and Flowroute service agreement.
 
 > **Best Practice**\

@@ -6,7 +6,7 @@ Before proceeding with the next steps, you need to [purchase a DID on the Voxtel
 
 ### Create a Voxtelesys API Key
 
-To enable **SMS/MMS sending** from PortSIP PBX, you must create a **Voxtelesys API key**.
+To enable **SMS/MMS sending** from the PBX, you must create a **Voxtelesys API key**.
 
 #### Step 1: Generate the API Key
 
@@ -16,31 +16,31 @@ To enable **SMS/MMS sending** from PortSIP PBX, you must create a **Voxtelesys A
 4. Copy the generated **API key** and store it securely.
 
 > ❗**Important**\
-> The API key is required later when configuring SMS/MMS in PortSIP PBX.\
+> The API key is required later when configuring SMS/MMS in the PBX.\
 > Treat it as a sensitive credential. If the key is compromised, revoke it and create a new one immediately.
 
 <figure><img src="../../../.gitbook/assets/voxtelesys-fig21.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-### Configure SMS with Voxtelesys Trunk in PortSIP PBX
+### Configure SMS with Voxtelesys Trunk in the PBX
 
-Before configuring SMS in PortSIP PBX, ensure that a Voxtelesys SIP trunk has already been configured using one of the following guides:
+Before configuring SMS in the PBX, ensure that a Voxtelesys SIP trunk has already been configured using one of the following guides:
 
 * [Configuring Voxtelesys Register Based Trunk](configuring-questblue-register-authentication-trunk.md)
 * [Configuring Voxtelesys IP-Based Trunk](configuring-questblue-ip-authentication-trunk.md)
 
-Once the SIP trunk is ready, you can proceed with the SMS/MMS configuration in PortSIP PBX.
+Once the SIP trunk is ready, you can proceed with the SMS/MMS configuration in the PBX.
 
 ***
 
-### Sign in to the PortSIP PBX Web Portal
+### Sign in to the PBX Web Portal
 
 You can access the tenant configuration using one of the following methods:
 
 #### Option 1: Sign in as System Administrator
 
-1. Sign in to the PortSIP PBX Web Portal as a **System Administrator**.
+1. Sign in to the PBX Web Portal as a **System Administrator**.
 2. Navigate to **Tenants**.
 3. Select the desired tenant and click **Manage** to switch to that tenant’s administration context.
 
@@ -49,19 +49,19 @@ You can access the tenant configuration using one of the following methods:
 * Sign in directly as a **Tenant Administrator** to manage the tenant.
 
 > ❗**Note**\
-> For more information about tenant roles and permissions, refer to [Tenant Management](../../portsip-pbx-administration-guide/3-tenant-management/).
+> For more information about tenant roles and permissions, refer to [Tenant Management](../../bgmconnects-pbx-administration-guide/3-tenant-management/).
 
 ***
 
-### Add an SMS Configuration in PortSIP PBX
+### Add an SMS Configuration in the PBX
 
-To enable SMS/MMS using the **Voxtelesys trunk**, you must create an SMS configuration in PortSIP PBX.
+To enable SMS/MMS using the **Voxtelesys trunk**, you must create an SMS configuration in the PBX.
 
 ***
 
 #### Step 1: Create the SMS Configuration
 
-1. In the PortSIP PBX Web Portal, navigate to **SMS/MMS** from the left-hand menu.
+1. In the PBX Web Portal, navigate to **SMS/MMS** from the left-hand menu.
 2. Click **Add**.
 3. Select your configured **Voxtelesys trunk**.
 4. Configure the following fields:
@@ -84,14 +84,14 @@ To enable SMS/MMS using the **Voxtelesys trunk**, you must create an SMS configu
    * Or, double-click the SMS configuration to open its details page, then copy the **Webhook URL** from there.
 
 > ❗**Important**\
-> The Webhook URL is required for Voxtelesys to deliver **inbound SMS/MMS messages** to PortSIP PBX.\
+> The Webhook URL is required for Voxtelesys to deliver **inbound SMS/MMS messages** to the PBX.\
 > You will configure this URL on the Voxtelesys side in the next step.
 
 ***
 
 ### Configure SMS in Voxtelesys
 
-After creating the SMS configuration in PortSIP PBX, you must configure **Voxtelesys** to deliver inbound SMS/MMS messages to PortSIP PBX.
+After creating the SMS configuration in the PBX, you must configure **Voxtelesys** to deliver inbound SMS/MMS messages to the PBX.
 
 ***
 
@@ -101,13 +101,13 @@ After creating the SMS configuration in PortSIP PBX, you must configure **Voxtel
 2. Navigate to **APIs > Messaging Applications**.
 3. Click **Create Application**.
 4. Configure the application with the following values:
-   * **Profile Name**: `PortSIP SMS`
+   * **Profile Name**: `BGMconnects SMS`
    * **Trunk Group**:
      * Select the **same trunk group** associated with the API key you created earlier.
    * **HTTP Method**: `POST`
    * **Events**: `Inbound Messages (MOs)`
    * **MO Webhook**:
-     * Paste the **PortSIP PBX Webhook URL** you copied in the previous steps.
+     * Paste the **PBX Webhook URL** you copied in the previous steps.
    * **Authentication**: `None`
 5. Click **Save** to create the messaging application.
 
@@ -122,12 +122,12 @@ After creating the SMS configuration in PortSIP PBX, you must configure **Voxtel
 3. In the pop-up window, configure the following settings:
    * **SMS Enabled**: ✔ Enable
    * **Service Trunk**: `SMS | Fax2Email`
-   * **Messaging Application**: `PortSIP SMS`
+   * **Messaging Application**: `BGMconnects SMS`
    * **Campaign**:
      * Select the appropriate campaign value based on your compliance requirements.
 4. Click **Confirm** to save the changes.
 
-Your Voxtelesys SMS integration with PortSIP PBX is now complete.
+Your Voxtelesys SMS integration with the PBX is now complete.
 
 <figure><img src="../../../.gitbook/assets/voxtelesys-fig24.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -135,12 +135,12 @@ Your Voxtelesys SMS integration with PortSIP PBX is now complete.
 
 #### Additional Notes and Best Practices
 
-* Ensure the DID number (with SMS enabled) is assigned to the correct user or extension in PortSIP PBX.
-* Inbound SMS routing in PortSIP PBX follows the same inbound rules logic as voice calls.
+* Ensure the DID number (with SMS enabled) is assigned to the correct user or extension in the PBX.
+* Inbound SMS routing in the PBX follows the same inbound rules logic as voice calls.
 * Number Format Requirement:
-  * PortSIP PBX supports SMS in E.164 format.
+  * The PBX supports SMS in E.164 format.
   * Ensure:
-    * DID numbers in PortSIP PBX are configured in E.164 format.
+    * DID numbers in the PBX are configured in E.164 format.
     * The Voxtelesys Messaging Application uses E.164.
     * The Inbound Trunk on Voxtelesys is also configured for E.164.
 
@@ -151,7 +151,7 @@ Your Voxtelesys SMS integration with PortSIP PBX is now complete.
 
 ### Verify Configuration
 
-You can now [create Outbound and Inbound Rules](configuring-outbound-and-inbound-calls.md) in PortSIP PBX for sending and receiving SMS/MMS using the Voxtelesys trunk, exactly the same way you configure rules for voice calls.
+You can now [create Outbound and Inbound Rules](configuring-outbound-and-inbound-calls.md) in the PBX for sending and receiving SMS/MMS using the Voxtelesys trunk, exactly the same way you configure rules for voice calls.
 
 
 

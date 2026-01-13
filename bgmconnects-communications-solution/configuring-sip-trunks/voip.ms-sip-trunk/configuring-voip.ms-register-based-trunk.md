@@ -20,7 +20,7 @@ Before proceeding with the next steps, you need to [purchase a DID on the VoIP.m
 
 #### Step 2: Link DIDs to the Main Account
 
-To ensure calls are correctly routed to PortSIP PBX, your DID numbers must be linked to the **Main Account**.
+To ensure calls are correctly routed to the PBX, your DID numbers must be linked to the **Main Account**.
 
 1. Navigate to **DID Numbers > Manage DID(s)**.
 2. Locate the DID you want to configure and click the **Edit DID** (pencil) icon.
@@ -31,9 +31,9 @@ To ensure calls are correctly routed to PortSIP PBX, your DID numbers must be li
 
 <figure><img src="../../../.gitbook/assets/voip.ms-fig3.png" alt=""><figcaption></figcaption></figure>
 
-#### Step 3: Collect Required Settings for PortSIP PBX
+#### Step 3: Collect Required Settings for the PBX
 
-Before configuring the Register-Based Trunk in PortSIP PBX, gather the following information from your VoIP.ms account.
+Before configuring the Register-Based Trunk in the PBX, gather the following information from your VoIP.ms account.
 
 **SIP Registration Credentials**
 
@@ -80,15 +80,15 @@ VoIP.ms uses different SIP registrars depending on your geographic location.
       ```
 
 > ❗**Best Practice**\
-> Always use the registrar closest to your PortSIP PBX location to minimize latency and improve call quality.
+> Always use the registrar closest to your PBX location to minimize latency and improve call quality.
 
 <figure><img src="../../../.gitbook/assets/voip.ms-trunk1.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-### Configure a Register-Based Trunk with PortSIP PBX
+### Configure a Register-Based Trunk with the PBX
 
-VoIP.ms uses **SIP registration** for PBX integration. In PortSIP PBX, this corresponds to a **Register-Based Trunk**.
+VoIP.ms uses **SIP registration** for PBX integration. In the PBX, this corresponds to a **Register-Based Trunk**.
 
 You can configure a Register-Based Trunk at **either** of the following levels:
 
@@ -101,7 +101,7 @@ You can configure a Register-Based Trunk at **either** of the following levels:
 
 #### Step 1: Create a Register-Based Trunk
 
-1. Sign in to the **PortSIP PBX Web Portal** as a **System Administrator** or **Tenant Administrator**.
+1. Sign in to the **PBX Web Portal** as a **System Administrator** or **Tenant Administrator**.
 2. From the left navigation menu, go to **Call Manager > Trunks**.
 3. Click **Add** to open the trunk type menu.
 4. Select **Register Based Trunk**.
@@ -143,7 +143,7 @@ On the **Basic Settings** page, configure the following fields:
     VoIP.ms operates multiple points of presence. Add the VoIP.ms server IP addresses in **CIDR format**.
 
     * Traffic originating from these IPs is trusted as VoIP.ms traffic.
-    * This prevents PortSIP PBX **anti-hacking mechanisms** from blocking legitimate calls.
+    * This prevents the PBX **anti-hacking mechanisms** from blocking legitimate calls.
 
     > ❗**Reference**\
     > For the full list of VoIP.ms server IPs, refer to the [official VoIP.ms documentation](https://wiki.voip.ms/article/Servers).
@@ -156,7 +156,7 @@ On the **Basic Settings** page, configure the following fields:
 
 #### Step 3: Configure SIP Authentication Credentials
 
-Enter the SIP registration credentials from VoIP.ms, which you set up in [Step 3: Collect Required Settings for PortSIP PBX](configuring-voip.ms-register-based-trunk.md#step-3-collect-required-settings-for-portsip-pbx):
+Enter the SIP registration credentials from VoIP.ms, which you set up in [Step 3: Collect Required Settings for the PBX](configuring-voip.ms-register-based-trunk.md#step-3-collect-required-settings-for-bgmconnects-pbx):
 
 * **Authentication Name**\
   Enter the VoIP.ms username.
@@ -223,7 +223,7 @@ This step appears **only** when the trunk is created at the **System Administrat
 
 #### Expected Result:
 
-* PortSIP PBX registers the trunk to the VoIP.ms platform.
+* The PBX registers the trunk to the VoIP.ms platform.
 * On the **Trunks** list page, the trunk status displays as **Online**.
 
 <figure><img src="../../../.gitbook/assets/voip.ms-flig8.png" alt=""><figcaption></figcaption></figure>

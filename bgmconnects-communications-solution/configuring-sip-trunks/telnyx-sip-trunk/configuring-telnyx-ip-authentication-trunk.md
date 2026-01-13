@@ -30,8 +30,8 @@ To create a new SIP trunk on the **Telnyx** platform, follow these steps.
 #### Step 3: Add Your PBX IP Address
 
 7. In the **Connection Details** page, click **Add IP Address**.
-8. Enter your PortSIP PBX public static IP address.
-9. Specify your PortSIP PBX SIP signaling port (typically `5060`).
+8. Enter your PBX public static IP address.
+9. Specify your PBX SIP signaling port (typically `5060`).
 
 <figure><img src="../../../.gitbook/assets/telnyx-fig5.png" alt=""><figcaption></figcaption></figure>
 
@@ -58,7 +58,7 @@ Follow these steps:
 1. Sign in to your Telnyx account.
 2. From the left-hand navigation menu, go to **Voice > Outbound Voice Profiles**.
 3. Click **Add New Profile**.
-4. Enter a **friendly name** for the profile (for example, `PortSIP Outbound`), then click **Create**.
+4. Enter a **friendly name** for the profile (for example, `BGMconnects Outbound`), then click **Create**.
    * You will be redirected to the **Outbound Voice Profile details** page.
 
 **Associate the SIP Connection**
@@ -72,9 +72,9 @@ Follow these steps:
 
 ***
 
-### Configure an IP Authentication Trunk in PortSIP PBX
+### Configure an IP Authentication Trunk in the PBX
 
-The **Telnyx IP Authentication Trunk** corresponds to an **IP-Based Trunk** in PortSIP PBX.
+The **Telnyx IP Authentication Trunk** corresponds to an **IP-Based Trunk** in the PBX.
 
 > ❗**Important**\
 > IP-Based Trunks **must be configured at the System Administrator level**.\
@@ -84,7 +84,7 @@ The **Telnyx IP Authentication Trunk** corresponds to an **IP-Based Trunk** in P
 
 #### Step 1: Create the IP-Based Trunk
 
-1. Sign in to the PortSIP PBX Web Portal as a **System Administrator**.
+1. Sign in to the PBX Web Portal as a **System Administrator**.
 2. From the left-hand navigation menu, go to **Call Manager > Trunks**.
 3. Click **Add**, then select **IP Based Trunk**.
 
@@ -111,7 +111,7 @@ Click **Next** to continue.
 #### Step 3: Configure Call Capacity
 
 * **Max Concurrent Calls**\
-  Defines the maximum number of simultaneous calls that PortSIP PBX can establish through this trunk.
+  Defines the maximum number of simultaneous calls that the PBX can establish through this trunk.
   * Adjust this value according to your Telnyx service plan and expected call volume.
   * For most deployments, the default value is sufficient.
 

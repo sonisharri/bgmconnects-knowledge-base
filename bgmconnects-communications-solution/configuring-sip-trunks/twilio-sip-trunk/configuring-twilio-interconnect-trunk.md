@@ -48,7 +48,7 @@ To create a new SIP trunk on the **Twilio** platform, follow these steps:
 ### Configure Trunk Termination
 
 After creating the SIP trunk, leave all settings on the **General** page unchanged and switch to the **Termination** section.\
-This section defines where outbound calls from PortSIP PBX are sent to Twilio.
+This section defines where outbound calls from the PBX are sent to Twilio.
 
 <figure><img src="../../../.gitbook/assets/twilio-fig1.png" alt=""><figcaption></figcaption></figure>
 
@@ -59,10 +59,10 @@ This section defines where outbound calls from PortSIP PBX are sent to Twilio.
 1. In the **Termination** section, enter a **unique Termination SIP URI** of your choice.
 2. If the URI status displays **Available** (shown in green), the URI is valid and can be used.
 3. Click **Show localized URIs**, then **copy the listed URI values**.
-   * These localized URIs will be required later when configuring the trunk in **PortSIP PBX**.
+   * These localized URIs will be required later when configuring the trunk in the **PBX**.
 
 > ❗**Important**\
-> Make sure to save the full Termination SIP URI information. It will be referenced directly in the PortSIP PBX trunk configuration.
+> Make sure to save the full Termination SIP URI information. It will be referenced directly in the PBX trunk configuration.
 
 <figure><img src="../../../.gitbook/assets/twilio-fig14.png" alt=""><figcaption></figcaption></figure>
 
@@ -72,8 +72,8 @@ This section defines where outbound calls from PortSIP PBX are sent to Twilio.
 
 1. Scroll down to the **Authentication** section.
 2. Under **IP Access Control Lists (IP ACLs)**, create a new ACL entry.
-3. Add the **public IP address of your PortSIP PBX**.
-   * This IP address can be found on the **PortSIP PBX Web Portal Home** page.
+3. Add the **public IP address of your PBX**.
+   * This IP address can be found on the **PBX Web Portal Home** page.
 
 > ❗**Security Best Practice**\
 > Using an IP ACL ensures that only your PBX is authorized to send SIP traffic to Twilio.
@@ -88,7 +88,7 @@ This section defines where outbound calls from PortSIP PBX are sent to Twilio.
 2. Save the credentials.
 
 > ❗**Note**\
-> These credentials will also be used later when configuring the **Twilio trunk in PortSIP PBX**.
+> These credentials will also be used later when configuring the **Twilio trunk in the PBX**.
 
 3. Click **Create** to save the Termination configuration.
 4. After saving, proceed to the **Origination** page to continue the Twilio SIP trunk setup.
@@ -99,7 +99,7 @@ This section defines where outbound calls from PortSIP PBX are sent to Twilio.
 
 ### Configure Trunk Origination
 
-In the **Origination** section of the configuration, configure your origination SIP URI, which identifies the network element entry point into your PortSIP PBX. To ensure your calls go over your private connection, include the `edge` parameter in the URI with the value of the Twilio [Interconnect Edge Location](https://www.twilio.com/docs/global-infrastructure/edge-locations#private-interconnect) where your private connection is configured.
+In the **Origination** section of the configuration, configure your origination SIP URI, which identifies the network element entry point into your PBX. To ensure your calls go over your private connection, include the `edge` parameter in the URI with the value of the Twilio [Interconnect Edge Location](https://www.twilio.com/docs/global-infrastructure/edge-locations#private-interconnect) where your private connection is configured.
 
 #### Origination SIP URI Format
 
@@ -114,7 +114,7 @@ sip:151.101.2.3;edge=EDGE_LOCATION
 **Using a Fully Qualified Domain Name (FQDN)**
 
 ```
-sip:pbx.portsip.com;edge=EDGE_LOCATION
+sip:pbx.bgmconnects.com;edge=EDGE_LOCATION
 ```
 
 ***
@@ -126,7 +126,7 @@ sip:pbx.portsip.com;edge=EDGE_LOCATION
 
 ```
 sip:151.101.2.3;edge=ashburn-ix
-sip:pbx.portsip.com;edge=ashburn-ix
+sip:pbx.bgmconnects.com;edge=ashburn-ix
 ```
 
 <figure><img src="../../../.gitbook/assets/twilio-fig15.png" alt="" width="563"><figcaption></figcaption></figure>
@@ -151,9 +151,9 @@ Follow these steps in the Twilio Console:
 
 ***
 
-### Configure the Twilio Interconnect Trunk in PortSIP PBX
+### Configure the Twilio Interconnect Trunk in the PBX
 
-The **Twilio Interconnect Trunk** is configured in PortSIP PBX as a **Register-Based Trunk**.
+The **Twilio Interconnect Trunk** is configured in the PBX as a **Register-Based Trunk**.
 
 You can configure this trunk at **either** of the following levels:
 
@@ -166,7 +166,7 @@ You can configure this trunk at **either** of the following levels:
 
 #### Step 1: Create the Register-Based Trunk
 
-1. Sign in to the PortSIP PBX Web Portal as a **System Administrator** or **Tenant Administrator**.
+1. Sign in to the PBX Web Portal as a **System Administrator** or **Tenant Administrator**.
 2. From the left-hand navigation menu, go to **Call Manager > Trunks**.
 3. Click **Add**, then select **Register Based Trunk**.
 
@@ -205,17 +205,17 @@ Enter the following information:
 ```
 
 * **Hostname or IP Address**\
-  Enter **one of the Twilio Interconnect Termination URIs** saved earlier, based on the geographic location closest to your PortSIP PBX:
+  Enter **one of the Twilio Interconnect Termination URIs** saved earlier, based on the geographic location closest to your PBX:
 
 ```
-portsip-pbx.pstn.ashburn.twilio.com
-portsip-pbx.pstn.umatilla.twilio.com
-portsip-pbx.pstn.dublin.twilio.com
-portsip-pbx.pstn.frankfurt.twilio.com
-portsip-pbx.pstn.sao-paulo.twilio.com
-portsip-pbx.pstn.singapore.twilio.com
-portsip-pbx.pstn.tokyo.twilio.com
-portsip-pbx.pstn.sydney.twilio.com
+bgmconnects-pbx.pstn.ashburn.twilio.com
+bgmconnects-pbx.pstn.umatilla.twilio.com
+bgmconnects-pbx.pstn.dublin.twilio.com
+bgmconnects-pbx.pstn.frankfurt.twilio.com
+bgmconnects-pbx.pstn.sao-paulo.twilio.com
+bgmconnects-pbx.pstn.singapore.twilio.com
+bgmconnects-pbx.pstn.tokyo.twilio.com
+bgmconnects-pbx.pstn.sydney.twilio.com
 ```
 
 Click **Next** to continue.
@@ -240,7 +240,7 @@ Click **Next** to continue.
 
     > ❗Twilio Interconnect trunks do **not** accept SIP `REGISTER` messages.
 * **Max Concurrent Calls**\
-  Defines the maximum number of simultaneous calls that PortSIP PBX can establish using this trunk.
+  Defines the maximum number of simultaneous calls that the PBX can establish using this trunk.
   * Adjust this value based on your Twilio Interconnect capacity and expected traffic.
 
 Leave all other settings at their default values unless you have specific requirements.
@@ -294,7 +294,7 @@ Click **OK** to save the configuration.
 ### Next Steps
 
 * Refer to[ Twilio Elastic SIP Trunking](https://www.twilio.com/docs/sip-trunking) documentation for platform-specific details.
-* Proceed to [Configuring inbound and outbound calls](configuring-outbound-and-inbound-calls.md) in PortSIP PBX.
+* Proceed to [Configuring inbound and outbound calls](configuring-outbound-and-inbound-calls.md) in the PBX.
 
 
 

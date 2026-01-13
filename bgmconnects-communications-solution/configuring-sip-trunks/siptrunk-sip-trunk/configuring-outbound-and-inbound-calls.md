@@ -1,6 +1,6 @@
 # Configuring Outbound & Inbound Calls
 
-To configure outbound and inbound call routing, you must first sign in to the PortSIP PBX Web Portal.
+To configure outbound and inbound call routing, you must first sign in to the PBX Web Portal.
 
 You can access the Web Portal in one of the following ways:
 
@@ -9,7 +9,7 @@ You can access the Web Portal in one of the following ways:
 * **Sign in as a Tenant Administrator**\
   This allows you to manage settings for your own tenant directly.
 
-For more details, refer to [Tenant Management](../../portsip-pbx-administration-guide/3-tenant-management/).
+For more details, refer to [Tenant Management](../../bgmconnects-pbx-administration-guide/3-tenant-management/).
 
 ***
 
@@ -19,7 +19,7 @@ Outbound Rules determine how extensions place outbound calls through trunks.
 
 #### Add an Outbound Rule
 
-1. Sign in to the PortSIP PBX Web Portal.
+1. Sign in to the PBX Web Portal.
 2. Navigate to **Call Manager > Outbound Rules**.
 3. Click **Add**.
 4. Enter a **Name** for the outbound rule.
@@ -59,7 +59,7 @@ Inbound Rules define how incoming calls from trunks are routed to extensions, ri
 
 #### Add an Inbound Rule
 
-1. Sign in to the PortSIP PBX Web Portal.
+1. Sign in to the PBX Web Portal.
 2. Navigate to **Call Manager > Inbound Rules**.
 3. Click **Add**.
 4. Enter a **Name** for the inbound rule.
@@ -81,7 +81,7 @@ Based on your business requirements, you can optionally configure **Office Hours
 * Send calls to voicemail
 * Automatically reject calls outside business hours
 
-For more information, refer to [Office Hours and Holiday Schedule](../../portsip-pbx-administration-guide/office-hours-and-holiday-schedule/).
+For more information, refer to [Office Hours and Holiday Schedule](../../bgmconnects-pbx-administration-guide/office-hours-and-holiday-schedule/).
 
 ***
 
@@ -89,7 +89,7 @@ For more information, refer to [Office Hours and Holiday Schedule](../../portsip
 
 For detailed explanations and advanced scenarios related to call routing, see:
 
-* [Call Route Management](../../portsip-pbx-administration-guide/8-call-route-management/)
+* [Call Route Management](../../bgmconnects-pbx-administration-guide/8-call-route-management/)
 
 
 

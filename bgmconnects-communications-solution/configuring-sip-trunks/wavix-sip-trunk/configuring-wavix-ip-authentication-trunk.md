@@ -17,7 +17,7 @@ Before proceeding with the next steps, you need to [purchase a DID on the Wavix 
 4. **Select Authentication Method**\
    Choose **IP Authentication** as the authentication method.
 5. **Enter PBX IP Address**\
-   Enter the **static public IP address** of your PortSIP PBX, then click **Submit**.
+   Enter the **static public IP address** of your PBX, then click **Submit**.
    * The **Submit** button will be disabled and the trunk status will change to **In Review**.
 6. **Save the Configuration**\
    Click **Save** to apply the changes.
@@ -63,9 +63,9 @@ After approval, the SIP trunk will appear in your **SIP Trunks list** and be ava
 
 ***
 
-### Configure IP Authentication Trunk in PortSIP PBX
+### Configure IP Authentication Trunk in the PBX
 
-The Wavix IP Authentication trunk is configured as an IP-Based Trunk in PortSIP PBX.
+The Wavix IP Authentication trunk is configured as an IP-Based Trunk in the PBX.
 
 Because IP-based trunks are shared resources, they **must be created at the System Administrator** level. Once configured, the trunk can be assigned to one or more tenants, along with their associated DID numbers.
 
@@ -76,14 +76,14 @@ Because IP-based trunks are shared resources, they **must be created at the Syst
 Before you begin, ensure that:
 
 * A **Wavix IP-authenticated SIP trunk** has already been created and approved on the **Wavix** platform.
-* You are signed in as a **PortSIP PBX System Administrator**.
+* You are signed in as a **PBX System Administrator**.
 * Your Wavix DID numbers are available and ready to be assigned.
 
 ***
 
 #### Step 1: Open the Trunks Configuration Page
 
-1. Sign in to the **PortSIP PBX Web Portal** as a **System Administrator**.
+1. Sign in to the **PBX Web Portal** as a **System Administrator**.
 2. Navigate to **Call Manager > Trunks** from the left-hand menu.
 
 ***
@@ -117,7 +117,7 @@ Click **Next** to continue.
 On the trunk options page:
 
 * **Max Concurrent Calls**\
-  Defines the maximum number of simultaneous calls PortSIP PBX can establish using this trunk.
+  Defines the maximum number of simultaneous calls the PBX can establish using this trunk.
   * Set this value according to your Wavix account limits and expected traffic.
   * For new Wavix accounts, this may need to match the default concurrent call restriction.
 

@@ -1,14 +1,14 @@
 # Configuring Outbound & Inbound Calls
 
-### Sign in to the PortSIP PBX Web Portal
+### Sign in to the PBX Web Portal
 
-To create outbound and inbound call rules, you must first sign in to the PortSIP PBX Web Portal.
+To create outbound and inbound call rules, you must first sign in to the PBX Web Portal.
 
 You can access a tenant in one of the following ways:
 
 #### Option 1: Sign in as System Administrator
 
-1. Sign in to the PortSIP PBX Web Portal as a **System Administrator**.
+1. Sign in to the PBX Web Portal as a **System Administrator**.
 2. Navigate to **Tenants**.
 3. Select the desired tenant and click **Manage** to switch into that tenant’s administration context.
 
@@ -17,7 +17,7 @@ You can access a tenant in one of the following ways:
 * Sign in directly as a **Tenant Administrator** to manage settings for that tenant.
 
 > ❗**Note**\
-> For more information about tenant access and roles, see [Tenant Management](../../portsip-pbx-administration-guide/3-tenant-management/).
+> For more information about tenant access and roles, see [Tenant Management](../../bgmconnects-pbx-administration-guide/3-tenant-management/).
 
 ***
 
@@ -64,11 +64,11 @@ For example, if users typically dial **US national numbers** without a country c
 
 To receive inbound calls from the SIP trunk, you must create at least one **Inbound Rule**.
 
-#### Add an Inbound Rule in PortSIP PBX
+#### Add an Inbound Rule in the PBX
 
 Follow these steps to create an inbound routing rule:
 
-1. Sign in to the **PortSIP PBX Web Portal** as a **System Administrator** or **Tenant Administrator**.
+1. Sign in to the **PBX Web Portal** as a **System Administrator** or **Tenant Administrator**.
 2. From the left-hand navigation menu, go to **Call Manager > Inbound Rules**.
 3. Click **Add**.
 
@@ -94,7 +94,7 @@ Depending on your business requirements, you can further enhance the inbound rul
 * Sending calls to **voicemail** when offices are closed
 * Automatically **rejecting or dropping calls** outside of business hours
 
-For detailed configuration options, refer to the article [Office Hours and Holiday Schedule](../../portsip-pbx-administration-guide/office-hours-and-holiday-schedule/) and the article [Call Route Management](../../portsip-pbx-administration-guide/8-call-route-management/) documentation.
+For detailed configuration options, refer to the article [Office Hours and Holiday Schedule](../../bgmconnects-pbx-administration-guide/office-hours-and-holiday-schedule/) and the article [Call Route Management](../../bgmconnects-pbx-administration-guide/8-call-route-management/) documentation.
 
 
 

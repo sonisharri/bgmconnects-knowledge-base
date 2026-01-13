@@ -8,9 +8,9 @@ In the Voxtelesys portal, SIP trunks are managed under **SIP Trunks**.\
 These trunks are automatically created by Voxtelesys and used internally for routing.
 
 * **Inbound Trunk**
-  * Handles calls and SMS from Voxtelesys to PortSIP PBX
+  * Handles calls and SMS from Voxtelesys to the PBX
 * **Outbound Trunk**
-  * Handles calls and SMS from PortSIP PBX to Voxtelesys
+  * Handles calls and SMS from the PBX to Voxtelesys
 
 You do not need to manually create these trunks.\
 Instead, you must **authorize your PBX IP address** on both the inbound and outbound trunk groups.
@@ -21,7 +21,7 @@ Instead, you must **authorize your PBX IP address** on both the inbound and outb
 
 #### Add PBX IP Address to the Outbound Trunk Group
 
-The Outbound Trunk Group is used for outbound calls and SMS from PortSIP PBX.
+The Outbound Trunk Group is used for outbound calls and SMS from the PBX.
 
 1. Navigate to **SIP Trunks**.
 2. Select the **Outbound Trunk Group**.
@@ -33,7 +33,7 @@ The Outbound Trunk Group is used for outbound calls and SMS from PortSIP PBX.
 5. Configure the following fields:
 
 * **IP**
-  * Enter your **PortSIP PBX static public IP address**.
+  * Enter your **PBX static public IP address**.
 * **Tech Prefix**
   * Leave set to **none** (default).
   * Use only if you need a prefix for advanced SIP routing scenarios.
@@ -48,7 +48,7 @@ The Outbound Trunk Group is used for outbound calls and SMS from PortSIP PBX.
 
 #### Add PBX IP Address to the Inbound Trunk Group
 
-The **Inbound Trunk Group** is used for **inbound calls and SMS** from Voxtelesys to PortSIP PBX.
+The **Inbound Trunk Group** is used for **inbound calls and SMS** from Voxtelesys to the PBX.
 
 1. In the **SIP Trunks** section, select the **Inbound Trunk Group**.
 2. Navigate to the **Routing** tab.
@@ -67,7 +67,7 @@ The **Inbound Trunk Group** is used for **inbound calls and SMS** from Voxtelesy
 * **Destination Type**
   * Select **Customer IP**.
 * **Destination**
-  * Enter your **PortSIP PBX static public IP address**.
+  * Enter your **PBX static public IP address**.
 
 6. Save the route configuration.
 
@@ -98,9 +98,9 @@ Repeat these steps to assign additional DID numbers as needed.
 
 ***
 
-### Configure an IP Authentication Trunk in PortSIP PBX
+### Configure an IP Authentication Trunk in the PBX
 
-The **Voxtelesys IP Authentication Trunk** corresponds to an **IP-Based Trunk** in PortSIP PBX.
+The **Voxtelesys IP Authentication Trunk** corresponds to an **IP-Based Trunk** in the PBX.
 
 > ❗**Important**\
 > IP-Based Trunks **must be configured at the System Administrator level**.\
@@ -110,7 +110,7 @@ The **Voxtelesys IP Authentication Trunk** corresponds to an **IP-Based Trunk** 
 
 #### Step 1: Create the IP-Based Trunk
 
-1. Sign in to the **PortSIP PBX Web Portal** as a **System Administrator**.
+1. Sign in to the **PBX Web Portal** as a **System Administrator**.
 2. Navigate to **Call Manager > Trunks**.
 3. Click **Add**, then select **IP Based Trunk**.
 
@@ -142,7 +142,7 @@ Click **Next** to continue.
 #### Step 3: Configure Call Capacity
 
 * **Max Concurrent Calls**\
-  Defines the maximum number of simultaneous calls that PortSIP PBX can establish through this trunk.
+  Defines the maximum number of simultaneous calls that the PBX can establish through this trunk.
   * Adjust this value according to your Voxtelesys service plan and expected traffic.
 
 Leave all other options at their default values unless you have specific requirements.

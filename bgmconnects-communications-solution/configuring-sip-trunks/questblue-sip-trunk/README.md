@@ -2,7 +2,7 @@
 
 [QuestBlue SIP Trunking](https://questblue.com/sip-trunking/) enables businesses to achieve high-quality voice communications with a pay-as-you-go pricing model, helping reduce costs by eliminating charges for unused minutes.
 
-PortSIP PBX provides built-in integration with QuestBlue SIP Trunking for both voice calls and SMS/MMS, allowing administrators to configure and deploy services quickly and easily.
+The PBX provides built-in integration with QuestBlue SIP Trunking for both voice calls and SMS/MMS, allowing administrators to configure and deploy services quickly and easily.
 
 ***
 

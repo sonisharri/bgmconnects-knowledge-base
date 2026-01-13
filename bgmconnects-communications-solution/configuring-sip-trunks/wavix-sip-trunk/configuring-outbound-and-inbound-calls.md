@@ -1,18 +1,18 @@
 # Configuring Outbound & Inbound Calls
 
-You need to sign in to the PortSIP PBX web portal to create the outbound and inbound rules for making & receiving calls.
+You need to sign in to the PBX web portal to create the outbound and inbound rules for making & receiving calls.
 
 ***
 
-### Sign in to the PortSIP PBX Web Portal
+### Sign in to the PBX Web Portal
 
-To configure outbound and inbound call routing, you must first sign in to the PortSIP PBX Web Portal.
+To configure outbound and inbound call routing, you must first sign in to the PBX Web Portal.
 
 You can access a tenant in one of the following ways:
 
 #### Option 1: Sign in as System Administrator
 
-1. Sign in to the PortSIP PBX Web Portal as a **System Administrator**.
+1. Sign in to the PBX Web Portal as a **System Administrator**.
 2. Navigate to **Tenants**.
 3. Select the desired tenant and click **Manage** to switch to that tenant’s administration context.
 
@@ -21,13 +21,13 @@ You can access a tenant in one of the following ways:
 * Sign in directly as a **Tenant Administrator** to manage that tenant.
 
 > ❗**Note**\
-> For more information about tenant roles and access control, refer to [Tenant Management](../../portsip-pbx-administration-guide/3-tenant-management/).
+> For more information about tenant roles and access control, refer to [Tenant Management](../../bgmconnects-pbx-administration-guide/3-tenant-management/).
 
 ***
 
-### Configure Outbound and Inbound Call Routing with Wavix in PortSIP PBX
+### Configure Outbound and Inbound Call Routing with Wavix in the PBX
 
-This section explains how to configure **Outbound Rules**, **Inbound Rules**, and **Wavix-side routing** so your PortSIP PBX can successfully place and receive calls using a Wavix SIP trunk.
+This section explains how to configure **Outbound Rules**, **Inbound Rules**, and **Wavix-side routing** so your PBX can successfully place and receive calls using a Wavix SIP trunk.
 
 ***
 
@@ -35,9 +35,9 @@ This section explains how to configure **Outbound Rules**, **Inbound Rules**, an
 
 Outbound Rules define how extensions place calls and which SIP trunk is used to route those calls.
 
-#### Add an Outbound Rule in PortSIP PBX
+#### Add an Outbound Rule in the PBX
 
-1. Sign in to the **PortSIP PBX Web Portal**.
+1. Sign in to the **PBX Web Portal**.
 2. In the left-hand menu, navigate to:\
    **Call Manager > Outbound Rules**
 3. Click **Add**.
@@ -94,9 +94,9 @@ If users dial U.S. domestic numbers without the leading `1`, configure the outbo
 
 Inbound Rules determine how incoming calls from Wavix are routed to extensions, voicemail, or other destinations.
 
-#### Add an Inbound Rule in PortSIP PBX
+#### Add an Inbound Rule in the PBX
 
-1. In the PortSIP PBX Web Portal, navigate to:\
+1. In the PBX Web Portal, navigate to:\
    **Call Manager > Inbound Rules**
 2. Click **Add**.
 3. Enter a **Name** for the inbound rule.
@@ -120,13 +120,13 @@ Based on business requirements, you may:
 * Automatically reject calls
 
 > **Note**\
-> For more information, see [Office Hours and Holiday Schedule](../../portsip-pbx-administration-guide/office-hours-and-holiday-schedule/).&#x20;
+> For more information, see [Office Hours and Holiday Schedule](../../bgmconnects-pbx-administration-guide/office-hours-and-holiday-schedule/).&#x20;
 
 ***
 
 ### Configure Call Routing in Wavix
 
-To deliver inbound calls to your PortSIP PBX, you must also configure routing on the Wavix platform.
+To deliver inbound calls to your PBX, you must also configure routing on the Wavix platform.
 
 #### Configure Routing for a DID
 
@@ -181,7 +181,7 @@ As a result, inbound routing **cannot rely on registration** and must use a **st
 Where:
 
 * **\[did]** – The destination phone number (auto-filled by Wavix at runtime)
-* **FQDN** – Fully qualified domain name or IP address of the PortSIP PBX
+* **FQDN** – Fully qualified domain name or IP address of the PBX
 * **port** – SIP listening port on the PBX
 * **connection** – `udp`, `tcp`, or `tls` (default is `udp`)
 
@@ -218,7 +218,7 @@ Valid SIP URIs include:
 
 Before testing inbound calls, ensure that:
 
-* All Wavix DIDs are included in the **DID Pool** of the Wavix trunk in PortSIP PBX
+* All Wavix DIDs are included in the **DID Pool** of the Wavix trunk in the PBX
 * Outbound rules enforce **E.164 number formatting**
 * Inbound rules match the correct DID ranges
 * SIP ports and transports are reachable from Wavix
@@ -234,7 +234,7 @@ Depending on your business requirements, you can further enhance the inbound rul
 * Sending calls to **voicemail** outside business hours
 * Automatically **rejecting or dropping calls** based on the schedule
 
-For more details, refer to [Call Route Management](../../portsip-pbx-administration-guide/8-call-route-management/).<br>
+For more details, refer to [Call Route Management](../../bgmconnects-pbx-administration-guide/8-call-route-management/).<br>
 
 
 

@@ -10,7 +10,7 @@
 
 ***
 
-PortSIP PBX integrates with Twilio Elastic SIP Trunking to support voice calls and SMS/MMS messaging, enabling quick and straightforward deployment.
+The PBX integrates with Twilio Elastic SIP Trunking to support voice calls and SMS/MMS messaging, enabling quick and straightforward deployment.
 
 This article covers the following topics:
 

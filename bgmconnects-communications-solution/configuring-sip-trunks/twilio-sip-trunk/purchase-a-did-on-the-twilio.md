@@ -22,7 +22,7 @@ After purchase, you can find your active phone numbers in the [Twilio Console](h
 
 ### Next Steps
 
-Once the DID numbers are available, proceed with one of the following guides to configure the Twilio trunk in PortSIP PBX:
+Once the DID numbers are available, proceed with one of the following guides to configure the Twilio trunk in the PBX:
 
 * [Configuring Twilio Register Based Trunk](configuring-twilio-register-based-trunk.md)
 * [Configuring Twilio Interconnect Trunk](configuring-twilio-interconnect-trunk.md)

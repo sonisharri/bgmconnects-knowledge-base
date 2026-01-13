@@ -18,7 +18,7 @@ Before you can place or receive calls, you must have at least **one active DID**
 
 1. In the [CM.com](./) portal, follow the guide [How do I order a new DDI number?](https://knowledgecenter.cm.com/knowledge-center/communications-platform/sip-trunking/ddi-numbers/how-do-i-order-a-new-ddi-number)  to purchase the DID numbers.
 
-After the DID numbers are successfully purchased and activated, you can proceed with configuring the [CM.com](./) SIP trunk in PortSIP PBX.
+After the DID numbers are successfully purchased and activated, you can proceed with configuring the [CM.com](./) SIP trunk in the PBX.
 
 ***
 
@@ -27,7 +27,7 @@ After the DID numbers are successfully purchased and activated, you can proceed 
 * [Configure CM.com IP Authentication Trunk](configuring-cm.com-ip-authentication-trunk.md)
 * [Configure CM.com Register Authentication Trunk](configuring-cm.com-register-authentication-trunk.md)
 
-This step configures PortSIP PBX to use CM.com for outbound and inbound calling.
+This step configures the PBX to use CM.com for outbound and inbound calling.
 
 
 

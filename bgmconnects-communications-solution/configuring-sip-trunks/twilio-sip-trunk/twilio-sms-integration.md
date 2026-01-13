@@ -55,22 +55,22 @@ For more details and country-specific requirements, refer to the [Alphanumeric S
 
 ***
 
-### Configure SMS with a Twilio Trunk in PortSIP PBX
+### Configure SMS with a Twilio Trunk in the PBX
 
-Before configuring SMS in PortSIP PBX, ensure that a Twilio SIP trunk has already been configured using one of the following guides:
+Before configuring SMS in the PBX, ensure that a Twilio SIP trunk has already been configured using one of the following guides:
 
 * [Configuring Twilio Register Based Trunk](configuring-twilio-register-based-trunk.md)
 * [Configuring Twilio Interconnect Trunk](configuring-twilio-interconnect-trunk.md)
 
 ***
 
-#### Sign in to the PortSIP PBX Web Portal
+#### Sign in to the PBX Web Portal
 
 You can access the tenant configuration in one of the following ways:
 
 #### Option 1: Sign in as System Administrator
 
-1. Sign in to the PortSIP PBX Web Portal as a **System Administrator**.
+1. Sign in to the PBX Web Portal as a **System Administrator**.
 2. Navigate to **Tenants**.
 3. Select the desired tenant and click **Manage** to switch to that tenant’s administration context.
 
@@ -79,7 +79,7 @@ You can access the tenant configuration in one of the following ways:
 * Sign in directly as a **Tenant Administrator** to manage the tenant.
 
 > ❗**Note**\
-> For more information about tenant roles and access, refer to [Tenant Management](../../portsip-pbx-administration-guide/3-tenant-management/).
+> For more information about tenant roles and access, refer to [Tenant Management](../../bgmconnects-pbx-administration-guide/3-tenant-management/).
 
 ***
 
@@ -87,7 +87,7 @@ You can access the tenant configuration in one of the following ways:
 
 Follow these steps to configure SMS using the **Twilio** trunk:
 
-1. In the PortSIP PBX Web Portal, navigate to **SMS/MMS** from the left-hand menu.
+1. In the PBX Web Portal, navigate to **SMS/MMS** from the left-hand menu.
 2. Click **Add**.
 3. From the **Trunk** drop-down list, select your configured **Twilio trunk**.
 4. Configure the following fields:
@@ -116,14 +116,14 @@ Alternatively:
 * Double-click the SMS configuration to open its details page, then copy the **Webhook URL** from there.
 
 > ❗**Important**\
-> The Webhook URL is required for Twilio to deliver inbound SMS messages to PortSIP PBX.\
+> The Webhook URL is required for Twilio to deliver inbound SMS messages to the PBX.\
 > Do not modify this URL unless instructed, and update it in Twilio if the URL changes.
 
 ***
 
 ### Configure SMS in Twilio
 
-To enable inbound and outbound SMS with PortSIP PBX, you must configure the messaging webhook for your Twilio phone numbers.
+To enable inbound and outbound SMS with the PBX, you must configure the messaging webhook for your Twilio phone numbers.
 
 Follow these steps in the **Twilio Console**:
 
@@ -141,11 +141,11 @@ Follow these steps in the **Twilio Console**:
 
 3. Click the **phone number** you want to use for SMS.
 4. In the **Messaging** section, locate the **Webhook** (or **Messaging webhook**) field.
-5. Paste the **PortSIP PBX Webhook URL** that you copied earlier from the PortSIP PBX SMS configuration.
+5. Paste the **PBX Webhook URL** that you copied earlier from the PBX SMS configuration.
 6. Save the changes.
 
 > ❗**Important**\
-> This webhook allows Twilio to forward inbound SMS messages to PortSIP PBX.\
+> This webhook allows Twilio to forward inbound SMS messages to the PBX.\
 > If the webhook URL is incorrect or missing, inbound SMS will not be delivered.
 
 <figure><img src="../../../.gitbook/assets/twilio-fig25.png" alt=""><figcaption></figcaption></figure>
@@ -169,7 +169,7 @@ Follow these steps in the **Twilio Console**:
 
 At this point, the Twilio SMS/MMS integration is complete.
 
-You can now [create outbound and inbound rules](configuring-outbound-and-inbound-calls.md) in PortSIP PBX to send and receive SMS/MMS messages using the Twilio trunk, just as you would configure rules for outbound and inbound voice calls.
+You can now [create outbound and inbound rules](configuring-outbound-and-inbound-calls.md) in the PBX to send and receive SMS/MMS messages using the Twilio trunk, just as you would configure rules for outbound and inbound voice calls.
 
 
 

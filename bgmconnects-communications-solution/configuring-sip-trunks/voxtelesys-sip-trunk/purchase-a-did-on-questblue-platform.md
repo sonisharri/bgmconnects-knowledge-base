@@ -81,7 +81,7 @@ Once submitted, the DID numbers are assigned to your Voxtelesys account.
 
 ### Next Steps
 
-After purchasing the DID number(s), proceed with one of the following guides to configure the Voxtelesys trunk in PortSIP PBX:
+After purchasing the DID number(s), proceed with one of the following guides to configure the Voxtelesys trunk in the PBX:
 
 * [Configuring Voxtelesys IP Authentication Trunk](configuring-questblue-ip-authentication-trunk.md)
 * [Configuring Voxtelesys Register Authentication Trunk](configuring-questblue-register-authentication-trunk.md)

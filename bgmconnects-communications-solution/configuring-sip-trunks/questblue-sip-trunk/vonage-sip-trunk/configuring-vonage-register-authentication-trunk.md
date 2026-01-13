@@ -16,7 +16,7 @@ You can also reference the [Vonage documentation for configuring the SIP Trunk](
    * You may click the **Settings** icon to modify it, or
    * Click **Create New** to create a new SIP trunk.
 4. In this guide, we will create a new SIP trunk.
-5. Click **Create New**, enter a domain name for the trunk (for example, `portsip`), and then click **Create**.
+5. Click **Create New**, enter a domain name for the trunk (for example, `bgmconnects`), and then click **Create**.
 
 <figure><img src="../../../../.gitbook/assets/vonage-fig10.png" alt=""><figcaption></figcaption></figure>
 
@@ -38,7 +38,7 @@ You can also reference the [Vonage documentation for configuring the SIP Trunk](
 
 > **Important**
 >
-> * Be sure to **record the User Key and Secret**, as they will be required later when configuring the SIP trunk in **PortSIP PBX**.
+> * Be sure to **record the User Key and Secret**, as they will be required later when configuring the SIP trunk in the **PBX**.
 > * These credentials function as SIP registration credentials.
 
 <figure><img src="../../../../.gitbook/assets/vonage-fig12.png" alt=""><figcaption></figcaption></figure>
@@ -60,13 +60,13 @@ You can also reference the [Vonage documentation for configuring the SIP Trunk](
 
 1. On the Trunk Details page, **Outbound Calling** should now display a status of **Ready**.
 2. Copy and save the **Vonage SIP trunk domain**.\
-   Select the domain closest to your PortSIP PBX location to minimize latency:
+   Select the domain closest to your PBX location to minimize latency:
 
-* `portsip.sip-us.vonage.com`
-* `portsip.sip-eu.vonage.com`
-* `portsip.sip-ap.vonage.com`
+* `bgmconnects.sip-us.vonage.com`
+* `bgmconnects.sip-eu.vonage.com`
+* `bgmconnects.sip-ap.vonage.com`
 
-You will need this domain when configuring the **Register-Based Trunk** in PortSIP PBX.
+You will need this domain when configuring the **Register-Based Trunk** in the PBX.
 
 <figure><img src="../../../../.gitbook/assets/vonage-fig14.png" alt=""><figcaption></figcaption></figure>
 
@@ -74,7 +74,7 @@ You will need this domain when configuring the **Register-Based Trunk** in PortS
 
 #### Step 4: Configure Inbound Calling (SIP URI Routing)
 
-To allow Vonage to route inbound calls to your PortSIP PBX, configure a SIP URI.
+To allow Vonage to route inbound calls to your PBX, configure a SIP URI.
 
 1. In the **Inbound Calling** section, add a new SIP URI with the following parameters:
    *   **Priority**\
@@ -86,16 +86,16 @@ To allow Vonage to route inbound calls to your PortSIP PBX, configure a SIP URI.
        > **Note**\
        > If priority values are not unique, Vonage cannot guarantee inbound call routing order.
    * **URI**\
-     Enter your PortSIP PBX **public IP address or domain name**, for example:
+     Enter your PBX **public IP address or domain name**, for example:
      * `44.242.60.185`
-     * `pbx.portsip.com`
+     * `pbx.bgmconnects.com`
    * **Timeout**\
      Enter a value between **2000 ms and 20000 ms**.
      * If left empty, Vonage uses the default timeout of **5000 ms**.
    * **TLS (Optional)**
-     * Enable this option if your PortSIP PBX is configured to receive SIP signaling over **TLS**.
+     * Enable this option if your PBX is configured to receive SIP signaling over **TLS**.
      * By default, Vonage sends TLS traffic to **port 5061**.
-     *   If your PortSIP PBX listens on a different TLS port (for example, `5063`), include it in the URI:
+     *   If your PBX listens on a different TLS port (for example, `5063`), include it in the URI:
 
          ```
          44.242.60.185:5063
@@ -130,9 +130,9 @@ To allow Vonage to route inbound calls to your PortSIP PBX, configure a SIP URI.
 
 ***
 
-### Configure a Register-Based Trunk in PortSIP PBX
+### Configure a Register-Based Trunk in the PBX
 
-In PortSIP PBX, a Vonage Registration Trunk corresponds to a Register-Based Trunk, where the PBX authenticates to Vonage using SIP credentials (User Key and Secret).
+In the PBX, a Vonage Registration Trunk corresponds to a Register-Based Trunk, where the PBX authenticates to Vonage using SIP credentials (User Key and Secret).
 
 You can configure a Register-Based Trunk at **either** of the following levels:
 
@@ -145,7 +145,7 @@ You can configure a Register-Based Trunk at **either** of the following levels:
 
 #### Step 1: Create a Register-Based Trunk
 
-1. Sign in to the PortSIP PBX Web Portal as a **System Administrator** or **Tenant Administrator**.
+1. Sign in to the PBX Web Portal as a **System Administrator** or **Tenant Administrator**.
 2. From the left navigation menu, go to **Call Manager > Trunks**.
 3. Click **Add** to open the trunk type menu.
 4. Select **Register Based Trunk**.
@@ -181,7 +181,7 @@ On the **Basic Settings** page, configure the following fields:
     Paste the **Vonage SIP trunk domain** copied earlier, for example:
 
     ```
-    portsip.sip-us.vonage.com
+    bgmconnects.sip-us.vonage.com
     ```
 
 5. Click **Next** to continue.
@@ -202,7 +202,7 @@ On the **Authentication** page, enter the SIP registration credentials created o
 6. Click **Next** to continue.
 
 > **Important**\
-> These credentials are used by PortSIP PBX to register with Vonage.\
+> These credentials are used by the PBX to register with Vonage.\
 > Ensure they match exactly with the values configured on the Vonage platform.
 
 <figure><img src="../../../../.gitbook/assets/vonage-fig20.png" alt=""><figcaption></figcaption></figure>
@@ -259,7 +259,7 @@ This step appears **only** when the trunk is created at the **System Administrat
 
 #### Expected Result
 
-* PortSIP PBX initiates SIP registration to the Vonage platform.
+* The PBX initiates SIP registration to the Vonage platform.
 * Once registration is successful, the trunk status displays as **Online** on the trunk list page.
 
 <figure><img src="../../../../.gitbook/assets/vonage-fig22.png" alt=""><figcaption></figcaption></figure>

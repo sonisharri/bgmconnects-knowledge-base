@@ -4,7 +4,7 @@ Before proceeding with the next steps, you need to [purchase a DID on the Telnyx
 
 ### Create a Telnyx API Key
 
-To enable **SMS/MMS sending** from PortSIP PBX, you must generate a **Telnyx API key**.
+To enable **SMS/MMS sending** from the PBX, you must generate a **Telnyx API key**.
 
 Follow these steps on the **Telnyx** platform:
 
@@ -15,7 +15,7 @@ Follow these steps on the **Telnyx** platform:
 
 > ❗**Important**\
 > The API key is shown **only once** at creation time.\
-> Make sure to copy and save it securely—you will need it later when configuring SMS/MMS in PortSIP PBX.
+> Make sure to copy and save it securely—you will need it later when configuring SMS/MMS in the PBX.
 
 > ❗**Security Best Practice**\
 > Treat the API key as a sensitive credential.\
@@ -37,7 +37,7 @@ To enable SMS/MMS for your Telnyx numbers, you must first create a **Messaging P
 2. Navigate to **Messaging > Programmable Messaging**.
 3. Click **Add New Profile**.
 4. On the profile details page:
-   * Enter a **Profile Name** (for example, `PortSIP PBX SMS`).
+   * Enter a **Profile Name** (for example, `BGMconnects PBX SMS`).
    * Click **Manage Allowed Destinations**.
    * Select **at least one destination** (country or region) where you plan to send SMS.
    * Click **Set Destinations**.
@@ -48,7 +48,7 @@ To enable SMS/MMS for your Telnyx numbers, you must first create a **Messaging P
 
 > ❗**Important**\
 > After the profile is created, copy and save the **Profile ID** shown on the details page.\
-> You will need this value later when configuring SMS in PortSIP PBX.
+> You will need this value later when configuring SMS in the PBX.
 
 <figure><img src="../../../.gitbook/assets/telnyx-fig22.png" alt=""><figcaption></figcaption></figure>
 
@@ -70,22 +70,22 @@ To enable SMS/MMS for your Telnyx numbers, you must first create a **Messaging P
 
 ***
 
-### Configure SMS with Telnyx Trunk in PortSIP PBX
+### Configure SMS with Telnyx Trunk in the PBX
 
-Before configuring SMS in PortSIP PBX, ensure that a Telnyx SIP trunk has already been configured using one of the following guides:
+Before configuring SMS in the PBX, ensure that a Telnyx SIP trunk has already been configured using one of the following guides:
 
 * [Configuring Telnyx Register Based Trunk](configuring-telnyx-register-authentication-trunk.md)
 * [Configuring Telnyx IP Based Trunk](configuring-telnyx-ip-authentication-trunk.md)
 
 ***
 
-### Sign in to the PortSIP PBX Web Portal
+### Sign in to the PBX Web Portal
 
 You can access the tenant configuration using one of the following methods:
 
 #### Option 1: Sign in as System Administrator
 
-1. Sign in to the PortSIP PBX Web Portal as a **System Administrator**.
+1. Sign in to the PBX Web Portal as a **System Administrator**.
 2. Navigate to **Tenants**.
 3. Select the desired tenant and click **Manage** to switch to that tenant’s administration context.
 
@@ -98,11 +98,11 @@ You can access the tenant configuration using one of the following methods:
 
 ***
 
-### Add an SMS Configuration in PortSIP PBX
+### Add an SMS Configuration in the PBX
 
 #### Step 1: Create the SMS Configuration
 
-1. In the PortSIP PBX Web Portal, navigate to **SMS/MMS** from the left-hand menu.
+1. In the PBX Web Portal, navigate to **SMS/MMS** from the left-hand menu.
 2. Click **Add**.
 3. Select your configured **Telnyx trunk**.
 4. Configure the following fields:
@@ -116,23 +116,23 @@ You can access the tenant configuration using one of the following methods:
 
 ***
 
-#### Step 2: Copy the PortSIP PBX SMS Webhook URL
+#### Step 2: Copy the PBX SMS Webhook URL
 
 1. You will be redirected to the **SMS/MMS list** page.
-2. Select the SMS configuration and click **Copy Webhook** to copy the **PortSIP PBX SMS Webhook URL**.
+2. Select the SMS configuration and click **Copy Webhook** to copy the **PBX SMS Webhook URL**.
 
 Alternatively:
 
 * Double-click the SMS configuration to open its details page, then copy the **Webhook URL** from there.
 
 > ❗**Important**\
-> This Webhook URL is required for Telnyx to deliver inbound SMS/MMS messages to PortSIP PBX.
+> This Webhook URL is required for Telnyx to deliver inbound SMS/MMS messages to the PBX.
 
 <figure><img src="../../../.gitbook/assets/telnyx-fig24.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-### Configure the PortSIP PBX SMS Webhook in Telnyx
+### Configure the PBX SMS Webhook in Telnyx
 
 #### Step 1: Update the Messaging Profile in Telnyx
 
@@ -140,7 +140,7 @@ Alternatively:
 2. Navigate to Messaging > Programmable Messaging.
 3. Locate the Messaging Profile created earlier.
 4. Click the Edit (pencil) icon to edit the profile.
-5. Paste the copied PortSIP PBX SMS Webhook URL into the field\
+5. Paste the copied the PBX SMS Webhook URL into the field\
    Send a webhook to this URL.
 6. Click Save.
 
@@ -152,7 +152,7 @@ Alternatively:
 
 At this point, the Telnyx SMS/MMS integration is complete.
 
-You can now [create outbound and inbound rules](configuring-outbound-and-inbound-calls.md) in PortSIP PBX to send and receive SMS/MMS messages using the Telnyx trunk, just as you would configure rules for outbound and inbound voice calls.
+You can now [create outbound and inbound rules](configuring-outbound-and-inbound-calls.md) in the PBX to send and receive SMS/MMS messages using the Telnyx trunk, just as you would configure rules for outbound and inbound voice calls.
 
 
 

@@ -8,7 +8,7 @@ The VoIP.ms SMS service has some limitations. Please refer to this link for more
 
 ### Set an API Password in VoIP.ms
 
-PortSIP PBX uses the **VoIP.ms API Password** to send and receive SMS/MMS messages.\
+The PBX uses the **VoIP.ms API Password** to send and receive SMS/MMS messages.\
 If you have not already created an API password, follow these steps.
 
 #### Step 1: Enable the VoIP.ms API
@@ -22,28 +22,28 @@ If you have not already created an API password, follow these steps.
 > ❗**Important**
 >
 > * The API password is shown **only once** when it is created.
-> * Copy and store it securely—you will need it later when configuring SMS in PortSIP PBX.
+> * Copy and store it securely—you will need it later when configuring SMS in the PBX.
 > * If the password is lost, you must **generate a new one**.
 
 <figure><img src="../../../.gitbook/assets/voip.ms-flig12.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-### Configure SMS with VoIP.ms Trunk in PortSIP PBX
+### Configure SMS with VoIP.ms Trunk in the PBX
 
-Before configuring SMS in PortSIP PBX, ensure that a **VoIP.ms SIP trunk** has already been configured.
+Before configuring SMS in the PBX, ensure that a **VoIP.ms SIP trunk** has already been configured.
 
 * [Configuring VoIP.ms Register Authentication Trunk](configuring-voip.ms-register-based-trunk.md)
 
 ***
 
-### Sign in to the PortSIP PBX Web Portal
+### Sign in to the PBX Web Portal
 
 You can access the tenant configuration using one of the following methods.
 
 #### Option 1: Sign in as System Administrator
 
-1. Sign in to the PortSIP PBX Web Portal as a **System Administrator**.
+1. Sign in to the PBX Web Portal as a **System Administrator**.
 2. Navigate to **Tenants**.
 3. Select a tenant and click **Manage** to switch to that tenant.
 
@@ -52,15 +52,15 @@ You can access the tenant configuration using one of the following methods.
 * Sign in directly as a **Tenant Administrator** to manage the tenant.
 
 > ❗**Note**\
-> For more information about roles and permissions, refer to [Tenant Management](../../portsip-pbx-administration-guide/3-tenant-management/).
+> For more information about roles and permissions, refer to [Tenant Management](../../bgmconnects-pbx-administration-guide/3-tenant-management/).
 
 ***
 
-### Add an SMS Configuration in PortSIP PBX
+### Add an SMS Configuration in the PBX
 
 #### Step 1: Create the SMS Configuration
 
-1. In the PortSIP PBX Web Portal, navigate to **SMS/MMS**.
+1. In the PBX Web Portal, navigate to **SMS/MMS**.
 2. Click **Add**.
 3. Select your configured **VoIP.ms trunk**.
 4. Configure the following fields:
@@ -91,7 +91,7 @@ You can access the tenant configuration using one of the following methods.
 3. Click the **Edit (yellow pencil)** icon next to the DID you want to use for SMS.
 4. Scroll down to the **Message Service (SMS/MMS)** section.
 5. Enable the **SMS/MMS** service.
-6. In the **SMS/MMS Webhook URL** field, paste the **Webhook URL** copied from PortSIP PBX.
+6. In the **SMS/MMS Webhook URL** field, paste the **Webhook URL** copied from the PBX.
 
 ***
 
@@ -116,7 +116,7 @@ You can access the tenant configuration using one of the following methods.
 
 At this point, the VoIP.ms SMS/MMS integration is complete.
 
-You can now [create outbound and inbound rules](configuring-outbound-and-inbound-calls.md) in PortSIP PBX to send and receive SMS/MMS messages using the VoIP.ms trunk, just as you would configure rules for voice calls.
+You can now [create outbound and inbound rules](configuring-outbound-and-inbound-calls.md) in the PBX to send and receive SMS/MMS messages using the VoIP.ms trunk, just as you would configure rules for voice calls.
 
 
 

@@ -22,7 +22,7 @@ Follow the steps below to create a new SIP trunk on the Wavix platform using **D
    * **SIP Trunk Name**\
      Enter a descriptive name to identify this trunk.
    * **SIP Trunk Password**\
-     Set a strong password. This password will be required when configuring the trunk in PortSIP PBX.
+     Set a strong password. This password will be required when configuring the trunk in the PBX.
    * **Caller ID**\
      Select one of the DIDs on your Wavix account to be used as the default outbound caller ID.
 
@@ -65,9 +65,9 @@ Follow the steps below to create a new SIP trunk on the Wavix platform using **D
 
 ***
 
-### Configure Digest Authentication Trunk in PortSIP PBX
+### Configure Digest Authentication Trunk in the PBX
 
-A Wavix Digest Authentication trunk is configured as a **Register-Based Trunk** in **PortSIP PBX**.
+A Wavix Digest Authentication trunk is configured as a **Register-Based Trunk** in the **PBX**.
 
 You can create a Register-Based Trunk at **either** of the following levels:
 
@@ -80,7 +80,7 @@ You can create a Register-Based Trunk at **either** of the following levels:
 
 #### Step 1: Open the Trunks Configuration Page
 
-1. Sign in to the PortSIP PBX Web Portal as a **System Administrator** or **Tenant Admin**.
+1. Sign in to the PBX Web Portal as a **System Administrator** or **Tenant Admin**.
 2. Navigate to **Call Manager > Trunks**.
 
 ***
@@ -149,7 +149,7 @@ Click **Next**.
 #### Step 6: Configure Trunk Options
 
 * **Max Concurrent Calls**\
-  Sets the maximum number of simultaneous calls PortSIP PBX can establish using this trunk.\
+  Sets the maximum number of simultaneous calls the PBX can establish using this trunk.\
   Adjust this value according to your Wavix account limits.
 
 > **Recommendation**\
@@ -191,13 +191,13 @@ Click **OK** to save the trunk configuration.
 
 ### Verification
 
-After PortSIP PBX successfully registers the trunk with Wavix:
+After the PBX successfully registers the trunk with Wavix:
 
 * The trunk appears in the **Trunks list**
 * The **Status** displays **Online**
 
 > **Expected Outcome**\
-> “Online” confirms that PortSIP PBX has successfully authenticated with the Wavix SIP platform using Digest authentication.
+> “Online” confirms that the PBX has successfully authenticated with the Wavix SIP platform using Digest authentication.
 
 <figure><img src="../../../.gitbook/assets/wavix-fig19.png" alt=""><figcaption></figcaption></figure>
 
