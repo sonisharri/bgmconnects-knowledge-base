@@ -1,6 +1,6 @@
-# Adjusting Open File Limits for PortSIP PBX
+# Adjusting Open File Limits for the PBX
 
-Sometimes, depending on the default Linux OS configuration, the maximum number of open files (`nofile`) may be set too low. When this happens, PortSIP PBX may not be able to support a large number of users, especially when many clients connect to the PBX using TCP.
+Sometimes, depending on the default Linux OS configuration, the maximum number of open files (`nofile`) may be set too low. When this happens, the PBX may not be able to support a large number of users, especially when many clients connect to the PBX using TCP.
 
 **Note:**\
 In most deployments, you do not need to change this. The default Linux and Docker settings already allow a sufficiently high number of open files.\
@@ -92,12 +92,12 @@ systemctl restart docker
 
 ***
 
-### **6. Verify the Limits Inside the PortSIP PBX Container**
+### **6. Verify the Limits Inside the PBX Container**
 
-Perform the command below to enter the PortSIP Call Manager container:
+Perform the command below to enter the Call Manager container:
 
 ```shellscript
-docker exec -it portsip.callmanager /bin/bash
+docker exec -it bgmconnects.callmanager /bin/bash
 ```
 
 Perform the commands below to check the soft and hard limits:

@@ -1,16 +1,16 @@
 # Storing Into Azure Blob Storage
 
-With [PortSIP PBX](https://www.portsip.com/portsip-pbx), you can configure the system to store call recordings and related media assets directly in your own Azure Blob Storage, instead of using local disk storage on the PBX server.
+With [BGMconnects](https://www.bgmconnects.com/pbx), you can configure the system to store call recordings and related media assets directly in your own Azure Blob Storage, instead of using local disk storage on the PBX server.
 
 This approach is recommended for customers who require scalable storage, centralized data management, or strict compliance with regulatory and data residency requirements.
 
-This guide walks you through the required Azure-side preparation to enable Azure Blob Storage based storage for PortSIP PBX.
+This guide walks you through the required Azure-side preparation to enable Azure Blob Storage based storage for the PBX.
 
 ***
 
 ### Important Notes
 
-* Once **external Azure storage** is enabled, PortSIP PBX will **no longer store uploaded files on the local disk**.
+* Once **external Azure storage** is enabled, the PBX will **no longer store uploaded files on the local disk**.
 * You will be fully responsible for:
   * Access control and security policies
   * Data retention and lifecycle management
@@ -39,11 +39,11 @@ Please carefully review the following considerations **before enabling Amazon S3
 2. **Enable Azure Blob Storage Early**\
    To avoid data migration issues, it is **strongly recommended** to configure Azure Blob Storage **immediately after completing the PBX installation**, before uploading any production media or recordings.
 3. **Do Not Toggle the Storage Mode**\
-   After configured the Azure Blob Storage with PortSIP PBX:
+   After configured the Azure Blob Storage with the PBX:
    * **Do not disable it**.
    * Disabling Azure Blob Storage will prevent access to historical recordings and disrupt the creation of new recordings.
    * The same caution applies when switching **from Azure Blob Storage back to local disk storage.**
-4. We recommend deploying the PortSIP PBX on Azure to get the best performance
+4. We recommend deploying the PBX on Azure to get the best performance
 
 ***
 
@@ -94,13 +94,13 @@ Follow the steps below to create a container within the Azure Storage Account:
 
 ***
 
-### Step 4: Modify the PortSIP PBX Settings
+### Step 4: Modify the PBX Settings
 
 #### Open the Configuration File
 
-Edit the `system.ini` file on the server where PortSIP PBX is installed:
+Edit the `system.ini` file on the server where the PBX is installed:
 
-* `/var/lib/portsip/pbx/system.ini`
+* `/var/lib/bgmconnects/pbx/system.ini`
 
 > ❗Ensure the file is opened with administrative/root privileges.
 
@@ -137,7 +137,7 @@ container    = <Container name>
 After completing the Azure storage configuration:
 
 1. Save the changes to `system.ini`.
-2. Restart the PortSIP PBX service for the changes to take effect.
+2. Restart the PBX service for the changes to take effect.
 
 ***
 
@@ -146,10 +146,10 @@ After completing the Azure storage configuration:
 After completing the configuration:
 
 1. Save the changes to `system.ini`.
-2. **Restart the PortSIP PBX service** to apply the new settings.
+2. **Restart the PBX service** to apply the new settings.
 
 ```shellscript
-cd /opt/portsip && sudo /bin/sh pbx_ctl.sh restart
+cd /opt/bgmconnects && sudo /bin/sh pbx_ctl.sh restart
 ```
 
 > ❗The updated Azure Blob Storage configuration will not take effect until the PBX service has been restarted.

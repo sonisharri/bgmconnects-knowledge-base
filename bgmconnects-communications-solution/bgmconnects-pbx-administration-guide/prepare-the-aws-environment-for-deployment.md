@@ -1,6 +1,6 @@
 # Prepare the AWS Environment for Deployment (RESERVED)
 
-If you plan to deploy PortSIP PBX on Amazon Web Services (AWS), follow the steps below to prepare the required EC2 instance, Elastic IP, and security groups.
+If you plan to deploy the PBX on Amazon Web Services (AWS), follow the steps below to prepare the required EC2 instance, Elastic IP, and security groups.
 
 Proper AWS resource preparation is critical to ensure stable SIP signaling, high-quality media processing, and reliable system performance in production environments.
 
@@ -9,7 +9,7 @@ Proper AWS resource preparation is critical to ensure stable SIP signaling, high
 ### Step 1: Sign In to the AWS Management Console
 
 1. Log in to the [AWS Management Console](https://aws.amazon.com/console/).
-2. Select the **AWS region** and **availability zone** where you want to deploy the PortSIP PBX instance.
+2. Select the **AWS region** and **availability zone** where you want to deploy the PBX instance.
 
 > ❗ **Important**\
 > Choose a region geographically close to your users and SIP trunk providers to minimize network latency, reduce jitter, and improve overall call quality.
@@ -26,7 +26,7 @@ Proper AWS resource preparation is critical to ensure stable SIP signaling, high
 
 ### Step 3: Choose the Operating System and Instance Type
 
-1. In the **Name and tags** section, assign a descriptive name, such as **PortSIP PBX Server**.
+1. In the **Name and tags** section, assign a descriptive name, such as **BGMconnects PBX Server**.
 2. In the **Application and OS Images (Amazon Machine Image)** section, select **Ubuntu 24.04 LTS**.
 3. In the **Instance type** section, choose an instance based on your expected workload, such as:
    * `m3.large`
@@ -49,7 +49,7 @@ AWS requires an **SSH key pair** to securely access your EC2 instance.
    * If you already have an existing SSH key pair, select it from the drop-down list.
    * If you do not have a key pair, click **Create new key pair**.
 2. On the **Create key pair** page:
-   * Enter a descriptive name for the key pair (for example, `portsip-pbx-key`).
+   * Enter a descriptive name for the key pair (for example, `bgmconnects-pbx-key`).
    * Keep all other settings at their default values.
    * Click **Create key pair**.
 3. When prompted, download the `.pem` key file and store it securely on your local computer.
@@ -69,8 +69,8 @@ Please refer to the screenshot above for visual guidance.
 #### Network Settings
 
 1. In the Network settings section, configure the security group:
-   * If this is your first PortSIP PBX deployment, select Create security group to automatically create a new security group.
-   * If you already have an existing security group configured for PortSIP PBX, select Select existing security group and choose it from the list.
+   * If this is your first PBX deployment, select Create security group to automatically create a new security group.
+   * If you already have an existing security group configured for the PBX, select Select existing security group and choose it from the list.
 2. Keep all other network parameters at their default values unless you have specific networking or security requirements.
 
 > ❗ **Important**\
@@ -117,7 +117,7 @@ Please refer to the screenshot above for reference.
 #### Configure Inbound Rules
 
 1. Under the **Inbound rules** tab, click **Edit inbound rules**.
-2. Add the following inbound rules required by **PortSIP PBX**:
+2. Add the following inbound rules required by the **PBX**:
 
 **UDP Ports**
 
@@ -155,7 +155,7 @@ After adding all required rules, click **Save rules** to apply the changes.
 
 ### Step 7: Allocate and Associate an Elastic IP
 
-A static public IP address is required to ensure that SIP devices, SIP trunk providers, and external services can consistently reach your PortSIP PBX. On Amazon Web Services, this is achieved using an Elastic IP (EIP).
+A static public IP address is required to ensure that SIP devices, SIP trunk providers, and external services can consistently reach your PBX. On Amazon Web Services, this is achieved using an Elastic IP (EIP).
 
 ***
 
@@ -182,7 +182,7 @@ Please refer to the screenshot above for reference.
 
 4. On the **Associate Elastic IP address** page:
 
-* In the **Instance** field, select your PortSIP PBX EC2 instance.
+* In the **Instance** field, select your PBX EC2 instance.
 * Click **Associate**.
 
 <figure><img src="../../.gitbook/assets/aws-ec2-8.png" alt=""><figcaption></figcaption></figure>
@@ -213,7 +213,7 @@ You can use this **Elastic IP** to:
 
 ### Step 8: Verification
 
-After associating the **Elastic IP** and applying the required **security group rules**, verify that your AWS environment is correctly prepared for the PortSIP PBX deployment.
+After associating the **Elastic IP** and applying the required **security group rules**, verify that your AWS environment is correctly prepared for the PBX deployment.
 
 #### Verification Checklist
 
@@ -253,9 +253,9 @@ ssh -i /path/to/your-key.pem ubuntu@<Elastic-IP>
 
 ### **Result**
 
-If the SSH connection is successful, your AWS environment is **fully prepared** for the PortSIP PBX deployment.
+If the SSH connection is successful, your AWS environment is **fully prepared** for the the PBX deployment.
 
-You can now proceed to the next section: [Installing PortSIP PBX](installation-of-portsip-pbx-v22.3-beta-version/install-portsip-pbx.md).
+You can now proceed to the next section: [Installing the PBX](installation-of-bgmconnects-pbx-v22.3-beta-version/install-bgmconnects-pbx.md).
 
 
 

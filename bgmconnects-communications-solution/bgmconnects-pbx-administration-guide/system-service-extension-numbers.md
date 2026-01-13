@@ -1,6 +1,6 @@
 # System Service Extension Numbers
 
-PortSIP PBX assigns the following default extension numbers to system services. These system extension numbers are reserved and cannot be used for creating new extensions:
+The PBX assigns the following default extension numbers to system services. These system extension numbers are reserved and cannot be used for creating new extensions:
 
 * **Call Announcement Service**: 555\
   To modify this number, navigate to **Advanced Services > Automatic Callback**.

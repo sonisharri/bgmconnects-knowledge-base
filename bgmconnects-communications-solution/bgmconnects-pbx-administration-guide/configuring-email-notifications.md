@@ -25,7 +25,7 @@ For other generic SMTP providers that are not Google or Microsoft, please set it
 
 You can choose to use Google Gmail as the email service provider. Enter the username (usually your email address), the sender’s email, and the recipient emails.
 
-Since Google has disabled third-party apps from sending emails using a username and password, after saving the settings, you will need to complete the [Google Integration](https://support.portsip.com/portsip-communications-solution/portsip-pbx-administration-guide/29-integrations/google-workspace-integration) process to enable the PBX to send emails via Gmail using OAuth.
+Since Google has disabled third-party apps from sending emails using a username and password, after saving the settings, you will need to complete the [Google Integration](https://support.bgmconnects.com/bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/29-integrations/google-workspace-integration) process to enable the PBX to send emails via Gmail using OAuth.
 
 <figure><img src="../../.gitbook/assets/mai-server-admin-2.png" alt=""><figcaption></figcaption></figure>
 
@@ -33,7 +33,7 @@ Since Google has disabled third-party apps from sending emails using a username 
 
 You can choose to use Microsoft 365 as the email service provider. Enter the username (usually your email address), the sender’s email, and the recipient emails.
 
-Since Microsoft has disabled third-party apps from sending emails using a username and password, after saving the settings, you will need to complete the [Microsoft 365 Integration](https://support.portsip.com/portsip-communications-solution/portsip-pbx-administration-guide/29-integrations/microsoft-365-integration) process to enable the PBX to send emails via Microsoft 365 using OAuth.
+Since Microsoft has disabled third-party apps from sending emails using a username and password, after saving the settings, you will need to complete the [Microsoft 365 Integration](https://support.bgmconnects.com/bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/29-integrations/microsoft-365-integration) process to enable the PBX to send emails via Microsoft 365 using OAuth.
 
 <figure><img src="../../.gitbook/assets/mai-server-admin-3.png" alt=""><figcaption></figcaption></figure>
 
@@ -60,7 +60,7 @@ Navigate to **Advanced > System Notifications** and select the **Notifications**
 
 ## Tenant Level
 
-PortSIP PBX supports email notifications for tenant administrators, specifically for call-related events, which differ from system events.
+The PBX supports email notifications for tenant administrators, specifically for call-related events, which differ from system events.
 
 Each tenant can configure their own mail server to receive email notifications. Alternatively, if the system administrator allows it, tenants can use the system administrator’s mail server settings. For more details, refer to [_Apply Mail Settings to Tenants_](configuring-email-notifications.md#apply-mail-settings-to-tenants).
 
@@ -98,7 +98,7 @@ If you prefer to configure your own email server settings for sending notificati
 
 ## Custom Email Notification Template
 
-PortSIP PBX offers the ability to customize email templates. From the **Advanced > Email Templates** menu, you can fully modify the email templates used within the system.
+The PBX offers the ability to customize email templates. From the **Advanced > Email Templates** menu, you can fully modify the email templates used within the system.
 
 For example, you can customize the default **Welcome Email Template** (the email sent when a new extension is created). You can add your own text, include personalized links, and even modify the sender’s name to display your own name, or the first and last name of the user, as configured in their extension settings.
 

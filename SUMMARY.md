@@ -214,7 +214,6 @@
   * [What is SIP ALG and Why You Need to Disable It?](bgmconnects-communications-solution/faq/what-is-sip-alg-and-why-you-need-to-disable-it.md)
   * [Essential Factors for Choosing a Could PBX Solution](bgmconnects-communications-solution/faq/essential-factors-for-choosing-a-could-pbx-solution.md)
   * [Migrate from legacy FCM APIs to HTTP v1 for Android Push Notifications](bgmconnects-communications-solution/faq/migrate-from-legacy-fcm-apis-to-http-v1-for-android-push-notifications.md)
-  * [BGMconnects SDK License Agreement](bgmconnects-communications-solution/faq/bgmconnects-sdk-license-agreement.md)
   * [BGMconnects Software End-User License Agreement](bgmconnects-communications-solution/faq/bgmconnects-software-end-user-license-agreement.md)
 * [Virtual Agent of AI Contact Center](bgmconnects-communications-solution/virtual-agent-of-ai-contact-center.md)
 * [Scale, Profit, Own: 7 Critical Keys to Unlocking White-Label UCaaS Success with BGMconnects](bgmconnects-communications-solution/scale-profit-own-7-critical-keys-to-unlocking-white-label-ucaas-success-with-bgmconnects.md)

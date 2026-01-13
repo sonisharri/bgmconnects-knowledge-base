@@ -1,33 +1,33 @@
-# PBX and SIP Trunk using PortSIP SBC
+# PBX and SIP Trunk using the SBC
 
-This topic describes how to set up PortSIP SBC for interworking between the generic SIP trunk and PortSIP PBX.
+This topic describes how to set up the SBC for interworking between the generic SIP trunk and the PBX.
 
 ## 1 Topology of the Interoperability Environment
 
-The interoperability testing between SBC and a generic SIP Trunk with PortSIP PBX was done using the following topology setup:&#x20;
+The interoperability testing between SBC and a generic SIP Trunk with the PBX was done using the following topology setup:&#x20;
 
-* Enterprise deployed with PortSIP PBX in its private network for enhanced communication within the Enterprise.&#x20;
+* Enterprise deployed with the PBX in its private network for enhanced communication within the Enterprise.&#x20;
 * Enterprise wishes to offer its employees enterprise-voice capabilities and to connect the Enterprise to the PSTN network using a SIP Trunking service.&#x20;
-* PortSIP SBC is implemented to interconnect between the Enterprise LAN and the SIP Trunk.&#x20;
+* The SBC is implemented to interconnect between the Enterprise LAN and the SIP Trunk.&#x20;
   * Session: Real-time voice session using the IP-based Session Initiation Protocol (SIP).
-  * Border: IP-to-IP network border between PortSIP PBX network in the Enterprise LAN and SIP Trunk located in the public network. The figure below illustrates this interoperability topology:
+  * Border: IP-to-IP network border between the PBX network in the Enterprise LAN and SIP Trunk located in the public network. The figure below illustrates this interoperability topology:
 
 <figure><img src="../../.gitbook/assets/enterprise_pbx_sbc_trunk.png" alt=""><figcaption></figcaption></figure>
 
-## 2 Configuring PortSIP PBX
+## 2 Configuring the PBX
 
 Please follow the below topics to install and configure the PBX:
 
-* [1 Installation of the PortSIP PBX](1-installation-of-the-portsip-pbx/)
-* [2 Configuring the PortSIP PBX](/broken/pages/6uo0BsKGLXFqs7Cz40HY)
+* [1 Installation of the PBX](1-installation-of-the-bgmconnects-pbx/)
+* [2 Configuring the PBX](/broken/pages/6uo0BsKGLXFqs7Cz40HY)
 
-## 3 Configuring PortSIP SBC
+## 3 Configuring the SBC
 
 Please follow the below topics to install and configure the SBC:
 
-* [Configuring SBC for WebRTC](9-configuring-portsip-sbc/)
+* [Configuring SBC for WebRTC](9-configuring-bgmconnects-sbc/)
 
-## 4 Adding SIP trunk to the PortSIP PBX
+## 4 Adding SIP trunk to the PBX
 
 Assuming the trunk information is below:
 
@@ -38,7 +38,7 @@ Assuming the trunk information is below:
 
 To add the trunk to the PBX:
 
-1. Sign in to the PortSIP PBX Web Portal by "**System Admin**" credentials, and click the menu "**Call Manager > Trunks**".
+1. Sign in to the PBX Web Portal by "**System Admin**" credentials, and click the menu "**Call Manager > Trunks**".
 2. Click the arrow button to choose the **IP-based** or **Register-based** trunk type to add.
 3. Enter a friendly name for this trunk, and fill in the "**Host Domain or IP**" with SIP trunk IP `52.214.181.14` and "**Port**" with 5060. If the trunk port is not 5060, please enter the actually port.
 4. Fill the "**Outbound Proxy Server**" with the SBC private IP in case is `192.168.1.73`, and fill the "**Outbound Proxy Server port**" with the SBC port `5069` , by default, the SBC uses the port `5069` on TCP to receive the SIP message from PBX.

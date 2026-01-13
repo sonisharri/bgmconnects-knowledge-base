@@ -1,4 +1,4 @@
-# PortSIP SDK License Agreement
+# PortSIP SDK License Agreement (RESERVED)
 
 This is a copy of the PORTSIP SDK LICENSE AGREEMENT which is presented to you during the purchase process and which must be accepted in order to complete the installation of the software.
 

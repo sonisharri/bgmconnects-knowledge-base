@@ -1,10 +1,10 @@
-# Trace Server - A Better Way to Monitoring SIP Messages and QoS for PortSIP PBX
+# Trace Server - A Better Way to Monitoring SIP Messages and QoS for the PBX
 
 {% hint style="danger" %}
-Important: Please note that the PortSIP Trace Server and PortSIP PBX should not be installed on the same server. Doing so may lead to undefined issues.
+Important: Please note that the Trace Server and the PBX should not be installed on the same server. Doing so may lead to undefined issues.
 {% endhint %}
 
-PortSIP has been building its SIP Trace Server based on the open-source project [HOMER](https://github.com/sipcapture/homer),  which provides key information in troubleshooting SIP Trunks, SIP endpoints, and other SIP-related issues. It provides a place to:
+BGMconnects has been building its SIP Trace Server based on the open-source project [HOMER](https://github.com/sipcapture/homer),  which provides key information in troubleshooting SIP Trunks, SIP endpoints, and other SIP-related issues. It provides a place to:
 
 * Access singularly to retrieve SIP and RTCP QoS captures via Web UI
 * Centrally store SIP capture data across many hosts
@@ -64,15 +64,15 @@ The firewall and cloud platform security group must allow the ports listed below
 Perform the following commands to download the installation scripts.
 
 ```sh
-mkdir -p /opt/portsip-trace && cd /opt/portsip-trace
-curl https://raw.githubusercontent.com/portsip/portsip-pbx-sh/master/v22.x/install_docker.sh -o install_docker.sh
-curl https://raw.githubusercontent.com/portsip/portsip-pbx-sh/master/v22.x/trace_ctl.sh -o trace_ctl.sh
+mkdir -p /opt/bgmconnects-trace && cd /opt/bgmconnects-trace
+curl https://raw.githubusercontent.com/bgmconnects/bgmconnects-pbx-sh/master/v22.x/install_docker.sh -o install_docker.sh
+curl https://raw.githubusercontent.com/bgmconnects/bgmconnects-pbx-sh/master/v22.x/trace_ctl.sh -o trace_ctl.sh
 ```
 
 ### Install the Docker Environment
 
 ```sh
-cd /opt/portsip-trace && /bin/sh install_docker.sh
+cd /opt/bgmconnects-trace && /bin/sh install_docker.sh
 ```
 
 ### Run the PortSIP Trace Server
@@ -80,24 +80,24 @@ cd /opt/portsip-trace && /bin/sh install_docker.sh
 The command for running the PortSIP Trace Server with **default settings** is below:
 
 ```sh
-cd /opt/portsip-trace && /bin/sh trace_ctl.sh run
+cd /opt/bgmconnects-trace && /bin/sh trace_ctl.sh run
 ```
 
 We can specify the following parameters for specific usage.
 
-* **-p**: Specify the folder path where the data will be stored, for example, `/opt/portsip/trace`. Please ensure that the path does not contain any spaces. The default path is /`var/lib/portsip`.
+* **-p**: Specify the folder path where the data will be stored, for example, `/opt/bgmconnects/trace`. Please ensure that the path does not contain any spaces. The default path is /`var/lib/bgmconnects`.
 * **-k**: This option allows you to specify the number of days that the SIP message data will be stored. Any stored SIP message data will be automatically deleted if it exceeds the specified number of days. The default storage duration is 5 days.
 * **-l**: Specify the listening port for the trace server on the web portal. The default port is set to 9080.
 * **-z**: Specify the port for receiving the SIP messages sent from the PortSIP PBX. The default port is set to 9061.
 
 The following example demonstrates how to run the PortSIP Trace Server.
 
-In this example, the data is stored in the `/opt/portsip/trace` directory, the data is retained for **30** days, the web portal listens on port **12345**, and the server listens on port **23456** for receiving SIP messages.
+In this example, the data is stored in the `/opt/bgmconnects/trace` directory, the data is retained for **30** days, the web portal listens on port **12345**, and the server listens on port **23456** for receiving SIP messages.
 
 ```sh
-cd /opt/portsip-trace && \
+cd /opt/bgmconnects-trace && \
 /bin/sh trace_ctl.sh run \
--p /opt/portsip/trace \
+-p /opt/bgmconnects/trace \
 -k 30 \
 -l 12345 \
 -z 23456
@@ -125,7 +125,7 @@ Please change the default password for the admin after you sign in to the web po
 
 Sign in to the PortSIP PBX Web Portal, click **Advanced** > **Settings**, on the **General** page, and fill out the trace server information as shown in the screenshot below:
 
-<figure><img src="../../.gitbook/assets/portsip_trance_server.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects_trance_server.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 Important: Enter your actually trace server IP. If you used the **-z** parameter to specify a port other than the default 9061, you will also need to enter the actual port in the Trace Server Port field.
@@ -173,7 +173,7 @@ The trace server also supports monitoring the call QoS by logging the RTCP packe
 
 By clicking on the **QoS** tab, you’ll be able to select and analyze the voice parameters of the call, such as **packets**, **octets**, **jitter**, **packets\_lost**, and so on.
 
-<figure><img src="../../.gitbook/assets/portsip_trace_qos.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects_trace_qos.png" alt=""><figcaption></figcaption></figure>
 
 ## Managing Trace Server
 
@@ -182,31 +182,31 @@ You can use the following commands to manage the PortSIP Trace Server.
 ### Start Service
 
 ```sh
-cd /opt/portsip-trace && /bin/sh trace_ctl.sh start
+cd /opt/bgmconnects-trace && /bin/sh trace_ctl.sh start
 ```
 
 ### Check Service Status
 
 ```sh
-cd /opt/portsip-trace && /bin/sh trace_ctl.sh status
+cd /opt/bgmconnects-trace && /bin/sh trace_ctl.sh status
 ```
 
 ### Restart Service
 
 ```sh
-cd /opt/portsip-trace && /bin/sh trace_ctl.sh restart
+cd /opt/bgmconnects-trace && /bin/sh trace_ctl.sh restart
 ```
 
 ### Stop Service
 
 ```sh
-cd /opt/portsip-trace && /bin/sh trace_ctl.sh stop
+cd /opt/bgmconnects-trace && /bin/sh trace_ctl.sh stop
 ```
 
 ### Remove Service
 
 ```sh
-cd /opt/portsip-trace && /bin/sh trace_ctl.sh rm
+cd /opt/bgmconnects-trace && /bin/sh trace_ctl.sh rm
 ```
 
 ## Upgrade Version
@@ -216,14 +216,14 @@ Please follow the steps below to upgrade to the latest version.
 ### Stop Service
 
 ```sh
-cd /opt/portsip-trace && /bin/sh trace_ctl.sh stop
+cd /opt/bgmconnects-trace && /bin/sh trace_ctl.sh stop
 ```
 
 ### Remove Service
 
 ```sh
-cd /opt/portsip-trace && /bin/sh trace_ctl.sh rm
+cd /opt/bgmconnects-trace && /bin/sh trace_ctl.sh rm
 ```
 
-Now follow the Installing [PortSIP Trace Server](debug-sip-message.md#installing-portsip-trace-server).
+Now follow the Installing [PortSIP Trace Server](debug-sip-message.md#installing-bgmconnects-trace-server).
 
