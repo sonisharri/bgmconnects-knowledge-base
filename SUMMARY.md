@@ -8,8 +8,7 @@
 * [BGMconnects Administration Guide](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/README.md)
   * [Overview](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/overview.md)
   * [Summary of Changes](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/summary-of-changes.md)
-<!--  RESERVED:
-  * [1 Installation of the BGMconnects PBX](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/1-installation-of-the-bgmconnects-pbx/README.md)
+  <!--* [1 Installation of the BGMconnects PBX](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/1-installation-of-the-bgmconnects-pbx/README.md)
     * [Installation of BGMconnects PBX v22.x](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/1-installation-of-the-bgmconnects-pbx/installation-of-bgmconnects-pbx-v22.3/README.md)
       * [Install BGMconnects PBX](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/installation-of-bgmconnects-pbx-v22.3-beta-version/install-bgmconnects-pbx.md)
       * [Install IM Service](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/1-installation-of-the-bgmconnects-pbx/installation-of-bgmconnects-pbx-v22.3/install-im-service.md)
@@ -19,8 +18,7 @@
     * [Installation of BGMconnects PBX v16.x](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/1-installation-of-the-bgmconnects-pbx/installation-of-bgmconnects-pbx-v16/README.md)
       * [Upgrade to the Latest v16.x Release](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/1-installation-of-the-bgmconnects-pbx/installation-of-bgmconnects-pbx-v16/upgrade-bgmconnects-pbx-to-v16.x.md)
   * [2 BGMconnects PBX Management](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/2-bgmconnects-pbx-management/README.md)
-    * [Administrator Management](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/2-bgmconnects-pbx-management/administrator-management.md)
--->
+    * [Administrator Management](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/2-bgmconnects-pbx-management/administrator-management.md)-->
   * [1 Tenant Management](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/3-tenant-management/README.md)
     * [Managing Tenants](<bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/3-tenant-management/3-tenant-management (1).md>)
     * [Password and Sign-In Security](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/3-tenant-management/3-tenant-management.md)
