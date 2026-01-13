@@ -54,8 +54,7 @@
   * [6 Call Route Management](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/8-call-route-management/README.md)
     * [Configuring Inbound Rule](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/8-call-route-management/configuring-inbound-rule.md)
     * [Configuring Outbound Rule](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/8-call-route-management/configuring-outbound-rule.md)
-    <!-- RESERVED:
-  * [9 Configuring BGMconnects SBC](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/9-configuring-bgmconnects-sbc/README.md)
+    <!-- RESERVED:  * [9 Configuring BGMconnects SBC](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/9-configuring-bgmconnects-sbc/README.md)
     * [Topology](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/9-configuring-bgmconnects-sbc/bgmconnects-sbc-topology.md)
     * [Summary of Changes](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/9-configuring-bgmconnects-sbc/summary-of-changes.md)
     * [Installation BGMconnects SBC v11.x](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/9-configuring-bgmconnects-sbc/installation-bgmconnects-sbc-v11.x.md)
@@ -66,8 +65,7 @@
     * [Configuring Microsoft Teams](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/10-configuring-sbc-for-ms-teams/configuring-microsoft-teams.md)
     * [Configuring SBC and PBX](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/10-configuring-sbc-for-ms-teams/configuring-sbc-and-pbx.md)
     * [Configure an SBC for Multiple Tenants](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/10-configuring-sbc-for-ms-teams/configure-an-sbc-for-multiple-tenants.md)
-  * [11 Deploy the SBC Cluster](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/11-deploy-the-sbc-cluster.md)
-  -->
+  * [11 Deploy the SBC Cluster](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/11-deploy-the-sbc-cluster.md) -->
   * [7 Configuring Virtual Receptionist](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/12-configuring-virtual-receptionist/README.md)
     * [Managing Virtual Receptionist](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/12-configuring-virtual-receptionist/managing-virtual-receptionist.md)
     * [Visual IVR Editor Guide](bgmconnects-communications-solution/bgmconnects-pbx-administration-guide/12-configuring-virtual-receptionist/visual-ivr-editor-guide.md)
