@@ -6,6 +6,5 @@ Backup and restore is an essential component of any business’ disaster recover
 
 This article includes the following topics:
 
-* [Backup and Restore PortSIP PBX](backup-and-restore-portsip-pbx.md)
-* [Backup and Restore PortSIP SBC](backup-and-restore-portsip-sbc.md)
-
+* [Backup and Restore PortSIP PBX](backup-and-restore-bgmconnects-pbx.md)
+* [Backup and Restore PortSIP SBC](backup-and-restore-bgmconnects-sbc.md)

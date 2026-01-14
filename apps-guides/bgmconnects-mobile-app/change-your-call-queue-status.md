@@ -51,13 +51,10 @@ In the queue list, each queue includes an **ON/OFF toggle**:
 
 Changes take effect immediately.
 
-<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-29 (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-29 (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 
 > **Note**\
 > Changing your agent status affects **only the queues you are currently logged into**.\
 > Queues you are logged out of will not receive calls regardless of your agent status.
-
-
-

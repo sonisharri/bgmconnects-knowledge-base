@@ -1,6 +1,6 @@
 # How to Configure the Endpoints?
 
-After successfully [configuring the PBX](/broken/pages/6uo0BsKGLXFqs7Cz40HY) and [SBC](../9-configuring-bgmconnects-sbc/), and [creating the tenants](../3-tenant-management/) and [extensions](./), you can now register the endpoints (WebRTC, mobile app, Windows Desktop app, IP Phone, and any SIP-based device) to the PBX. This will allow you to make and receive calls.
+After successfully [configuring the PBX](/broken/pages/6uo0BsKGLXFqs7Cz40HY) and [SBC](/broken/pages/5nZpx8txl01d7A5yhwvn), and [creating the tenants](../3-tenant-management/) and [extensions](./), you can now register the endpoints (WebRTC, mobile app, Windows Desktop app, IP Phone, and any SIP-based device) to the PBX. This will allow you to make and receive calls.
 
 ## Configuring the BGMconnects App
 
@@ -15,7 +15,7 @@ In this article, we assume the following configurations:
 
 * The PBX and SBC are installed on a server with a public IP of **66.175.221.120** and a private IP of **192.168.1.72**.
 * The PBX web domain **uc.bgmconnects.cc** has been resolved to the PBX server public IP **66.175.221.120**.
-* The PBX created UDP transport on port **5060**, TLS transport on port **5061** over TLS,  TCP transport on port **5063**, and WSS transport on port **5065** in the SBC.
+* The PBX created UDP transport on port **5060**, TLS transport on port **5061** over TLS, TCP transport on port **5063**, and WSS transport on port **5065** in the SBC.
 * A tenant has been created with the SIP domain set up as **test.io**.
 
 As per the above settings, after you sign in to the PBX as the system administrator, you will see a page like the screenshot below:
@@ -29,10 +29,10 @@ There are some rules for configuring the client endpoints for the above scenario
 * **Transport.** It's the network transport for sending & receiving the SIP message in the PBX. For more details please read the article: [Transport Management](../6-transport-management.md).
 * **Outbound Proxy server.** The PBX server IP refers to the **Outbound Proxy Server** in the client endpoints. If the client endpoint registers to PBX over the internet, use the public IP as the **Outbound Proxy Server**. You can also use **uc.bgmconnects.cc** as the **Outbound Proxy Server** if registering to PBX over the internet since this domain has been resolved to the public IP; If registering to PBX from the LAN, use the private IP as the **Outbound Proxy Server**.
 * **Outbound Proxy Server Port.** The port of transport is created in the PBX or SBC. For example, if you want the endpoint registered to the PBX over TCP transport, then you will need to set 5063 for **Outbound Proxy Server Port** in the endpoint settings.
-* **Domain.** Also known as **SIP domain** or **SIP server** in the endpoint settings. It’s the **SIP domain** of the tenant that was created in the PBX - so just set the tenant’s **SIP domain** for Domain/SIP Domain/SIP server in the endpoint settings.&#x20;
+* **Domain.** Also known as **SIP domain** or **SIP server** in the endpoint settings. It’s the **SIP domain** of the tenant that was created in the PBX - so just set the tenant’s **SIP domain** for Domain/SIP Domain/SIP server in the endpoint settings.
 
 {% hint style="danger" %}
-&#x20;Just need to set the transport port for the Outbound Proxy Server Port only. Don’t set the transport port for the Domain in the endpoint settings. If the endpoint requires filling the port for the Domain, please fill in 0 for the domain port.
+Just need to set the transport port for the Outbound Proxy Server Port only. Don’t set the transport port for the Domain in the endpoint settings. If the endpoint requires filling the port for the Domain, please fill in 0 for the domain port.
 {% endhint %}
 
 ### Auto provision the IP phone to PBX
@@ -52,4 +52,3 @@ You can also enter the SIP user extension details on the IP Phone web portal to 
 <figure><img src="../../../.gitbook/assets/yealink_phone_sip1.png" alt="" width="563"><figcaption></figcaption></figure>
 
 For other SIP-based apps and IP Phones, you can configure them similarly to the above description.
-
