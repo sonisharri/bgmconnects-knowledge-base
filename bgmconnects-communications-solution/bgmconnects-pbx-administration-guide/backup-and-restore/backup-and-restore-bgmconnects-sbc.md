@@ -1,4 +1,4 @@
-# Backup and Restore PortSIP SBC
+# Backup and Restore BGMconnects SBC
 
 This article provides procedures for backing up and restoring a PortSIP SBC server. The procedures are designed to ensure no data loss in upgrading and migration.
 
@@ -16,13 +16,13 @@ Restoring your SBC from a snapshot is a straightforward process. Simply follow t
 
 Remember, it’s always a good idea to test the restore process periodically to ensure your backups are working as expected. This will help you avoid any surprises in the event of a system failure.
 
-## **Backing Up SBC  Data**
+## **Backing Up SBC Data**
 
-### **Linux**&#x20;
+### **Linux**
 
-When [installing PortSIP SBC](../9-configuring-portsip-sbc/installation-portsip-sbc-v11.x.md) on Linux, you typically use the following command to create the PortSIP SBC Docker instance:
+When [installing PortSIP SBC](/broken/pages/hPHSdiWjppJ59ZnPmis4) on Linux, you typically use the following command to create the PortSIP SBC Docker instance:
 
-**V11.x:**&#x20;
+**V11.x:**
 
 <pre class="language-sh"><code class="lang-sh"><strong>sudo /bin/sh sbc_ctl.sh run -p /var/lib/portsip -i portsip/sbc:11
 </strong></code></pre>
@@ -35,7 +35,7 @@ Please note that it’s important to back up the `sbc`subfolder of the **parent*
 </strong>sudo cp -p -r /var/lib/portsip/sbc /back/sbc-data
 </code></pre>
 
-For example, if you specified the **parent**  path as `/portsip/data` using the `-p` parameter when installing the PortSIP SBC, then you need to back up the folder `/portsip/data/sbc`.
+For example, if you specified the **parent** path as `/portsip/data` using the `-p` parameter when installing the PortSIP SBC, then you need to back up the folder `/portsip/data/sbc`.
 
 ```sh
 sudo mkdir -p /back/sbc-data
@@ -57,16 +57,16 @@ mkdir -p /back/sbc-data
 cp -p -r /var/lib/portsip/sbc /back/sbc-data
 ```
 
-For example, if you specified the **parent**  path as `/portsip/data` using the `-p` parameter when installing the PortSIP SBC, then you need to back up the folder `/portsip/data/sbc`.
+For example, if you specified the **parent** path as `/portsip/data` using the `-p` parameter when installing the PortSIP SBC, then you need to back up the folder `/portsip/data/sbc`.
 
 ```sh
 mkdir -p /back/sbc-data
 cp -p -r /portsip/data/sbc /back/sbc-data
 ```
 
-### **Windows**&#x20;
+### **Windows**
 
-When [installing PortSIP SBC](../9-configuring-portsip-sbc/installation-portsip-sbc-v11.x.md) on Windows, in step 1, there is an option that allows you to choose the **parent** folder for storing the SBC data.&#x20;
+When [installing PortSIP SBC](/broken/pages/hPHSdiWjppJ59ZnPmis4) on Windows, in step 1, there is an option that allows you to choose the **parent** folder for storing the SBC data.
 
 To back up the data, simply copy the data folder to another server or an external disk. By default, if you didn’t specify otherwise, the SBC data **parent** folder is `C:\ProgramData\PortSIP`. The following folder needs to be copied:
 
@@ -100,7 +100,7 @@ rm -rf *
 
 2\. Restoring a PortSIP SBC
 
-First, copy the backup data to the PortSIP SBC server. You can use the default folder, such as `/var/lib/portsip` as the **parent** folde&#x72;**,** then the SBC data folder is  `/var/lib/portsip/sbc`  **,** or another folder of your choice.
+First, copy the backup data to the PortSIP SBC server. You can use the default folder, such as `/var/lib/portsip` as the **parent** folde&#x72;**,** then the SBC data folder is `/var/lib/portsip/sbc` **,** or another folder of your choice.
 
 For example:
 
@@ -138,7 +138,7 @@ sudo cp -p -r /back/sbc-data/sbc /var/lib/portsip/
 After copying the data, make sure that the folder, all subfolders, and files have the correct permissions set to `888:888`.
 {% endhint %}
 
-2. Now follow the guide [Installation PortSIP SBC v11.x](../9-configuring-portsip-sbc/installation-portsip-sbc-v11.x.md) to install a new SBC with your restored SBC data by using the **-p** parameter to specify the restored data path.
+2. Now follow the guide [Installation PortSIP SBC v11.x](/broken/pages/hPHSdiWjppJ59ZnPmis4) to install a new SBC with your restored SBC data by using the **-p** parameter to specify the restored data path.
 
 After successfully installing the PortSIP SBC, your restored SBC data now is attached to the newly installed SBC.
 
@@ -172,7 +172,7 @@ rm -rf *
 
 2\. Restoring a PortSIP SBC
 
-First, copy the backup data to the PortSIP SBC server. You can use the default folder, such as `/var/lib/portsip` as the **parent** folde&#x72;**,** then the SBC data folder is  `/var/lib/portsip/sbc`  **,** or another folder of your choice.
+First, copy the backup data to the PortSIP SBC server. You can use the default folder, such as `/var/lib/portsip` as the **parent** folde&#x72;**,** then the SBC data folder is `/var/lib/portsip/sbc` **,** or another folder of your choice.
 
 For example:
 
@@ -243,13 +243,12 @@ First, copy the backup data to the PortSIP SBC server folders:
 
 You can use the default folder as the data **parent folder**, such as `C:\ProgramData\PortSIP`, or another folder of your choice.
 
-Next, double-click the PortSIP SBC installer to install the PortSIP SBC. In the installation UI, choose the PortSIP SBC data **parent folder** (`C:\ProgramData\PortSIP\`), then click the `Next` button. Wait for the installation to complete.&#x20;
+Next, double-click the PortSIP SBC installer to install the PortSIP SBC. In the installation UI, choose the PortSIP SBC data **parent folder** (`C:\ProgramData\PortSIP\`), then click the `Next` button. Wait for the installation to complete.
 
 Congratulations! Your SBC has now been successfully restored.
 
 #### **Restoring Backup Data to a New SBC Server**
 
-The steps for restoring backup data to a new SBC server are essentially the same.&#x20;
+The steps for restoring backup data to a new SBC server are essentially the same.
 
 After signing into the SBC web portal, go to the menu **Settings > Network** to update the SBC IP addresses with the new server's IP address then save changes.
-

@@ -6,7 +6,7 @@ To join a meeting, you may receive an invite link through email, message, or dir
 
 ## Prerequisites
 
-* Ensure that BGMconnects SBC is installed and configured for WebRTC. Please refer to this article: [Configuring SBC for WebRTC](../9-configuring-bgmconnects-sbc/).
+* Ensure that BGMconnects SBC is installed and configured for WebRTC. Please refer to this article: [Configuring SBC for WebRTC](/broken/pages/5nZpx8txl01d7A5yhwvn).
 * If you want to send the meeting invitation via email, ensure that the SMTP server is configured as described in this article: [Configuring Email Notifications](../configuring-email-notifications.md).
 
 ## Create Meeting
@@ -43,6 +43,3 @@ To join the meeting, invitees can dial the number **+44 1494 523 500** from a mo
 To enable this feature, the PBX must configure the SIP Trunk and create inbound rules to route the DID numbers **44 1494 523 500** and **33 2022 123** **123** to the meeting number **110200800**. Once someone dials either of these numbers, the PBX will route the call to the meeting.
 
 Alternatively, you can create an inbound rule to route these numbers to a virtual receptionist. When someone dials either **44 1494 523 500** or **33 2022 123** **123**, they will hear voice prompts instructing them to press DTMF to enter the meeting number. Once the caller presses the **110200800**, the PBX will route this call to the meeting **110200800**.
-
-
-

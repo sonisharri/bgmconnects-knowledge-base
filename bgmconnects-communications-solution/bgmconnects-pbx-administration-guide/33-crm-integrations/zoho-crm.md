@@ -58,7 +58,7 @@ The PBX Zoho CRM integration is supported for the following Zoho CRM editions:
 7. Click **Create**.
 8. Zoho will generate a **Client ID** and **Client Secret**.
 
-<figure><img src="../../../.gitbook/assets/zoho_add_client-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/BGM-Zoho-Integration.jpg" alt=""><figcaption></figcaption></figure>
 
 Securely store the **Client ID** and **Client Secret**. These credentials are required when configuring the PBX. Treat them as confidential and rotate them immediately if you suspect they have been compromised.
 
@@ -143,4 +143,3 @@ Select the region where your Zoho account is hosted:
 3. Click **Accept** to authorize the PBX to access Zoho CRM data.
 
 Once authorization is complete, the integration becomes active immediately.
-

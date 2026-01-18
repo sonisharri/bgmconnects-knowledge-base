@@ -42,7 +42,7 @@ Follow the steps below to access Live Wallboards in the PBX web portal:
 
 Click a **queue name** to view detailed information about the selected queue, including the callers currently waiting in the queue.
 
-<figure><img src="../../../.gitbook/assets/bgmconnects_contact_center_wallboard_2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bgmconnects_contact_center_wallboard_2 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -58,7 +58,4 @@ Navigate to **Contact Center > Agent Activity** to view the real-time status of 
 
 Click an **agent** to display real-time information for that agent, including current status and activity details.
 
-<figure><img src="../../../.gitbook/assets/bgmconnects_contact_center_wallboard_3 (1).png" alt=""><figcaption></figcaption></figure>
-
-
-
+<figure><img src="../../../.gitbook/assets/bgmconnects_contact_center_wallboard_3 (1) (1).png" alt=""><figcaption></figcaption></figure>

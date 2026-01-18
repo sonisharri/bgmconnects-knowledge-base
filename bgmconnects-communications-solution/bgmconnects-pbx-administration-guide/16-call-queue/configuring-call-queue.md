@@ -143,10 +143,7 @@ The outbound caller ID may **replace certain SIP headers or fields**, depending 
 
 For more details, refer to:
 
-* [**Outbound Parameters**](../7-trunk-management/)
-* [**Handle Outbound Calls Through SIP Trunk**](../7-trunk-management/handle-outbound-calls-through-sip-trunk.md)
+* [**Outbound Parameters**](../../../bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/7-trunk-management/)
+* [**Handle Outbound Calls Through SIP Trunk**](../../../bgmconnects-next-gen-telecom-solution/bgmconnects-pbx-administration-guide/7-trunk-management/handle-outbound-calls-through-sip-trunk.md)
 
 <figure><img src="../../../.gitbook/assets/queue_cli.png" alt=""><figcaption></figcaption></figure>
-
-
-

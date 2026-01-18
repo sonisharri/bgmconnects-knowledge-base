@@ -141,7 +141,7 @@ As communication channels multiply, so do potential vulnerabilities. UCaaS provi
 
 ## BGMconnects Solution Has Your Back
 
-<figure><img src="../.gitbook/assets/bgmconnects-vs-other-pbx (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/bgmconnects-vs-other-pbx (1) (1).jpg" alt=""><figcaption></figcaption></figure>
 
 When weighing the solution for hosting the UCaaS, you have to look at your needs today and tomorrow. There are, of course, a number of factors to consider when choosing a phone system solution. Pricing is the most obvious one, but there’s also security, flexibility, and scalability... You have to ask yourself where you want to be in the next year or two and beyond.
 

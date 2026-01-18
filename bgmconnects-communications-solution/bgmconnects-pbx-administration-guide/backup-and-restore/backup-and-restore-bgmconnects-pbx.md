@@ -1,4 +1,4 @@
-# Backup and Restore PortSIP PBX
+# Backup and Restore BGMconnects PBX
 
 This article provides procedures for backing up and restoring a PortSIP PBX server. The procedures are designed to ensure no data loss in upgrading and migration.
 
@@ -18,7 +18,7 @@ Remember, it’s always a good idea to test the restore process periodically to 
 
 ## **Backing Up PBX Data**
 
-### **Linux**&#x20;
+### **Linux**
 
 When [installing PortSIP PBX on Linux](/broken/pages/yGaVQdkFEavISR5V0QGV), in step 3, you typically use the following command to create the PortSIP PBX Docker instance as below:
 
@@ -52,7 +52,7 @@ Now back up the data.
 </strong>sudo cp -p -r /var/lib/portsip/postgresql /back/pbx-db
 </code></pre>
 
-For example, if you specified the **parent**  path as `/portsip/data` using the `-p` parameter when installing the PortSIP PBX, then you need to back up the folder `/portsip/data/pbx` and `/portsip/data/postgresql`.
+For example, if you specified the **parent** path as `/portsip/data` using the `-p` parameter when installing the PortSIP PBX, then you need to back up the folder `/portsip/data/pbx` and `/portsip/data/postgresql`.
 
 ```sh
 sudo mkdir -p /back/pbx-data
@@ -70,7 +70,7 @@ mkdir -p /back/pbx-db
 cp -p -r /var/lib/portsip/postgresql /back/pbx-db
 ```
 
-For example, if you specified the **parent**  path as `/portsip/data` using the `-p` parameter when installing the PortSIP PBX, then you need to back up the folder `/portsip/data/pbx` and `/portsip/data/postgresql`.
+For example, if you specified the **parent** path as `/portsip/data` using the `-p` parameter when installing the PortSIP PBX, then you need to back up the folder `/portsip/data/pbx` and `/portsip/data/postgresql`.
 
 ```sh
 mkdir -p /back/pbx-data
@@ -81,11 +81,11 @@ cp -p -r /portsip/data/postgresql /back/pbx-db
 
 After successfully backing up the data, save it safely.
 
-### **Windows**&#x20;
+### **Windows**
 
-When [installing PortSIP PBX on Windows](/broken/pages/OR9aunjWJKcIQshxSgNh), in step 1, there is an option that allows you to choose the **parent** folder for storing the PBX data.&#x20;
+When [installing PortSIP PBX on Windows](/broken/pages/OR9aunjWJKcIQshxSgNh), in step 1, there is an option that allows you to choose the **parent** folder for storing the PBX data.
 
-To back up the data, copy this folder to another server or an external disk. By default, if you didn’t specify otherwise, the **parent** folder is `C:\ProgramData\PortSIP`.&#x20;
+To back up the data, copy this folder to another server or an external disk. By default, if you didn’t specify otherwise, the **parent** folder is `C:\ProgramData\PortSIP`.
 
 The following folders need to be copied:
 
@@ -133,7 +133,7 @@ For example:
 </code></pre>
 
 {% hint style="danger" %}
-After copying the data, make sure that the  folder, all subfolders, and files have the correct permissions set to `888:888`.
+After copying the data, make sure that the folder, all subfolders, and files have the correct permissions set to `888:888`.
 {% endhint %}
 
 The command below is used to create and run the PBX on a server with the IP `66.175.221.120`. If you’re running the PBX in a LAN without a public IP, replace `66.175.221.120` with the PBX server’s private LAN IP. If you copied the backup data to a folder other than `/var/lib/portsip`, make sure to use the actual folder with parameter **-p** in the commands below.
@@ -153,7 +153,7 @@ If you want to restore the backup PBX v22.x data to another new server, please f
 
 **Note**, that once you successfully restore the PBX data to the new server, the PBX will be upgraded to the latest v22.x automatically.
 
-1. prepare the new Linux server, **don't** install the PBX.&#x20;
+1. prepare the new Linux server, **don't** install the PBX.
 
 Copy the backup data to the new server. You can use the default folder, such as `/var/lib/portsip`, or another folder of your choice.
 
@@ -164,12 +164,12 @@ Copy the backup data to the new server. You can use the default folder, such as 
 </code></pre>
 
 {% hint style="danger" %}
-After copying the data, make sure that the  folder, all subfolders, and files have the correct permissions set to `888:888`.
+After copying the data, make sure that the folder, all subfolders, and files have the correct permissions set to `888:888`.
 {% endhint %}
 
 2. Now follow the guide [Install PortSIP PBX on Linux](/broken/pages/yGaVQdkFEavISR5V0QGV) to install a new PBX with your restored PBX data by using the **-p** parameter to specify the restored data path.
 
-After successfully installing the PortSIP PBX, your restored PBX data now is attached to the newly installed PBX.&#x20;
+After successfully installing the PortSIP PBX, your restored PBX data now is attached to the newly installed PBX.
 
 After signing into the PBX web portal, launch the PortSIP PBX Setup Wizard. In step 1 of the Setup Wizard, make sure to update the PBX IP address to match the new server’s IP.
 
@@ -213,7 +213,7 @@ For example:
 </code></pre>
 
 {% hint style="danger" %}
-After copying the data, make sure that the  folder, all subfolders, and files have the correct permissions set to `888:888`.
+After copying the data, make sure that the folder, all subfolders, and files have the correct permissions set to `888:888`.
 {% endhint %}
 
 The command below is used to create and run the PBX on a server with the IP `66.175.221.120`. If you’re running the PBX in a LAN without a public IP, replace `66.175.221.120` with the PBX server’s private LAN IP. If you copied the backup data to a folder other than `/var/lib/portsip`, make sure to use the actual folder with parameter **-p** in the commands below.
@@ -233,7 +233,7 @@ If you want to restore the backup PBX v16.x data to another new server, please f
 
 **Note**, that once you successfully restore the PBX data to the new server, the PBX will be upgraded to the latest v16.x automatically.
 
-1. prepare the new Linux server, **don't** install the PBX.&#x20;
+1. prepare the new Linux server, **don't** install the PBX.
 
 Copy the backup data to the new server. You can use the default folder, such as `/var/lib/portsip`, or another folder of your choice.
 
@@ -244,12 +244,12 @@ Copy the backup data to the new server. You can use the default folder, such as 
 </code></pre>
 
 {% hint style="danger" %}
-After copying the data, make sure that the  folder, all subfolders, and files have the correct permissions set to `888:888`.
+After copying the data, make sure that the folder, all subfolders, and files have the correct permissions set to `888:888`.
 {% endhint %}
 
-2. Now follow the guide [Installation of PortSIP PBX v16.x](../1-installation-of-the-portsip-pbx/installation-of-portsip-pbx-v16/) to install a new PBX with your restored PBX data by using the **-p** parameter to specify the restored data path.
+2. Now follow the guide [Installation of PortSIP PBX v16.x](/broken/pages/WDkBBp3AwjOAXnEaatRd) to install a new PBX with your restored PBX data by using the **-p** parameter to specify the restored data path.
 
-After successfully installing the PortSIP PBX, your restored PBX data now is attached to the newly installed PBX.&#x20;
+After successfully installing the PortSIP PBX, your restored PBX data now is attached to the newly installed PBX.
 
 After signing into the PBX web portal, launch the PortSIP PBX Setup Wizard. In step 1 of the Setup Wizard, make sure to update the PBX IP address to match the new server’s IP.
 
@@ -284,13 +284,12 @@ First, copy the backup data to the PortSIP PBX server folders:
 
 You can use the default folder as the data **parent** folder, such as `C:\ProgramData\PortSIP`, or another folder of your choice.
 
-Next, double-click the PortSIP PBX installer to install the PortSIP PBX. In the installation UI, choose the PortSIP PBX data **parent** folder ( `C:\ProgramData\PortSIP`), then click the `Next` button. Wait for the installation to complete.&#x20;
+Next, double-click the PortSIP PBX installer to install the PortSIP PBX. In the installation UI, choose the PortSIP PBX data **parent** folder ( `C:\ProgramData\PortSIP`), then click the `Next` button. Wait for the installation to complete.
 
 Congratulations! Your PBX has now been successfully restored.
 
 #### **Restoring Backup Data to a New PBX Server**
 
-The steps for restoring backup data to a new PBX server are essentially the same.&#x20;
+The steps for restoring backup data to a new PBX server are essentially the same.
 
 After signing into the PBX web portal, launch the PortSIP PBX Setup Wizard. In step 1 of the Setup Wizard, make sure to update the PBX IP address to match the new server’s IP.
-

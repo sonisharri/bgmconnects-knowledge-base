@@ -48,8 +48,6 @@ In the queue list, each queue includes an **ON/OFF toggle**:
 
 Changes take effect immediately.
 
-<figure><img src="../../.gitbook/assets/poprtsip_one_queues.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ### Expected Behavior
@@ -62,8 +60,3 @@ Changes take effect immediately.
 
 > **Note**\
 > Available agent statuses and queue access are controlled by administrator-defined policies.
-
-
-
-
-
