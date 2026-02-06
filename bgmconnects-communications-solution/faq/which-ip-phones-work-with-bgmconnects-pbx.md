@@ -16,6 +16,8 @@ The Fanvil Phones also support the BGMconnects enhanced park feature, please ref
 
 ## Yealink
 
+* Yealink T8 Series
+* Yealink T7 Series
 * Yealink T5 Series
 * Yealink T4 Series
 * Yealink T3 Series
