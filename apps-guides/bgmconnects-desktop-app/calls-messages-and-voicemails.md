@@ -341,8 +341,8 @@ Once you’ve entered the chat UI, type your message in the chat window, when yo
    * Once you've selected all desired members, click **Apply** to finalize the group creation.
 5. **Finish and View the Group:** Once the group is created, you will see it listed in the **Team Messaging** window.
 
-<!--<figure><img src="../../.gitbook/assets/bgmconnects-one-group-message.png" alt=""><figcaption></figcaption></figure>
--->
+<figure><img src="../../.gitbook/assets/bgmconnects-one-group-message.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 #### Sending a team message in a group
@@ -351,8 +351,8 @@ Once you’ve entered the chat UI, type your message in the chat window, when yo
 2. **Compose Your Message:** Type your message in the **chat window** field located in the information area.
 3. **Send the Message:** When you're ready, press **Enter** on your keyboard to send your message to the group. You can also click the arrow icon to send the message.
 
-<!--<figure><img src="../../.gitbook/assets/bgmconnects-one-group-message-1.png" alt=""><figcaption></figcaption></figure>
--->
+<figure><img src="../../.gitbook/assets/bgmconnects-one-group-message-1.png" alt=""><figcaption></figcaption></figure>
+
 
 
 

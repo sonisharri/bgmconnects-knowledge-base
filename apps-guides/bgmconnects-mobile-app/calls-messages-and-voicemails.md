@@ -491,8 +491,8 @@ Group chats allow multiple extension users to collaborate in a single conversati
 * The newly created group appears in the **Messaging** list.
 * You can edit the group later to **upload a group picture** or update details.
 
-<!--<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-29 (2).png" alt="" width="375"><figcaption></figcaption></figure>
--->
+<figure><img src="../../.gitbook/assets/bgmconnects-one-mobile-29 (2).png" alt="" width="375"><figcaption></figcaption></figure>
+
 ***
 
 ### Expected Behavior

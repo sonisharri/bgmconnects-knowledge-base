@@ -21,8 +21,8 @@ Follow these steps to enable click-to-call on your desktop:
 
     This ensures that phone numbers clicked on that website (for example, [_www.bgmconnects.com_](http://www.bgmconnects.com)) automatically open in your selected calling app.
 
-<!--<figure><img src="../../.gitbook/assets/bgmconnects-one-tel-call-1.png" alt=""><figcaption></figcaption></figure>
--->
+<figure><img src="../../.gitbook/assets/bgmconnects-one-tel-call-1.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 #### Setting BGMconnects as the Default Calling App (Windows)
@@ -37,8 +37,8 @@ To set BGMconnects as the default app for telephone numbers:
 
 Once completed, Windows will assign **BGMconnects** as the default application for dialing telephone numbers.
 
-<!--<figure><img src="../../.gitbook/assets/bgmconnects-one-tel-call-2.png" alt="" width="295"><figcaption></figcaption></figure>
--->
+<figure><img src="../../.gitbook/assets/bgmconnects-one-tel-call-2.png" alt="" width="295"><figcaption></figcaption></figure>
+
 ***
 
 #### Expected Behavior
@@ -72,7 +72,7 @@ If BGMconnects is not currently set as your default phone application, follow th
 > **Expected Result**\
 > Phone numbers (tel: links) clicked in web browsers or other applications will automatically open in **BGMconnects** and initiate a call.
 
-<!--<figure><img src="../../.gitbook/assets/bgmconnects-one-tel-call-3.png" alt="" width="563"><figcaption></figcaption></figure>
--->
+<figure><img src="../../.gitbook/assets/bgmconnects-one-tel-call-3.png" alt="" width="563"><figcaption></figcaption></figure>
+
 
 
