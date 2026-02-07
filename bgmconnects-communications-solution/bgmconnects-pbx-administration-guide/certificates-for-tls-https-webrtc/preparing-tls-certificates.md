@@ -8,7 +8,7 @@ Follow the steps below to obtain and configure them properly.
 
 ### 1. Purchase a Domain
 
-Purchase a domain (for example, **portsip.cc**) from a trusted domain registrar such as **DigiCert**, **Thawte**, or **GeoTrust**.\
+Purchase a domain (for example, **bgmconnects.cc**) from a trusted domain registrar such as **DigiCert**, **Thawte**, or **GeoTrust**.\
 This domain will be used to identify your PBX and SBC servers.
 
 ***
@@ -19,13 +19,13 @@ Create an **A record** in your domain’s DNS zone and map the domain name to yo
 For example:
 
 ```
-uc.portsip.cc → [PBX Server Public IP]
+uc.bgmconnects.cc → [PBX Server Public IP]
 ```
 
 If your **SBC** (Session Border Controller) is deployed on a separate server, create another A record for it:
 
 ```
-sbc.portsip.cc → [SBC Server Public IP]
+sbc.bgmconnects.cc → [SBC Server Public IP]
 ```
 
 ***
@@ -33,7 +33,7 @@ sbc.portsip.cc → [SBC Server Public IP]
 ### 3. Purchase a TLS Certificate
 
 Purchase a **TLS/SSL certificate** for your domain from a trusted certificate authority such as DigiCert, Thawte, or GeoTrust.\
-If your SBC is deployed on a separate server, it is recommended to purchase a **Wildcard Certificate** (for example, `*.portsip.cc`) so that both the PBX and SBC can share the same certificate.
+If your SBC is deployed on a separate server, it is recommended to purchase a **Wildcard Certificate** (for example, `*.bgmconnects.cc`) so that both the PBX and SBC can share the same certificate.
 
 ***
 
@@ -48,7 +48,7 @@ Generate a **Certificate Signing Request (CSR)** and **private key** according t
 After this step, you should have two files stored locally:
 
 * **CSR file** – Used to request the certificate from your provider.
-* **Private key file** – Rename it to **`portsip.key`**, store it securely, and never share it with anyone.
+* **Private key file** – Rename it to **`bgmconnects.key`**, store it securely, and never share it with anyone.
 
 ***
 
@@ -73,7 +73,7 @@ An incomplete certificate chain can cause browsers and third-party services (suc
 
     > ⚠️ Do not use Microsoft Word or any rich-text editor.
 2. Copy the entire contents of the **Intermediate CA certificate** and append it to the end of the **TLS certificate file**.
-3. Save the combined file and rename it as **`portsip.pem`**.
+3. Save the combined file and rename it as **`bgmconnects.pem`**.
 
 #### **Linux Environment**
 
@@ -84,13 +84,13 @@ Use the following commands to combine the certificate files:
 cat intermediate.pem >> cert.pem
 
 # Rename the combined file
-mv cert.pem portsip.pem
+mv cert.pem bgmconnects.pem
 ```
 
 After completing this step, you should have two final certificate files:
 
-* **Certificate file:** `portsip.pem`
-* **Private key file:** `portsip.key`&#x20;
+* **Certificate file:** `bgmconnects.pem`
+* **Private key file:** `bgmconnects.key`&#x20;
 
 You can verify whether your SSL certificate is trusted and includes the complete certificate chain using one of these tools:
 
@@ -104,7 +104,7 @@ If your certificate is not a full-chain SSL certificate, contact your SSL certif
 
 ### 7. Update the Certificates
 
-Once the certificate files are ready, follow the guide [**Update Certificates**](update-certificates.md) to apply the new TLS certificates to your PortSIP PBX system.
+Once the certificate files are ready, follow the guide [**Update Certificates**](update-certificates.md) to apply the new TLS certificates to your PBX system.
 
 
 

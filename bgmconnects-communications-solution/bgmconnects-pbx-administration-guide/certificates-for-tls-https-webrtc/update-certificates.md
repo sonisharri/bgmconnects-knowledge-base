@@ -1,19 +1,13 @@
 # Update Certificates
 
-Before updating the certificates for the **PortSIP PBX** and **PortSIP SBC**, ensure that both systems have been properly installed and configured according to the following guides:
-
-* [**Installing the PortSIP PBX**](/broken/pages/3TLkuamOMPHKJ6p78qfx)
-* [**Configuring the PortSIP PBX**](/broken/pages/6uo0BsKGLXFqs7Cz40HY)
-* [**Configuring the SBC for WebRTC**](/broken/pages/ce6ZYsvQmuGnX9hvbEM4)
-
 After completing the [**Preparing TLS Certificates**](preparing-tls-certificates.md) steps, you should have the following files ready:
 
-* **`portsip.pem`** – The full-chain TLS certificate
-* **`portsip.key`** – The private key
+* **`bgmconnects.pem`** – The full-chain TLS certificate
+* **`bgmconnects.key`** – The private key
 
-These files will be used to update the certificates for both the PortSIP PBX and SBC.
+These files will be used to update the certificates for both the PBX and SBC.
 
-> In this example, we assume that the domain `uc.portsip.cc` resolves to the **PBX server IP adress**, and `sbc.portsip.cc` resolves to the **SBC server IP adress**.
+> In this example, we assume that the domain `uc.bgmconnects.cc` resolves to the **PBX server IP adress**, and `sbc.bgmconnects.cc` resolves to the **SBC server IP adress**.
 
 ***
 
@@ -26,9 +20,9 @@ These files will be used to update the certificates for both the PortSIP PBX and
 3. In **Step 2** of the Setup Wizard, click **Clear**.
 4. Enter your PBX web domain in the **Web Domain** field.
    * You do **not** need to include `https://` or `www.` — just the domain name itself.\
-     Example: `uc.portsip.cc`
-5. Open the `portsip.pem` file using **Windows Notepad** (or any plain text editor). Copy the entire content and paste it into the **Certificate File** field.
-6. Open the `portsip.key` file in Notepad, copy its entire content, and paste it into the **Private Key File** field.
+     Example: `uc.bgmconnects.cc`
+5. Open the `bgmconnects.pem` file using **Windows Notepad** (or any plain text editor). Copy the entire content and paste it into the **Certificate File** field.
+6. Open the `bgmconnects.key` file in Notepad, copy its entire content, and paste it into the **Private Key File** field.
 7. Click **Next** to complete the Setup Wizard and save the updated certificates.
 
 <figure><img src="../../../.gitbook/assets/update_pbx_certs.png" alt="" width="563"><figcaption></figcaption></figure>
@@ -42,7 +36,7 @@ To apply the new certificates, restart the PBX service.
 **For Linux:**
 
 ```bash
-cd /opt/portsip
+cd /opt/bgmconnects
 sudo /bin/sh pbx_ctl.sh restart
 ```
 
@@ -62,13 +56,13 @@ Simply restart the Windows server.
 2. Go to the **TLS Certificates** menu.
 3. If an existing certificate is listed for your SBC domain, click the **Delete** icon to remove it.
 4. Click **Add** to upload a new certificate.
-   * If your certificate is a **wildcard** for the domain (e.g., `*.portsip.cc`), enter `portsip.cc` in the **TLS Domain** field.
-   * If your certificate is **domain-specific**, enter the exact domain, for example `sbc.portsip.cc`.
+   * If your certificate is a **wildcard** for the domain (e.g., `*.bgmconnects.cc`), enter `bgmconnects.cc` in the **TLS Domain** field.
+   * If your certificate is **domain-specific**, enter the exact domain, for example `sbc.bgmconnects.cc`.
 5. Ensure the "**This is SBC Web Domain Certificate"** option is **activated**, unless the certificate is used solely for SIP TLS transport.
-6. Open the `portsip.pem` file in **Windows Notepad**, copy all contents, and paste them into the **Certificate Contents** field.
-7. Open the `portsip.key` file, copy all contents, and paste them into the **Private Key Contents** field.
+6. Open the `bgmconnects.pem` file in **Windows Notepad**, copy all contents, and paste them into the **Certificate Contents** field.
+7. Open the `bgmconnects.key` file, copy all contents, and paste them into the **Private Key Contents** field.
 8. Click **OK** to save the certificate.
-9. Go to the **Network** menu, enter `sbc.portsip.cc` in the **Web Domain** field, and click **OK** to save your changes.
+9. Go to the **Network** menu, enter `sbc.bgmconnects.cc` in the **Web Domain** field, and click **OK** to save your changes.
 
 <figure><img src="../../../.gitbook/assets/update_sbc_certs.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -81,7 +75,7 @@ To apply the new certificates:
 **For Linux:**
 
 ```bash
-cd /opt/portsip
+cd /opt/bgmconnects
 sudo /bin/sh sbc_ctl.sh restart
 ```
 
@@ -95,5 +89,5 @@ Simply restart the Windows server.
 
 ### Summary
 
-After completing these steps, both the PBX and SBC will use the newly installed TLS certificates (`portsip.pem` and `portsip.key`).\
+After completing these steps, both the PBX and SBC will use the newly installed TLS certificates (`bgmconnects.pem` and `bgmconnects.key`).\
 This ensures secure HTTPS access to the management portals and encrypted SIP/TLS signaling for your unified communications environment.
